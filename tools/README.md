@@ -10,3 +10,13 @@ Similar scripts in other languages are welcome.
 
 The schema should also be compatible with most other JSON schema validators, of which there are [many](https://json-schema.org/implementations.html).
 
+
+# Attaching addena to standard tags
+
+This process is not yet finished, but is expected to looks something like the following:
+
+- pull the GEDCOM [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- either use its `extracted_files/tags` subdirectory or move the extraction script from that repo to this one
+- for each extracted file,
+  - if there's a file with the same name in the `../standard-addenda` directory, merge the two
+  - copy the (merged) file into the appropriate directory

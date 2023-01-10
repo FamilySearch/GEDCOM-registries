@@ -1,0 +1,3 @@
+[submodule "tools/GEDCOM"]
+	path = tools/GEDCOM
+	url = https://github.com/FamilySearch/GEDCOM

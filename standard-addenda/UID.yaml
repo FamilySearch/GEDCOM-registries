@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+uri: https://gedcom.io/terms/v7/UID
+
+extension tags:
+  - _UID
+
+help text: |-
+  UUIDs are machine-generated identifiers used to assist in tracking data
+  across changes made in separate applications. Modifying them can break some
+  application functionality. Some applications may also hide them from the user
+  interface, making them unsuited as identifiers shared between researchers.
+
+label: |-
+  Internal identifier of underlying data representation
+
+...

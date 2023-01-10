@@ -12,11 +12,11 @@ YAML files are placed in this repository in subdirectories *type*`/`*subtype*`/`
     - `standard` if the YAML file represents a concept from the official [FamilySearch GEDCOM 7 specification](https://gedcom.io/)
     - `extension` if the YAML file is defined by a third party
 
-The `standard-addenda/`directory contains information to be added to standard YAML files. Standard files are extracted automatically from the official specification, but can be augmented with additional non-normative information such as known extension substructures, help text, etc.
+The `standard-addenda/` directory contains information to be added to standard YAML files. Standard files are extracted automatically from the official specification, but can be augmented with additional non-normative information such as known extension substructures, help text, etc.
 
 The `tools/` directory contains various files and stripts for assisting in maintaining this repository. Notably, that includes a YAML schema validator that should be used by any new or edited YAML before it is pushed to the repository.
 
-# Proposing addenda or changes
+# Proposing changes or new files
 
 To propose a new entry or change to an existing entry,
 
