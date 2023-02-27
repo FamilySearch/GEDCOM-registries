@@ -2,7 +2,7 @@
 This file will
 
 1. Load the git submodule for GEDCOM
-2. Pull any canges to GEDCOM's main
+2. Pull any changes to GEDCOM's main
 3. Check the extracted_files/tags/* against current YAML
 4. Update any that differ
 
@@ -34,7 +34,6 @@ for src in glob(os.path.join('GEDCOM','extracted-files','tags','*')):
     tag = os.path.basename(src).replace(' ','-')
     dst = os.path.join('..',data['type'].replace(' ','-'),'standard',tag+'.yaml')
     if os.path.exists(dst) and filecmp.cmp(dst, src):
-        print('same:',dst,src)
         continue
     print('update',dst,'with',src)
     shutil.copyfile(src,dst)
