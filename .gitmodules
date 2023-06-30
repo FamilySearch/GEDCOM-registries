@@ -1,0 +1,3 @@
+[submodule "tools/GEDCOM"]
+	path = registry_tools/GEDCOM
+	url = https://github.com/FamilySearch/GEDCOM

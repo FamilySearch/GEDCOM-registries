@@ -1,0 +1,50 @@
+from jsonschema import validate
+import yaml
+import os.path
+import sys
+
+if '--help' in sys.argv or '-h' in sys.argv or '?' in sys.argv:
+  print("USAGE:", sys.argv[0], 'file_to_validate.yaml', '[another_file.yaml ...]')
+  print('If given no arguments, reads YAML from stdin')
+  quit()
+
+try:
+  schema = yaml.safe_load(open(os.path.join(os.path.dirname(__file__), 'yaml-schema.yaml')))
+except:
+  print("Fatal Error! yaml-schema.yaml not found.\nThis file must be kept in the same directory as yaml-schema.yaml", file=sys.stderr)
+  exit(1)
+
+def check(data, name):
+  global schema
+  try:
+    validate(data, schema)
+    return True
+  except BaseException as ex:
+    print("="*30, file=sys.stderr)
+    print("Validation error with", name, file=sys.stderr)
+    print(ex)
+    return False
+
+count = 0
+ok = 0
+if len(sys.argv) > 1:
+  for arg in sys.argv[1:]:
+    count += 1
+    try:
+      data = yaml.safe_load(open(arg))
+    except BaseException as ex:
+      print("="*30, file=sys.stderr)
+      print("Failed to load", arg, file=sys.stderr)
+      print(ex, file=sys.stderr)
+      continue
+    if check(data, arg): ok += 1
+else:
+  for data in yaml.safe_load_all(sys.stdin):
+    count += 1
+    if check(data, 'YAML sent to stdin'): ok += 1
+
+if ok != count:
+  print("="*30+'\n')
+print("YAML files checked:",count)
+print("YAML files passed:",ok)
+
