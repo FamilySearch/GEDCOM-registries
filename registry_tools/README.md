@@ -14,3 +14,9 @@ The schema should also be compatible with most other JSON schema validators, of 
 
 A Python 3 script named `syncstandard.py` is provided for pulling tag definitions from [the extracted_files of the GEDCOM repo](https://github.com/FamilySearch/GEDCOM/tree/main/extracted-files/tags).
 It is expected that this script will only be needed or used by individuals tasked with releasing a new version of the standard.
+
+# Making summary files
+
+The script `makeTSV.py` reads the YAML files in the repository
+and generates several summary TSV files in the `../generated_files` directory.
+
