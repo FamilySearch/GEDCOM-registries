@@ -1,8 +1,11 @@
 """
-The goal of this file is to create a single JSON file
-that contains everything a GEDCOM parser and validator might need.
+The goal of this file is to create a JSON file
+that contains everything needed to parse and validate a GEDCOM file,
+correctly identifying structure types, enumerations, and so on;
+and everything needed to generate a GEDCOM file,
+correctly mapping structure types, enumeration values, and so on to tags.
 
-The structure is
+The JSON file structure is
 
 - "substructure":
     - "" -or- structure type URI:
@@ -10,9 +13,10 @@ The structure is
             - "type": uri
             - "cardinality": GEDCOM cardinality marker
 - "payload":
-    - "type": "pointer" -or- "Y|<NULL>" -or- datatype URI
-    - "set": enumeration set URI -- if "type" is g7:type-Enum or g7:type-List#Enum
-    - "to": structure type URI -- if  "type" is "pointer"
+    - structure type URI:
+        - "type": "pointer" -or- "Y|<NULL>" -or- datatype URI
+        - "set": enumeration set URI -- if "type" is g7:type-Enum or g7:type-List#Enum
+        - "to": structure type URI -- if  "type" is "pointer"
 
 - "set":
     - enumeration set URI:
@@ -24,6 +28,11 @@ The structure is
         - "months":
             - tag: month URI
         - "epochs": list of tags
+
+- "tag":
+    - URI: standard or recommended extension tag
+
+
 """
 
 import os, os.path
@@ -46,6 +55,7 @@ ans = {
     'payload':{},
     'set':{},
     'calendar':{},
+    'tag':{}
 }
 
 
@@ -103,6 +113,16 @@ for p,t,fs in os.walk(os.path.join(root, 'calendar')):
             'months': {stdtagof.get(_,_):_ for _ in doc['months']},
             # 'epochs': doc['epochs']
         }
+
+for p,t,fs in os.walk(root):
+    for f in fs:
+        if f.endswith('.yaml') and '_' not in os.path.dirname(f):
+            doc = yaml.safe_load(open(os.path.join(p,f)))
+            if 'standard tag' in doc:
+                ans['tag'][doc['uri']] = doc['standard tag']
+            elif 'extension tags' in doc and len(doc['extension tags']) > 0 and doc['uri'] not in ans['tag']:
+                ans['tag'][doc['uri']] = doc['extension tags'][0]
+
 
 os.makedirs(os.path.join(root,'generated_files'), exist_ok=True)
 with open(os.path.join(root,'generated_files','g7validation.json'), 'w') as dst:
