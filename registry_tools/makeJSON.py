@@ -111,7 +111,7 @@ for p,t,fs in os.walk(os.path.join(root, 'calendar')):
         ans['calendar'][tag] = {
             'type': doc['uri'],
             'months': {stdtagof.get(_,_):_ for _ in doc['months']},
-            # 'epochs': doc['epochs']
+            'epochs': doc['epochs']
         }
 
 for p,t,fs in os.walk(root):

@@ -1,6 +1,7 @@
 {
   "calendar": {
     "FRENCH_R": {
+      "epochs": [],
       "months": {
         "BRUM": "https://gedcom.io/terms/v7/month-BRUM",
         "COMP": "https://gedcom.io/terms/v7/month-COMP",
@@ -19,6 +20,9 @@
       "type": "https://gedcom.io/terms/v7/cal-FRENCH_R"
     },
     "GREGORIAN": {
+      "epochs": [
+        "BCE"
+      ],
       "months": {
         "APR": "https://gedcom.io/terms/v7/month-APR",
         "AUG": "https://gedcom.io/terms/v7/month-AUG",
@@ -36,6 +40,7 @@
       "type": "https://gedcom.io/terms/v7/cal-GREGORIAN"
     },
     "HEBREW": {
+      "epochs": [],
       "months": {
         "AAV": "https://gedcom.io/terms/v7/month-AAV",
         "ADR": "https://gedcom.io/terms/v7/month-ADR",
@@ -54,6 +59,9 @@
       "type": "https://gedcom.io/terms/v7/cal-HEBREW"
     },
     "JULIAN": {
+      "epochs": [
+        "BCE"
+      ],
       "months": {
         "APR": "https://gedcom.io/terms/v7/month-APR",
         "AUG": "https://gedcom.io/terms/v7/month-AUG",
