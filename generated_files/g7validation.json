@@ -79,6 +79,674 @@
       "type": "https://gedcom.io/terms/v7/cal-JULIAN"
     }
   },
+  "label": {
+    "https://gedcom.io/terms/v7/ABBR": {
+      "en-US": "Abbreviation"
+    },
+    "https://gedcom.io/terms/v7/ADDR": {
+      "en-US": "Address"
+    },
+    "https://gedcom.io/terms/v7/ADOP": {
+      "en-US": "Adoption"
+    },
+    "https://gedcom.io/terms/v7/ADOP-FAMC": {
+      "en-US": "Family child"
+    },
+    "https://gedcom.io/terms/v7/ADR1": {
+      "en-US": "Address Line 1"
+    },
+    "https://gedcom.io/terms/v7/ADR2": {
+      "en-US": "Address Line 2"
+    },
+    "https://gedcom.io/terms/v7/ADR3": {
+      "en-US": "Address Line 3"
+    },
+    "https://gedcom.io/terms/v7/AGE": {
+      "en-US": "Age at event"
+    },
+    "https://gedcom.io/terms/v7/AGNC": {
+      "en-US": "Responsible agency"
+    },
+    "https://gedcom.io/terms/v7/ALIA": {
+      "en-US": "Alias"
+    },
+    "https://gedcom.io/terms/v7/ANCI": {
+      "en-US": "Ancestor interest"
+    },
+    "https://gedcom.io/terms/v7/ANUL": {
+      "en-US": "Annulment"
+    },
+    "https://gedcom.io/terms/v7/ASSO": {
+      "en-US": "Associates"
+    },
+    "https://gedcom.io/terms/v7/AUTH": {
+      "en-US": "Author"
+    },
+    "https://gedcom.io/terms/v7/BAPL": {
+      "en-US": "Baptism, Latter-Day Saint"
+    },
+    "https://gedcom.io/terms/v7/BAPM": {
+      "en-US": "Baptism"
+    },
+    "https://gedcom.io/terms/v7/BARM": {
+      "en-US": "Bar Mitzvah"
+    },
+    "https://gedcom.io/terms/v7/BASM": {
+      "en-US": "Bas Mitzvah"
+    },
+    "https://gedcom.io/terms/v7/BIRT": {
+      "en-US": "Birth"
+    },
+    "https://gedcom.io/terms/v7/BLES": {
+      "en-US": "Blessing"
+    },
+    "https://gedcom.io/terms/v7/BURI": {
+      "en-US": "Depositing remains"
+    },
+    "https://gedcom.io/terms/v7/CALN": {
+      "en-US": "Call number"
+    },
+    "https://gedcom.io/terms/v7/CAST": {
+      "en-US": "Caste"
+    },
+    "https://gedcom.io/terms/v7/CAUS": {
+      "en-US": "Cause"
+    },
+    "https://gedcom.io/terms/v7/CHAN": {
+      "en-US": "Change"
+    },
+    "https://gedcom.io/terms/v7/CHIL": {
+      "en-US": "Child"
+    },
+    "https://gedcom.io/terms/v7/CHR": {
+      "en-US": "Christening"
+    },
+    "https://gedcom.io/terms/v7/CHRA": {
+      "en-US": "Christening, adult"
+    },
+    "https://gedcom.io/terms/v7/CITY": {
+      "en-US": "City"
+    },
+    "https://gedcom.io/terms/v7/CONF": {
+      "en-US": "Confirmation"
+    },
+    "https://gedcom.io/terms/v7/CONL": {
+      "en-US": "Confirmation, Latter-Day Saint"
+    },
+    "https://gedcom.io/terms/v7/CONT": {
+      "en-US": "Continued"
+    },
+    "https://gedcom.io/terms/v7/COPR": {
+      "en-US": "Copyright"
+    },
+    "https://gedcom.io/terms/v7/CORP": {
+      "en-US": "Corporate name"
+    },
+    "https://gedcom.io/terms/v7/CREA": {
+      "en-US": "Creation"
+    },
+    "https://gedcom.io/terms/v7/CREM": {
+      "en-US": "Cremation"
+    },
+    "https://gedcom.io/terms/v7/CROP": {
+      "en-US": "Crop"
+    },
+    "https://gedcom.io/terms/v7/CTRY": {
+      "en-US": "Country"
+    },
+    "https://gedcom.io/terms/v7/DATA": {
+      "en-US": "Data"
+    },
+    "https://gedcom.io/terms/v7/DATA-EVEN": {
+      "en-US": "Event"
+    },
+    "https://gedcom.io/terms/v7/DATA-EVEN-DATE": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/DATE": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/DATE-exact": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/DEAT": {
+      "en-US": "Death"
+    },
+    "https://gedcom.io/terms/v7/DESI": {
+      "en-US": "Descendant Interest"
+    },
+    "https://gedcom.io/terms/v7/DEST": {
+      "en-US": "Destination"
+    },
+    "https://gedcom.io/terms/v7/DIV": {
+      "en-US": "Divorce"
+    },
+    "https://gedcom.io/terms/v7/DIVF": {
+      "en-US": "Divorce filing"
+    },
+    "https://gedcom.io/terms/v7/DSCR": {
+      "en-US": "Description"
+    },
+    "https://gedcom.io/terms/v7/EDUC": {
+      "en-US": "Education"
+    },
+    "https://gedcom.io/terms/v7/EMAIL": {
+      "en-US": "Email"
+    },
+    "https://gedcom.io/terms/v7/EMIG": {
+      "en-US": "Emigration"
+    },
+    "https://gedcom.io/terms/v7/ENDL": {
+      "en-US": "Endowment, Latter-Day Saint"
+    },
+    "https://gedcom.io/terms/v7/ENGA": {
+      "en-US": "Engagement"
+    },
+    "https://gedcom.io/terms/v7/EXID": {
+      "en-US": "External Identifier"
+    },
+    "https://gedcom.io/terms/v7/EXID-TYPE": {
+      "en-US": "Type"
+    },
+    "https://gedcom.io/terms/v7/FAM-CENS": {
+      "en-US": "Census"
+    },
+    "https://gedcom.io/terms/v7/FAM-EVEN": {
+      "en-US": "Event"
+    },
+    "https://gedcom.io/terms/v7/FAM-FACT": {
+      "en-US": "Fact"
+    },
+    "https://gedcom.io/terms/v7/FAM-HUSB": {
+      "en-US": "Husband"
+    },
+    "https://gedcom.io/terms/v7/FAM-NCHI": {
+      "en-US": "Number of children"
+    },
+    "https://gedcom.io/terms/v7/FAM-RESI": {
+      "en-US": "Residence"
+    },
+    "https://gedcom.io/terms/v7/FAM-WIFE": {
+      "en-US": "Wife"
+    },
+    "https://gedcom.io/terms/v7/FAMC": {
+      "en-US": "Family child"
+    },
+    "https://gedcom.io/terms/v7/FAMC-ADOP": {
+      "en-US": "Adoption"
+    },
+    "https://gedcom.io/terms/v7/FAMC-STAT": {
+      "en-US": "Status"
+    },
+    "https://gedcom.io/terms/v7/FAMS": {
+      "en-US": "Family spouse"
+    },
+    "https://gedcom.io/terms/v7/FAX": {
+      "en-US": "Facsimile"
+    },
+    "https://gedcom.io/terms/v7/FCOM": {
+      "en-US": "First communion"
+    },
+    "https://gedcom.io/terms/v7/FILE": {
+      "en-US": "File reference"
+    },
+    "https://gedcom.io/terms/v7/FILE-TRAN": {
+      "en-US": "Translation"
+    },
+    "https://gedcom.io/terms/v7/FORM": {
+      "en-US": "Format"
+    },
+    "https://gedcom.io/terms/v7/GEDC": {
+      "en-US": "GEDCOM"
+    },
+    "https://gedcom.io/terms/v7/GEDC-VERS": {
+      "en-US": "Version"
+    },
+    "https://gedcom.io/terms/v7/GIVN": {
+      "en-US": "Given name"
+    },
+    "https://gedcom.io/terms/v7/GRAD": {
+      "en-US": "Graduation"
+    },
+    "https://gedcom.io/terms/v7/HEAD": {
+      "en-US": "Header"
+    },
+    "https://gedcom.io/terms/v7/HEAD-DATE": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/HEAD-LANG": {
+      "en-US": "Language"
+    },
+    "https://gedcom.io/terms/v7/HEAD-PLAC": {
+      "en-US": "Place"
+    },
+    "https://gedcom.io/terms/v7/HEAD-PLAC-FORM": {
+      "en-US": "Format"
+    },
+    "https://gedcom.io/terms/v7/HEAD-SOUR": {
+      "en-US": "Source"
+    },
+    "https://gedcom.io/terms/v7/HEAD-SOUR-DATA": {
+      "en-US": "Data"
+    },
+    "https://gedcom.io/terms/v7/HEIGHT": {
+      "en-US": "Height in pixels"
+    },
+    "https://gedcom.io/terms/v7/HUSB": {
+      "en-US": "Husband"
+    },
+    "https://gedcom.io/terms/v7/IDNO": {
+      "en-US": "Identification number"
+    },
+    "https://gedcom.io/terms/v7/IMMI": {
+      "en-US": "Immigration"
+    },
+    "https://gedcom.io/terms/v7/INDI-CENS": {
+      "en-US": "Census"
+    },
+    "https://gedcom.io/terms/v7/INDI-EVEN": {
+      "en-US": "Event"
+    },
+    "https://gedcom.io/terms/v7/INDI-FACT": {
+      "en-US": "Fact"
+    },
+    "https://gedcom.io/terms/v7/INDI-FAMC": {
+      "en-US": "Family child"
+    },
+    "https://gedcom.io/terms/v7/INDI-NAME": {
+      "en-US": "Name"
+    },
+    "https://gedcom.io/terms/v7/INDI-NCHI": {
+      "en-US": "Number of children"
+    },
+    "https://gedcom.io/terms/v7/INDI-RELI": {
+      "en-US": "Religion"
+    },
+    "https://gedcom.io/terms/v7/INDI-RESI": {
+      "en-US": "Residence"
+    },
+    "https://gedcom.io/terms/v7/INDI-TITL": {
+      "en-US": "Title"
+    },
+    "https://gedcom.io/terms/v7/INIL": {
+      "en-US": "Initiatory, Latter-Day Saint"
+    },
+    "https://gedcom.io/terms/v7/LANG": {
+      "en-US": "Language"
+    },
+    "https://gedcom.io/terms/v7/LATI": {
+      "en-US": "Latitude"
+    },
+    "https://gedcom.io/terms/v7/LEFT": {
+      "en-US": "Left crop width"
+    },
+    "https://gedcom.io/terms/v7/LONG": {
+      "en-US": "Longitude"
+    },
+    "https://gedcom.io/terms/v7/MAP": {
+      "en-US": "Map"
+    },
+    "https://gedcom.io/terms/v7/MARB": {
+      "en-US": "Marriage banns"
+    },
+    "https://gedcom.io/terms/v7/MARC": {
+      "en-US": "Marriage contract"
+    },
+    "https://gedcom.io/terms/v7/MARL": {
+      "en-US": "Marriage license"
+    },
+    "https://gedcom.io/terms/v7/MARR": {
+      "en-US": "Marriage"
+    },
+    "https://gedcom.io/terms/v7/MARS": {
+      "en-US": "Marriage settlement"
+    },
+    "https://gedcom.io/terms/v7/MEDI": {
+      "en-US": "Medium"
+    },
+    "https://gedcom.io/terms/v7/MIME": {
+      "en-US": "Media type"
+    },
+    "https://gedcom.io/terms/v7/NAME": {
+      "en-US": "Name"
+    },
+    "https://gedcom.io/terms/v7/NAME-TRAN": {
+      "en-US": "Translation"
+    },
+    "https://gedcom.io/terms/v7/NAME-TYPE": {
+      "en-US": "Type"
+    },
+    "https://gedcom.io/terms/v7/NATI": {
+      "en-US": "Nationality"
+    },
+    "https://gedcom.io/terms/v7/NATU": {
+      "en-US": "Naturalization"
+    },
+    "https://gedcom.io/terms/v7/NICK": {
+      "en-US": "Nickname"
+    },
+    "https://gedcom.io/terms/v7/NMR": {
+      "en-US": "Number of marriages"
+    },
+    "https://gedcom.io/terms/v7/NO": {
+      "en-US": "Did not happen"
+    },
+    "https://gedcom.io/terms/v7/NO-DATE": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/NOTE": {
+      "en-US": "Note"
+    },
+    "https://gedcom.io/terms/v7/NOTE-TRAN": {
+      "en-US": "Translation"
+    },
+    "https://gedcom.io/terms/v7/NPFX": {
+      "en-US": "Name prefix"
+    },
+    "https://gedcom.io/terms/v7/NSFX": {
+      "en-US": "Name suffix"
+    },
+    "https://gedcom.io/terms/v7/OBJE": {
+      "en-US": "Object"
+    },
+    "https://gedcom.io/terms/v7/OCCU": {
+      "en-US": "Occupation"
+    },
+    "https://gedcom.io/terms/v7/ORDN": {
+      "en-US": "Ordination"
+    },
+    "https://gedcom.io/terms/v7/PAGE": {
+      "en-US": "Page"
+    },
+    "https://gedcom.io/terms/v7/PEDI": {
+      "en-US": "Pedigree"
+    },
+    "https://gedcom.io/terms/v7/PHON": {
+      "en-US": "Phone"
+    },
+    "https://gedcom.io/terms/v7/PHRASE": {
+      "en-US": "Phrase"
+    },
+    "https://gedcom.io/terms/v7/PLAC": {
+      "en-US": "Place"
+    },
+    "https://gedcom.io/terms/v7/PLAC-FORM": {
+      "en-US": "Format"
+    },
+    "https://gedcom.io/terms/v7/PLAC-TRAN": {
+      "en-US": "Translation"
+    },
+    "https://gedcom.io/terms/v7/POST": {
+      "en-US": "Postal code"
+    },
+    "https://gedcom.io/terms/v7/PROB": {
+      "en-US": "Probate"
+    },
+    "https://gedcom.io/terms/v7/PROP": {
+      "en-US": "Property"
+    },
+    "https://gedcom.io/terms/v7/PUBL": {
+      "en-US": "Publication"
+    },
+    "https://gedcom.io/terms/v7/QUAY": {
+      "en-US": "Quality of data"
+    },
+    "https://gedcom.io/terms/v7/REFN": {
+      "en-US": "Reference"
+    },
+    "https://gedcom.io/terms/v7/RELI": {
+      "en-US": "Religion"
+    },
+    "https://gedcom.io/terms/v7/REPO": {
+      "en-US": "Repository"
+    },
+    "https://gedcom.io/terms/v7/RESN": {
+      "en-US": "Restriction"
+    },
+    "https://gedcom.io/terms/v7/RETI": {
+      "en-US": "Retirement"
+    },
+    "https://gedcom.io/terms/v7/ROLE": {
+      "en-US": "Role"
+    },
+    "https://gedcom.io/terms/v7/SCHMA": {
+      "en-US": "Extension schema"
+    },
+    "https://gedcom.io/terms/v7/SDATE": {
+      "en-US": "Sort date"
+    },
+    "https://gedcom.io/terms/v7/SEX": {
+      "en-US": "Sex"
+    },
+    "https://gedcom.io/terms/v7/SLGC": {
+      "en-US": "Sealing, child"
+    },
+    "https://gedcom.io/terms/v7/SLGS": {
+      "en-US": "Sealing, spouse"
+    },
+    "https://gedcom.io/terms/v7/SNOTE": {
+      "en-US": "Shared note"
+    },
+    "https://gedcom.io/terms/v7/SOUR": {
+      "en-US": "Source"
+    },
+    "https://gedcom.io/terms/v7/SOUR-DATA": {
+      "en-US": "Data"
+    },
+    "https://gedcom.io/terms/v7/SOUR-EVEN": {
+      "en-US": "Event"
+    },
+    "https://gedcom.io/terms/v7/SPFX": {
+      "en-US": "Surname prefix"
+    },
+    "https://gedcom.io/terms/v7/SSN": {
+      "en-US": "Social security number"
+    },
+    "https://gedcom.io/terms/v7/STAE": {
+      "en-US": "State"
+    },
+    "https://gedcom.io/terms/v7/SUBM": {
+      "en-US": "Submitter"
+    },
+    "https://gedcom.io/terms/v7/SUBM-LANG": {
+      "en-US": "Language"
+    },
+    "https://gedcom.io/terms/v7/SURN": {
+      "en-US": "Surname"
+    },
+    "https://gedcom.io/terms/v7/TAG": {
+      "en-US": "Extension tag"
+    },
+    "https://gedcom.io/terms/v7/TEMP": {
+      "en-US": "Temple"
+    },
+    "https://gedcom.io/terms/v7/TEXT": {
+      "en-US": "Text from Source"
+    },
+    "https://gedcom.io/terms/v7/TIME": {
+      "en-US": "Time"
+    },
+    "https://gedcom.io/terms/v7/TITL": {
+      "en-US": "Title"
+    },
+    "https://gedcom.io/terms/v7/TOP": {
+      "en-US": "Top crop width"
+    },
+    "https://gedcom.io/terms/v7/TRLR": {
+      "en-US": "Trailer"
+    },
+    "https://gedcom.io/terms/v7/TYPE": {
+      "en-US": "Type"
+    },
+    "https://gedcom.io/terms/v7/UID": {
+      "en-US": "Unique Identifier"
+    },
+    "https://gedcom.io/terms/v7/VERS": {
+      "en-US": "Version"
+    },
+    "https://gedcom.io/terms/v7/WIDTH": {
+      "en-US": "Width in pixels"
+    },
+    "https://gedcom.io/terms/v7/WIFE": {
+      "en-US": "Wife"
+    },
+    "https://gedcom.io/terms/v7/WILL": {
+      "en-US": "Will"
+    },
+    "https://gedcom.io/terms/v7/WWW": {
+      "en-US": "Web address"
+    },
+    "https://gedcom.io/terms/v7/cal-FRENCH_R": {
+      "en-US": "French Republican"
+    },
+    "https://gedcom.io/terms/v7/cal-GREGORIAN": {
+      "en-US": "Gregorian"
+    },
+    "https://gedcom.io/terms/v7/cal-HEBREW": {
+      "en-US": "Hebrew"
+    },
+    "https://gedcom.io/terms/v7/cal-JULIAN": {
+      "en-US": "Julian"
+    },
+    "https://gedcom.io/terms/v7/month-AAV": {
+      "en-US": "Av"
+    },
+    "https://gedcom.io/terms/v7/month-ADR": {
+      "en-US": "Adar I"
+    },
+    "https://gedcom.io/terms/v7/month-ADS": {
+      "en-US": "Adar"
+    },
+    "https://gedcom.io/terms/v7/month-APR": {
+      "en-US": "April"
+    },
+    "https://gedcom.io/terms/v7/month-AUG": {
+      "en-US": "August"
+    },
+    "https://gedcom.io/terms/v7/month-BRUM": {
+      "en-US": "Brumaire"
+    },
+    "https://gedcom.io/terms/v7/month-COMP": {
+      "en-US": "Jour Compl\u00e9mentaires"
+    },
+    "https://gedcom.io/terms/v7/month-CSH": {
+      "en-US": "Marcheshvan"
+    },
+    "https://gedcom.io/terms/v7/month-DEC": {
+      "en-US": "December"
+    },
+    "https://gedcom.io/terms/v7/month-ELL": {
+      "en-US": "Elul"
+    },
+    "https://gedcom.io/terms/v7/month-FEB": {
+      "en-US": "February"
+    },
+    "https://gedcom.io/terms/v7/month-FLOR": {
+      "en-US": "Flor\u00e9al"
+    },
+    "https://gedcom.io/terms/v7/month-FRIM": {
+      "en-US": "Frimaire"
+    },
+    "https://gedcom.io/terms/v7/month-FRUC": {
+      "en-US": "Fructidor"
+    },
+    "https://gedcom.io/terms/v7/month-GERM": {
+      "en-US": "Germinal"
+    },
+    "https://gedcom.io/terms/v7/month-IYR": {
+      "en-US": "Iyar"
+    },
+    "https://gedcom.io/terms/v7/month-JAN": {
+      "en-US": "January"
+    },
+    "https://gedcom.io/terms/v7/month-JUL": {
+      "en-US": "July"
+    },
+    "https://gedcom.io/terms/v7/month-JUN": {
+      "en-US": "June"
+    },
+    "https://gedcom.io/terms/v7/month-KSL": {
+      "en-US": "Kislev"
+    },
+    "https://gedcom.io/terms/v7/month-MAR": {
+      "en-US": "March"
+    },
+    "https://gedcom.io/terms/v7/month-MAY": {
+      "en-US": "May"
+    },
+    "https://gedcom.io/terms/v7/month-MESS": {
+      "en-US": "Messidor"
+    },
+    "https://gedcom.io/terms/v7/month-NIVO": {
+      "en-US": "Niv\u00f4se"
+    },
+    "https://gedcom.io/terms/v7/month-NOV": {
+      "en-US": "November"
+    },
+    "https://gedcom.io/terms/v7/month-NSN": {
+      "en-US": "Nisan"
+    },
+    "https://gedcom.io/terms/v7/month-OCT": {
+      "en-US": "October"
+    },
+    "https://gedcom.io/terms/v7/month-PLUV": {
+      "en-US": "Pluvi\u00f4se"
+    },
+    "https://gedcom.io/terms/v7/month-PRAI": {
+      "en-US": "Prairial"
+    },
+    "https://gedcom.io/terms/v7/month-SEP": {
+      "en-US": "September"
+    },
+    "https://gedcom.io/terms/v7/month-SHV": {
+      "en-US": "Shevat"
+    },
+    "https://gedcom.io/terms/v7/month-SVN": {
+      "en-US": "Sivan"
+    },
+    "https://gedcom.io/terms/v7/month-THER": {
+      "en-US": "Thermidor"
+    },
+    "https://gedcom.io/terms/v7/month-TMZ": {
+      "en-US": "Tammuz"
+    },
+    "https://gedcom.io/terms/v7/month-TSH": {
+      "en-US": "Tishrei"
+    },
+    "https://gedcom.io/terms/v7/month-TVT": {
+      "en-US": "Tevet"
+    },
+    "https://gedcom.io/terms/v7/month-VEND": {
+      "en-US": "Vend\u00e9miaire"
+    },
+    "https://gedcom.io/terms/v7/month-VENT": {
+      "en-US": "Vent\u00f4se"
+    },
+    "https://gedcom.io/terms/v7/ord-STAT": {
+      "en-US": "Status"
+    },
+    "https://gedcom.io/terms/v7/record-FAM": {
+      "en-US": "Family record"
+    },
+    "https://gedcom.io/terms/v7/record-INDI": {
+      "en-US": "Individual"
+    },
+    "https://gedcom.io/terms/v7/record-OBJE": {
+      "en-US": "Object"
+    },
+    "https://gedcom.io/terms/v7/record-REPO": {
+      "en-US": "Repository"
+    },
+    "https://gedcom.io/terms/v7/record-SNOTE": {
+      "en-US": "Shared note"
+    },
+    "https://gedcom.io/terms/v7/record-SOUR": {
+      "en-US": "Source"
+    },
+    "https://gedcom.io/terms/v7/record-SUBM": {
+      "en-US": "Submitter"
+    }
+  },
   "payload": {
     "https://gedcom.io/terms/v7/ABBR": {
       "type": "http://www.w3.org/2001/XMLSchema#string"

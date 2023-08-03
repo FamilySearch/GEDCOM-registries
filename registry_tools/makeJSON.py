@@ -32,6 +32,9 @@ The JSON file structure is
 - "tag":
     - URI: standard or recommended extension tag
 
+- "label":
+    - URI:
+        - lang: UI label to display
 
 """
 
@@ -55,7 +58,8 @@ ans = {
     'payload':{},
     'set':{},
     'calendar':{},
-    'tag':{}
+    'tag':{},
+    'label':{},
 }
 
 
@@ -122,6 +126,8 @@ for p,t,fs in os.walk(root):
                 ans['tag'][doc['uri']] = doc['standard tag']
             elif 'extension tags' in doc and len(doc['extension tags']) > 0 and doc['uri'] not in ans['tag']:
                 ans['tag'][doc['uri']] = doc['extension tags'][0]
+            if 'label' in doc:
+                ans['label'].setdefault(doc['uri'],{})[doc['lang']] = doc['label']
 
 
 os.makedirs(os.path.join(root,'generated_files'), exist_ok=True)
