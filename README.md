@@ -4,6 +4,9 @@ A registry of GEDCOM concepts, as proposed in [GEDCOM issue #204](https://github
 
 The repository is primarily made up of [YAML](https://yaml.org) files organized as documented at <https://gedcom.io/terms/format>.
 
+If you know the URI of the extension you want, you can look up its YAML file path in [registry_path.tsv](generated_files/registry_path.tsv).
+Other files in the [generated_files/](generated_files/) directory may also be of interest to GEDCOM tool developers.
+
 YAML files are placed in this repository in subdirectories *type*`/`*subtype*`/`*name*`.yaml` where
 
 - *type* is the value of the YAML file's `type:` key with any spaces replaced by hypens
@@ -13,15 +16,15 @@ YAML files are placed in this repository in subdirectories *type*`/`*subtype*`/`
     - `extension` if the YAML file is defined by a third party
 - *name* is an identifier selected at time of registration
 
-The `registry_tools/` directory contains various files and stripts for assisting in maintaining this repository. Notably, that includes a YAML schema validator that should be used by any new or edited YAML before it is pushed to the repository.
+The [registry_tools/](registry_tools/) directory contains various files and stripts for assisting in maintaining this repository. Notably, that includes a YAML schema validator that should be used by any new or edited YAML before it is pushed to the repository.
 
 # Proposing changes or new files
 
 To propose a new entry or change to an existing entry,
 
 1. Fork this repo
-1. Modify the YAML file, or make the YAML file in the right directory
-1. Check it using the schema checker from the `registry_tools/` directory of this repo
+1. Modify the YAML file, or create the YAML file in the right directory
+1. Check it using the schema checker from the [registry_tools/](registry_tools/) directory of this repo
 1. Make a pull request
 
 If the change is to a `standard` term, the change needs to be made to the specification itself instead; changes to `standard` terms here will be overwritten on the next patch release of the FamilySearch GEDCOM spec.
