@@ -9,6 +9,7 @@ enumerations = [] # struct, set
 enumerationsets = set() # set, value
 payloads = [] # struct, payload
 substructures = set() # super, tag, sub
+registry_path = [] # uri, yaml path
 
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -19,6 +20,13 @@ for kind in ('structure', 'month', 'enumeration', 'calendar'):
                 tagsof.setdefault(doc['uri'],set()).add(doc['standard tag'])
             if 'extension tags' in doc:
                 tagsof.setdefault(doc['uri'],set()).update(doc['extension tags'])
+
+for kind in os.scandir(root):
+    if kind.is_dir() and '_' not in kind.name and kind.name[0] != '.':
+        for p,t,fs in os.walk(os.path.join(root, kind.name)):
+            for f in fs:
+                doc = yaml.safe_load(open(os.path.join(p,f)))
+                registry_path.append([doc['uri'], os.path.join(kind,os.path.split(p)[-1],f)])
 
 for p,t,fs in os.walk(os.path.join(root, 'structure')):
     for f in fs:
@@ -49,6 +57,6 @@ for p,t,fs in os.walk(os.path.join(root, 'enumeration-set')):
 
 import csv
 os.makedirs(os.path.join(root,'generated_files'), exist_ok=True)
-for name in ('substructures','payloads','cardinalities','enumerations','enumerationsets'):
+for name in ('substructures','payloads','cardinalities','enumerations','enumerationsets', 'registry_path'):
     with open(os.path.join(root,'generated_files',name+'.tsv'), 'w') as dst:
         csv.writer(dst, dialect=csv.excel_tab).writerows(sorted(locals()[name]))
