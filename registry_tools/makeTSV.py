@@ -26,7 +26,7 @@ for kind in os.scandir(root):
         for p,t,fs in os.walk(os.path.join(root, kind.name)):
             for f in fs:
                 doc = yaml.safe_load(open(os.path.join(p,f)))
-                registry_path.append([doc['uri'], os.path.join(kind,os.path.split(p)[-1],f)])
+                registry_path.append([doc['uri'], os.path.join(kind.name,os.path.split(p)[-1],f)])
 
 for p,t,fs in os.walk(os.path.join(root, 'structure')):
     for f in fs:
