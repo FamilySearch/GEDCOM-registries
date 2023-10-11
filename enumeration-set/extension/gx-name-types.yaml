@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://tychonievich.github.io/gx-g7-names#types
+
+specification:
+  - This set is assumed to be non-extensible by several GEDCOM-X applications.
+    Extensions should use qualifiers instead of types.
+
+enumeration values:
+  - "http://gedcomx.org/Prefix"
+  - "http://gedcomx.org/Suffix"
+  - "http://gedcomx.org/Given"
+  - "http://gedcomx.org/Surname"

@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Suffix
+
+extension tags:
+  - _GX_SUFFIX
+
+specification:
+  - A name suffix.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#types"
+...

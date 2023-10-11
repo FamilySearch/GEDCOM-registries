@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Patronymic
+
+extension tags:
+  - _GX_PATRONYMIC
+
+specification:
+  - A name derived from a father or paternal ancestor.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

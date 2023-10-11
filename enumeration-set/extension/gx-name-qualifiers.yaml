@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://tychonievich.github.io/gx-g7-names#qualifiers
+
+enumeration values:
+  - "http://gedcomx.org/Title"
+  - "http://gedcomx.org/Primary"
+  - "http://gedcomx.org/Secondary"
+  - "http://gedcomx.org/Middle"
+  - "http://gedcomx.org/Familiar"
+  - "http://gedcomx.org/Religious"
+  - "http://gedcomx.org/Family"
+  - "http://gedcomx.org/Maiden"
+  - "http://gedcomx.org/Patronymic"
+  - "http://gedcomx.org/Matronymic"
+  - "http://gedcomx.org/Geographic"
+  - "http://gedcomx.org/Occupational"
+  - "http://gedcomx.org/Characteristic"
+  - "http://gedcomx.org/Postnom"
+  - "http://gedcomx.org/Particle"
+  - "http://gedcomx.org/RootName"
+  - "https://tychonievich.github.io/gx-g7-names#hidden"

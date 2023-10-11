@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://tychonievich.github.io/gx-g7-names#name-part-type
+
+extension tags:
+  - _NP_TYPE
+
+specification:
+  - |
+    The type of a name part. Only four name part types are defined, and not all
+    name parts need have a type. Additional, more specific name part
+    descriptors can be found in the name-part-qualifier.
+
+    This structure is intended to be the GEDCOM 7 parallel of the type property
+    of the GEDOCM-X element http://gedcomx.org/v1/NamePart. The payload of this
+    structure should be an enumerated value documented by GEDCOM-X for that
+    property.
+
+    The name-part-type structure is optional, and should only be included if
+    exactly one of the enumerated values correctly describes the name part.
+
+label: 'Type of name part'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: "https://tychonievich.github.io/gx-g7-names#types"
+
+substructures: {}
+
+superstructures:
+  "https://tychonievich.github.io/gx-g7-names#name-part": "{0:1}"
+...

@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Given
+
+extension tags:
+  - _GX_GIVEN
+
+specification:
+  - A given name.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#types"
+...

@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://tychonievich.github.io/gx-g7-names#name-part-qualifier
+
+extension tags:
+  - _NP_QUAL
+
+specification:
+  - |
+    A type-like descriptor of a name part.
+
+    This structure is intended to be the GEDCOM 7 parallel of the qualifiers
+    property of the GEDOCM-X element http://gedcomx.org/v1/NamePart. The
+    payload of this structure should be an enumerated value documented by
+    GEDCOM-X for that property at
+    https://github.com/FamilySearch/gedcomx/blob/master/specifications/name-part-qualifiers-specification.md
+    or the hidden qualifier added to support creating GEDCOM name payloads.
+
+label: 'Information about a name part'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: "https://tychonievich.github.io/gx-g7-names#qualifiers"
+
+substructures: {}
+
+superstructures:
+  "https://tychonievich.github.io/gx-g7-names#name-part": "{0:M}"
+...

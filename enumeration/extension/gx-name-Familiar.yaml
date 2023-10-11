@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Familiar
+
+extension tags:
+  - _GX_FAMILIAR
+
+specification:
+  - A designation for one's familiar name.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Matronymic
+
+extension tags:
+  - _GX_MATRONYMIC
+
+specification:
+  - A name derived from a mother or maternal ancestor.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

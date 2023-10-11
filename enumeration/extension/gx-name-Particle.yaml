@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Particle
+
+extension tags:
+  - _GX_PARTICLE
+
+specification:
+  - A grammatical designation for articles (a, the, dem, las, el, etc.),
+    prepositions (of, from, aus, zu, op, etc.), initials, annotations
+    (e.g. twin, wife of, infant, unknown), comparators (e.g. Junior, Senior,
+    younger, little), ordinals (e.g. III, eighth), descendancy words (e.g. ben,
+    ibn, bat, bin, bint, bar), and conjunctions (e.g. and, or, nee, ou, y, o,
+    ne, &).
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...
