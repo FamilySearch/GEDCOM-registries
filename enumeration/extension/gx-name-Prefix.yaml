@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Prefix
+
+extension tags:
+  - _GX_PREFIX
+
+specification:
+  - A name prefix.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#types"
+...

@@ -1,0 +1,95 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://tychonievich.github.io/gx-g7-names#name-part
+
+extension tags:
+  - _N_PART
+
+specification:
+  - A part of a name.
+  - |
+    This structure is intended to be the GEDCOM 7 parallel of the GEDOCM-X
+    element http://gedcomx.org/v1/NamePart
+
+    The preferred order of name-part structures is the preferred display order
+    of the name parts.
+  - |
+    To be fully interoperable with other parts of GEDCOM 7, applications should
+    impose the following limitations on users. For the purpose of these
+    limitations, a set of name parts are said to be contiguous if, after
+    removing any hidden parts, they are adjacent in the list of name parts.
+
+    *   Some applications (and some governments; see, e.g.
+        https://en.wikipedia.org/wiki/Rufname) require at most one primary
+        given name. This means that if there is more than one part with
+        qualifier Primary and type Given, all such parts must be contiguous.
+
+        In most cases, a single Primary Given part is adequate, but there may
+        be cases when additional details (such as particles, root names, etc)
+        will be added about parts of the primary given name, necessitating
+        breaking it up into several parts.
+
+    *   The g7:type-Name datatype requires at most one primary surname, as
+        identified by slashes in the payload. This means that
+
+        *   If there is more than one part with qualifier Primary and type
+            Surname, all such parts must be contiguous.
+
+        *   If there is no part with Primary and type Surname, then all
+            parts with type Surname must be contiguous.
+
+        In some cases a single Primary Surname part is adequate, but there
+        may be cases when additional details (such as particles, root names,
+        etc) will be added about parts of the primary surname name,
+        necessitating breaking it up into several parts.
+  - |
+    It is intended that name-part be used in such a way that all other elements
+    of a g7:INDI-NAME or g7:NAME-TRAN can be reconstructed unambiguously from
+    the name-parts alone. To achieve this, every character in the name's
+    displayed form should be in a name-part. This may mean there are name-parts
+    with no type or qualifier that store spacing, punctuation, etc.
+
+    To populate the other name data from name parts,
+
+    * Create the g7:type-NAME payload by
+
+        1.  Concatenating all name-part payloads that do not have the hidden
+            qualifier.
+        2.  Removing any U+002F characters (slash or solidus, /), which
+            g7:type-NAME cannot represent.
+        3.  Possibly delimit a part of the string with slashes:
+            -   If no part has type Surname, do not add slashes.
+            -   Otherwise, if there are name parts with type Surname and
+                qualifier Primary, put a slash before the first such part and
+                after the last such part.
+            -   Otherwise, if there are parts with type Surname, put a slash
+                before the first such part and after the last such part.
+
+    *   Create other personal name parts as follows:
+        -   Create a g7:GIVN for each part with type Given
+        -   Create a g7:SURN for each part with type Surname, unless it also
+            has qualifier Particle and precedes all Surnames that lack Particle:
+            in that case, use g7:SPFX instead
+        -   Create a g7:NPFX for each part with type Prefix
+        -   Create a g7:NSFX for each part with type Suffix
+        -   Create a g7:NICK for each part with qualifier Familiar that does
+            not also have a type
+        -   If using a rufname extension, create a rufname structure for the
+            concatenated sequence of parts with type Given and qualifier Primary
+
+label: 'Name part'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://tychonievich.github.io/gx-g7-names#name-part-type": "{0:1}"
+  "https://tychonievich.github.io/gx-g7-names#name-part-qualifier": "{0:M}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/INDI-NAME": "{0:M}"
+  "https://gedcom.io/terms/v7/NAME-TRAN": "{0:M}"
+...

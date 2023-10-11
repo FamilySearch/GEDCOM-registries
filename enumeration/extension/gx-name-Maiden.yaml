@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Maiden
+
+extension tags:
+  - _GX_MAIDEN
+
+specification:
+  - A designation given by women to their original surname after they adopt a
+    new surname upon marriage.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

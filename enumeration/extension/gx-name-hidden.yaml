@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: https://tychonievich.github.io/gx-g7-names#hidden
+
+extension tags:
+  - _NPQ_HIDDEN
+
+specification:
+  - A name part that should not be displayed.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

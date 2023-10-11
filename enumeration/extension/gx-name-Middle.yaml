@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Middle
+
+extension tags:
+  - _GX_MIDDLE
+
+specification:
+  - A designation useful for cultures that designate a middle name that is
+    distinct from a given name and a surname.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

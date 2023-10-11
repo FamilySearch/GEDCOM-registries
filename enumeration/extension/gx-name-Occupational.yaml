@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Occupational
+
+extension tags:
+  - _GX_OCCUPATIONAL
+
+specification:
+  - A name derived from one's occupation.
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

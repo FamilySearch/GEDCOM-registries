@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Title
+
+extension tags:
+  - _GX_TITLE
+
+specification:
+  - A designation for honorifics (e.g. Dr., Rev., His Majesty, Haji), ranks
+    (e.g. Colonel, General, Knight, Esquire), positions (e.g. Count, Chief,
+    Father, King) or other titles (e.g., PhD, MD).
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

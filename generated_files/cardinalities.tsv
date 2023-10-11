@@ -759,6 +759,7 @@ https://gedcom.io/terms/v7/INDI-NAME	https://gedcom.io/terms/v7/SNOTE	{0:M}
 https://gedcom.io/terms/v7/INDI-NAME	https://gedcom.io/terms/v7/SOUR	{0:M}
 https://gedcom.io/terms/v7/INDI-NAME	https://gedcom.io/terms/v7/SPFX	{0:M}
 https://gedcom.io/terms/v7/INDI-NAME	https://gedcom.io/terms/v7/SURN	{0:M}
+https://gedcom.io/terms/v7/INDI-NAME	https://tychonievich.github.io/gx-g7-names#name-part	{0:M}
 https://gedcom.io/terms/v7/INDI-NCHI	https://gedcom.io/terms/v7/ADDR	{0:1}
 https://gedcom.io/terms/v7/INDI-NCHI	https://gedcom.io/terms/v7/AGE	{0:1}
 https://gedcom.io/terms/v7/INDI-NCHI	https://gedcom.io/terms/v7/AGNC	{0:1}
@@ -961,6 +962,7 @@ https://gedcom.io/terms/v7/NAME-TRAN	https://gedcom.io/terms/v7/NPFX	{0:M}
 https://gedcom.io/terms/v7/NAME-TRAN	https://gedcom.io/terms/v7/NSFX	{0:M}
 https://gedcom.io/terms/v7/NAME-TRAN	https://gedcom.io/terms/v7/SPFX	{0:M}
 https://gedcom.io/terms/v7/NAME-TRAN	https://gedcom.io/terms/v7/SURN	{0:M}
+https://gedcom.io/terms/v7/NAME-TRAN	https://tychonievich.github.io/gx-g7-names#name-part	{0:M}
 https://gedcom.io/terms/v7/NAME-TYPE	https://gedcom.io/terms/v7/PHRASE	{0:1}
 https://gedcom.io/terms/v7/NATI	https://gedcom.io/terms/v7/ADDR	{0:1}
 https://gedcom.io/terms/v7/NATI	https://gedcom.io/terms/v7/AGE	{0:1}
@@ -1377,3 +1379,5 @@ https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/SNOTE	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/SUBM-LANG	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/UID	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/WWW	{0:M}
+https://tychonievich.github.io/gx-g7-names#name-part	https://tychonievich.github.io/gx-g7-names#name-part-qualifier	{0:M}
+https://tychonievich.github.io/gx-g7-names#name-part	https://tychonievich.github.io/gx-g7-names#name-part-type	{0:1}

@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Postnom
+
+extension tags:
+  - _GX_POSTNOM
+
+specification:
+  - A name mandated by law for populations from Congo Free State / Belgian
+    Congo / Congo / Democratic Republic of Congo (formerly Zaire).
+
+value of:
+  - "https://tychonievich.github.io/gx-g7-names#qualifiers"
+...

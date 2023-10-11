@@ -745,6 +745,15 @@
     },
     "https://gedcom.io/terms/v7/record-SUBM": {
       "en-US": "Submitter"
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part": {
+      "en-US": "Name part"
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part-qualifier": {
+      "en-US": "Information about a name part"
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part-type": {
+      "en-US": "Type of name part"
     }
   },
   "payload": {
@@ -1313,6 +1322,17 @@
     },
     "https://gedcom.io/terms/v7/record-SUBM": {
       "type": null
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part-qualifier": {
+      "set": "https://tychonievich.github.io/gx-g7-names#qualifiers",
+      "type": "https://gedcom.io/terms/v7/type-Enum"
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part-type": {
+      "set": "https://tychonievich.github.io/gx-g7-names#types",
+      "type": "https://gedcom.io/terms/v7/type-Enum"
     }
   },
   "set": {
@@ -1486,6 +1506,31 @@
       "STILLBORN": "https://gedcom.io/terms/v7/enum-STILLBORN",
       "SUBMITTED": "https://gedcom.io/terms/v7/enum-SUBMITTED",
       "UNCLEARED": "https://gedcom.io/terms/v7/enum-UNCLEARED"
+    },
+    "https://tychonievich.github.io/gx-g7-names#qualifiers": {
+      "http://gedcomx.org/Characteristic": "http://gedcomx.org/Characteristic",
+      "http://gedcomx.org/Familiar": "http://gedcomx.org/Familiar",
+      "http://gedcomx.org/Family": "http://gedcomx.org/Family",
+      "http://gedcomx.org/Geographic": "http://gedcomx.org/Geographic",
+      "http://gedcomx.org/Maiden": "http://gedcomx.org/Maiden",
+      "http://gedcomx.org/Matronymic": "http://gedcomx.org/Matronymic",
+      "http://gedcomx.org/Middle": "http://gedcomx.org/Middle",
+      "http://gedcomx.org/Occupational": "http://gedcomx.org/Occupational",
+      "http://gedcomx.org/Particle": "http://gedcomx.org/Particle",
+      "http://gedcomx.org/Patronymic": "http://gedcomx.org/Patronymic",
+      "http://gedcomx.org/Postnom": "http://gedcomx.org/Postnom",
+      "http://gedcomx.org/Primary": "http://gedcomx.org/Primary",
+      "http://gedcomx.org/Religious": "http://gedcomx.org/Religious",
+      "http://gedcomx.org/RootName": "http://gedcomx.org/RootName",
+      "http://gedcomx.org/Secondary": "http://gedcomx.org/Secondary",
+      "http://gedcomx.org/Title": "http://gedcomx.org/Title",
+      "https://tychonievich.github.io/gx-g7-names#hidden": "https://tychonievich.github.io/gx-g7-names#hidden"
+    },
+    "https://tychonievich.github.io/gx-g7-names#types": {
+      "http://gedcomx.org/Given": "http://gedcomx.org/Given",
+      "http://gedcomx.org/Prefix": "http://gedcomx.org/Prefix",
+      "http://gedcomx.org/Suffix": "http://gedcomx.org/Suffix",
+      "http://gedcomx.org/Surname": "http://gedcomx.org/Surname"
     }
   },
   "substructure": {
@@ -4707,6 +4752,10 @@
       "TYPE": {
         "cardinality": "{0:1}",
         "type": "https://gedcom.io/terms/v7/NAME-TYPE"
+      },
+      "https://tychonievich.github.io/gx-g7-names#name-part": {
+        "cardinality": "{0:M}",
+        "type": "https://tychonievich.github.io/gx-g7-names#name-part"
       }
     },
     "https://gedcom.io/terms/v7/INDI-NCHI": {
@@ -5541,6 +5590,10 @@
       "SURN": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/SURN"
+      },
+      "https://tychonievich.github.io/gx-g7-names#name-part": {
+        "cardinality": "{0:M}",
+        "type": "https://tychonievich.github.io/gx-g7-names#name-part"
       }
     },
     "https://gedcom.io/terms/v7/NAME-TYPE": {
@@ -7284,9 +7337,39 @@
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/WWW"
       }
+    },
+    "https://tychonievich.github.io/gx-g7-names#name-part": {
+      "https://tychonievich.github.io/gx-g7-names#name-part-qualifier": {
+        "cardinality": "{0:M}",
+        "type": "https://tychonievich.github.io/gx-g7-names#name-part-qualifier"
+      },
+      "https://tychonievich.github.io/gx-g7-names#name-part-type": {
+        "cardinality": "{0:1}",
+        "type": "https://tychonievich.github.io/gx-g7-names#name-part-type"
+      }
     }
   },
   "tag": {
+    "http://gedcomx.org/Characteristic": "_GX_CHARACTERISTIC",
+    "http://gedcomx.org/Familiar": "_GX_FAMILIAR",
+    "http://gedcomx.org/Family": "_GX_FAMILY",
+    "http://gedcomx.org/Geographic": "_GX_GEOGRAPHIC",
+    "http://gedcomx.org/Given": "_GX_GIVEN",
+    "http://gedcomx.org/Maiden": "_GX_MAIDEN",
+    "http://gedcomx.org/Matronymic": "_GX_MATRONYMIC",
+    "http://gedcomx.org/Middle": "_GX_MIDDLE",
+    "http://gedcomx.org/Occupational": "_GX_OCCUPATIONAL",
+    "http://gedcomx.org/Particle": "_GX_PARTICLE",
+    "http://gedcomx.org/Patronymic": "_GX_PATRONYMIC",
+    "http://gedcomx.org/Postnom": "_GX_POSTNOM",
+    "http://gedcomx.org/Prefix": "_GX_PREFIX",
+    "http://gedcomx.org/Primary": "_GX_PRIMARY",
+    "http://gedcomx.org/Religious": "_GX_RELIGIOUS",
+    "http://gedcomx.org/RootName": "_GX_ROOTNAME",
+    "http://gedcomx.org/Secondary": "_GX_SECONDARY",
+    "http://gedcomx.org/Suffix": "_GX_SUFFIX",
+    "http://gedcomx.org/Surname": "_GX_SURNAME",
+    "http://gedcomx.org/Title": "_GX_TITLE",
     "https://gedcom.io/terms/v7/ABBR": "ABBR",
     "https://gedcom.io/terms/v7/ADDR": "ADDR",
     "https://gedcom.io/terms/v7/ADOP": "ADOP",
@@ -7574,6 +7657,10 @@
     "https://gedcom.io/terms/v7/record-REPO": "REPO",
     "https://gedcom.io/terms/v7/record-SNOTE": "SNOTE",
     "https://gedcom.io/terms/v7/record-SOUR": "SOUR",
-    "https://gedcom.io/terms/v7/record-SUBM": "SUBM"
+    "https://gedcom.io/terms/v7/record-SUBM": "SUBM",
+    "https://tychonievich.github.io/gx-g7-names#hidden": "_NPQ_HIDDEN",
+    "https://tychonievich.github.io/gx-g7-names#name-part": "_N_PART",
+    "https://tychonievich.github.io/gx-g7-names#name-part-qualifier": "_NP_QUAL",
+    "https://tychonievich.github.io/gx-g7-names#name-part-type": "_NP_TYPE"
   }
 }

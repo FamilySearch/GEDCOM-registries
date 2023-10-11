@@ -178,3 +178,6 @@ https://gedcom.io/terms/v7/record-REPO
 https://gedcom.io/terms/v7/record-SNOTE	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/record-SOUR	
 https://gedcom.io/terms/v7/record-SUBM	
+https://tychonievich.github.io/gx-g7-names#name-part	http://www.w3.org/2001/XMLSchema#string
+https://tychonievich.github.io/gx-g7-names#name-part-qualifier	https://gedcom.io/terms/v7/type-Enum
+https://tychonievich.github.io/gx-g7-names#name-part-type	https://gedcom.io/terms/v7/type-Enum

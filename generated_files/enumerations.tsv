@@ -11,3 +11,5 @@ https://gedcom.io/terms/v7/ROLE	https://gedcom.io/terms/v7/enumset-ROLE
 https://gedcom.io/terms/v7/SEX	https://gedcom.io/terms/v7/enumset-SEX
 https://gedcom.io/terms/v7/SOUR-EVEN	https://gedcom.io/terms/v7/enumset-EVENATTR
 https://gedcom.io/terms/v7/ord-STAT	https://gedcom.io/terms/v7/enumset-ord-STAT
+https://tychonievich.github.io/gx-g7-names#name-part-qualifier	https://tychonievich.github.io/gx-g7-names#qualifiers
+https://tychonievich.github.io/gx-g7-names#name-part-type	https://tychonievich.github.io/gx-g7-names#types
