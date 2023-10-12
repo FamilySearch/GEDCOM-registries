@@ -1,3 +1,4 @@
+uri	yaml_path
 https://gedcom.io/terms/v7/ABBR	structure/standard/ABBR.yaml
 https://gedcom.io/terms/v7/ADDR	structure/standard/ADDR.yaml
 https://gedcom.io/terms/v7/ADOP	structure/standard/ADOP.yaml
@@ -192,6 +193,7 @@ https://gedcom.io/terms/v7/enum-BOOK	enumeration/standard/enum-BOOK.yaml
 https://gedcom.io/terms/v7/enum-BOTH	enumeration/standard/enum-BOTH.yaml
 https://gedcom.io/terms/v7/enum-CANCELED	enumeration/standard/enum-CANCELED.yaml
 https://gedcom.io/terms/v7/enum-CARD	enumeration/standard/enum-CARD.yaml
+https://gedcom.io/terms/v7/enum-CENS	enumeration/standard/enum-CENS.yaml
 https://gedcom.io/terms/v7/enum-CHALLENGED	enumeration/standard/enum-CHALLENGED.yaml
 https://gedcom.io/terms/v7/enum-CHIL	enumeration/standard/enum-CHIL.yaml
 https://gedcom.io/terms/v7/enum-CHILD	enumeration/standard/enum-CHILD.yaml
@@ -202,8 +204,10 @@ https://gedcom.io/terms/v7/enum-DISPROVEN	enumeration/standard/enum-DISPROVEN.ya
 https://gedcom.io/terms/v7/enum-DNS	enumeration/standard/enum-DNS.yaml
 https://gedcom.io/terms/v7/enum-DNS_CAN	enumeration/standard/enum-DNS_CAN.yaml
 https://gedcom.io/terms/v7/enum-ELECTRONIC	enumeration/standard/enum-ELECTRONIC.yaml
+https://gedcom.io/terms/v7/enum-EVEN	enumeration/standard/enum-EVEN.yaml
 https://gedcom.io/terms/v7/enum-EXCLUDED	enumeration/standard/enum-EXCLUDED.yaml
 https://gedcom.io/terms/v7/enum-F	enumeration/standard/enum-F.yaml
+https://gedcom.io/terms/v7/enum-FACT	enumeration/standard/enum-FACT.yaml
 https://gedcom.io/terms/v7/enum-FATH	enumeration/standard/enum-FATH.yaml
 https://gedcom.io/terms/v7/enum-FICHE	enumeration/standard/enum-FICHE.yaml
 https://gedcom.io/terms/v7/enum-FILM	enumeration/standard/enum-FILM.yaml
@@ -222,6 +226,7 @@ https://gedcom.io/terms/v7/enum-MAP	enumeration/standard/enum-MAP.yaml
 https://gedcom.io/terms/v7/enum-MARRIED	enumeration/standard/enum-MARRIED.yaml
 https://gedcom.io/terms/v7/enum-MOTH	enumeration/standard/enum-MOTH.yaml
 https://gedcom.io/terms/v7/enum-MULTIPLE	enumeration/standard/enum-MULTIPLE.yaml
+https://gedcom.io/terms/v7/enum-NCHI	enumeration/standard/enum-NCHI.yaml
 https://gedcom.io/terms/v7/enum-NEWSPAPER	enumeration/standard/enum-NEWSPAPER.yaml
 https://gedcom.io/terms/v7/enum-NGHBR	enumeration/standard/enum-NGHBR.yaml
 https://gedcom.io/terms/v7/enum-OFFICIATOR	enumeration/standard/enum-OFFICIATOR.yaml
@@ -232,6 +237,7 @@ https://gedcom.io/terms/v7/enum-PRE_1970	enumeration/standard/enum-PRE_1970.yaml
 https://gedcom.io/terms/v7/enum-PRIVACY	enumeration/standard/enum-PRIVACY.yaml
 https://gedcom.io/terms/v7/enum-PROFESSIONAL	enumeration/standard/enum-PROFESSIONAL.yaml
 https://gedcom.io/terms/v7/enum-PROVEN	enumeration/standard/enum-PROVEN.yaml
+https://gedcom.io/terms/v7/enum-RESI	enumeration/standard/enum-RESI.yaml
 https://gedcom.io/terms/v7/enum-SEALING	enumeration/standard/enum-SEALING.yaml
 https://gedcom.io/terms/v7/enum-SPOU	enumeration/standard/enum-SPOU.yaml
 https://gedcom.io/terms/v7/enum-STILLBORN	enumeration/standard/enum-STILLBORN.yaml

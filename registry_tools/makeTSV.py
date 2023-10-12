@@ -4,12 +4,12 @@ import yaml
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(sys.argv[0])))
 
-cardinalities = set() # super, sub, card
-enumerations = [] # struct, set
-enumerationsets = set() # set, value
-payloads = [] # struct, payload
-substructures = set() # super, tag, sub
-registry_path = [] # uri, yaml path
+cardinalities, cardinalities_header = set(), 'superstructure structure cardinality'.split()
+enumerations, enumerations_header = [], 'structure set'.split()
+enumerationsets, enumerationsets_header = set(), 'set value'.split()
+payloads, payloads_header = [], 'structure payload'.split()
+substructures, substructures_header = set(), 'superstructure tag structure'.split()
+registry_path, registry_path_header = [], 'uri yaml_path'.split()
 
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -59,4 +59,6 @@ import csv
 os.makedirs(os.path.join(root,'generated_files'), exist_ok=True)
 for name in ('substructures','payloads','cardinalities','enumerations','enumerationsets', 'registry_path'):
     with open(os.path.join(root,'generated_files',name+'.tsv'), 'w') as dst:
-        csv.writer(dst, dialect=csv.excel_tab).writerows(sorted(locals()[name]))
+        w = csv.writer(dst, dialect=csv.excel_tab)
+        w.writerow(locals()[name+'_header'])
+        w.writerows(sorted(locals()[name]))
