@@ -12,6 +12,7 @@ The JSON file structure is
         - standard tag -or- extension structure type URI:
             - "type": uri
             - "cardinality": GEDCOM cardinality marker
+
 - "payload":
     - structure type URI:
         - "type": "pointer" -or- "Y|<NULL>" -or- datatype URI
@@ -32,6 +33,19 @@ The JSON file structure is
 - "tag":
     - URI: standard or recommended extension tag
 
+- "tagInContext":
+    - "struct":
+        - superstructure URI:
+            - structure URI: tag
+    - "enum":
+        - structure URI:
+            - enumeration value URI: tag
+    - "cal":
+        - calendar URI: tag
+    - "month":
+        - calendar URI:
+            - month URI: tag
+    
 - "label":
     - URI:
         - lang: UI label to display
@@ -46,12 +60,15 @@ import json
 root = os.path.dirname(os.path.dirname(os.path.abspath(sys.argv[0])))
 
 stdtagof = {}
+exttagof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
     for p,t,fs in os.walk(os.path.join(root, kind)):
         for f in fs:
             doc = yaml.safe_load(open(os.path.join(p,f)))
             if 'standard tag' in doc:
                 stdtagof[doc['uri']] = doc['standard tag']
+            if 'extension tags' in doc:
+                exttagof.setdefault(doc['uri'],[]).extend(doc['extension tags'])
 
 ans = {
     'substructure':{},
@@ -59,6 +76,7 @@ ans = {
     'set':{},
     'calendar':{},
     'tag':{},
+    'tagInContext':{},
     'label':{},
 }
 
@@ -128,6 +146,35 @@ for p,t,fs in os.walk(root):
                 ans['tag'][doc['uri']] = doc['extension tags'][0]
             if 'label' in doc:
                 ans['label'].setdefault(doc['uri'],{})[doc['lang']] = doc['label']
+
+
+ans['tagInContext']['struct'] = {}
+for uri,tmap in ans['substructure'].items():
+    ans['tagInContext']['struct'][uri] = {}
+    for tag, details in tmap.items():
+        if ':' in tag:
+            if tag in exttagof: tag = exttagof[tag][0]
+            else: tag = '_'
+        ans['tagInContext']['struct'][uri][details['type']] = tag
+ans['tagInContext']['enum'] = {}
+for uri,pmap in ans['payload'].items():
+    if 'set' in pmap:
+        ans['tagInContext']['enum'][uri] = {}
+        for tag, val in ans['set'][pmap['set']].items():
+            if ':' in tag:
+                if tag in exttagof: tag = exttagof[tag][0]
+                else: tag = '_'
+            ans['tagInContext']['enum'][uri][val] = tag
+ans['tagInContext']['cal'] = {}
+ans['tagInContext']['month'] = {}
+for cal,cmap in ans['calendar'].items():
+    if ':' in cal:
+        if cal in exttagof: cal = exttagof[cal][0]
+        else: cal = '_'
+    ans['tagInContext']['cal'][cmap['type']] = cal
+    ans['tagInContext']['month'][cmap['type']] = {}
+    for tag,uri in cmap['months'].items():
+        ans['tagInContext']['month'][cmap['type']][uri] = tag
 
 
 os.makedirs(os.path.join(root,'generated_files'), exist_ok=True)
