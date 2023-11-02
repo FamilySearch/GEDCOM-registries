@@ -71,6 +71,8 @@ properties:
     "$ref": "#/definitions/card"
   superstructures:
     "$ref": "#/definitions/card"
+  subsumes:
+    "$ref": "#/definitions/uris"
   
 additionalProperties: false
 
