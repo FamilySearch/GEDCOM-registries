@@ -1,0 +1,60 @@
+# This action will create generated files, and is done whenever the main branch is updated.
+#
+# For documentation on the github environment, see
+# https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+#
+# For documentation on the syntax of this file, see
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  generate-files:
+    permissions:
+      contents: write  # for Git to git push
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+      with:
+        disable-sudo: true
+        egress-policy: audit
+
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
+
+    - name: Generate files
+      working-directory: ${{github.workspace}}
+      run: |
+        python registry_tools/makeTSV.py
+        python registry_tools/makeJSON.py
+
+    - name: Check in generated files
+      working-directory: ${{github.workspace}}/generated_files
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git fetch origin
+        if git show-ref --quiet refs/remotes/origin/generated-files; then
+          git branch -D generated-files || true
+          git push origin --delete generated-files
+        fi
+        git checkout -b generated-files
+        git add .
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -s -m "Updated generated files"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/dthaler/GEDCOM-registries.git
+          git push --set-upstream origin generated-files
+          gh pr create -B main -H generated-files --title 'Merge generated-files into main' --body 'Created by Github action'
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
