@@ -34,6 +34,7 @@ jobs:
     - name: Generate files
       working-directory: ${{github.workspace}}
       run: |
+        python registry_tools/syncstandard.py
         python registry_tools/makeTSV.py
         python registry_tools/makeJSON.py
 
