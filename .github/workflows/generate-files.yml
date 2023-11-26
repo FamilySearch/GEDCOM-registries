@@ -41,7 +41,6 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
-        add-paths: generated_files
         commit-message: Update generated files
         delete-branch: true
         title: 'Merge generated-files into main'
