@@ -1076,6 +1076,7 @@ https://gedcom.io/terms/v7/ORDN	SOUR	https://gedcom.io/terms/v7/SOUR
 https://gedcom.io/terms/v7/ORDN	TYPE	https://gedcom.io/terms/v7/TYPE
 https://gedcom.io/terms/v7/ORDN	UID	https://gedcom.io/terms/v7/UID
 https://gedcom.io/terms/v7/ORDN	WWW	https://gedcom.io/terms/v7/WWW
+https://gedcom.io/terms/v7/PAGE	_SOUR	https://github.com/dthaler/gedcom-citations/_SOUR
 https://gedcom.io/terms/v7/PEDI	PHRASE	https://gedcom.io/terms/v7/PHRASE
 https://gedcom.io/terms/v7/PLAC	EXID	https://gedcom.io/terms/v7/EXID
 https://gedcom.io/terms/v7/PLAC	FORM	https://gedcom.io/terms/v7/PLAC-FORM
@@ -1129,6 +1130,7 @@ https://gedcom.io/terms/v7/REFN	TYPE	https://gedcom.io/terms/v7/TYPE
 https://gedcom.io/terms/v7/REPO	CALN	https://gedcom.io/terms/v7/CALN
 https://gedcom.io/terms/v7/REPO	NOTE	https://gedcom.io/terms/v7/NOTE
 https://gedcom.io/terms/v7/REPO	SNOTE	https://gedcom.io/terms/v7/SNOTE
+https://gedcom.io/terms/v7/REPO	_DATE	https://github.com/dthaler/gedcom-citations/_DATE
 https://gedcom.io/terms/v7/RETI	ADDR	https://gedcom.io/terms/v7/ADDR
 https://gedcom.io/terms/v7/RETI	AGE	https://gedcom.io/terms/v7/AGE
 https://gedcom.io/terms/v7/RETI	AGNC	https://gedcom.io/terms/v7/AGNC
@@ -1378,3 +1380,12 @@ https://gedcom.io/terms/v7/record-SUBM	REFN	https://gedcom.io/terms/v7/REFN
 https://gedcom.io/terms/v7/record-SUBM	SNOTE	https://gedcom.io/terms/v7/SNOTE
 https://gedcom.io/terms/v7/record-SUBM	UID	https://gedcom.io/terms/v7/UID
 https://gedcom.io/terms/v7/record-SUBM	WWW	https://gedcom.io/terms/v7/WWW
+https://github.com/dthaler/gedcom-citations/_DATE	PHRASE	https://gedcom.io/terms/v7/PHRASE
+https://github.com/dthaler/gedcom-citations/_DATE	TIME	https://gedcom.io/terms/v7/TIME
+https://github.com/dthaler/gedcom-citations/_SOUR	DATA	https://gedcom.io/terms/v7/SOUR-DATA
+https://github.com/dthaler/gedcom-citations/_SOUR	EVEN	https://gedcom.io/terms/v7/SOUR-EVEN
+https://github.com/dthaler/gedcom-citations/_SOUR	NOTE	https://gedcom.io/terms/v7/NOTE
+https://github.com/dthaler/gedcom-citations/_SOUR	OBJE	https://gedcom.io/terms/v7/OBJE
+https://github.com/dthaler/gedcom-citations/_SOUR	PAGE	https://gedcom.io/terms/v7/PAGE
+https://github.com/dthaler/gedcom-citations/_SOUR	QUAY	https://gedcom.io/terms/v7/QUAY
+https://github.com/dthaler/gedcom-citations/_SOUR	SNOTE	https://gedcom.io/terms/v7/SNOTE

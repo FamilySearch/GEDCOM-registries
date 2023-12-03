@@ -966,10 +966,10 @@
       "type": "Y|<NULL>"
     },
     "https://gedcom.io/terms/v7/FILE": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "https://gedcom.io/terms/v7/type-FilePath"
     },
     "https://gedcom.io/terms/v7/FILE-TRAN": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "https://gedcom.io/terms/v7/type-FilePath"
     },
     "https://gedcom.io/terms/v7/FORM": {
       "type": "http://www.w3.org/ns/dcat#mediaType"
@@ -1313,6 +1313,13 @@
     },
     "https://gedcom.io/terms/v7/record-SUBM": {
       "type": null
+    },
+    "https://github.com/dthaler/gedcom-citations/_DATE": {
+      "type": "https://gedcom.io/terms/v7/type-Date"
+    },
+    "https://github.com/dthaler/gedcom-citations/_SOUR": {
+      "to": "https://gedcom.io/terms/v7/record-SOUR",
+      "type": "pointer"
     }
   },
   "set": {
@@ -6021,6 +6028,12 @@
         "type": "https://gedcom.io/terms/v7/WWW"
       }
     },
+    "https://gedcom.io/terms/v7/PAGE": {
+      "https://github.com/dthaler/gedcom-citations/_SOUR": {
+        "cardinality": "{0:1}",
+        "type": "https://github.com/dthaler/gedcom-citations/_SOUR"
+      }
+    },
     "https://gedcom.io/terms/v7/PEDI": {
       "PHRASE": {
         "cardinality": "{0:1}",
@@ -6245,6 +6258,10 @@
       "SNOTE": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/SNOTE"
+      },
+      "https://github.com/dthaler/gedcom-citations/_DATE": {
+        "cardinality": "{0:M}",
+        "type": "https://github.com/dthaler/gedcom-citations/_DATE"
       }
     },
     "https://gedcom.io/terms/v7/RETI": {
@@ -7283,6 +7300,46 @@
       "WWW": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/WWW"
+      }
+    },
+    "https://github.com/dthaler/gedcom-citations/_DATE": {
+      "PHRASE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/PHRASE"
+      },
+      "TIME": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/TIME"
+      }
+    },
+    "https://github.com/dthaler/gedcom-citations/_SOUR": {
+      "DATA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/SOUR-DATA"
+      },
+      "EVEN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/SOUR-EVEN"
+      },
+      "NOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/NOTE"
+      },
+      "OBJE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/OBJE"
+      },
+      "PAGE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/PAGE"
+      },
+      "QUAY": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/QUAY"
+      },
+      "SNOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SNOTE"
       }
     }
   },
@@ -9144,6 +9201,9 @@
         "https://gedcom.io/terms/v7/UID": "UID",
         "https://gedcom.io/terms/v7/WWW": "WWW"
       },
+      "https://gedcom.io/terms/v7/PAGE": {
+        "https://github.com/dthaler/gedcom-citations/_SOUR": "_SOUR"
+      },
       "https://gedcom.io/terms/v7/PEDI": {
         "https://gedcom.io/terms/v7/PHRASE": "PHRASE"
       },
@@ -9209,7 +9269,8 @@
       "https://gedcom.io/terms/v7/REPO": {
         "https://gedcom.io/terms/v7/CALN": "CALN",
         "https://gedcom.io/terms/v7/NOTE": "NOTE",
-        "https://gedcom.io/terms/v7/SNOTE": "SNOTE"
+        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
+        "https://github.com/dthaler/gedcom-citations/_DATE": "_DATE"
       },
       "https://gedcom.io/terms/v7/RETI": {
         "https://gedcom.io/terms/v7/ADDR": "ADDR",
@@ -9501,6 +9562,19 @@
         "https://gedcom.io/terms/v7/SUBM-LANG": "LANG",
         "https://gedcom.io/terms/v7/UID": "UID",
         "https://gedcom.io/terms/v7/WWW": "WWW"
+      },
+      "https://github.com/dthaler/gedcom-citations/_DATE": {
+        "https://gedcom.io/terms/v7/PHRASE": "PHRASE",
+        "https://gedcom.io/terms/v7/TIME": "TIME"
+      },
+      "https://github.com/dthaler/gedcom-citations/_SOUR": {
+        "https://gedcom.io/terms/v7/NOTE": "NOTE",
+        "https://gedcom.io/terms/v7/OBJE": "OBJE",
+        "https://gedcom.io/terms/v7/PAGE": "PAGE",
+        "https://gedcom.io/terms/v7/QUAY": "QUAY",
+        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
+        "https://gedcom.io/terms/v7/SOUR-DATA": "DATA",
+        "https://gedcom.io/terms/v7/SOUR-EVEN": "EVEN"
       }
     }
   }

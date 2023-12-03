@@ -1,4 +1,4 @@
-superstructure	substructure	cardinality
+superstructure	structure	cardinality
 https://gedcom.io/terms/v7/ADDR	https://gedcom.io/terms/v7/ADR1	{0:1}
 https://gedcom.io/terms/v7/ADDR	https://gedcom.io/terms/v7/ADR2	{0:1}
 https://gedcom.io/terms/v7/ADDR	https://gedcom.io/terms/v7/ADR3	{0:1}
@@ -1076,6 +1076,7 @@ https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/SOUR	{0:M}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/TYPE	{0:1}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/UID	{0:M}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/WWW	{0:M}
+https://gedcom.io/terms/v7/PAGE	https://github.com/dthaler/gedcom-citations/_SOUR	{0:1}
 https://gedcom.io/terms/v7/PEDI	https://gedcom.io/terms/v7/PHRASE	{0:1}
 https://gedcom.io/terms/v7/PLAC	https://gedcom.io/terms/v7/EXID	{0:M}
 https://gedcom.io/terms/v7/PLAC	https://gedcom.io/terms/v7/LANG	{0:1}
@@ -1129,6 +1130,7 @@ https://gedcom.io/terms/v7/REFN	https://gedcom.io/terms/v7/TYPE	{0:1}
 https://gedcom.io/terms/v7/REPO	https://gedcom.io/terms/v7/CALN	{0:M}
 https://gedcom.io/terms/v7/REPO	https://gedcom.io/terms/v7/NOTE	{0:M}
 https://gedcom.io/terms/v7/REPO	https://gedcom.io/terms/v7/SNOTE	{0:M}
+https://gedcom.io/terms/v7/REPO	https://github.com/dthaler/gedcom-citations/_DATE	{0:M}
 https://gedcom.io/terms/v7/RETI	https://gedcom.io/terms/v7/ADDR	{0:1}
 https://gedcom.io/terms/v7/RETI	https://gedcom.io/terms/v7/AGE	{0:1}
 https://gedcom.io/terms/v7/RETI	https://gedcom.io/terms/v7/AGNC	{0:1}
@@ -1378,3 +1380,12 @@ https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/SNOTE	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/SUBM-LANG	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/UID	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/WWW	{0:M}
+https://github.com/dthaler/gedcom-citations/_DATE	https://gedcom.io/terms/v7/PHRASE	{0:1}
+https://github.com/dthaler/gedcom-citations/_DATE	https://gedcom.io/terms/v7/TIME	{0:1}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/NOTE	{0:M}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/OBJE	{0:M}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/PAGE	{0:1}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/QUAY	{0:1}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/SNOTE	{0:M}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/SOUR-DATA	{0:1}
+https://github.com/dthaler/gedcom-citations/_SOUR	https://gedcom.io/terms/v7/SOUR-EVEN	{0:1}
