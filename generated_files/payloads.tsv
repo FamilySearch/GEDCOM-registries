@@ -68,8 +68,8 @@ https://gedcom.io/terms/v7/FAMC-STAT	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7/FAMS	@<https://gedcom.io/terms/v7/record-FAM>@
 https://gedcom.io/terms/v7/FAX	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/FCOM	Y|<NULL>
-https://gedcom.io/terms/v7/FILE	http://www.w3.org/2001/XMLSchema#string
-https://gedcom.io/terms/v7/FILE-TRAN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7/FILE	https://gedcom.io/terms/v7/type-FilePath
+https://gedcom.io/terms/v7/FILE-TRAN	https://gedcom.io/terms/v7/type-FilePath
 https://gedcom.io/terms/v7/FORM	http://www.w3.org/ns/dcat#mediaType
 https://gedcom.io/terms/v7/GEDC	
 https://gedcom.io/terms/v7/GEDC-VERS	http://www.w3.org/2001/XMLSchema#string
@@ -179,3 +179,5 @@ https://gedcom.io/terms/v7/record-REPO
 https://gedcom.io/terms/v7/record-SNOTE	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/record-SOUR	
 https://gedcom.io/terms/v7/record-SUBM	
+https://github.com/dthaler/gedcom-citations/_DATE	https://gedcom.io/terms/v7/type-Date
+https://github.com/dthaler/gedcom-citations/_SOUR	@<https://gedcom.io/terms/v7/record-SOUR>@
