@@ -1365,6 +1365,7 @@ https://gedcom.io/terms/v7/record-SOUR	SNOTE	https://gedcom.io/terms/v7/SNOTE
 https://gedcom.io/terms/v7/record-SOUR	TEXT	https://gedcom.io/terms/v7/TEXT
 https://gedcom.io/terms/v7/record-SOUR	TITL	https://gedcom.io/terms/v7/TITL
 https://gedcom.io/terms/v7/record-SOUR	UID	https://gedcom.io/terms/v7/UID
+https://gedcom.io/terms/v7/record-SOUR	_SOUR	https://github.com/dthaler/gedcom-citations/_SOUR
 https://gedcom.io/terms/v7/record-SUBM	ADDR	https://gedcom.io/terms/v7/ADDR
 https://gedcom.io/terms/v7/record-SUBM	CHAN	https://gedcom.io/terms/v7/CHAN
 https://gedcom.io/terms/v7/record-SUBM	CREA	https://gedcom.io/terms/v7/CREA
