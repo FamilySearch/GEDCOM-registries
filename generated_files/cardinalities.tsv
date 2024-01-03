@@ -1076,7 +1076,7 @@ https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/SOUR	{0:M}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/TYPE	{0:1}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/UID	{0:M}
 https://gedcom.io/terms/v7/ORDN	https://gedcom.io/terms/v7/WWW	{0:M}
-https://gedcom.io/terms/v7/PAGE	https://github.com/dthaler/gedcom-citations/_SOUR	{0:1}
+https://gedcom.io/terms/v7/PAGE	https://github.com/dthaler/gedcom-citations/_SOUR	{0:M}
 https://gedcom.io/terms/v7/PEDI	https://gedcom.io/terms/v7/PHRASE	{0:1}
 https://gedcom.io/terms/v7/PLAC	https://gedcom.io/terms/v7/EXID	{0:M}
 https://gedcom.io/terms/v7/PLAC	https://gedcom.io/terms/v7/LANG	{0:1}
@@ -1365,6 +1365,7 @@ https://gedcom.io/terms/v7/record-SOUR	https://gedcom.io/terms/v7/SNOTE	{0:M}
 https://gedcom.io/terms/v7/record-SOUR	https://gedcom.io/terms/v7/TEXT	{0:1}
 https://gedcom.io/terms/v7/record-SOUR	https://gedcom.io/terms/v7/TITL	{0:1}
 https://gedcom.io/terms/v7/record-SOUR	https://gedcom.io/terms/v7/UID	{0:M}
+https://gedcom.io/terms/v7/record-SOUR	https://github.com/dthaler/gedcom-citations/_SOUR	{0:M}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/ADDR	{0:1}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/CHAN	{0:1}
 https://gedcom.io/terms/v7/record-SUBM	https://gedcom.io/terms/v7/CREA	{0:1}

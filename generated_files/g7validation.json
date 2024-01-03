@@ -6030,7 +6030,7 @@
     },
     "https://gedcom.io/terms/v7/PAGE": {
       "https://github.com/dthaler/gedcom-citations/_SOUR": {
-        "cardinality": "{0:1}",
+        "cardinality": "{0:M}",
         "type": "https://github.com/dthaler/gedcom-citations/_SOUR"
       }
     },
@@ -7238,6 +7238,10 @@
       "UID": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/UID"
+      },
+      "https://github.com/dthaler/gedcom-citations/_SOUR": {
+        "cardinality": "{0:M}",
+        "type": "https://github.com/dthaler/gedcom-citations/_SOUR"
       }
     },
     "https://gedcom.io/terms/v7/record-SUBM": {
@@ -9544,7 +9548,8 @@
         "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
         "https://gedcom.io/terms/v7/TEXT": "TEXT",
         "https://gedcom.io/terms/v7/TITL": "TITL",
-        "https://gedcom.io/terms/v7/UID": "UID"
+        "https://gedcom.io/terms/v7/UID": "UID",
+        "https://github.com/dthaler/gedcom-citations/_SOUR": "_SOUR"
       },
       "https://gedcom.io/terms/v7/record-SUBM": {
         "https://gedcom.io/terms/v7/ADDR": "ADDR",
