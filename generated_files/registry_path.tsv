@@ -310,6 +310,7 @@ https://gedcom.io/terms/v7/record-SUBM	structure/standard/record-SUBM.yaml
 https://gedcom.io/terms/v7/type-Age	data-type/standard/type-Age.yaml
 https://gedcom.io/terms/v7/type-Date	data-type/standard/type-Date.yaml
 https://gedcom.io/terms/v7/type-Enum	data-type/standard/type-Enum.yaml
+https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml
 https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml
 https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml
 https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml
