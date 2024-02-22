@@ -40,7 +40,7 @@ two paths for standardization of additions:
 
 * Vendor-specific: Extensions that are already used by a specific vendor, website, or application.  The filename
   of such a YAML file should include a unique vendor-specific prefix followed by the extension tag name.
-  Such an extensions is typically registered after it is already implemented and deployed.
+  Such an extension is typically registered after it is already implemented and deployed.
 * Proposed for standardization: Extensions that are potentially of interest to multiple vendors, websites, and/or
   applications.  The filename of such a YAML file is simply the extension tag name.
   Such an extension is typically registered before being implemented or deployed, as a result of discussion
