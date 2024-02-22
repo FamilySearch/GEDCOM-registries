@@ -13,7 +13,7 @@ YAML files are placed in this repository in subdirectories *type*`/`*subtype*`/`
 - *subtype* is one of
     - the general meaning of the URI for `type: uri` files; otherwise
     - `standard` if the YAML file represents a concept from the official [FamilySearch GEDCOM 7 specification](https://gedcom.io/)
-    - `extension` if the YAML file is defined by a third party
+    - `extension` if the YAML file is not in the official specification
 - *name* is an identifier selected at time of registration
 
 The [registry_tools/](registry_tools/) directory contains various files and stripts for assisting in maintaining this repository. Notably, that includes a YAML schema validator that should be used by any new or edited YAML before it is pushed to the repository.
@@ -32,3 +32,20 @@ If the change is to a `standard` term, the change needs to be made to the specif
 If you are unsure if your proposed change is appropriate or are uncomfortable directly editing YAML files and making pull requests, submit an [issue](https://github.com/FamilySearch/GEDCOM-registries/issues) instead.
 
 If you have questions or suggestions about this repository or its contents, please direct those to the main [GEDCOM Discussions page](https://github.com/FamilySearch/GEDCOM/discussions).
+
+## Registering extensions
+
+There are two types of extensions whose files appear in the same 'extension' subdirectories, allowing for
+two paths for standardization of additions:
+
+* Vendor-specific: Extensions that are already used by one or more specific vendors, websites, or applications.
+  Such an extension is typically registered after it is already implemented and deployed.
+* Community proposed: Extensions that are potentially of interest to multiple vendors, websites, and/or
+  applications.
+  Such an extension is typically registered before being implemented or deployed, as a result of discussion
+  in GitHub.
+
+In either case, once an extension meets the
+[Valuable, Absent, and Used criteria](https://github.com/FamilySearch/GEDCOM/tree/main/attribute-event-requests#proposing-new-family-and-individual-attributes-and-events)
+then a standard tag/URI can be added into the 'next-minor' branch of the
+[FamilySearch/GEDCOM repository](https://github.com/FamilySearch/GEDCOM) for inclusion into a future release.
