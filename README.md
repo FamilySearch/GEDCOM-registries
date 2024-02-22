@@ -38,7 +38,7 @@ If you have questions or suggestions about this repository or its contents, plea
 There are two types of extensions whose files appear in the same 'extension' subdirectories, allowing for
 two paths for standardization of additions:
 
-* Vendor-specific: Extensions that are already used by a specific vendor, website, or application.
+* Vendor-specific: Extensions that are already used by one or more specific vendors, websites, or applications.
   Such an extension is typically registered after it is already implemented and deployed.
 * Proposed for standardization: Extensions that are potentially of interest to multiple vendors, websites, and/or
   applications.
