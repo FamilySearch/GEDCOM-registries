@@ -42,7 +42,7 @@ two paths for standardization of additions:
   of such a YAML file should include a unique vendor-specific prefix followed by the extension tag name.
   Such an extension is typically registered after it is already implemented and deployed.
 * Proposed for standardization: Extensions that are potentially of interest to multiple vendors, websites, and/or
-  applications.  The filename of such a YAML file is simply the extension tag name.
+  applications.
   Such an extension is typically registered before being implemented or deployed, as a result of discussion
   in GitHub.
 
