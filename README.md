@@ -40,7 +40,7 @@ two paths for standardization of additions:
 
 * Vendor-specific: Extensions that are already used by one or more specific vendors, websites, or applications.
   Such an extension is typically registered after it is already implemented and deployed.
-* Proposed for standardization: Extensions that are potentially of interest to multiple vendors, websites, and/or
+* Community proposed: Extensions that are potentially of interest to multiple vendors, websites, and/or
   applications.
   Such an extension is typically registered before being implemented or deployed, as a result of discussion
   in GitHub.
