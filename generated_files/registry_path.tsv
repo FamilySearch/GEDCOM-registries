@@ -314,5 +314,5 @@ https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml
 https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml
 https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml
 https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml
-https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE
-https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR
+https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml
+https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml
