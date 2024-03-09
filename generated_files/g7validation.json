@@ -745,6 +745,12 @@
     },
     "https://gedcom.io/terms/v7/record-SUBM": {
       "en-US": "Submitter"
+    },
+    "https://github.com/dthaler/gedcom-citations/_DATE": {
+      "en-US": "Date"
+    },
+    "https://github.com/dthaler/gedcom-citations/_SOUR": {
+      "en-US": "Source"
     }
   },
   "payload": {
@@ -7640,7 +7646,9 @@
     "https://gedcom.io/terms/v7/record-REPO": "REPO",
     "https://gedcom.io/terms/v7/record-SNOTE": "SNOTE",
     "https://gedcom.io/terms/v7/record-SOUR": "SOUR",
-    "https://gedcom.io/terms/v7/record-SUBM": "SUBM"
+    "https://gedcom.io/terms/v7/record-SUBM": "SUBM",
+    "https://github.com/dthaler/gedcom-citations/_DATE": "_DATE",
+    "https://github.com/dthaler/gedcom-citations/_SOUR": "_SOUR"
   },
   "tagInContext": {
     "cal": {
