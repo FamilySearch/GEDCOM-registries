@@ -47,5 +47,5 @@ two paths for standardization of additions:
 
 In either case, once an extension meets the
 [Valuable, Absent, and Used criteria](https://github.com/FamilySearch/GEDCOM/tree/main/attribute-event-requests#proposing-new-family-and-individual-attributes-and-events)
-then a standard tag/URI can be added into the 'next-minor' branch of the
+then a standard tag/URI can be added into the 'v7.1' branch of the
 [FamilySearch/GEDCOM repository](https://github.com/FamilySearch/GEDCOM) for inclusion into a future release.
