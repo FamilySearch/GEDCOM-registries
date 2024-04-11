@@ -44,7 +44,7 @@ specification:
 
         In some cases a single Primary Surname part is adequate, but there
         may be cases when additional details (such as particles, root names,
-        etc) will be added about parts of the primary surname name,
+        etc.) will be added about parts of the primary surname name,
         necessitating breaking it up into several parts.
   - |
     It is intended that name-part be used in such a way that all other elements
