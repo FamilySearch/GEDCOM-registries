@@ -23,7 +23,7 @@ specification:
     limitations, a set of name parts are said to be contiguous if, after
     removing any hidden parts, they are adjacent in the list of name parts.
 
-    *   Some applications (and some governments; see, e.g.
+    *   Some applications (and some governments; see, e.g.,
         https://en.wikipedia.org/wiki/Rufname) require at most one primary
         given name. This means that if there is more than one part with
         qualifier Primary and type Given, all such parts must be contiguous.
