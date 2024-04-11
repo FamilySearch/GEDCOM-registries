@@ -61,7 +61,7 @@ specification:
             qualifier.
         2.  Removing any U+002F characters (slash or solidus, /), which
             g7:type-NAME cannot represent.
-        3.  Possibly delimit a part of the string with slashes:
+        3.  Possibly delimiting a part of the string with slashes:
             -   If no part has type Surname, do not add slashes.
             -   Otherwise, if there are name parts with type Surname and
                 qualifier Primary, put a slash before the first such part and
