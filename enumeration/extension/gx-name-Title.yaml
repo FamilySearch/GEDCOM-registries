@@ -10,8 +10,8 @@ extension tags:
   - _GX_TITLE
 
 specification:
-  - A designation for honorifics (e.g. Dr., Rev., His Majesty, Haji), ranks
-    (e.g. Colonel, General, Knight, Esquire), positions (e.g. Count, Chief,
+  - A designation for honorifics (e.g., Dr., Rev., His Majesty, Haji), ranks
+    (e.g., Colonel, General, Knight, Esquire), positions (e.g., Count, Chief,
     Father, King) or other titles (e.g., PhD, MD).
 
 value of:
