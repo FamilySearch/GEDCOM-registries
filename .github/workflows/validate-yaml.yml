@@ -23,4 +23,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Validate YAML
-        run: yamllint .yamllint.yml .github/dependabot.yml .github/workflows calendar/standard data-type/standard enumeration/standard enumeration-set/standard month/standard structure/extension structure/standard uri/exid-types
+        run: yamllint . .github .github/workflows calendar/standard data-type/standard enumeration/standard enumeration-set/standard month/standard structure/extension structure/standard uri/exid-types
