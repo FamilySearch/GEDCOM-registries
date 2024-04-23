@@ -5,3 +5,4 @@ extends: default
 
 rules:
   line-length: disable
+  trailing-spaces: disable
