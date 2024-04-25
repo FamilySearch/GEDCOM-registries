@@ -9,9 +9,9 @@ if '--help' in sys.argv or '-h' in sys.argv or '?' in sys.argv:
   quit()
 
 try:
-  schema = yaml.safe_load(open(os.path.join(os.path.dirname(__file__), 'yaml-schema.yaml')))
+  schema = yaml.safe_load(open(os.path.join(os.path.dirname(__file__), 'GEDCOM.io', 'yaml-schema.yaml')))
 except:
-  print("Fatal Error! yaml-schema.yaml not found.\nThis file must be kept in the same directory as yaml-schema.yaml", file=sys.stderr)
+  print("Fatal Error! GEDCOM.io/yaml-schema.yaml not found.", file=sys.stderr)
   exit(1)
 
 def check(data, name):
