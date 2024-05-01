@@ -21,6 +21,22 @@ jobs:
     steps:
       - name: Checkout GEDCOM.io
         uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
 
       - name: Validate YAML
-        run: yamllint . .github .github/workflows calendar/standard data-type/standard enumeration/standard enumeration-set/standard month/standard structure/extension structure/standard uri/exid-types
+        run: yamllint .
+ 
+      - name: Validate YAML against schema
+        working-directory: ${{github.workspace}}/registry_tools
+        run: |
+          find .. -type f -name "*.yaml" -not -path "../registry_tools/*" -exec dirname {} \; | sort -u | while read -r dir; do
+            yaml_files=("$dir"/*.yaml)
+            if [ "${#yaml_files[@]}" -gt 0 ]; then
+              echo Checking directory $dir
+              python3 validator.py "${yaml_files[@]}"
+              if [ $? -ne 0 ]; then
+                exit 1
+              fi
+            fi
+          done

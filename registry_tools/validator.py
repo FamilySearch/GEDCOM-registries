@@ -47,4 +47,5 @@ if ok != count:
   print("="*30+'\n')
 print("YAML files checked:",count)
 print("YAML files passed:",ok)
-
+if ok != count:
+  sys.exit(1)
