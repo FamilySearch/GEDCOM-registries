@@ -49,3 +49,19 @@ In either case, once an extension meets the
 [Valuable, Absent, and Used criteria](https://github.com/FamilySearch/GEDCOM/tree/main/attribute-event-requests#proposing-new-family-and-individual-attributes-and-events)
 then a standard tag/URI can be added into the 'v7.1' branch of the
 [FamilySearch/GEDCOM repository](https://github.com/FamilySearch/GEDCOM) for inclusion into a future release.
+
+## Updating extensions
+
+When an implementation has an extension and makes changes that affect its use in GEDCOM files,
+the YAML file should be updated. The appropriate changes to the YAML file depend on the nature
+of the changes in the implementation.
+
+If the implementation merely starts using a documented extension with another GEDCOM version,
+no changes to the YAML file are needed.
+
+If the implementation updates its use (e.g., to add a new substructure) for all GEDCOM versions
+that it the structure can appear in, and it is the only implementation using the extension then
+it can simply update the existing YAML file.
+
+If the implementation updates its use but only for some versions of GEDCOM, or is not the only
+implementation using the extension, then it should create and register a new YAML file with a new URI.
