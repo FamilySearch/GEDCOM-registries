@@ -60,7 +60,7 @@ If the implementation merely starts using a documented extension with another GE
 no changes to the YAML file are needed.
 
 If the implementation updates its use (e.g., to add a new substructure) for all GEDCOM versions
-that it the structure can appear in, and it is the only implementation using the extension then
+that the structure can appear in, and it is the only implementation using the extension then
 it can simply update the existing YAML file.
 
 If the implementation updates its use but only for some versions of GEDCOM, or is not the only
