@@ -49,3 +49,15 @@ In either case, once an extension meets the
 [Valuable, Absent, and Used criteria](https://github.com/FamilySearch/GEDCOM/tree/main/attribute-event-requests#proposing-new-family-and-individual-attributes-and-events)
 then a standard tag/URI can be added into the 'v7.1' branch of the
 [FamilySearch/GEDCOM repository](https://github.com/FamilySearch/GEDCOM) for inclusion into a future release.
+
+## Updating extensions
+
+Three kinds of updates might be made to an extension.
+
+- Changes in presentation or documentation that do not change how the extension is used in GEDCOM files (a "patch").
+- Changes that add to the extension without changing or removing, such as adding new substructures or enumeration values or documenting new superstructures that accept the extension (a "minor update").
+- Changes that change or remove components of the extension, such that files that followed the old version would have a different meaning or be invalid under the new version (a "major update").
+
+The first two (patches and minor updates) of these changes can be made by updating the existing YAML file, leaving the extension's URI unchanged. The third (major updates) should be made by registering a new YAML file with a new URI.
+
+Note that this is a different set of criteria than are applied to standard structures, where both major and minor updates are also given new URIs and YAML files. Extensions provide the same flexibility would a new minor version GEDCOM, and hence new URIs for minor changes to them are not needed. That said, if an extension author wishes to provide a new URI and YAML file for a minor update, that is permitted with the `subsumes` entry in the YAML file providing a way to indicate the previous minor version.
