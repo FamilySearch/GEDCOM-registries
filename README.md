@@ -55,7 +55,7 @@ then a standard tag/URI can be added into the 'v7.1' branch of the
 Three kinds of updates might be made to an extension.
 
 - Changes in presentation or documentation that do not change how the extension is used in GEDCOM files (a "patch").
-- Changes that add to the extension without changing or removing, such as adding new substructures or enumeration values or documenting new superstructures that accept the extension (a "minor update").
+- Changes that result in all files that followed the old version remaining valid and having the same meaning under the new version (a "minor update").
 - Changes that change or remove components of the extension, such that files that followed the old version would have a different meaning or be invalid under the new version (a "major update").
 
 The first two (patches and minor updates) of these changes can be made by updating the existing YAML file, leaving the extension's URI unchanged. The third (major updates) should be made by registering a new YAML file with a new URI.
