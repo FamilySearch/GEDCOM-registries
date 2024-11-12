@@ -13,9 +13,9 @@ specification:
     https://gedcom.io/terms/v7/EXID containing a GOV-ID as defined at
     https://wiki.genealogy.net/GOV.
 
-    GOV – the _G_eschichtliche _O_rts_v_erzeichnis – is a location database
-    maintained by volunteers from the association for computer genealogy
-    (CompGen).
+    GOV – the Geschichtliche Ortsverzeichnis (German for "Historic Gazeteer") – 
+    is a location database maintained by volunteers from the association for
+    computer genealogy (CompGen).
 
     The payload for EXID.TYPE is: http://gov.genealogy.net/
 
