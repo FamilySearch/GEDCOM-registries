@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en
+
+type: uri
+
+uri: https://gedcom.io/exid-type/GOV-ID
+
+specification:
+  - GOV Place ID
+  - |
+    This URI is defined for use as the https://gedcom.io/terms/v7/TYPE of an
+    https://gedcom.io/terms/v7/EXID containing a GOV-ID as defined at
+    https://wiki.genealogy.net/GOV.
+
+    GOV – the Geschichtliche Ortsverzeichnis (German for "Historic Gazeteer") – 
+    is a location database maintained by volunteers from the association for
+    computer genealogy (CompGen).
+
+    The payload for EXID.TYPE is: http://gov.genealogy.net/
+
+contact: "gov-support@genealogy.net"
+...
