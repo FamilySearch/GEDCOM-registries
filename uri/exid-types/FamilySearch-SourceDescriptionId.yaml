@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+label: FamilySearch Source Description ID
+
+lang: en
+
+type: uri
+
+uri: https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId
+
+specification:
+  - FamilySearch Source Description ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: FamilySearch
+
+documentation: https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId
+
+...

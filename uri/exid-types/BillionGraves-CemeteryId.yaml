@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+label: BillionGraves Cemetery ID
+
+lang: en
+
+type: uri
+
+uri: https://www.billiongraves.com/cemetery/name/
+
+specification:
+  - BillionGraves Cemetery ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: BillionGraves.com
+
+documentation: https://billiongraves.com/search/cemetery
+
+...

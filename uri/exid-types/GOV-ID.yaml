@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
+label: GOV Historic Gazeteer ID
+
 lang: en
 
 type: uri
@@ -20,4 +22,9 @@ specification:
     The payload for EXID.TYPE is: http://gov.genealogy.net/
 
 contact: "gov-support@genealogy.net"
+
+change controller: CompGen
+
+documentation: https://wiki.genealogy.net/GOV
+
 ...

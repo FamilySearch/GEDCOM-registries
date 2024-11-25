@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
+label: AFN
+
 lang: en
 
 type: uri
@@ -21,5 +23,11 @@ specification:
     every record that was published in Ancestral File.
     
     See https://www.familysearch.org/wiki/en/Ancestral_File for more.
+
+contact: GEDCOM@familysearch.org
+
+change controller: FamilySearch
+
+documentation: https://gedcom.io/migrate/#afn-rfn-rin
 
 ...

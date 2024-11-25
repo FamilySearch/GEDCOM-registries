@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
+label: RIN
+
 lang: en
 
 type: uri
@@ -37,5 +39,13 @@ specification:
     
         2 EXID 123abc
         3 TYPE https://gedcom.io/terms/v7/RIN#XYZ
+
+contact: GEDCOM@familysearch.org
+
+change controller: FamilySearch
+
+fragment: Source System
+
+documentation: https://gedcom.io/migrate/#afn-rfn-rin
 
 ...

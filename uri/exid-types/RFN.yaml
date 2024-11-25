@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
+label: RFN
+
 lang: en
 
 type: uri
@@ -36,5 +38,13 @@ specification:
     
         2 EXID xyz
         3 TYPE https://gedcom.io/terms/v7/RFN#123abc
+
+contact: GEDCOM@familysearch.org
+
+change controller: FamilySearch
+
+fragment: Resource ID
+
+documentation: https://gedcom.io/migrate/#afn-rfn-rin
 
 ...
