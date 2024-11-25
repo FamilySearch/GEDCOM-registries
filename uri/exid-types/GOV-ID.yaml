@@ -1,15 +1,15 @@
 %YAML 1.2
 ---
-label: GOV Historic Gazeteer ID
+label: 'GOV Historic Gazeteer ID'
 
 lang: en
 
 type: uri
 
-uri: https://gedcom.io/exid-type/GOV-ID
+uri: https://gov.genealogy.net/
 
 specification:
-  - GOV Place ID
+  - GOV Historic Gazeteer Place ID
   - |
     This URI is defined for use as the https://gedcom.io/terms/v7/TYPE of an
     https://gedcom.io/terms/v7/EXID containing a GOV-ID as defined at
@@ -19,7 +19,7 @@ specification:
     is a location database maintained by volunteers from the association for
     computer genealogy (CompGen).
 
-    The payload for EXID.TYPE is: http://gov.genealogy.net/
+    The payload for EXID.TYPE is: https://gov.genealogy.net/
 
 contact: "gov-support@genealogy.net"
 
