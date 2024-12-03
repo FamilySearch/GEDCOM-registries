@@ -6,7 +6,7 @@ lang: en
 
 type: uri
 
-uri: https://www.findagrave.com/memorial
+uri: https://www.findagrave.com/memorial/
 
 specification:
   - FindAGrave Memorial ID
