@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+label: 'FamilySearch Place ID'
+
+lang: en
+
+type: uri
+
+uri: https://gedcom.io/exid-type/FamilySearch-PlaceId
+
+specification:
+  - FamilySearch Place ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: FamilySearch
+
+documentation:
+  - https://gedcom.io/exid-type/FamilySearch-PlaceId
+
+...

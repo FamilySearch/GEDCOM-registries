@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+label: 'BillionGraves Grave ID'
+
+lang: en
+
+type: uri
+
+uri: https://www.billiongraves.com/grave/name/
+
+specification:
+  - BillionGraves Grave ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: BillionGraves.com
+
+documentation:
+  - https://billiongraves.com/search
+
+...

@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
+label: 'Record ID Number'
+
 lang: en
 
 type: uri
@@ -7,7 +9,7 @@ type: uri
 uri: https://gedcom.io/terms/v7/RIN
 
 specification:
-  - Record ID Number
+  - Automated Record ID
   - |
     This URI is defined to support conversion from GEDCOM 5.5.1 to FamilySearch
     GEDCOM 7.0 and beyond. It is intended for use as the
@@ -37,5 +39,12 @@ specification:
     
         2 EXID 123abc
         3 TYPE https://gedcom.io/terms/v7/RIN#XYZ
+
+contact: GEDCOM@familysearch.org
+
+fragment: Source System
+
+documentation:
+  - https://gedcom.io/migrate/#afn-rfn-rin
 
 ...

@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+label: 'FindAGrave Cemetery ID'
+
+lang: en
+
+type: uri
+
+uri: https://www.findagrave.com/cemetery/
+
+specification:
+  - FindAGrave Cemetery ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: FindAGrave.com
+
+documentation:
+  - https://support.findagrave.com/s/article/Cemetery-Search
+
+...

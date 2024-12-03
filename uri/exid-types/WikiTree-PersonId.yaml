@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+label: 'WikiTree Person ID'
+
+lang: en
+
+type: uri
+
+uri: https://www.wikitree.com/wiki/
+
+specification:
+  - WikiTree Person ID
+
+contact: GEDCOM@familysearch.org
+
+change controller: wikitree.com
+
+documentation:
+  - https://www.wikitree.com/wiki/Help:WikiTree_ID
+
+...
