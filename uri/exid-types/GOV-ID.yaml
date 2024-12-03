@@ -25,6 +25,7 @@ contact: "gov-support@genealogy.net"
 
 change controller: CompGen
 
-documentation: https://wiki.genealogy.net/GOV
+documentation:
+  - https://wiki.genealogy.net/GOV
 
 ...

@@ -45,6 +45,7 @@ change controller: FamilySearch
 
 fragment: Resource ID
 
-documentation: https://gedcom.io/migrate/#afn-rfn-rin
+documentation:
+  - https://gedcom.io/migrate/#afn-rfn-rin
 
 ...

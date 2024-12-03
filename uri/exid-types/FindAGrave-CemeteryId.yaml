@@ -15,6 +15,7 @@ contact: GEDCOM@familysearch.org
 
 change controller: FindAGrave.com
 
-documentation: https://support.findagrave.com/s/article/Cemetery-Search
+documentation:
+  - https://support.findagrave.com/s/article/Cemetery-Search
 
 ...

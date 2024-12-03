@@ -15,6 +15,7 @@ contact: GEDCOM@familysearch.org
 
 change controller: BillionGraves.com
 
-documentation: https://billiongraves.com/search
+documentation:
+  - https://billiongraves.com/search
 
 ...

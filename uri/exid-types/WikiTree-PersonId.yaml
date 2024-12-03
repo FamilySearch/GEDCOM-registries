@@ -15,6 +15,7 @@ contact: GEDCOM@familysearch.org
 
 change controller: wikitree.com
 
-documentation: https://www.wikitree.com/wiki/Help:WikiTree_ID
+documentation:
+  - https://www.wikitree.com/wiki/Help:WikiTree_ID
 
 ...

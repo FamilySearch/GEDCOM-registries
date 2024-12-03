@@ -15,6 +15,7 @@ contact: GEDCOM@familysearch.org
 
 change controller: FamilySearch
 
-documentation: https://gedcom.io/exid-type/FamilySearch-UserId
+documentation:
+  - https://gedcom.io/exid-type/FamilySearch-UserId
 
 ...

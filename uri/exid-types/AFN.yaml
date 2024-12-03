@@ -28,6 +28,7 @@ contact: GEDCOM@familysearch.org
 
 change controller: FamilySearch
 
-documentation: https://gedcom.io/migrate/#afn-rfn-rin
+documentation:
+  - https://gedcom.io/migrate/#afn-rfn-rin
 
 ...
