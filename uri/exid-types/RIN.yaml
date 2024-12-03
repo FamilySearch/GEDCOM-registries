@@ -42,8 +42,6 @@ specification:
 
 contact: GEDCOM@familysearch.org
 
-change controller: FamilySearch
-
 fragment: Source System
 
 documentation: https://gedcom.io/migrate/#afn-rfn-rin
