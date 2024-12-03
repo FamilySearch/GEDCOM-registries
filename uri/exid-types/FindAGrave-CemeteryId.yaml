@@ -6,7 +6,7 @@ lang: en
 
 type: uri
 
-uri: https://www.findagrave.com/cemetery
+uri: https://www.findagrave.com/cemetery/
 
 specification:
   - FindAGrave Cemetery ID
