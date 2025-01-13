@@ -80,6 +80,21 @@
     }
   },
   "label": {
+    "https://gedcom.io/exid-type/FamilySearch-MemoryId": {
+      "en": "FamilySearch Memory ID"
+    },
+    "https://gedcom.io/exid-type/FamilySearch-PersonId": {
+      "en": "FamilySearch Person ID"
+    },
+    "https://gedcom.io/exid-type/FamilySearch-PlaceId": {
+      "en": "FamilySearch Place ID"
+    },
+    "https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId": {
+      "en": "FamilySearch Source Description ID"
+    },
+    "https://gedcom.io/exid-type/FamilySearch-UserId": {
+      "en": "FamilySearch User ID"
+    },
     "https://gedcom.io/terms/v7/ABBR": {
       "en-US": "Abbreviation"
     },
@@ -100,6 +115,9 @@
     },
     "https://gedcom.io/terms/v7/ADR3": {
       "en-US": "Address Line 3"
+    },
+    "https://gedcom.io/terms/v7/AFN": {
+      "en": "Ancestral File Number"
     },
     "https://gedcom.io/terms/v7/AGE": {
       "en-US": "Age at event"
@@ -506,6 +524,12 @@
     "https://gedcom.io/terms/v7/RETI": {
       "en-US": "Retirement"
     },
+    "https://gedcom.io/terms/v7/RFN": {
+      "en": "Record File Number"
+    },
+    "https://gedcom.io/terms/v7/RIN": {
+      "en": "Record ID Number"
+    },
     "https://gedcom.io/terms/v7/ROLE": {
       "en-US": "Role"
     },
@@ -751,6 +775,24 @@
     },
     "https://github.com/dthaler/gedcom-citations/_SOUR": {
       "en-US": "Source"
+    },
+    "https://gov.genealogy.net/": {
+      "en": "GOV Historic Gazeteer ID"
+    },
+    "https://www.billiongraves.com/cemetery/name/": {
+      "en": "BillionGraves Cemetery ID"
+    },
+    "https://www.billiongraves.com/grave/name/": {
+      "en": "BillionGraves Grave ID"
+    },
+    "https://www.findagrave.com/cemetery/": {
+      "en": "FindAGrave Cemetery ID"
+    },
+    "https://www.findagrave.com/memorial/": {
+      "en": "FindAGrave Memorial ID"
+    },
+    "https://www.wikitree.com/wiki/": {
+      "en": "WikiTree Person ID"
     }
   },
   "payload": {

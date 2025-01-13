@@ -1,4 +1,9 @@
 uri	yaml_path
+https://gedcom.io/exid-type/FamilySearch-MemoryId	uri/exid-types/FamilySearch-MemoryId.yaml
+https://gedcom.io/exid-type/FamilySearch-PersonId	uri/exid-types/FamilySearch-PersonId.yaml
+https://gedcom.io/exid-type/FamilySearch-PlaceId	uri/exid-types/FamilySearch-PlaceId.yaml
+https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId	uri/exid-types/FamilySearch-SourceDescriptionId.yaml
+https://gedcom.io/exid-type/FamilySearch-UserId	uri/exid-types/FamilySearch-UserId.yaml
 https://gedcom.io/terms/v7/ABBR	structure/standard/ABBR.yaml
 https://gedcom.io/terms/v7/ADDR	structure/standard/ADDR.yaml
 https://gedcom.io/terms/v7/ADOP	structure/standard/ADOP.yaml
@@ -316,3 +321,9 @@ https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml
 https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml
 https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml
 https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml
+https://gov.genealogy.net/	uri/exid-types/GOV-ID.yaml
+https://www.billiongraves.com/cemetery/name/	uri/exid-types/BillionGraves-CemeteryId.yaml
+https://www.billiongraves.com/grave/name/	uri/exid-types/BillionGraves-GraveId.yaml
+https://www.findagrave.com/cemetery/	uri/exid-types/FindAGrave-CemeteryId.yaml
+https://www.findagrave.com/memorial/	uri/exid-types/FindAGrave-MemorialId.yaml
+https://www.wikitree.com/wiki/	uri/exid-types/WikiTree-PersonId.yaml
