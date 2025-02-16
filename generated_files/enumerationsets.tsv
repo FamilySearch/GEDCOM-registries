@@ -57,6 +57,8 @@ https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/FCOM
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/GRAD
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/IDNO
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/IMMI
+https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/INDI-RELI
+https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/INDI-TITL
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/MARB
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/MARC
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/MARL
@@ -69,10 +71,8 @@ https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/OCCU
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/ORDN
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/PROB
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/PROP
-https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/RELI
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/RETI
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/SSN
-https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/TITL
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/WILL
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/enum-CENS
 https://gedcom.io/terms/v7/enumset-EVENATTR	https://gedcom.io/terms/v7/enum-EVEN
