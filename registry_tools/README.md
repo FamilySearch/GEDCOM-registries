@@ -1,6 +1,6 @@
 # Validating YAML files
 
-The file `GEDDCOM.io/yaml-schema.yaml` contains a [JSON Schema](https://json-schema.org/) in [YAML format](https://yaml.org/) they checks most (but not all) of the requirements of [the YAML format used to specify GEDCOM structures](https://gedcom.io/terms/format).
+The file `GEDCOM.io/yaml-schema.yaml` contains a [JSON Schema](https://json-schema.org/) in [YAML format](https://yaml.org/) that checks most (but not all) of the requirements of [the YAML format used to specify GEDCOM structures](https://gedcom.io/terms/format).
 Constraints not checked are generally non-syntactic, such as the requirement that some URIs identify structure types or the like.
 
 A Python 3 script is provided as `validator.py` that uses the schema to check YAML files named on the command line or piped into stdin.
