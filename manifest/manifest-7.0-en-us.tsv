@@ -311,8 +311,6 @@ structure/standard/WIDTH.yaml
 structure/standard/WIFE.yaml
 structure/standard/WILL.yaml
 structure/standard/WWW.yaml
-structure/extension/_DATE.yaml
-structure/extension/_SOUR.yaml
 uri/exid-types/AFN.yaml
 uri/exid-types/BillionGraves-CemeteryId.yaml
 uri/exid-types/BillionGraves-GraveId.yaml
