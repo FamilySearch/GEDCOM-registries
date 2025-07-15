@@ -1,329 +1,329 @@
 uri	yaml_path
-https://gedcom.io/exid-type/FamilySearch-MemoryId	uri/exid-types/FamilySearch-MemoryId.yaml
-https://gedcom.io/exid-type/FamilySearch-PersonId	uri/exid-types/FamilySearch-PersonId.yaml
-https://gedcom.io/exid-type/FamilySearch-PlaceId	uri/exid-types/FamilySearch-PlaceId.yaml
-https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId	uri/exid-types/FamilySearch-SourceDescriptionId.yaml
-https://gedcom.io/exid-type/FamilySearch-UserId	uri/exid-types/FamilySearch-UserId.yaml
-https://gedcom.io/terms/v7/ABBR	structure/standard/ABBR.yaml
-https://gedcom.io/terms/v7/ADDR	structure/standard/ADDR.yaml
-https://gedcom.io/terms/v7/ADOP	structure/standard/ADOP.yaml
-https://gedcom.io/terms/v7/ADOP-FAMC	structure/standard/ADOP-FAMC.yaml
-https://gedcom.io/terms/v7/ADR1	structure/standard/ADR1.yaml
-https://gedcom.io/terms/v7/ADR2	structure/standard/ADR2.yaml
-https://gedcom.io/terms/v7/ADR3	structure/standard/ADR3.yaml
-https://gedcom.io/terms/v7/AFN	uri/exid-types/AFN.yaml
-https://gedcom.io/terms/v7/AGE	structure/standard/AGE.yaml
-https://gedcom.io/terms/v7/AGNC	structure/standard/AGNC.yaml
-https://gedcom.io/terms/v7/ALIA	structure/standard/ALIA.yaml
-https://gedcom.io/terms/v7/ANCI	structure/standard/ANCI.yaml
-https://gedcom.io/terms/v7/ANUL	structure/standard/ANUL.yaml
-https://gedcom.io/terms/v7/ASSO	structure/standard/ASSO.yaml
-https://gedcom.io/terms/v7/AUTH	structure/standard/AUTH.yaml
-https://gedcom.io/terms/v7/BAPL	structure/standard/BAPL.yaml
-https://gedcom.io/terms/v7/BAPM	structure/standard/BAPM.yaml
-https://gedcom.io/terms/v7/BARM	structure/standard/BARM.yaml
-https://gedcom.io/terms/v7/BASM	structure/standard/BASM.yaml
-https://gedcom.io/terms/v7/BIRT	structure/standard/BIRT.yaml
-https://gedcom.io/terms/v7/BLES	structure/standard/BLES.yaml
-https://gedcom.io/terms/v7/BURI	structure/standard/BURI.yaml
-https://gedcom.io/terms/v7/CALN	structure/standard/CALN.yaml
-https://gedcom.io/terms/v7/CAST	structure/standard/CAST.yaml
-https://gedcom.io/terms/v7/CAUS	structure/standard/CAUS.yaml
-https://gedcom.io/terms/v7/CHAN	structure/standard/CHAN.yaml
-https://gedcom.io/terms/v7/CHIL	structure/standard/CHIL.yaml
-https://gedcom.io/terms/v7/CHR	structure/standard/CHR.yaml
-https://gedcom.io/terms/v7/CHRA	structure/standard/CHRA.yaml
-https://gedcom.io/terms/v7/CITY	structure/standard/CITY.yaml
-https://gedcom.io/terms/v7/CONF	structure/standard/CONF.yaml
-https://gedcom.io/terms/v7/CONL	structure/standard/CONL.yaml
-https://gedcom.io/terms/v7/CONT	structure/standard/CONT.yaml
-https://gedcom.io/terms/v7/COPR	structure/standard/COPR.yaml
-https://gedcom.io/terms/v7/CORP	structure/standard/CORP.yaml
-https://gedcom.io/terms/v7/CREA	structure/standard/CREA.yaml
-https://gedcom.io/terms/v7/CREM	structure/standard/CREM.yaml
-https://gedcom.io/terms/v7/CROP	structure/standard/CROP.yaml
-https://gedcom.io/terms/v7/CTRY	structure/standard/CTRY.yaml
-https://gedcom.io/terms/v7/DATA	structure/standard/DATA.yaml
-https://gedcom.io/terms/v7/DATA-EVEN	structure/standard/DATA-EVEN.yaml
-https://gedcom.io/terms/v7/DATA-EVEN-DATE	structure/standard/DATA-EVEN-DATE.yaml
-https://gedcom.io/terms/v7/DATE	structure/standard/DATE.yaml
-https://gedcom.io/terms/v7/DATE-exact	structure/standard/DATE-exact.yaml
-https://gedcom.io/terms/v7/DEAT	structure/standard/DEAT.yaml
-https://gedcom.io/terms/v7/DESI	structure/standard/DESI.yaml
-https://gedcom.io/terms/v7/DEST	structure/standard/DEST.yaml
-https://gedcom.io/terms/v7/DIV	structure/standard/DIV.yaml
-https://gedcom.io/terms/v7/DIVF	structure/standard/DIVF.yaml
-https://gedcom.io/terms/v7/DSCR	structure/standard/DSCR.yaml
-https://gedcom.io/terms/v7/EDUC	structure/standard/EDUC.yaml
-https://gedcom.io/terms/v7/EMAIL	structure/standard/EMAIL.yaml
-https://gedcom.io/terms/v7/EMIG	structure/standard/EMIG.yaml
-https://gedcom.io/terms/v7/ENDL	structure/standard/ENDL.yaml
-https://gedcom.io/terms/v7/ENGA	structure/standard/ENGA.yaml
-https://gedcom.io/terms/v7/EXID	structure/standard/EXID.yaml
-https://gedcom.io/terms/v7/EXID-TYPE	structure/standard/EXID-TYPE.yaml
-https://gedcom.io/terms/v7/FAM-CENS	structure/standard/FAM-CENS.yaml
-https://gedcom.io/terms/v7/FAM-EVEN	structure/standard/FAM-EVEN.yaml
-https://gedcom.io/terms/v7/FAM-FACT	structure/standard/FAM-FACT.yaml
-https://gedcom.io/terms/v7/FAM-HUSB	structure/standard/FAM-HUSB.yaml
-https://gedcom.io/terms/v7/FAM-NCHI	structure/standard/FAM-NCHI.yaml
-https://gedcom.io/terms/v7/FAM-RESI	structure/standard/FAM-RESI.yaml
-https://gedcom.io/terms/v7/FAM-WIFE	structure/standard/FAM-WIFE.yaml
-https://gedcom.io/terms/v7/FAMC	structure/standard/FAMC.yaml
-https://gedcom.io/terms/v7/FAMC-ADOP	structure/standard/FAMC-ADOP.yaml
-https://gedcom.io/terms/v7/FAMC-STAT	structure/standard/FAMC-STAT.yaml
-https://gedcom.io/terms/v7/FAMS	structure/standard/FAMS.yaml
-https://gedcom.io/terms/v7/FAX	structure/standard/FAX.yaml
-https://gedcom.io/terms/v7/FCOM	structure/standard/FCOM.yaml
-https://gedcom.io/terms/v7/FILE	structure/standard/FILE.yaml
-https://gedcom.io/terms/v7/FILE-TRAN	structure/standard/FILE-TRAN.yaml
-https://gedcom.io/terms/v7/FORM	structure/standard/FORM.yaml
-https://gedcom.io/terms/v7/GEDC	structure/standard/GEDC.yaml
-https://gedcom.io/terms/v7/GEDC-VERS	structure/standard/GEDC-VERS.yaml
-https://gedcom.io/terms/v7/GIVN	structure/standard/GIVN.yaml
-https://gedcom.io/terms/v7/GRAD	structure/standard/GRAD.yaml
-https://gedcom.io/terms/v7/HEAD	structure/standard/HEAD.yaml
-https://gedcom.io/terms/v7/HEAD-DATE	structure/standard/HEAD-DATE.yaml
-https://gedcom.io/terms/v7/HEAD-LANG	structure/standard/HEAD-LANG.yaml
-https://gedcom.io/terms/v7/HEAD-PLAC	structure/standard/HEAD-PLAC.yaml
-https://gedcom.io/terms/v7/HEAD-PLAC-FORM	structure/standard/HEAD-PLAC-FORM.yaml
-https://gedcom.io/terms/v7/HEAD-SOUR	structure/standard/HEAD-SOUR.yaml
-https://gedcom.io/terms/v7/HEAD-SOUR-DATA	structure/standard/HEAD-SOUR-DATA.yaml
-https://gedcom.io/terms/v7/HEIGHT	structure/standard/HEIGHT.yaml
-https://gedcom.io/terms/v7/HUSB	structure/standard/HUSB.yaml
-https://gedcom.io/terms/v7/IDNO	structure/standard/IDNO.yaml
-https://gedcom.io/terms/v7/IMMI	structure/standard/IMMI.yaml
-https://gedcom.io/terms/v7/INDI-CENS	structure/standard/INDI-CENS.yaml
-https://gedcom.io/terms/v7/INDI-EVEN	structure/standard/INDI-EVEN.yaml
-https://gedcom.io/terms/v7/INDI-FACT	structure/standard/INDI-FACT.yaml
-https://gedcom.io/terms/v7/INDI-FAMC	structure/standard/INDI-FAMC.yaml
-https://gedcom.io/terms/v7/INDI-NAME	structure/standard/INDI-NAME.yaml
-https://gedcom.io/terms/v7/INDI-NCHI	structure/standard/INDI-NCHI.yaml
-https://gedcom.io/terms/v7/INDI-RELI	structure/standard/INDI-RELI.yaml
-https://gedcom.io/terms/v7/INDI-RESI	structure/standard/INDI-RESI.yaml
-https://gedcom.io/terms/v7/INDI-TITL	structure/standard/INDI-TITL.yaml
-https://gedcom.io/terms/v7/INIL	structure/standard/INIL.yaml
-https://gedcom.io/terms/v7/LANG	structure/standard/LANG.yaml
-https://gedcom.io/terms/v7/LATI	structure/standard/LATI.yaml
-https://gedcom.io/terms/v7/LEFT	structure/standard/LEFT.yaml
-https://gedcom.io/terms/v7/LONG	structure/standard/LONG.yaml
-https://gedcom.io/terms/v7/MAP	structure/standard/MAP.yaml
-https://gedcom.io/terms/v7/MARB	structure/standard/MARB.yaml
-https://gedcom.io/terms/v7/MARC	structure/standard/MARC.yaml
-https://gedcom.io/terms/v7/MARL	structure/standard/MARL.yaml
-https://gedcom.io/terms/v7/MARR	structure/standard/MARR.yaml
-https://gedcom.io/terms/v7/MARS	structure/standard/MARS.yaml
-https://gedcom.io/terms/v7/MEDI	structure/standard/MEDI.yaml
-https://gedcom.io/terms/v7/MIME	structure/standard/MIME.yaml
-https://gedcom.io/terms/v7/NAME	structure/standard/NAME.yaml
-https://gedcom.io/terms/v7/NAME-TRAN	structure/standard/NAME-TRAN.yaml
-https://gedcom.io/terms/v7/NAME-TYPE	structure/standard/NAME-TYPE.yaml
-https://gedcom.io/terms/v7/NATI	structure/standard/NATI.yaml
-https://gedcom.io/terms/v7/NATU	structure/standard/NATU.yaml
-https://gedcom.io/terms/v7/NICK	structure/standard/NICK.yaml
-https://gedcom.io/terms/v7/NMR	structure/standard/NMR.yaml
-https://gedcom.io/terms/v7/NO	structure/standard/NO.yaml
-https://gedcom.io/terms/v7/NO-DATE	structure/standard/NO-DATE.yaml
-https://gedcom.io/terms/v7/NOTE	structure/standard/NOTE.yaml
-https://gedcom.io/terms/v7/NOTE-TRAN	structure/standard/NOTE-TRAN.yaml
-https://gedcom.io/terms/v7/NPFX	structure/standard/NPFX.yaml
-https://gedcom.io/terms/v7/NSFX	structure/standard/NSFX.yaml
-https://gedcom.io/terms/v7/OBJE	structure/standard/OBJE.yaml
-https://gedcom.io/terms/v7/OCCU	structure/standard/OCCU.yaml
-https://gedcom.io/terms/v7/ORDN	structure/standard/ORDN.yaml
-https://gedcom.io/terms/v7/PAGE	structure/standard/PAGE.yaml
-https://gedcom.io/terms/v7/PEDI	structure/standard/PEDI.yaml
-https://gedcom.io/terms/v7/PHON	structure/standard/PHON.yaml
-https://gedcom.io/terms/v7/PHRASE	structure/standard/PHRASE.yaml
-https://gedcom.io/terms/v7/PLAC	structure/standard/PLAC.yaml
-https://gedcom.io/terms/v7/PLAC-FORM	structure/standard/PLAC-FORM.yaml
-https://gedcom.io/terms/v7/PLAC-TRAN	structure/standard/PLAC-TRAN.yaml
-https://gedcom.io/terms/v7/POST	structure/standard/POST.yaml
-https://gedcom.io/terms/v7/PROB	structure/standard/PROB.yaml
-https://gedcom.io/terms/v7/PROP	structure/standard/PROP.yaml
-https://gedcom.io/terms/v7/PUBL	structure/standard/PUBL.yaml
-https://gedcom.io/terms/v7/QUAY	structure/standard/QUAY.yaml
-https://gedcom.io/terms/v7/REFN	structure/standard/REFN.yaml
-https://gedcom.io/terms/v7/RELI	structure/standard/RELI.yaml
-https://gedcom.io/terms/v7/REPO	structure/standard/REPO.yaml
-https://gedcom.io/terms/v7/RESN	structure/standard/RESN.yaml
-https://gedcom.io/terms/v7/RETI	structure/standard/RETI.yaml
-https://gedcom.io/terms/v7/RFN	uri/exid-types/RFN.yaml
-https://gedcom.io/terms/v7/RIN	uri/exid-types/RIN.yaml
-https://gedcom.io/terms/v7/ROLE	structure/standard/ROLE.yaml
-https://gedcom.io/terms/v7/SCHMA	structure/standard/SCHMA.yaml
-https://gedcom.io/terms/v7/SDATE	structure/standard/SDATE.yaml
-https://gedcom.io/terms/v7/SEX	structure/standard/SEX.yaml
-https://gedcom.io/terms/v7/SLGC	structure/standard/SLGC.yaml
-https://gedcom.io/terms/v7/SLGS	structure/standard/SLGS.yaml
-https://gedcom.io/terms/v7/SNOTE	structure/standard/SNOTE.yaml
-https://gedcom.io/terms/v7/SOUR	structure/standard/SOUR.yaml
-https://gedcom.io/terms/v7/SOUR-DATA	structure/standard/SOUR-DATA.yaml
-https://gedcom.io/terms/v7/SOUR-EVEN	structure/standard/SOUR-EVEN.yaml
-https://gedcom.io/terms/v7/SPFX	structure/standard/SPFX.yaml
-https://gedcom.io/terms/v7/SSN	structure/standard/SSN.yaml
-https://gedcom.io/terms/v7/STAE	structure/standard/STAE.yaml
-https://gedcom.io/terms/v7/SUBM	structure/standard/SUBM.yaml
-https://gedcom.io/terms/v7/SUBM-LANG	structure/standard/SUBM-LANG.yaml
-https://gedcom.io/terms/v7/SURN	structure/standard/SURN.yaml
-https://gedcom.io/terms/v7/TAG	structure/standard/TAG.yaml
-https://gedcom.io/terms/v7/TEMP	structure/standard/TEMP.yaml
-https://gedcom.io/terms/v7/TEXT	structure/standard/TEXT.yaml
-https://gedcom.io/terms/v7/TIME	structure/standard/TIME.yaml
-https://gedcom.io/terms/v7/TITL	structure/standard/TITL.yaml
-https://gedcom.io/terms/v7/TOP	structure/standard/TOP.yaml
-https://gedcom.io/terms/v7/TRLR	structure/standard/TRLR.yaml
-https://gedcom.io/terms/v7/TYPE	structure/standard/TYPE.yaml
-https://gedcom.io/terms/v7/UID	structure/standard/UID.yaml
-https://gedcom.io/terms/v7/VERS	structure/standard/VERS.yaml
-https://gedcom.io/terms/v7/WIDTH	structure/standard/WIDTH.yaml
-https://gedcom.io/terms/v7/WIFE	structure/standard/WIFE.yaml
-https://gedcom.io/terms/v7/WILL	structure/standard/WILL.yaml
-https://gedcom.io/terms/v7/WWW	structure/standard/WWW.yaml
-https://gedcom.io/terms/v7/cal-FRENCH_R	calendar/standard/cal-FRENCH_R.yaml
-https://gedcom.io/terms/v7/cal-GREGORIAN	calendar/standard/cal-GREGORIAN.yaml
-https://gedcom.io/terms/v7/cal-HEBREW	calendar/standard/cal-HEBREW.yaml
-https://gedcom.io/terms/v7/cal-JULIAN	calendar/standard/cal-JULIAN.yaml
-https://gedcom.io/terms/v7/enum-0	enumeration/standard/enum-0.yaml
-https://gedcom.io/terms/v7/enum-1	enumeration/standard/enum-1.yaml
-https://gedcom.io/terms/v7/enum-2	enumeration/standard/enum-2.yaml
-https://gedcom.io/terms/v7/enum-3	enumeration/standard/enum-3.yaml
-https://gedcom.io/terms/v7/enum-ADOP-HUSB	enumeration/standard/enum-ADOP-HUSB.yaml
-https://gedcom.io/terms/v7/enum-ADOP-WIFE	enumeration/standard/enum-ADOP-WIFE.yaml
-https://gedcom.io/terms/v7/enum-ADOPTED	enumeration/standard/enum-ADOPTED.yaml
-https://gedcom.io/terms/v7/enum-AKA	enumeration/standard/enum-AKA.yaml
-https://gedcom.io/terms/v7/enum-AUDIO	enumeration/standard/enum-AUDIO.yaml
-https://gedcom.io/terms/v7/enum-BIC	enumeration/standard/enum-BIC.yaml
-https://gedcom.io/terms/v7/enum-BIRTH	enumeration/standard/enum-BIRTH.yaml
-https://gedcom.io/terms/v7/enum-BOOK	enumeration/standard/enum-BOOK.yaml
-https://gedcom.io/terms/v7/enum-BOTH	enumeration/standard/enum-BOTH.yaml
-https://gedcom.io/terms/v7/enum-CANCELED	enumeration/standard/enum-CANCELED.yaml
-https://gedcom.io/terms/v7/enum-CARD	enumeration/standard/enum-CARD.yaml
-https://gedcom.io/terms/v7/enum-CENS	enumeration/standard/enum-CENS.yaml
-https://gedcom.io/terms/v7/enum-CHALLENGED	enumeration/standard/enum-CHALLENGED.yaml
-https://gedcom.io/terms/v7/enum-CHIL	enumeration/standard/enum-CHIL.yaml
-https://gedcom.io/terms/v7/enum-CHILD	enumeration/standard/enum-CHILD.yaml
-https://gedcom.io/terms/v7/enum-CLERGY	enumeration/standard/enum-CLERGY.yaml
-https://gedcom.io/terms/v7/enum-COMPLETED	enumeration/standard/enum-COMPLETED.yaml
-https://gedcom.io/terms/v7/enum-CONFIDENTIAL	enumeration/standard/enum-CONFIDENTIAL.yaml
-https://gedcom.io/terms/v7/enum-DISPROVEN	enumeration/standard/enum-DISPROVEN.yaml
-https://gedcom.io/terms/v7/enum-DNS	enumeration/standard/enum-DNS.yaml
-https://gedcom.io/terms/v7/enum-DNS_CAN	enumeration/standard/enum-DNS_CAN.yaml
-https://gedcom.io/terms/v7/enum-ELECTRONIC	enumeration/standard/enum-ELECTRONIC.yaml
-https://gedcom.io/terms/v7/enum-EVEN	enumeration/standard/enum-EVEN.yaml
-https://gedcom.io/terms/v7/enum-EXCLUDED	enumeration/standard/enum-EXCLUDED.yaml
-https://gedcom.io/terms/v7/enum-F	enumeration/standard/enum-F.yaml
-https://gedcom.io/terms/v7/enum-FACT	enumeration/standard/enum-FACT.yaml
-https://gedcom.io/terms/v7/enum-FATH	enumeration/standard/enum-FATH.yaml
-https://gedcom.io/terms/v7/enum-FICHE	enumeration/standard/enum-FICHE.yaml
-https://gedcom.io/terms/v7/enum-FILM	enumeration/standard/enum-FILM.yaml
-https://gedcom.io/terms/v7/enum-FOSTER	enumeration/standard/enum-FOSTER.yaml
-https://gedcom.io/terms/v7/enum-FRIEND	enumeration/standard/enum-FRIEND.yaml
-https://gedcom.io/terms/v7/enum-GODP	enumeration/standard/enum-GODP.yaml
-https://gedcom.io/terms/v7/enum-HUSB	enumeration/standard/enum-HUSB.yaml
-https://gedcom.io/terms/v7/enum-IMMIGRANT	enumeration/standard/enum-IMMIGRANT.yaml
-https://gedcom.io/terms/v7/enum-INFANT	enumeration/standard/enum-INFANT.yaml
-https://gedcom.io/terms/v7/enum-LOCKED	enumeration/standard/enum-LOCKED.yaml
-https://gedcom.io/terms/v7/enum-M	enumeration/standard/enum-M.yaml
-https://gedcom.io/terms/v7/enum-MAGAZINE	enumeration/standard/enum-MAGAZINE.yaml
-https://gedcom.io/terms/v7/enum-MAIDEN	enumeration/standard/enum-MAIDEN.yaml
-https://gedcom.io/terms/v7/enum-MANUSCRIPT	enumeration/standard/enum-MANUSCRIPT.yaml
-https://gedcom.io/terms/v7/enum-MAP	enumeration/standard/enum-MAP.yaml
-https://gedcom.io/terms/v7/enum-MARRIED	enumeration/standard/enum-MARRIED.yaml
-https://gedcom.io/terms/v7/enum-MOTH	enumeration/standard/enum-MOTH.yaml
-https://gedcom.io/terms/v7/enum-MULTIPLE	enumeration/standard/enum-MULTIPLE.yaml
-https://gedcom.io/terms/v7/enum-NCHI	enumeration/standard/enum-NCHI.yaml
-https://gedcom.io/terms/v7/enum-NEWSPAPER	enumeration/standard/enum-NEWSPAPER.yaml
-https://gedcom.io/terms/v7/enum-NGHBR	enumeration/standard/enum-NGHBR.yaml
-https://gedcom.io/terms/v7/enum-OFFICIATOR	enumeration/standard/enum-OFFICIATOR.yaml
-https://gedcom.io/terms/v7/enum-OTHER	enumeration/standard/enum-OTHER.yaml
-https://gedcom.io/terms/v7/enum-PARENT	enumeration/standard/enum-PARENT.yaml
-https://gedcom.io/terms/v7/enum-PHOTO	enumeration/standard/enum-PHOTO.yaml
-https://gedcom.io/terms/v7/enum-PRE_1970	enumeration/standard/enum-PRE_1970.yaml
-https://gedcom.io/terms/v7/enum-PRIVACY	enumeration/standard/enum-PRIVACY.yaml
-https://gedcom.io/terms/v7/enum-PROFESSIONAL	enumeration/standard/enum-PROFESSIONAL.yaml
-https://gedcom.io/terms/v7/enum-PROVEN	enumeration/standard/enum-PROVEN.yaml
-https://gedcom.io/terms/v7/enum-RESI	enumeration/standard/enum-RESI.yaml
-https://gedcom.io/terms/v7/enum-SEALING	enumeration/standard/enum-SEALING.yaml
-https://gedcom.io/terms/v7/enum-SPOU	enumeration/standard/enum-SPOU.yaml
-https://gedcom.io/terms/v7/enum-STILLBORN	enumeration/standard/enum-STILLBORN.yaml
-https://gedcom.io/terms/v7/enum-SUBMITTED	enumeration/standard/enum-SUBMITTED.yaml
-https://gedcom.io/terms/v7/enum-TOMBSTONE	enumeration/standard/enum-TOMBSTONE.yaml
-https://gedcom.io/terms/v7/enum-U	enumeration/standard/enum-U.yaml
-https://gedcom.io/terms/v7/enum-UNCLEARED	enumeration/standard/enum-UNCLEARED.yaml
-https://gedcom.io/terms/v7/enum-VIDEO	enumeration/standard/enum-VIDEO.yaml
-https://gedcom.io/terms/v7/enum-WIFE	enumeration/standard/enum-WIFE.yaml
-https://gedcom.io/terms/v7/enum-WITN	enumeration/standard/enum-WITN.yaml
-https://gedcom.io/terms/v7/enum-X	enumeration/standard/enum-X.yaml
-https://gedcom.io/terms/v7/enumset-ADOP	enumeration-set/standard/enumset-ADOP.yaml
-https://gedcom.io/terms/v7/enumset-EVEN	enumeration-set/standard/enumset-EVEN.yaml
-https://gedcom.io/terms/v7/enumset-EVENATTR	enumeration-set/standard/enumset-EVENATTR.yaml
-https://gedcom.io/terms/v7/enumset-FAMC-STAT	enumeration-set/standard/enumset-FAMC-STAT.yaml
-https://gedcom.io/terms/v7/enumset-MEDI	enumeration-set/standard/enumset-MEDI.yaml
-https://gedcom.io/terms/v7/enumset-NAME-TYPE	enumeration-set/standard/enumset-NAME-TYPE.yaml
-https://gedcom.io/terms/v7/enumset-PEDI	enumeration-set/standard/enumset-PEDI.yaml
-https://gedcom.io/terms/v7/enumset-QUAY	enumeration-set/standard/enumset-QUAY.yaml
-https://gedcom.io/terms/v7/enumset-RESN	enumeration-set/standard/enumset-RESN.yaml
-https://gedcom.io/terms/v7/enumset-ROLE	enumeration-set/standard/enumset-ROLE.yaml
-https://gedcom.io/terms/v7/enumset-SEX	enumeration-set/standard/enumset-SEX.yaml
-https://gedcom.io/terms/v7/enumset-ord-STAT	enumeration-set/standard/enumset-ord-STAT.yaml
-https://gedcom.io/terms/v7/month-AAV	month/standard/month-AAV.yaml
-https://gedcom.io/terms/v7/month-ADR	month/standard/month-ADR.yaml
-https://gedcom.io/terms/v7/month-ADS	month/standard/month-ADS.yaml
-https://gedcom.io/terms/v7/month-APR	month/standard/month-APR.yaml
-https://gedcom.io/terms/v7/month-AUG	month/standard/month-AUG.yaml
-https://gedcom.io/terms/v7/month-BRUM	month/standard/month-BRUM.yaml
-https://gedcom.io/terms/v7/month-COMP	month/standard/month-COMP.yaml
-https://gedcom.io/terms/v7/month-CSH	month/standard/month-CSH.yaml
-https://gedcom.io/terms/v7/month-DEC	month/standard/month-DEC.yaml
-https://gedcom.io/terms/v7/month-ELL	month/standard/month-ELL.yaml
-https://gedcom.io/terms/v7/month-FEB	month/standard/month-FEB.yaml
-https://gedcom.io/terms/v7/month-FLOR	month/standard/month-FLOR.yaml
-https://gedcom.io/terms/v7/month-FRIM	month/standard/month-FRIM.yaml
-https://gedcom.io/terms/v7/month-FRUC	month/standard/month-FRUC.yaml
-https://gedcom.io/terms/v7/month-GERM	month/standard/month-GERM.yaml
-https://gedcom.io/terms/v7/month-IYR	month/standard/month-IYR.yaml
-https://gedcom.io/terms/v7/month-JAN	month/standard/month-JAN.yaml
-https://gedcom.io/terms/v7/month-JUL	month/standard/month-JUL.yaml
-https://gedcom.io/terms/v7/month-JUN	month/standard/month-JUN.yaml
-https://gedcom.io/terms/v7/month-KSL	month/standard/month-KSL.yaml
-https://gedcom.io/terms/v7/month-MAR	month/standard/month-MAR.yaml
-https://gedcom.io/terms/v7/month-MAY	month/standard/month-MAY.yaml
-https://gedcom.io/terms/v7/month-MESS	month/standard/month-MESS.yaml
-https://gedcom.io/terms/v7/month-NIVO	month/standard/month-NIVO.yaml
-https://gedcom.io/terms/v7/month-NOV	month/standard/month-NOV.yaml
-https://gedcom.io/terms/v7/month-NSN	month/standard/month-NSN.yaml
-https://gedcom.io/terms/v7/month-OCT	month/standard/month-OCT.yaml
-https://gedcom.io/terms/v7/month-PLUV	month/standard/month-PLUV.yaml
-https://gedcom.io/terms/v7/month-PRAI	month/standard/month-PRAI.yaml
-https://gedcom.io/terms/v7/month-SEP	month/standard/month-SEP.yaml
-https://gedcom.io/terms/v7/month-SHV	month/standard/month-SHV.yaml
-https://gedcom.io/terms/v7/month-SVN	month/standard/month-SVN.yaml
-https://gedcom.io/terms/v7/month-THER	month/standard/month-THER.yaml
-https://gedcom.io/terms/v7/month-TMZ	month/standard/month-TMZ.yaml
-https://gedcom.io/terms/v7/month-TSH	month/standard/month-TSH.yaml
-https://gedcom.io/terms/v7/month-TVT	month/standard/month-TVT.yaml
-https://gedcom.io/terms/v7/month-VEND	month/standard/month-VEND.yaml
-https://gedcom.io/terms/v7/month-VENT	month/standard/month-VENT.yaml
-https://gedcom.io/terms/v7/ord-STAT	structure/standard/ord-STAT.yaml
-https://gedcom.io/terms/v7/record-FAM	structure/standard/record-FAM.yaml
-https://gedcom.io/terms/v7/record-INDI	structure/standard/record-INDI.yaml
-https://gedcom.io/terms/v7/record-OBJE	structure/standard/record-OBJE.yaml
-https://gedcom.io/terms/v7/record-REPO	structure/standard/record-REPO.yaml
-https://gedcom.io/terms/v7/record-SNOTE	structure/standard/record-SNOTE.yaml
-https://gedcom.io/terms/v7/record-SOUR	structure/standard/record-SOUR.yaml
-https://gedcom.io/terms/v7/record-SUBM	structure/standard/record-SUBM.yaml
-https://gedcom.io/terms/v7/type-Age	data-type/standard/type-Age.yaml
-https://gedcom.io/terms/v7/type-Date	data-type/standard/type-Date.yaml
-https://gedcom.io/terms/v7/type-Enum	data-type/standard/type-Enum.yaml
-https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml
-https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml
-https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml
-https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml
-https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml
-https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml
-https://gov.genealogy.net/	uri/exid-types/GOV-ID.yaml
-https://www.billiongraves.com/cemetery/name/	uri/exid-types/BillionGraves-CemeteryId.yaml
-https://www.billiongraves.com/grave/name/	uri/exid-types/BillionGraves-GraveId.yaml
-https://www.findagrave.com/cemetery/	uri/exid-types/FindAGrave-CemeteryId.yaml
-https://www.findagrave.com/memorial/	uri/exid-types/FindAGrave-MemorialId.yaml
-https://www.wikitree.com/wiki/	uri/exid-types/WikiTree-PersonId.yaml
+https://gedcom.io/exid-type/FamilySearch-MemoryId	uri/exid-types/FamilySearch-MemoryId.yaml	en-US
+https://gedcom.io/exid-type/FamilySearch-PersonId	uri/exid-types/FamilySearch-PersonId.yaml	en-US
+https://gedcom.io/exid-type/FamilySearch-PlaceId	uri/exid-types/FamilySearch-PlaceId.yaml	en-US
+https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId	uri/exid-types/FamilySearch-SourceDescriptionId.yaml	en-US
+https://gedcom.io/exid-type/FamilySearch-UserId	uri/exid-types/FamilySearch-UserId.yaml	en-US
+https://gedcom.io/terms/v7/ABBR	structure/standard/ABBR.yaml	en-US
+https://gedcom.io/terms/v7/ADDR	structure/standard/ADDR.yaml	en-US
+https://gedcom.io/terms/v7/ADOP	structure/standard/ADOP.yaml	en-US
+https://gedcom.io/terms/v7/ADOP-FAMC	structure/standard/ADOP-FAMC.yaml	en-US
+https://gedcom.io/terms/v7/ADR1	structure/standard/ADR1.yaml	en-US
+https://gedcom.io/terms/v7/ADR2	structure/standard/ADR2.yaml	en-US
+https://gedcom.io/terms/v7/ADR3	structure/standard/ADR3.yaml	en-US
+https://gedcom.io/terms/v7/AFN	uri/exid-types/AFN.yaml	en-US
+https://gedcom.io/terms/v7/AGE	structure/standard/AGE.yaml	en-US
+https://gedcom.io/terms/v7/AGNC	structure/standard/AGNC.yaml	en-US
+https://gedcom.io/terms/v7/ALIA	structure/standard/ALIA.yaml	en-US
+https://gedcom.io/terms/v7/ANCI	structure/standard/ANCI.yaml	en-US
+https://gedcom.io/terms/v7/ANUL	structure/standard/ANUL.yaml	en-US
+https://gedcom.io/terms/v7/ASSO	structure/standard/ASSO.yaml	en-US
+https://gedcom.io/terms/v7/AUTH	structure/standard/AUTH.yaml	en-US
+https://gedcom.io/terms/v7/BAPL	structure/standard/BAPL.yaml	en-US
+https://gedcom.io/terms/v7/BAPM	structure/standard/BAPM.yaml	en-US
+https://gedcom.io/terms/v7/BARM	structure/standard/BARM.yaml	en-US
+https://gedcom.io/terms/v7/BASM	structure/standard/BASM.yaml	en-US
+https://gedcom.io/terms/v7/BIRT	structure/standard/BIRT.yaml	en-US
+https://gedcom.io/terms/v7/BLES	structure/standard/BLES.yaml	en-US
+https://gedcom.io/terms/v7/BURI	structure/standard/BURI.yaml	en-US
+https://gedcom.io/terms/v7/CALN	structure/standard/CALN.yaml	en-US
+https://gedcom.io/terms/v7/CAST	structure/standard/CAST.yaml	en-US
+https://gedcom.io/terms/v7/CAUS	structure/standard/CAUS.yaml	en-US
+https://gedcom.io/terms/v7/CHAN	structure/standard/CHAN.yaml	en-US
+https://gedcom.io/terms/v7/CHIL	structure/standard/CHIL.yaml	en-US
+https://gedcom.io/terms/v7/CHR	structure/standard/CHR.yaml	en-US
+https://gedcom.io/terms/v7/CHRA	structure/standard/CHRA.yaml	en-US
+https://gedcom.io/terms/v7/CITY	structure/standard/CITY.yaml	en-US
+https://gedcom.io/terms/v7/CONF	structure/standard/CONF.yaml	en-US
+https://gedcom.io/terms/v7/CONL	structure/standard/CONL.yaml	en-US
+https://gedcom.io/terms/v7/CONT	structure/standard/CONT.yaml	en-US
+https://gedcom.io/terms/v7/COPR	structure/standard/COPR.yaml	en-US
+https://gedcom.io/terms/v7/CORP	structure/standard/CORP.yaml	en-US
+https://gedcom.io/terms/v7/CREA	structure/standard/CREA.yaml	en-US
+https://gedcom.io/terms/v7/CREM	structure/standard/CREM.yaml	en-US
+https://gedcom.io/terms/v7/CROP	structure/standard/CROP.yaml	en-US
+https://gedcom.io/terms/v7/CTRY	structure/standard/CTRY.yaml	en-US
+https://gedcom.io/terms/v7/DATA	structure/standard/DATA.yaml	en-US
+https://gedcom.io/terms/v7/DATA-EVEN	structure/standard/DATA-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/DATA-EVEN-DATE	structure/standard/DATA-EVEN-DATE.yaml	en-US
+https://gedcom.io/terms/v7/DATE	structure/standard/DATE.yaml	en-US
+https://gedcom.io/terms/v7/DATE-exact	structure/standard/DATE-exact.yaml	en-US
+https://gedcom.io/terms/v7/DEAT	structure/standard/DEAT.yaml	en-US
+https://gedcom.io/terms/v7/DESI	structure/standard/DESI.yaml	en-US
+https://gedcom.io/terms/v7/DEST	structure/standard/DEST.yaml	en-US
+https://gedcom.io/terms/v7/DIV	structure/standard/DIV.yaml	en-US
+https://gedcom.io/terms/v7/DIVF	structure/standard/DIVF.yaml	en-US
+https://gedcom.io/terms/v7/DSCR	structure/standard/DSCR.yaml	en-US
+https://gedcom.io/terms/v7/EDUC	structure/standard/EDUC.yaml	en-US
+https://gedcom.io/terms/v7/EMAIL	structure/standard/EMAIL.yaml	en-US
+https://gedcom.io/terms/v7/EMIG	structure/standard/EMIG.yaml	en-US
+https://gedcom.io/terms/v7/ENDL	structure/standard/ENDL.yaml	en-US
+https://gedcom.io/terms/v7/ENGA	structure/standard/ENGA.yaml	en-US
+https://gedcom.io/terms/v7/EXID	structure/standard/EXID.yaml	en-US
+https://gedcom.io/terms/v7/EXID-TYPE	structure/standard/EXID-TYPE.yaml	en-US
+https://gedcom.io/terms/v7/FAM-CENS	structure/standard/FAM-CENS.yaml	en-US
+https://gedcom.io/terms/v7/FAM-EVEN	structure/standard/FAM-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/FAM-FACT	structure/standard/FAM-FACT.yaml	en-US
+https://gedcom.io/terms/v7/FAM-HUSB	structure/standard/FAM-HUSB.yaml	en-US
+https://gedcom.io/terms/v7/FAM-NCHI	structure/standard/FAM-NCHI.yaml	en-US
+https://gedcom.io/terms/v7/FAM-RESI	structure/standard/FAM-RESI.yaml	en-US
+https://gedcom.io/terms/v7/FAM-WIFE	structure/standard/FAM-WIFE.yaml	en-US
+https://gedcom.io/terms/v7/FAMC	structure/standard/FAMC.yaml	en-US
+https://gedcom.io/terms/v7/FAMC-ADOP	structure/standard/FAMC-ADOP.yaml	en-US
+https://gedcom.io/terms/v7/FAMC-STAT	structure/standard/FAMC-STAT.yaml	en-US
+https://gedcom.io/terms/v7/FAMS	structure/standard/FAMS.yaml	en-US
+https://gedcom.io/terms/v7/FAX	structure/standard/FAX.yaml	en-US
+https://gedcom.io/terms/v7/FCOM	structure/standard/FCOM.yaml	en-US
+https://gedcom.io/terms/v7/FILE	structure/standard/FILE.yaml	en-US
+https://gedcom.io/terms/v7/FILE-TRAN	structure/standard/FILE-TRAN.yaml	en-US
+https://gedcom.io/terms/v7/FORM	structure/standard/FORM.yaml	en-US
+https://gedcom.io/terms/v7/GEDC	structure/standard/GEDC.yaml	en-US
+https://gedcom.io/terms/v7/GEDC-VERS	structure/standard/GEDC-VERS.yaml	en-US
+https://gedcom.io/terms/v7/GIVN	structure/standard/GIVN.yaml	en-US
+https://gedcom.io/terms/v7/GRAD	structure/standard/GRAD.yaml	en-US
+https://gedcom.io/terms/v7/HEAD	structure/standard/HEAD.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-DATE	structure/standard/HEAD-DATE.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-LANG	structure/standard/HEAD-LANG.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-PLAC	structure/standard/HEAD-PLAC.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-PLAC-FORM	structure/standard/HEAD-PLAC-FORM.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-SOUR	structure/standard/HEAD-SOUR.yaml	en-US
+https://gedcom.io/terms/v7/HEAD-SOUR-DATA	structure/standard/HEAD-SOUR-DATA.yaml	en-US
+https://gedcom.io/terms/v7/HEIGHT	structure/standard/HEIGHT.yaml	en-US
+https://gedcom.io/terms/v7/HUSB	structure/standard/HUSB.yaml	en-US
+https://gedcom.io/terms/v7/IDNO	structure/standard/IDNO.yaml	en-US
+https://gedcom.io/terms/v7/IMMI	structure/standard/IMMI.yaml	en-US
+https://gedcom.io/terms/v7/INDI-CENS	structure/standard/INDI-CENS.yaml	en-US
+https://gedcom.io/terms/v7/INDI-EVEN	structure/standard/INDI-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/INDI-FACT	structure/standard/INDI-FACT.yaml	en-US
+https://gedcom.io/terms/v7/INDI-FAMC	structure/standard/INDI-FAMC.yaml	en-US
+https://gedcom.io/terms/v7/INDI-NAME	structure/standard/INDI-NAME.yaml	en-US
+https://gedcom.io/terms/v7/INDI-NCHI	structure/standard/INDI-NCHI.yaml	en-US
+https://gedcom.io/terms/v7/INDI-RELI	structure/standard/INDI-RELI.yaml	en-US
+https://gedcom.io/terms/v7/INDI-RESI	structure/standard/INDI-RESI.yaml	en-US
+https://gedcom.io/terms/v7/INDI-TITL	structure/standard/INDI-TITL.yaml	en-US
+https://gedcom.io/terms/v7/INIL	structure/standard/INIL.yaml	en-US
+https://gedcom.io/terms/v7/LANG	structure/standard/LANG.yaml	en-US
+https://gedcom.io/terms/v7/LATI	structure/standard/LATI.yaml	en-US
+https://gedcom.io/terms/v7/LEFT	structure/standard/LEFT.yaml	en-US
+https://gedcom.io/terms/v7/LONG	structure/standard/LONG.yaml	en-US
+https://gedcom.io/terms/v7/MAP	structure/standard/MAP.yaml	en-US
+https://gedcom.io/terms/v7/MARB	structure/standard/MARB.yaml	en-US
+https://gedcom.io/terms/v7/MARC	structure/standard/MARC.yaml	en-US
+https://gedcom.io/terms/v7/MARL	structure/standard/MARL.yaml	en-US
+https://gedcom.io/terms/v7/MARR	structure/standard/MARR.yaml	en-US
+https://gedcom.io/terms/v7/MARS	structure/standard/MARS.yaml	en-US
+https://gedcom.io/terms/v7/MEDI	structure/standard/MEDI.yaml	en-US
+https://gedcom.io/terms/v7/MIME	structure/standard/MIME.yaml	en-US
+https://gedcom.io/terms/v7/NAME	structure/standard/NAME.yaml	en-US
+https://gedcom.io/terms/v7/NAME-TRAN	structure/standard/NAME-TRAN.yaml	en-US
+https://gedcom.io/terms/v7/NAME-TYPE	structure/standard/NAME-TYPE.yaml	en-US
+https://gedcom.io/terms/v7/NATI	structure/standard/NATI.yaml	en-US
+https://gedcom.io/terms/v7/NATU	structure/standard/NATU.yaml	en-US
+https://gedcom.io/terms/v7/NICK	structure/standard/NICK.yaml	en-US
+https://gedcom.io/terms/v7/NMR	structure/standard/NMR.yaml	en-US
+https://gedcom.io/terms/v7/NO	structure/standard/NO.yaml	en-US
+https://gedcom.io/terms/v7/NO-DATE	structure/standard/NO-DATE.yaml	en-US
+https://gedcom.io/terms/v7/NOTE	structure/standard/NOTE.yaml	en-US
+https://gedcom.io/terms/v7/NOTE-TRAN	structure/standard/NOTE-TRAN.yaml	en-US
+https://gedcom.io/terms/v7/NPFX	structure/standard/NPFX.yaml	en-US
+https://gedcom.io/terms/v7/NSFX	structure/standard/NSFX.yaml	en-US
+https://gedcom.io/terms/v7/OBJE	structure/standard/OBJE.yaml	en-US
+https://gedcom.io/terms/v7/OCCU	structure/standard/OCCU.yaml	en-US
+https://gedcom.io/terms/v7/ORDN	structure/standard/ORDN.yaml	en-US
+https://gedcom.io/terms/v7/PAGE	structure/standard/PAGE.yaml	en-US
+https://gedcom.io/terms/v7/PEDI	structure/standard/PEDI.yaml	en-US
+https://gedcom.io/terms/v7/PHON	structure/standard/PHON.yaml	en-US
+https://gedcom.io/terms/v7/PHRASE	structure/standard/PHRASE.yaml	en-US
+https://gedcom.io/terms/v7/PLAC	structure/standard/PLAC.yaml	en-US
+https://gedcom.io/terms/v7/PLAC-FORM	structure/standard/PLAC-FORM.yaml	en-US
+https://gedcom.io/terms/v7/PLAC-TRAN	structure/standard/PLAC-TRAN.yaml	en-US
+https://gedcom.io/terms/v7/POST	structure/standard/POST.yaml	en-US
+https://gedcom.io/terms/v7/PROB	structure/standard/PROB.yaml	en-US
+https://gedcom.io/terms/v7/PROP	structure/standard/PROP.yaml	en-US
+https://gedcom.io/terms/v7/PUBL	structure/standard/PUBL.yaml	en-US
+https://gedcom.io/terms/v7/QUAY	structure/standard/QUAY.yaml	en-US
+https://gedcom.io/terms/v7/REFN	structure/standard/REFN.yaml	en-US
+https://gedcom.io/terms/v7/RELI	structure/standard/RELI.yaml	en-US
+https://gedcom.io/terms/v7/REPO	structure/standard/REPO.yaml	en-US
+https://gedcom.io/terms/v7/RESN	structure/standard/RESN.yaml	en-US
+https://gedcom.io/terms/v7/RETI	structure/standard/RETI.yaml	en-US
+https://gedcom.io/terms/v7/RFN	uri/exid-types/RFN.yaml	en-US
+https://gedcom.io/terms/v7/RIN	uri/exid-types/RIN.yaml	en-US
+https://gedcom.io/terms/v7/ROLE	structure/standard/ROLE.yaml	en-US
+https://gedcom.io/terms/v7/SCHMA	structure/standard/SCHMA.yaml	en-US
+https://gedcom.io/terms/v7/SDATE	structure/standard/SDATE.yaml	en-US
+https://gedcom.io/terms/v7/SEX	structure/standard/SEX.yaml	en-US
+https://gedcom.io/terms/v7/SLGC	structure/standard/SLGC.yaml	en-US
+https://gedcom.io/terms/v7/SLGS	structure/standard/SLGS.yaml	en-US
+https://gedcom.io/terms/v7/SNOTE	structure/standard/SNOTE.yaml	en-US
+https://gedcom.io/terms/v7/SOUR	structure/standard/SOUR.yaml	en-US
+https://gedcom.io/terms/v7/SOUR-DATA	structure/standard/SOUR-DATA.yaml	en-US
+https://gedcom.io/terms/v7/SOUR-EVEN	structure/standard/SOUR-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/SPFX	structure/standard/SPFX.yaml	en-US
+https://gedcom.io/terms/v7/SSN	structure/standard/SSN.yaml	en-US
+https://gedcom.io/terms/v7/STAE	structure/standard/STAE.yaml	en-US
+https://gedcom.io/terms/v7/SUBM	structure/standard/SUBM.yaml	en-US
+https://gedcom.io/terms/v7/SUBM-LANG	structure/standard/SUBM-LANG.yaml	en-US
+https://gedcom.io/terms/v7/SURN	structure/standard/SURN.yaml	en-US
+https://gedcom.io/terms/v7/TAG	structure/standard/TAG.yaml	en-US
+https://gedcom.io/terms/v7/TEMP	structure/standard/TEMP.yaml	en-US
+https://gedcom.io/terms/v7/TEXT	structure/standard/TEXT.yaml	en-US
+https://gedcom.io/terms/v7/TIME	structure/standard/TIME.yaml	en-US
+https://gedcom.io/terms/v7/TITL	structure/standard/TITL.yaml	en-US
+https://gedcom.io/terms/v7/TOP	structure/standard/TOP.yaml	en-US
+https://gedcom.io/terms/v7/TRLR	structure/standard/TRLR.yaml	en-US
+https://gedcom.io/terms/v7/TYPE	structure/standard/TYPE.yaml	en-US
+https://gedcom.io/terms/v7/UID	structure/standard/UID.yaml	en-US
+https://gedcom.io/terms/v7/VERS	structure/standard/VERS.yaml	en-US
+https://gedcom.io/terms/v7/WIDTH	structure/standard/WIDTH.yaml	en-US
+https://gedcom.io/terms/v7/WIFE	structure/standard/WIFE.yaml	en-US
+https://gedcom.io/terms/v7/WILL	structure/standard/WILL.yaml	en-US
+https://gedcom.io/terms/v7/WWW	structure/standard/WWW.yaml	en-US
+https://gedcom.io/terms/v7/cal-FRENCH_R	calendar/standard/cal-FRENCH_R.yaml	en-US
+https://gedcom.io/terms/v7/cal-GREGORIAN	calendar/standard/cal-GREGORIAN.yaml	en-US
+https://gedcom.io/terms/v7/cal-HEBREW	calendar/standard/cal-HEBREW.yaml	en-US
+https://gedcom.io/terms/v7/cal-JULIAN	calendar/standard/cal-JULIAN.yaml	en-US
+https://gedcom.io/terms/v7/enum-0	enumeration/standard/enum-0.yaml	en-US
+https://gedcom.io/terms/v7/enum-1	enumeration/standard/enum-1.yaml	en-US
+https://gedcom.io/terms/v7/enum-2	enumeration/standard/enum-2.yaml	en-US
+https://gedcom.io/terms/v7/enum-3	enumeration/standard/enum-3.yaml	en-US
+https://gedcom.io/terms/v7/enum-ADOP-HUSB	enumeration/standard/enum-ADOP-HUSB.yaml	en-US
+https://gedcom.io/terms/v7/enum-ADOP-WIFE	enumeration/standard/enum-ADOP-WIFE.yaml	en-US
+https://gedcom.io/terms/v7/enum-ADOPTED	enumeration/standard/enum-ADOPTED.yaml	en-US
+https://gedcom.io/terms/v7/enum-AKA	enumeration/standard/enum-AKA.yaml	en-US
+https://gedcom.io/terms/v7/enum-AUDIO	enumeration/standard/enum-AUDIO.yaml	en-US
+https://gedcom.io/terms/v7/enum-BIC	enumeration/standard/enum-BIC.yaml	en-US
+https://gedcom.io/terms/v7/enum-BIRTH	enumeration/standard/enum-BIRTH.yaml	en-US
+https://gedcom.io/terms/v7/enum-BOOK	enumeration/standard/enum-BOOK.yaml	en-US
+https://gedcom.io/terms/v7/enum-BOTH	enumeration/standard/enum-BOTH.yaml	en-US
+https://gedcom.io/terms/v7/enum-CANCELED	enumeration/standard/enum-CANCELED.yaml	en-US
+https://gedcom.io/terms/v7/enum-CARD	enumeration/standard/enum-CARD.yaml	en-US
+https://gedcom.io/terms/v7/enum-CENS	enumeration/standard/enum-CENS.yaml	en-US
+https://gedcom.io/terms/v7/enum-CHALLENGED	enumeration/standard/enum-CHALLENGED.yaml	en-US
+https://gedcom.io/terms/v7/enum-CHIL	enumeration/standard/enum-CHIL.yaml	en-US
+https://gedcom.io/terms/v7/enum-CHILD	enumeration/standard/enum-CHILD.yaml	en-US
+https://gedcom.io/terms/v7/enum-CLERGY	enumeration/standard/enum-CLERGY.yaml	en-US
+https://gedcom.io/terms/v7/enum-COMPLETED	enumeration/standard/enum-COMPLETED.yaml	en-US
+https://gedcom.io/terms/v7/enum-CONFIDENTIAL	enumeration/standard/enum-CONFIDENTIAL.yaml	en-US
+https://gedcom.io/terms/v7/enum-DISPROVEN	enumeration/standard/enum-DISPROVEN.yaml	en-US
+https://gedcom.io/terms/v7/enum-DNS	enumeration/standard/enum-DNS.yaml	en-US
+https://gedcom.io/terms/v7/enum-DNS_CAN	enumeration/standard/enum-DNS_CAN.yaml	en-US
+https://gedcom.io/terms/v7/enum-ELECTRONIC	enumeration/standard/enum-ELECTRONIC.yaml	en-US
+https://gedcom.io/terms/v7/enum-EVEN	enumeration/standard/enum-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/enum-EXCLUDED	enumeration/standard/enum-EXCLUDED.yaml	en-US
+https://gedcom.io/terms/v7/enum-F	enumeration/standard/enum-F.yaml	en-US
+https://gedcom.io/terms/v7/enum-FACT	enumeration/standard/enum-FACT.yaml	en-US
+https://gedcom.io/terms/v7/enum-FATH	enumeration/standard/enum-FATH.yaml	en-US
+https://gedcom.io/terms/v7/enum-FICHE	enumeration/standard/enum-FICHE.yaml	en-US
+https://gedcom.io/terms/v7/enum-FILM	enumeration/standard/enum-FILM.yaml	en-US
+https://gedcom.io/terms/v7/enum-FOSTER	enumeration/standard/enum-FOSTER.yaml	en-US
+https://gedcom.io/terms/v7/enum-FRIEND	enumeration/standard/enum-FRIEND.yaml	en-US
+https://gedcom.io/terms/v7/enum-GODP	enumeration/standard/enum-GODP.yaml	en-US
+https://gedcom.io/terms/v7/enum-HUSB	enumeration/standard/enum-HUSB.yaml	en-US
+https://gedcom.io/terms/v7/enum-IMMIGRANT	enumeration/standard/enum-IMMIGRANT.yaml	en-US
+https://gedcom.io/terms/v7/enum-INFANT	enumeration/standard/enum-INFANT.yaml	en-US
+https://gedcom.io/terms/v7/enum-LOCKED	enumeration/standard/enum-LOCKED.yaml	en-US
+https://gedcom.io/terms/v7/enum-M	enumeration/standard/enum-M.yaml	en-US
+https://gedcom.io/terms/v7/enum-MAGAZINE	enumeration/standard/enum-MAGAZINE.yaml	en-US
+https://gedcom.io/terms/v7/enum-MAIDEN	enumeration/standard/enum-MAIDEN.yaml	en-US
+https://gedcom.io/terms/v7/enum-MANUSCRIPT	enumeration/standard/enum-MANUSCRIPT.yaml	en-US
+https://gedcom.io/terms/v7/enum-MAP	enumeration/standard/enum-MAP.yaml	en-US
+https://gedcom.io/terms/v7/enum-MARRIED	enumeration/standard/enum-MARRIED.yaml	en-US
+https://gedcom.io/terms/v7/enum-MOTH	enumeration/standard/enum-MOTH.yaml	en-US
+https://gedcom.io/terms/v7/enum-MULTIPLE	enumeration/standard/enum-MULTIPLE.yaml	en-US
+https://gedcom.io/terms/v7/enum-NCHI	enumeration/standard/enum-NCHI.yaml	en-US
+https://gedcom.io/terms/v7/enum-NEWSPAPER	enumeration/standard/enum-NEWSPAPER.yaml	en-US
+https://gedcom.io/terms/v7/enum-NGHBR	enumeration/standard/enum-NGHBR.yaml	en-US
+https://gedcom.io/terms/v7/enum-OFFICIATOR	enumeration/standard/enum-OFFICIATOR.yaml	en-US
+https://gedcom.io/terms/v7/enum-OTHER	enumeration/standard/enum-OTHER.yaml	en-US
+https://gedcom.io/terms/v7/enum-PARENT	enumeration/standard/enum-PARENT.yaml	en-US
+https://gedcom.io/terms/v7/enum-PHOTO	enumeration/standard/enum-PHOTO.yaml	en-US
+https://gedcom.io/terms/v7/enum-PRE_1970	enumeration/standard/enum-PRE_1970.yaml	en-US
+https://gedcom.io/terms/v7/enum-PRIVACY	enumeration/standard/enum-PRIVACY.yaml	en-US
+https://gedcom.io/terms/v7/enum-PROFESSIONAL	enumeration/standard/enum-PROFESSIONAL.yaml	en-US
+https://gedcom.io/terms/v7/enum-PROVEN	enumeration/standard/enum-PROVEN.yaml	en-US
+https://gedcom.io/terms/v7/enum-RESI	enumeration/standard/enum-RESI.yaml	en-US
+https://gedcom.io/terms/v7/enum-SEALING	enumeration/standard/enum-SEALING.yaml	en-US
+https://gedcom.io/terms/v7/enum-SPOU	enumeration/standard/enum-SPOU.yaml	en-US
+https://gedcom.io/terms/v7/enum-STILLBORN	enumeration/standard/enum-STILLBORN.yaml	en-US
+https://gedcom.io/terms/v7/enum-SUBMITTED	enumeration/standard/enum-SUBMITTED.yaml	en-US
+https://gedcom.io/terms/v7/enum-TOMBSTONE	enumeration/standard/enum-TOMBSTONE.yaml	en-US
+https://gedcom.io/terms/v7/enum-U	enumeration/standard/enum-U.yaml	en-US
+https://gedcom.io/terms/v7/enum-UNCLEARED	enumeration/standard/enum-UNCLEARED.yaml	en-US
+https://gedcom.io/terms/v7/enum-VIDEO	enumeration/standard/enum-VIDEO.yaml	en-US
+https://gedcom.io/terms/v7/enum-WIFE	enumeration/standard/enum-WIFE.yaml	en-US
+https://gedcom.io/terms/v7/enum-WITN	enumeration/standard/enum-WITN.yaml	en-US
+https://gedcom.io/terms/v7/enum-X	enumeration/standard/enum-X.yaml	en-US
+https://gedcom.io/terms/v7/enumset-ADOP	enumeration-set/standard/enumset-ADOP.yaml	en-US
+https://gedcom.io/terms/v7/enumset-EVEN	enumeration-set/standard/enumset-EVEN.yaml	en-US
+https://gedcom.io/terms/v7/enumset-EVENATTR	enumeration-set/standard/enumset-EVENATTR.yaml	en-US
+https://gedcom.io/terms/v7/enumset-FAMC-STAT	enumeration-set/standard/enumset-FAMC-STAT.yaml	en-US
+https://gedcom.io/terms/v7/enumset-MEDI	enumeration-set/standard/enumset-MEDI.yaml	en-US
+https://gedcom.io/terms/v7/enumset-NAME-TYPE	enumeration-set/standard/enumset-NAME-TYPE.yaml	en-US
+https://gedcom.io/terms/v7/enumset-PEDI	enumeration-set/standard/enumset-PEDI.yaml	en-US
+https://gedcom.io/terms/v7/enumset-QUAY	enumeration-set/standard/enumset-QUAY.yaml	en-US
+https://gedcom.io/terms/v7/enumset-RESN	enumeration-set/standard/enumset-RESN.yaml	en-US
+https://gedcom.io/terms/v7/enumset-ROLE	enumeration-set/standard/enumset-ROLE.yaml	en-US
+https://gedcom.io/terms/v7/enumset-SEX	enumeration-set/standard/enumset-SEX.yaml	en-US
+https://gedcom.io/terms/v7/enumset-ord-STAT	enumeration-set/standard/enumset-ord-STAT.yaml	en-US
+https://gedcom.io/terms/v7/month-AAV	month/standard/month-AAV.yaml	en-US
+https://gedcom.io/terms/v7/month-ADR	month/standard/month-ADR.yaml	en-US
+https://gedcom.io/terms/v7/month-ADS	month/standard/month-ADS.yaml	en-US
+https://gedcom.io/terms/v7/month-APR	month/standard/month-APR.yaml	en-US
+https://gedcom.io/terms/v7/month-AUG	month/standard/month-AUG.yaml	en-US
+https://gedcom.io/terms/v7/month-BRUM	month/standard/month-BRUM.yaml	en-US
+https://gedcom.io/terms/v7/month-COMP	month/standard/month-COMP.yaml	en-US
+https://gedcom.io/terms/v7/month-CSH	month/standard/month-CSH.yaml	en-US
+https://gedcom.io/terms/v7/month-DEC	month/standard/month-DEC.yaml	en-US
+https://gedcom.io/terms/v7/month-ELL	month/standard/month-ELL.yaml	en-US
+https://gedcom.io/terms/v7/month-FEB	month/standard/month-FEB.yaml	en-US
+https://gedcom.io/terms/v7/month-FLOR	month/standard/month-FLOR.yaml	en-US
+https://gedcom.io/terms/v7/month-FRIM	month/standard/month-FRIM.yaml	en-US
+https://gedcom.io/terms/v7/month-FRUC	month/standard/month-FRUC.yaml	en-US
+https://gedcom.io/terms/v7/month-GERM	month/standard/month-GERM.yaml	en-US
+https://gedcom.io/terms/v7/month-IYR	month/standard/month-IYR.yaml	en-US
+https://gedcom.io/terms/v7/month-JAN	month/standard/month-JAN.yaml	en-US
+https://gedcom.io/terms/v7/month-JUL	month/standard/month-JUL.yaml	en-US
+https://gedcom.io/terms/v7/month-JUN	month/standard/month-JUN.yaml	en-US
+https://gedcom.io/terms/v7/month-KSL	month/standard/month-KSL.yaml	en-US
+https://gedcom.io/terms/v7/month-MAR	month/standard/month-MAR.yaml	en-US
+https://gedcom.io/terms/v7/month-MAY	month/standard/month-MAY.yaml	en-US
+https://gedcom.io/terms/v7/month-MESS	month/standard/month-MESS.yaml	en-US
+https://gedcom.io/terms/v7/month-NIVO	month/standard/month-NIVO.yaml	en-US
+https://gedcom.io/terms/v7/month-NOV	month/standard/month-NOV.yaml	en-US
+https://gedcom.io/terms/v7/month-NSN	month/standard/month-NSN.yaml	en-US
+https://gedcom.io/terms/v7/month-OCT	month/standard/month-OCT.yaml	en-US
+https://gedcom.io/terms/v7/month-PLUV	month/standard/month-PLUV.yaml	en-US
+https://gedcom.io/terms/v7/month-PRAI	month/standard/month-PRAI.yaml	en-US
+https://gedcom.io/terms/v7/month-SEP	month/standard/month-SEP.yaml	en-US
+https://gedcom.io/terms/v7/month-SHV	month/standard/month-SHV.yaml	en-US
+https://gedcom.io/terms/v7/month-SVN	month/standard/month-SVN.yaml	en-US
+https://gedcom.io/terms/v7/month-THER	month/standard/month-THER.yaml	en-US
+https://gedcom.io/terms/v7/month-TMZ	month/standard/month-TMZ.yaml	en-US
+https://gedcom.io/terms/v7/month-TSH	month/standard/month-TSH.yaml	en-US
+https://gedcom.io/terms/v7/month-TVT	month/standard/month-TVT.yaml	en-US
+https://gedcom.io/terms/v7/month-VEND	month/standard/month-VEND.yaml	en-US
+https://gedcom.io/terms/v7/month-VENT	month/standard/month-VENT.yaml	en-US
+https://gedcom.io/terms/v7/ord-STAT	structure/standard/ord-STAT.yaml	en-US
+https://gedcom.io/terms/v7/record-FAM	structure/standard/record-FAM.yaml	en-US
+https://gedcom.io/terms/v7/record-INDI	structure/standard/record-INDI.yaml	en-US
+https://gedcom.io/terms/v7/record-OBJE	structure/standard/record-OBJE.yaml	en-US
+https://gedcom.io/terms/v7/record-REPO	structure/standard/record-REPO.yaml	en-US
+https://gedcom.io/terms/v7/record-SNOTE	structure/standard/record-SNOTE.yaml	en-US
+https://gedcom.io/terms/v7/record-SOUR	structure/standard/record-SOUR.yaml	en-US
+https://gedcom.io/terms/v7/record-SUBM	structure/standard/record-SUBM.yaml	en-US
+https://gedcom.io/terms/v7/type-Age	data-type/standard/type-Age.yaml	en-US
+https://gedcom.io/terms/v7/type-Date	data-type/standard/type-Date.yaml	en-US
+https://gedcom.io/terms/v7/type-Enum	data-type/standard/type-Enum.yaml	en-US
+https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml	en-US
+https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml	en-US
+https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml	en-US
+https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml	en-US
+https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml	en-US
+https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml	en-US
+https://gov.genealogy.net/	uri/exid-types/GOV-ID.yaml	en-US
+https://www.billiongraves.com/cemetery/name/	uri/exid-types/BillionGraves-CemeteryId.yaml	en-US
+https://www.billiongraves.com/grave/name/	uri/exid-types/BillionGraves-GraveId.yaml	en-US
+https://www.findagrave.com/cemetery/	uri/exid-types/FindAGrave-CemeteryId.yaml	en-US
+https://www.findagrave.com/memorial/	uri/exid-types/FindAGrave-MemorialId.yaml	en-US
+https://www.wikitree.com/wiki/	uri/exid-types/WikiTree-PersonId.yaml	en-US
