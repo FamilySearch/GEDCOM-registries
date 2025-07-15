@@ -25,8 +25,11 @@ for kind in os.scandir(root):
     if kind.is_dir() and '_' not in kind.name and kind.name[0] != '.':
         for p,t,fs in os.walk(os.path.join(root, kind.name)):
             for f in fs:
-                doc = yaml.safe_load(open(os.path.join(p,f)))
-                registry_path.append([doc['uri'], os.path.join(kind.name,os.path.split(p)[-1],f)])
+                doc = yaml.safe_load(open(os.path.join(p, f)))
+                if isinstance(doc, dict) and 'uri' in doc:
+                    registry_path.append([doc['uri'], os.path.join(kind.name, os.path.split(p)[-1], f), "en-US"])
+                else:
+                    print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
 
 for p,t,fs in os.walk(os.path.join(root, 'structure')):
     for f in fs:
