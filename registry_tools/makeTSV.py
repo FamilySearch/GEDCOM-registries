@@ -9,7 +9,9 @@ enumerations, enumerations_header = [], 'structure set'.split()
 enumerationsets, enumerationsets_header = set(), 'set value'.split()
 payloads, payloads_header = [], 'structure payload'.split()
 substructures, substructures_header = set(), 'superstructure tag structure'.split()
-registry_path, registry_path_header = [], 'uri yaml_path'.split()
+registry_path, registry_path_header = [], 'uri yaml_path language'.split()
+manifest70, manifest70_header = [], 'yaml_path'.split()
+extensions, extensions_header = [], 'tag yaml_path language'.split()
 
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -27,7 +29,13 @@ for kind in os.scandir(root):
             for f in fs:
                 doc = yaml.safe_load(open(os.path.join(p, f)))
                 if isinstance(doc, dict) and 'uri' in doc:
-                    registry_path.append([doc['uri'], os.path.join(kind.name, os.path.split(p)[-1], f), "en-US"])
+                    lang = doc['lang']
+                    registry_path.append([doc['uri'], os.path.join(kind.name, os.path.split(p)[-1], f), lang])
+                    if 'extension tags' in doc:
+                        for e in doc['extension tags']:
+                            extensions.append([e, os.path.join(kind.name, os.path.split(p)[-1], f), lang])
+                    else:
+                        manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
                     print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
 
@@ -65,3 +73,13 @@ for name in ('substructures','payloads','cardinalities','enumerations','enumerat
         w = csv.writer(dst, dialect=csv.excel_tab)
         w.writerow(locals()[name+'_header'])
         w.writerows(sorted(locals()[name]))
+
+with open(os.path.join(root,'generated_files','manifest-7.0-en-US.tsv'), 'w') as dst:
+    w = csv.writer(dst, dialect=csv.excel_tab)
+    w.writerow(locals()['manifest70_header'])
+    w.writerows(sorted(locals()['manifest70']))
+
+with open(os.path.join(root,'generated_files','manifest-extensions-en-US.tsv'), 'w') as dst:
+    w = csv.writer(dst, dialect=csv.excel_tab)
+    w.writerow(locals()['extensions_header'])
+    w.writerows(sorted(locals()['extensions']))
