@@ -29,6 +29,8 @@ To propose a new entry or change to an existing entry,
 
 If the change is to a `standard` term, the change needs to be made to the specification itself instead; changes to `standard` terms here will be overwritten on the next patch release of the FamilySearch GEDCOM spec.
 
+When YAML files reference one another, either directly  by URI (for example, an enumeration set referencing is enumerated values) or indirectly (for example, a `translated from` field suggesting the existance of anther YAML file for the same URI), any files that are not already in the registry should be submitted together.
+
 If you are unsure if your proposed change is appropriate or are uncomfortable directly editing YAML files and making pull requests, submit an [issue](https://github.com/FamilySearch/GEDCOM-registries/issues) instead.
 
 If you have questions or suggestions about this repository or its contents, please direct those to the main [GEDCOM Discussions page](https://github.com/FamilySearch/GEDCOM/discussions).
