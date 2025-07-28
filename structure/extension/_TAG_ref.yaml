@@ -4,9 +4,11 @@ lang: en-US
 
 type: structure
 
-uri: https://gedcom.io/terms/v7/_TAG
+uri: https://github.com/glamberson/gedcom-tags/_TAG
 
 standard tag: _TAG
+
+extension tags: _TAG
 
 specification:
   - Tag Reference
@@ -42,5 +44,5 @@ superstructures:
   "https://gedcom.io/terms/v7/NAME": "{0:M}"
   "https://gedcom.io/terms/v7/ASSO": "{0:M}"
 
-contact: "glamberson@gmail.com"
+contact: "lamberson@yahoo.com"
 ...

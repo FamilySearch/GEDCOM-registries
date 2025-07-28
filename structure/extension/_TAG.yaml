@@ -4,9 +4,11 @@ lang: en-US
 
 type: record
 
-uri: https://gedcom.io/terms/v7/_TAG
+uri: https://github.com/glamberson/gedcom-tags/_TAG
 
 standard tag: _TAG
+
+extension tags: _TAG
 
 specification:
   - Tag Record
@@ -25,13 +27,13 @@ payload: null
 
 substructures:
   "https://gedcom.io/terms/v7/NAME": "{1:1}"
-  "https://gedcom.io/terms/v7/_COLOR": "{0:1}"
-  "https://gedcom.io/terms/v7/_ATTR": "{0:M}"
+  "https://github.com/glamberson/gedcom-tags/_COLOR": "{0:1}"
+  "https://github.com/glamberson/gedcom-tags/_ATTR": "{0:M}"
   "https://gedcom.io/terms/v7/NOTE": "{0:M}"
   "https://gedcom.io/terms/v7/SNOTE": "{0:M}"
   "https://gedcom.io/terms/v7/CHAN": "{0:1}"
 
 superstructures: {}
 
-contact: "glamberson@gmail.com"
+contact: "lamberson@yahoo.com"
 ...

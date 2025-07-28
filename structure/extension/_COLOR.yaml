@@ -4,9 +4,11 @@ lang: en-US
 
 type: structure
 
-uri: https://gedcom.io/terms/v7/_COLOR
+uri: https://github.com/glamberson/gedcom-tags/_COLOR
 
 standard tag: _COLOR
+
+extension tags: _COLOR
 
 specification:
   - Color
@@ -25,7 +27,7 @@ payload: http://www.w3.org/2001/XMLSchema#string
 substructures: {}
 
 superstructures:
-  "https://gedcom.io/terms/v7/_TAG": "{0:1}"
+  "https://github.com/glamberson/gedcom-tags/_TAG": "{0:1}"
 
-contact: "glamberson@gmail.com"
+contact: "lamberson@yahoo.com"
 ...
