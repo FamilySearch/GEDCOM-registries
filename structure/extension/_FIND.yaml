@@ -8,16 +8,10 @@ payload: null
 specification:
 - Evidence Finding
 - 'A specific finding or fact extracted from evidence. _FIND structures
-
   represent individual pieces of information found in sources, such as
-
   names, dates, places, ages, relationships, or occupations.
-
-
   Findings preserve the exact information as it appears in the source,
-
   including original spelling, formatting, and context, allowing researchers
-
   to maintain data fidelity throughout the research process.'
 substructures:
   https://gedcom.io/terms/v7/AGE: '{0:1}'

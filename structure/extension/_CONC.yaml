@@ -8,16 +8,10 @@ payload: '@<https://github.com/glamberson/gedcom-evidence/_EVID>@'
 specification:
 - Evidence Conclusion
 - 'A reference from an individual or family to evidence that supports
-
   conclusions about that person or family. This creates the reverse
-
   link from conclusions to supporting evidence.
-
-
   _CONC structures allow individuals and families to document which
-
   evidence supports their existence and characteristics, completing
-
   the bidirectional relationship between evidence and conclusions.'
 substructures:
   https://gedcom.io/terms/v7/NOTE: '{0:M}'

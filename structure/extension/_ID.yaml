@@ -8,14 +8,9 @@ payload: '@<https://gedcom.io/terms/v7/record-INDI>@ | @<https://gedcom.io/terms
 specification:
 - Evidence Identifier
 - 'An identifier reference from evidence to an individual, family, or other
-
   record. This creates a bidirectional link between evidence and conclusions,
-
   allowing evidence to be associated with multiple potential individuals.
-
-
   The _ID structure supports gradual refinement of identity as research
-
   progresses, with confidence levels and research documentation.'
 substructures:
   https://gedcom.io/terms/v7/NOTE: '{0:M}'
