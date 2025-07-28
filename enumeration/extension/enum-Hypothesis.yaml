@@ -1,11 +1,19 @@
+%YAML 1.2
+---
 lang: en-US
+
 type: enumeration
+
 uri: https://github.com/glamberson/gedcom-evidence/enum-Hypothesis
-extension tags:
-- _HYPOTHESIS
+
+extension tags: _HYPOTHESIS
+
 specification:
-- Hypothesis
-- Speculative connection requiring further research
+  - Hypothesis
+  - Speculative connection requiring further research
+
 value of:
-- https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+  - https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+
 contact: https://github.com/glamberson/gedcom-evidence
+...

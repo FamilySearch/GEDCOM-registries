@@ -1,11 +1,19 @@
+%YAML 1.2
+---
 lang: en-US
+
 type: enumeration
+
 uri: https://github.com/glamberson/gedcom-occurrences/enum-Present
-extension tags:
-- _PRESENT
+
+extension tags: _PRESENT
+
 specification:
-- Present
-- Person was physically present at the occurrence
+  - Present
+  - Person was physically present at the occurrence
+
 value of:
-- https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+  - https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+
 contact: https://github.com/glamberson/gedcom-occurrences
+...

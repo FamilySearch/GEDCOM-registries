@@ -1,11 +1,19 @@
+%YAML 1.2
+---
 lang: en-US
+
 type: enumeration
+
 uri: https://github.com/glamberson/gedcom-evidence/enum-Medium
-extension tags:
-- _MEDIUM
+
+extension tags: _MEDIUM
+
 specification:
-- Medium Confidence
-- Moderate confidence, some uncertainty remains
+  - Medium Confidence
+  - Moderate confidence, some uncertainty remains
+
 value of:
-- https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+  - https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+
 contact: https://github.com/glamberson/gedcom-evidence
+...
