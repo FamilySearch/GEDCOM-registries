@@ -1,3 +1,3 @@
-tag	yaml_path	language
-_DATE	structure/extension/_DATE.yaml	en-US
-_SOUR	structure/extension/_SOUR.yaml	en-US
+tag	used_by	language	yaml_path
+_DATE	-	en-US	structure/extension/_DATE.yaml
+_SOUR	-	en-US	structure/extension/_SOUR.yaml

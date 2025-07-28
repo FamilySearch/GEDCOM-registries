@@ -11,7 +11,7 @@ payloads, payloads_header = [], 'structure payload'.split()
 substructures, substructures_header = set(), 'superstructure tag structure'.split()
 registry_path, registry_path_header = [], 'uri yaml_path language'.split()
 manifest70, manifest70_header = [], 'yaml_path'.split()
-extensions, extensions_header = [], 'tag yaml_path language'.split()
+extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
 
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -33,7 +33,11 @@ for kind in os.scandir(root):
                     registry_path.append([doc['uri'], os.path.join(kind.name, os.path.split(p)[-1], f), lang])
                     if 'extension tags' in doc:
                         for e in doc['extension tags']:
-                            extensions.append([e, os.path.join(kind.name, os.path.split(p)[-1], f), lang])
+                            if 'used by' not in doc:
+                                extensions.append([e, '-', lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            else:
+                                for p in doc['used by']:
+                                    extensions.append([e, p, lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
                     else:
                         manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
