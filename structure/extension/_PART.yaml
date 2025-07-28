@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-occurrences
+extension tags:
+- _PART
+label: Participant
+lang: en-US
+payload: '@<https://gedcom.io/terms/v7/record-INDI>@ | @<https://gedcom.io/terms/v7/record-FAM>@'
+specification:
+- Participant
+- 'A reference to an individual or family that participated in an occurrence.
+
+
+  In the container-only model (v0.2.0+), _PART contains only the pointer
+
+  to the participant. All participant-specific data (role, age, etc.) is
+
+  stored in the corresponding _OCREF structure to avoid data duplication.'
+substructures: {}
+superstructures:
+  https://github.com/glamberson/gedcom-occurrences/_OCUR: '{0:M}'
+type: structure
+uri: https://github.com/glamberson/gedcom-occurrences/_PART
+...

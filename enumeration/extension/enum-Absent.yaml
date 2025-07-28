@@ -1,0 +1,11 @@
+lang: en-US
+type: enumeration
+uri: https://github.com/glamberson/gedcom-occurrences/enum-Absent
+extension tags:
+- _ABSENT
+specification:
+- Absent
+- Person was listed or referenced but not physically present
+value of:
+- https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+contact: https://github.com/glamberson/gedcom-occurrences

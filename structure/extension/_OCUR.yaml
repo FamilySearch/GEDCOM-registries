@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-occurrences
+extension tags:
+- _OCUR
+label: Occurrence
+lang: en-US
+payload: null
+specification:
+- Occurrence Record
+- 'An _OCUR record represents an occurrence as an independent, first-class object
+
+  that can involve multiple participants with different roles. This allows
+
+  the same occurrence (such as a census, burial, or ceremony) to be referenced
+
+  by multiple people without duplication of occurrence data.
+
+
+  Unlike embedded events (EVEN) in INDI or FAM records, _OCUR records exist at
+
+  the top level and are referenced using _OCREF from participants.
+
+
+  This extension addresses the synchronization problems that occur when multiple
+
+  people participate in the same event, providing a clean separation between
+
+  event data (date, place, type) and participation data (role, age).'
+substructures:
+  https://gedcom.io/terms/v7/ADDR: '{0:1}'
+  https://gedcom.io/terms/v7/AGNC: '{0:1}'
+  https://gedcom.io/terms/v7/CAUS: '{0:1}'
+  https://gedcom.io/terms/v7/CHAN: '{0:1}'
+  https://gedcom.io/terms/v7/DATE: '{0:1}'
+  https://gedcom.io/terms/v7/EXID: '{0:M}'
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+  https://gedcom.io/terms/v7/OBJE: '{0:M}'
+  https://gedcom.io/terms/v7/PLAC: '{0:1}'
+  https://gedcom.io/terms/v7/RELI: '{0:1}'
+  https://gedcom.io/terms/v7/SNOTE: '{0:M}'
+  https://gedcom.io/terms/v7/SOUR: '{0:M}'
+  https://gedcom.io/terms/v7/TYPE: '{1:1}'
+  https://gedcom.io/terms/v7/UID: '{0:M}'
+  https://github.com/glamberson/gedcom-occurrences/_PART: '{0:M}'
+superstructures: {}
+type: structure
+uri: https://github.com/glamberson/gedcom-occurrences/_OCUR
+...

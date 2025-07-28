@@ -1,0 +1,11 @@
+lang: en-US
+type: enumeration
+uri: https://github.com/glamberson/gedcom-evidence/enum-High
+extension tags:
+- _HIGH
+specification:
+- High Confidence
+- Strong confidence in evidence relevance and interpretation
+value of:
+- https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+contact: https://github.com/glamberson/gedcom-evidence

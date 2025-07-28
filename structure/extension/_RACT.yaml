@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-evidence
+extension tags:
+- _RACT
+label: Research Activity
+lang: en-US
+payload: null
+specification:
+- Research Activity
+- 'A record of a specific research activity, including searches performed,
+
+  sources consulted, and findings. _RACT records support research logs
+
+  and document the research process over time.
+
+
+  Research activities can reference evidence found, conclusions drawn,
+
+  and documentation of negative searches (sources checked that yielded
+
+  no relevant information).'
+substructures:
+  https://gedcom.io/terms/v7/CHAN: '{0:1}'
+  https://gedcom.io/terms/v7/DATE: '{0:1}'
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+  https://gedcom.io/terms/v7/SNOTE: '{0:M}'
+  https://gedcom.io/terms/v7/SOUR: '{0:M}'
+  https://gedcom.io/terms/v7/TYPE: '{0:1}'
+  https://gedcom.io/terms/v7/UID: '{0:M}'
+  https://github.com/glamberson/gedcom-evidence/_RDOC: '{0:M}'
+superstructures: {}
+type: structure
+uri: https://github.com/glamberson/gedcom-evidence/_RACT
+...

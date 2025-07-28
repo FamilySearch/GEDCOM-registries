@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-occurrences
+extension tags:
+- _PRESENCE
+label: Presence Status
+lang: en-US
+payload: https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+specification:
+- Presence Status
+- 'Indicates the presence status of a participant in an occurrence.
+
+  Used to distinguish between participants who were physically present
+
+  versus those who were listed but absent.'
+substructures: {}
+superstructures:
+  https://github.com/glamberson/gedcom-occurrences/_OCREF: '{0:1}'
+type: structure
+uri: https://github.com/glamberson/gedcom-occurrences/_PRESENCE
+...

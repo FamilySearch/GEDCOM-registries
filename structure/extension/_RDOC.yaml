@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-evidence
+extension tags:
+- _RDOC
+label: Research Documentation
+lang: en-US
+payload: '@<https://github.com/glamberson/gedcom-evidence/_RACT>@'
+specification:
+- Research Documentation
+- 'Documentation of research reasoning, analysis, and decisions. _RDOC
+
+  structures capture the "why" behind associations between evidence and
+
+  individuals, including proof arguments and conflict resolution.
+
+
+  This supports the Genealogical Proof Standard by documenting reasonably
+
+  exhaustive searches, complete source citations, analysis and correlation,
+
+  resolution of conflicts, and soundly reasoned conclusions.'
+substructures:
+  https://gedcom.io/terms/v7/DATE: '{0:1}'
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+  https://gedcom.io/terms/v7/SNOTE: '{0:M}'
+superstructures:
+  https://github.com/glamberson/gedcom-evidence/_CONC: '{0:M}'
+  https://github.com/glamberson/gedcom-evidence/_ID: '{0:M}'
+  https://github.com/glamberson/gedcom-evidence/_RACT: '{0:M}'
+type: structure
+uri: https://github.com/glamberson/gedcom-evidence/_RDOC
+...
