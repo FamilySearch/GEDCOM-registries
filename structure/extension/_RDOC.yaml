@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _RDOC
+extension tags: _RDOC
 label: Research Documentation
 lang: en-US
 payload: '@<https://github.com/glamberson/gedcom-evidence/_RACT>@'

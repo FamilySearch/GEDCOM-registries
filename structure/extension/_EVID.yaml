@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _EVID
+extension tags: _EVID
 label: Evidence Container
 lang: en-US
 payload: null

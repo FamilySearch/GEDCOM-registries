@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _FIND
+extension tags: _FIND
 label: Evidence Finding
 lang: en-US
 payload: null

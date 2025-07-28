@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _ID
+extension tags: _ID
 label: Evidence Identifier
 lang: en-US
 payload: '@<https://gedcom.io/terms/v7/record-INDI>@ | @<https://gedcom.io/terms/v7/record-FAM>@ | @<https://gedcom.io/terms/v7/record-SOUR>@'

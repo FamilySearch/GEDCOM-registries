@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _CONC
+extension tags: _CONC
 label: Evidence Conclusion
 lang: en-US
 payload: '@<https://github.com/glamberson/gedcom-evidence/_EVID>@'

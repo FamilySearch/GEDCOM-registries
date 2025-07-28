@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _RACT
+extension tags: _RACT
 label: Research Activity
 lang: en-US
 payload: null

@@ -1,8 +1,7 @@
 %YAML 1.2
 ---
 contact: https://github.com/glamberson/gedcom-evidence
-extension tags:
-- _CONF
+extension tags: _CONF
 label: Evidence Confidence
 lang: en-US
 payload: https://github.com/glamberson/gedcom-evidence/enumset-Confidence
