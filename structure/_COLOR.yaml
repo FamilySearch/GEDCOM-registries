@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v7/_COLOR
+
+standard tag: _COLOR
+
+specification:
+  - Color
+  - |
+    The _COLOR structure specifies a color for visual representation of a tag.
+    The color must be specified as a 6-digit hexadecimal value in the format
+    #RRGGBB, where RR is red, GG is green, and BB is blue. Values are 
+    case-insensitive.
+    
+    Examples: #FF0000 (red), #00FF00 (green), #0000FF (blue)
+
+label: 'Color'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v7/_TAG": "{0:1}"
+
+contact: "glamberson@gmail.com"
+...
