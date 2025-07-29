@@ -1,28 +1,39 @@
 %YAML 1.2
 ---
-contact: https://github.com/glamberson/gedcom-evidence
-extension tags: _FIND
-label: Evidence Finding
 lang: en-US
-payload: null
-specification:
-- Evidence Finding
-- 'A specific finding or fact extracted from evidence. _FIND structures
-  represent individual pieces of information found in sources, such as
-  names, dates, places, ages, relationships, or occupations.
-  Findings preserve the exact information as it appears in the source,
-  including original spelling, formatting, and context, allowing researchers
-  to maintain data fidelity throughout the research process.'
-substructures:
-  https://gedcom.io/terms/v7/AGE: '{0:1}'
-  https://gedcom.io/terms/v7/DATE: '{0:1}'
-  https://gedcom.io/terms/v7/NOTE: '{0:M}'
-  https://gedcom.io/terms/v7/PLAC: '{0:1}'
-  https://gedcom.io/terms/v7/TEXT: '{0:1}'
-  https://gedcom.io/terms/v7/TYPE: '{1:1}'
-  https://github.com/glamberson/gedcom-evidence/_ID: '{0:M}'
-superstructures:
-  https://github.com/glamberson/gedcom-evidence/_EVID: '{0:M}'
+
 type: structure
+
 uri: https://github.com/glamberson/gedcom-evidence/_FIND
+
+extension tags:
+  - _FIND
+
+specification:
+  - Evidence Finding
+  - |
+    A specific finding or fact extracted from evidence. _FIND structures
+    represent individual pieces of information found in sources, such as
+    names, dates, places, ages, relationships, or occupations.
+    Findings preserve the exact information as it appears in the source,
+    including original spelling, formatting, and context, allowing researchers
+    to maintain data fidelity throughout the research process.
+
+label: Evidence Finding
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v7/AGE": "{0:1}"
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/PLAC": "{0:1}"
+  "https://gedcom.io/terms/v7/TEXT": "{0:1}"
+  "https://gedcom.io/terms/v7/TYPE": "{1:1}"
+  "https://github.com/glamberson/gedcom-evidence/_ID": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+
+contact: https://github.com/glamberson/gedcom-evidence
 ...

@@ -1,31 +1,35 @@
 %YAML 1.2
 ---
-contact: https://github.com/glamberson/gedcom-evidence
-extension tags: _EVID
-label: Evidence Container Record
 lang: en-US
-payload: null
-specification:
-- Evidence Container Record
-- 'An _EVID record represents a piece of evidence as an independent object,
-  separate from any specific conclusion or individual. This allows "floating
-  evidence" that can be associated with multiple potential individuals or
-  left unassociated until identity can be determined.
-  Evidence containers preserve original source information exactly as found,
-  including names, dates, places, and relationships, without forcing premature
-  identity conclusions. This solves the "Which John Smith?" problem by allowing
-  evidence to exist independently until research determines the correct association.'
-substructures:
-  https://gedcom.io/terms/v7/CHAN: '{0:1}'
-  https://gedcom.io/terms/v7/EXID: '{0:M}'
-  https://gedcom.io/terms/v7/NOTE: '{0:M}'
-  https://gedcom.io/terms/v7/SNOTE: '{0:M}'
-  https://gedcom.io/terms/v7/SOUR: '{1:M}'
-  https://gedcom.io/terms/v7/UID: '{0:M}'
-  https://github.com/glamberson/gedcom-evidence/_CONF: '{0:1}'
-  https://github.com/glamberson/gedcom-evidence/_FIND: '{0:M}'
-  https://github.com/glamberson/gedcom-evidence/_ID: '{0:M}'
-superstructures: []
-type: record
+
+type: structure
+
 uri: https://github.com/glamberson/gedcom-evidence/record-EVID
+
+extension tags:
+  - _EVID
+
+specification:
+  - Evidence Container Record
+  - |
+    An _EVID record represents a piece of evidence as an independent object, separate from any specific conclusion or individual. This allows "floating evidence" that can be associated with multiple potential individuals or left unassociated until identity can be determined. Evidence containers preserve original source information exactly as found, including names, dates, places, and relationships, without forcing premature identity conclusions. This solves the "Which John Smith?" problem by allowing evidence to exist independently until research determines the correct association.
+
+label: Evidence Container Record
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v7/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v7/EXID": "{0:M}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/SNOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/SOUR": "{1:M}"
+  "https://gedcom.io/terms/v7/UID": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_CONF": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_FIND": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_ID": "{0:M}"
+
+superstructures: {}
+
+contact: https://github.com/glamberson/gedcom-evidence
 ...

@@ -1,24 +1,30 @@
 %YAML 1.2
 ---
-contact: https://github.com/glamberson/gedcom-evidence
-extension tags: _ID
-label: Evidence Identifier
 lang: en-US
-payload: '@<https://gedcom.io/terms/v7/record-INDI>@ | @<https://gedcom.io/terms/v7/record-FAM>@ | @<https://gedcom.io/terms/v7/record-SOUR>@'
-specification:
-- Evidence Identifier
-- 'An identifier reference from evidence to an individual, family, or other
-  record. This creates a bidirectional link between evidence and conclusions,
-  allowing evidence to be associated with multiple potential individuals.
-  The _ID structure supports gradual refinement of identity as research
-  progresses, with confidence levels and research documentation.'
-substructures:
-  https://gedcom.io/terms/v7/NOTE: '{0:M}'
-  https://gedcom.io/terms/v7/QUAY: '{0:1}'
-  https://github.com/glamberson/gedcom-evidence/_RDOC: '{0:M}'
-superstructures:
-  https://github.com/glamberson/gedcom-evidence/_EVID: '{0:M}'
-  https://github.com/glamberson/gedcom-evidence/_FIND: '{0:M}'
+
 type: structure
+
 uri: https://github.com/glamberson/gedcom-evidence/_ID
+
+extension tags:
+  - _ID
+
+specification:
+  - Evidence Identifier
+  - |
+    An identifier reference from evidence to an individual, family, or other record. This creates a bidirectional link between evidence and conclusions, allowing evidence to be associated with multiple potential individuals. The _ID structure supports gradual refinement of identity as research progresses, with confidence levels and research documentation.
+
+label: Evidence Identifier
+
+payload: "@<https://gedcom.io/terms/v7/record-INDI>@ | @<https://gedcom.io/terms/v7/record-FAM>@ | @<https://gedcom.io/terms/v7/record-SOUR>@"
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/QUAY": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_RDOC": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_FIND": "{0:M}"
+contact: https://github.com/glamberson/gedcom-evidence
 ...
