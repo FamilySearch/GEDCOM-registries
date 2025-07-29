@@ -1,23 +1,36 @@
 %YAML 1.2
 ---
-contact: https://github.com/glamberson/gedcom-occurrences
-extension tags:
-- _ATTR
-label: Occurrence Attribute
 lang: en-US
-payload: null
-specification:
-- Attribute
-- 'A custom attribute for an occurrence reference. Used to store
 
-  occurrence-specific participant attributes such as dwelling number,
-
-  enumeration district, or other structured data from historical records.'
-substructures:
-  https://gedcom.io/terms/v7/TEXT: '{1:1}'
-  https://gedcom.io/terms/v7/TYPE: '{1:1}'
-superstructures:
-  https://github.com/glamberson/gedcom-occurrences/_OCREF: '{0:M}'
 type: structure
+
 uri: https://github.com/glamberson/gedcom-occurrences/_ATTR
+
+extension tags:
+  - _ATTR
+
+specification:
+  - Custom Attribute
+  - |
+    A custom attribute for an occurrence or participant. This allows
+    applications to add specific attributes that aren't covered by
+    standard GEDCOM structures, ensuring data preservation during
+    import/export cycles.
+    
+    The attribute name is in the payload, and the value is in the
+    required _VALUE substructure.
+
+label: Custom Attribute
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://github.com/glamberson/gedcom-occurrences/_VALUE": "{1:1}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-occurrences/_OCUR": "{0:M}"
+  "https://github.com/glamberson/gedcom-occurrences/_OCREF": "{0:M}"
+
+contact: https://github.com/glamberson/gedcom-occurrences
 ...
