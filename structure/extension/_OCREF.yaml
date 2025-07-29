@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-occurrences
+extension tags:
+- _OCREF
+label: Occurrence Reference
+lang: en-US
+payload: '@<https://github.com/glamberson/gedcom-occurrences/_OCUR>@'
+specification:
+- Occurrence Reference
+- 'A reference from an individual or family to an occurrence record (_OCUR).
+
+  This structure contains all participant-specific data such as role, age,
+
+  and participation details.
+
+
+  In the container-only model (v0.2.0+), all participant data is stored
+
+  exclusively in _OCREF structures to avoid data duplication and synchronization
+
+  issues.'
+substructures:
+  https://gedcom.io/terms/v7/AGE: '{0:1}'
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+  https://gedcom.io/terms/v7/ROLE: '{1:1}'
+  https://gedcom.io/terms/v7/SNOTE: '{0:M}'
+  https://gedcom.io/terms/v7/SOUR: '{0:M}'
+  https://github.com/glamberson/gedcom-occurrences/_ATTR: '{0:M}'
+  https://github.com/glamberson/gedcom-occurrences/_PRESENCE: '{0:1}'
+superstructures:
+  https://gedcom.io/terms/v7/record-FAM: '{0:M}'
+  https://gedcom.io/terms/v7/record-INDI: '{0:M}'
+type: structure
+uri: https://github.com/glamberson/gedcom-occurrences/_OCREF
+...
