@@ -57,6 +57,8 @@ undocumented extension in a given language.
 The table has the following key columns:
 
 * used_by: The `HEAD`.`SOUR` value of the product using the extension.
+    
+    The special value "`-`" is means there are no currently registered `HEAD`.`SOUR` values for this extension.
 * tag: The extension tag.
 * language: The language tag for the YAML file.
 
