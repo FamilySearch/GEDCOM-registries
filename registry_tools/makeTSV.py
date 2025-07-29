@@ -34,7 +34,7 @@ for kind in os.scandir(root):
                     if 'extension tags' in doc:
                         for e in doc['extension tags']:
                             extensions.append([e, os.path.join(kind.name, os.path.split(p)[-1], f), lang])
-                    else:
+                    if 'standard tag' in doc or 'extension tags' not in doc:
                         manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
                     print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
