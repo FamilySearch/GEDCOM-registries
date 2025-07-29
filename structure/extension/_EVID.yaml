@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-evidence
+extension tags: _EVID
+label: Evidence Reference
+lang: en-US
+payload: XREF
+specification:
+- Evidence Reference
+- 'A reference from an individual to an evidence container record, indicating
+  that this evidence may support conclusions about this individual. The reference
+  includes a confidence level indicating how strongly the evidence supports the
+  association with this specific individual.'
+substructures:
+  https://github.com/glamberson/gedcom-evidence/_CONF: '{0:1}'
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+superstructures:
+  https://gedcom.io/terms/v7/record-INDI: '{0:M}'
+type: structure
+uri: https://github.com/glamberson/gedcom-evidence/_EVID
+...

@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+
+enumeration values:
+  - "https://github.com/glamberson/gedcom-evidence/enum-High"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Medium"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Low"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Hypothesis"
+
+contact: "https://github.com/glamberson/gedcom-evidence"
+...

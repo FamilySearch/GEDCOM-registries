@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+contact: https://github.com/glamberson/gedcom-evidence
+extension tags: _CONF
+label: Evidence Confidence
+lang: en-US
+payload: https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+specification:
+- Evidence Confidence
+- 'Overall confidence assessment for a piece of evidence. This differs
+  from QUAY (quality of data) by assessing the researcher''s confidence
+  in the evidence''s relevance and interpretation.
+  Confidence levels can change as additional evidence is discovered
+  and analysis progresses.'
+substructures:
+  https://gedcom.io/terms/v7/NOTE: '{0:M}'
+superstructures:
+  https://github.com/glamberson/gedcom-evidence/_EVID: '{0:1}'
+type: structure
+uri: https://github.com/glamberson/gedcom-evidence/_CONF
+...
