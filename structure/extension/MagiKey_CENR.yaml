@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/CENR.htm
+
+extension tags: ['_CENR']
+
+specification:
+  - Census Record
+  - |
+    A pointer to a census record that can be shared by multiple individuals.
+    Typically this structure is used under a `CENS` event, but it can also
+    be used under other structures for individual events or attributes recorded
+    in the census record, where it is semantically similar to `SOUR`, but points
+    to a census record rather than a source record.
+
+label: 'Census record'
+
+payload: "@<https://armidalesoftware.com/issue/tags/record-CENR.htm>@"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v7/BIRT": "{0:M}"
+  "https://gedcom.io/terms/v7/INDI-CENS": "{0:M}"
+  "https://gedcom.io/terms/v7/INDI-NAME": "{0:M}"
+  "https://gedcom.io/terms/v7/OCCU": "{0:M}"
+
+change controller: Armidale Software
+
+used by: [MagiKey]
+
+contact: dthaler@armidalesoftware.com
+...
