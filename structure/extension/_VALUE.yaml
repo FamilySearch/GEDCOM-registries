@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-occurrences/_VALUE
+
+extension tags:
+  - _VALUE
+
+specification:
+  - Attribute Value
+  - |
+    The value for a custom attribute defined by _ATTR. This structure
+    contains the actual value of the attribute, while the attribute
+    name is stored in the _ATTR payload.
+
+label: Value
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://github.com/glamberson/gedcom-occurrences/_ATTR": "{1:1}"
+
+contact: https://github.com/glamberson/gedcom-occurrences
+...

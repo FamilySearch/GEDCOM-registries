@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-occurrences/_ATTR
+
+extension tags:
+  - _ATTR
+
+specification:
+  - Custom Attribute
+  - |
+    A custom attribute for an occurrence or participant. This allows
+    applications to add specific attributes that aren't covered by
+    standard GEDCOM structures, ensuring data preservation during
+    import/export cycles.
+    
+    The attribute name is in the payload, and the value is in the
+    required _VALUE substructure.
+
+label: Custom Attribute
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://github.com/glamberson/gedcom-occurrences/_VALUE": "{1:1}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-occurrences/_OCUR": "{0:M}"
+  "https://github.com/glamberson/gedcom-occurrences/_OCREF": "{0:M}"
+
+contact: https://github.com/glamberson/gedcom-occurrences
+...
