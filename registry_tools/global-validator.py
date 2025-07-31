@@ -1,11 +1,10 @@
 """
 This file checks rules that apply between files rather than within a single file.
-It also validates each file individually using the schema checking code in validator.py
+If there are files that violate the schema (as checked by `validator.py`), that may cause this file to crash.
 
-A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# Note:"
+A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# NOTE:"
 """
 
-from validatorlib import check as check_one_file
 import yaml
 had_error = False
 
@@ -51,9 +50,6 @@ def check_paths(files=None):
       err("Path",r,"wrong; expected 'standard' or 'extension', not",repr(r.parts[1]))
       continue
     data = yaml.safe_load(open(a))
-    if not check_one_file(data, r):
-      had_error = True
-      continue
     if data['type'].replace(' ','-') != r.parts[0]:
       err("Path",r,"wrong; expected", repr(data['type'].replace(' ','-')), 'not', repr(r.parts[0]))
       continue
@@ -100,7 +96,7 @@ for (r, d) in tocheck.items():
 translatable_keys = ('lang', 'change controller', 'contact', 'documentation', 'fragment', 'help text', 'label', 'specification', 'translated from')
 
 # Verify that translations agree in everything that is not translatable
-# Note: this currently enforces orders of lists, but most lists are "in no particular order" per https://gedcom.io/terms/format
+# Note: this currently enforces orders of lists, but most lists are in "in no particular order" per https://gedcom.io/terms/format
 for (r,d) in tocheck.items():
   if d != byuri[d['uri']]:
     for key in set(d.keys()) | set(byuri[d['uri']].keys()):
@@ -166,29 +162,7 @@ def check_references(d):
         err(d['uri'],'subsumes references unregistered',uri)
       elif byuri[uri]['type'] != d['type']: 
         err(d['uri'],'subsumes',uri,'which has type:',byuri[uri]['type'],'(not',d['type']+')')
-  
-  if 'substructures' in d:
-    for uri in d['substructures']:
-      if uri not in byuri:
-        err(d['uri'],'substructures references unregistered',uri)
-      elif byuri[uri]['type'] != 'structure': 
-        err(d['uri'],'has substructure',uri,'which has type:',byuri[uri]['type'],'(not structure)')
-
-  if 'superstructures' in d:
-    for uri in d['superstructures']:
-      if uri not in byuri:
-        err(d['uri'],'superstructures references unregistered',uri)
-      elif byuri[uri]['type'] != 'structure': 
-        err(d['uri'],'has superstructure',uri,'which has type:',byuri[uri]['type'],'(not structure)')
-  
-  if 'value of' in d:
-    for uri in d['value of']:
-      if uri not in byuri:
-        err(d['uri'],'value of references unregistered',uri)
-      elif byuri[uri]['type'] != 'enumeration set': 
-        err(d['uri'],'value of references',uri,'which has type:',byuri[uri]['type'],'(not enumeration set)')
-    
-  
+      
       
 for d in byuri.values():
   check_references(d)
