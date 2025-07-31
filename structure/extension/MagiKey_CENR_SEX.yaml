@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/SEX.htm
+
+standard tag: 'SEX'
+
+specification:
+  - Sex
+  - An enumerated value from set `https://gedcom.io/terms/v7/enumset-SEX` that
+    indicates the sex of a set of individuals in a head-of-household census.
+
+label: 'Sex'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: "https://gedcom.io/terms/v7/enumset-SEX"
+
+substructures:
+  - "https://armidalesoftware.com/issue/tags/AGE.htm": "{1:1}"
+  - "https://gedcom.io/terms/v7/TYPE": "{0:1}"
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{0:M}"
+
+change controller: Armidale Software
+
+used by: [MagiKey]
+
+contact: dthaler@armidalesoftware.com
+...

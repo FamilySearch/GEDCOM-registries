@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/SCHD.htm
+
+extension tags: ['_SCHD']
+
+specification:
+  - Census schedule
+  - |
+    A census schedule type, such as "population schedule",
+    used only when a census has multiple schedules.
+
+label: 'Schedule'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{0:1}"
+
+change controller: Armidale Software
+
+used by: [MagiKey]
+
+contact: dthaler@armidalesoftware.com
+...

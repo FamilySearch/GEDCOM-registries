@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/record-CENR.htm
+
+extension tags: ['_CENR']
+
+specification:
+  - Census record
+  - |
+    A census record that can be shared among multiple individuals.
+
+label: 'Census record'
+
+payload: null
+
+substructures:
+  "https://armidalesoftware.com/issue/tags/SCHD.htm": "{0:1}"
+  "https://armidalesoftware.com/issue/tags/SEX.htm": "{0:M}"
+  "https://armidalesoftware.com/issue/tags/INDI.htm": "{1:M}"
+  "https://gedcom.io/terms/v7/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v7/DATE": "{1:1}"
+  "https://gedcom.io/terms/v7/PLAC": "{1:1}"
+  "https://gedcom.io/terms/v7/SOUR": "{0:1}"
+
+superstructures: {}
+
+change controller: Armidale Software
+
+used by: [MagiKey]
+
+contact: dthaler@armidalesoftware.com
+...
