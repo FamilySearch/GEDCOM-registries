@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-tags/_VALUE
+
+standard tag: _VALUE
+
+extension tags: _VALUE
+
+specification:
+  - Attribute Value
+  - |
+    The _VALUE structure contains the value for a generic attribute
+    defined by _ATTR. The value is a string that can contain any
+    vendor-specific data.
+
+label: 'Value'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://github.com/glamberson/gedcom-tags/_ATTR": "{1:1}"
+
+contact: "lamberson@yahoo.com"
+...
