@@ -2,7 +2,7 @@
 This file checks rules that apply between files rather than within a single file.
 If there are files that violate the schema (as checked by `validator.py`), that may cause this file to crash.
 
-A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# NOTE:"
+A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# Note:"
 """
 
 import yaml
