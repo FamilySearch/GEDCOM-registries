@@ -20,8 +20,8 @@ payload: https://gedcom.io/terms/v7/type-Enum
 enumeration set: "https://gedcom.io/terms/v7/enumset-SEX"
 
 substructures:
-  - "https://armidalesoftware.com/issue/tags/AGE.htm": "{1:1}"
-  - "https://gedcom.io/terms/v7/TYPE": "{0:1}"
+  "https://armidalesoftware.com/issue/tags/AGE.htm": "{1:1}"
+  "https://gedcom.io/terms/v7/TYPE": "{0:1}"
 
 superstructures:
   "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{0:M}"
