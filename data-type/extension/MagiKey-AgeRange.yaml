@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://armidalesoftware.com/issue/types/AgeRange.htm
+
+specification:
+  - |
+    Age ranges are represented by intervals of years.
+    
+    ```abnf
+    AgeRange = Integer "-" Integer
+    ```
+    
+    This if someone is at least 16 but not yet 26, their age range might be
+    written as `16-26`.
+
+change controller: Armidale Software
+
+used by: [MagiKey]
+
+contact: dthaler1968@gmail.com
+...
