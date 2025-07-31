@@ -162,7 +162,29 @@ def check_references(d):
         err(d['uri'],'subsumes references unregistered',uri)
       elif byuri[uri]['type'] != d['type']: 
         err(d['uri'],'subsumes',uri,'which has type:',byuri[uri]['type'],'(not',d['type']+')')
-      
+  
+  if 'substructures' in d:
+    for uri in d['substructures']:
+      if uri not in byuri:
+        err(d['uri'],'substructures references unregistered',uri)
+      elif byuri[uri]['type'] != 'structure': 
+        err(d['uri'],'has substructure',uri,'which has type:',byuri[uri]['type'],'(not structure)')
+
+  if 'superstructures' in d:
+    for uri in d['superstructures']:
+      if uri not in byuri:
+        err(d['uri'],'superstructures references unregistered',uri)
+      elif byuri[uri]['type'] != 'structure': 
+        err(d['uri'],'has superstructure',uri,'which has type:',byuri[uri]['type'],'(not structure)')
+  
+  if 'value of' in d:
+    for uri in d['value of']:
+      if uri not in byuri:
+        err(d['uri'],'value of references unregistered',uri)
+      elif byuri[uri]['type'] != 'enumeration set': 
+        err(d['uri'],'value of references',uri,'which has type:',byuri[uri]['type'],'(not enumeration set)')
+    
+  
       
 for d in byuri.values():
   check_references(d)
