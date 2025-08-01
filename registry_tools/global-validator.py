@@ -96,7 +96,7 @@ for (r, d) in tocheck.items():
 translatable_keys = ('lang', 'change controller', 'contact', 'documentation', 'fragment', 'help text', 'label', 'specification', 'translated from')
 
 # Verify that translations agree in everything that is not translatable
-# Note: this currently enforces orders of lists, but most lists are in "in no particular order" per https://gedcom.io/terms/format
+# Note: this currently enforces orders of lists, but most lists are "in no particular order" per https://gedcom.io/terms/format
 for (r,d) in tocheck.items():
   if d != byuri[d['uri']]:
     for key in set(d.keys()) | set(byuri[d['uri']].keys()):
