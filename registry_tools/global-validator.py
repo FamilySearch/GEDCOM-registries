@@ -1,10 +1,11 @@
 """
 This file checks rules that apply between files rather than within a single file.
-If there are files that violate the schema (as checked by `validator.py`), that may cause this file to crash.
+It also validates each file individually using the schema checking code in validator.py
 
 A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# Note:"
 """
 
+from validator import check as check_one_file
 import yaml
 had_error = False
 
@@ -50,6 +51,9 @@ def check_paths(files=None):
       err("Path",r,"wrong; expected 'standard' or 'extension', not",repr(r.parts[1]))
       continue
     data = yaml.safe_load(open(a))
+    if not check_one_file(data, r):
+      had_error = True
+      continue
     if data['type'].replace(' ','-') != r.parts[0]:
       err("Path",r,"wrong; expected", repr(data['type'].replace(' ','-')), 'not', repr(r.parts[0]))
       continue
