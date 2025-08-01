@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/NICK
+
+standard tag: 'NICK'
+
+specification:
+  - A descriptive or familiar that is used instead of, or in addition to, one's proper name.
+
+label: 'Nickname'
+
+payload: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_NICKNAME
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:1}"
+
+contact: https://gedcom.io/community/

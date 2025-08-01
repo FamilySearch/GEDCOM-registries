@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-SOUR
+
+standard tag: 'SOUR'
+
+specification:
+  - The initial or original material from which information was obtained.
+  - A system identification name which was obtained through the GEDCOM registration process. This name must be unique from any other product. Spaces within the name must be substituted with a 0x5F (underscore _) so as to create one word.
+
+label: 'Source'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/CORP": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/VERS": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD": "{1:1}"
+
+contact: https://gedcom.io/community/

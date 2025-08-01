@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA-COPR
+
+standard tag: 'COPR'
+
+specification:
+  - A statement that accompanies data to protect it from unlawful duplication and distribution.
+  - A copyright statement required by the owner of data from which this information was down- loaded. For example, when a GEDCOM down-load is requested from the Ancestral File, this would be the copyright statement to indicate that the data came from a copyrighted source.
+
+label: 'Copyright'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA": "{0:1}"
+
+contact: https://gedcom.io/community/

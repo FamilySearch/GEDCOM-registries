@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-FONE
+
+standard tag: 'FONE'
+
+specification:
+  - A phonetic variation of a superior text string
+
+label: 'Phonetic'
+
+payload: https://gedcom.io/terms/v5.5.1/type-PLACE_PHONETIC_VARIATION
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/TYPE-PHONETIC_TYPE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "{0:M}"
+
+contact: https://gedcom.io/community/

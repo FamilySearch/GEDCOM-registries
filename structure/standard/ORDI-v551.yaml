@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/ORDI
+
+standard tag: 'ORDI'
+
+specification:
+  - Pertaining to a religious ordinance in general.
+
+label: 'Ordinance'
+
+payload: https://gedcom.io/terms/v5.5.1/type-ORDINANCE_PROCESS_FLAG
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBN": "{0:1}"
+
+contact: https://gedcom.io/community/

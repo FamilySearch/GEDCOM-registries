@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/NSFX
+
+standard tag: 'NSFX'
+
+specification:
+  - |
+    Text which appears on a name line after or behind the given and surname parts of a name.
+    i.e. Lt. Cmndr. Joseph /Allen/ (jr.)
+    In this example jr. is considered as the name suffix portion.
+
+label: 'Name Suffix'
+
+payload: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SUFFIX
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:1}"
+
+contact: https://gedcom.io/community/

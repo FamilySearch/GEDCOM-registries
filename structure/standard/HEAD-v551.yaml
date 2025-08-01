@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD
+
+standard tag: 'HEAD'
+
+specification:
+  - Identifies information pertaining to an entire GEDCOM transmission.
+
+label: 'Header'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/CHAR": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/DEST": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/GEDC": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-COPR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-DATE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-FILE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-LANG": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-NOTE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-PLAC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/SUBM": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/SUBN": "{0:1}"
+
+superstructures: {}
+
+contact: https://gedcom.io/community/

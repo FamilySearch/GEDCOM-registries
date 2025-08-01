@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-RFN
+
+standard tag: 'RFN'
+
+specification:
+  - A permanent number assigned to a record that uniquely identifies it within a known file.
+
+label: 'Rec File Number'
+
+payload: https://gedcom.io/terms/v5.5.1/type-PERMANENT_RECORD_FILE_NUMBER
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:1}"
+
+contact: https://gedcom.io/community/

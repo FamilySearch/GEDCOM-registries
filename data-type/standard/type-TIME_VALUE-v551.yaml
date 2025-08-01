@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-TIME_VALUE
+
+specification:
+  - |
+    ```
+    [ hh:mm:ss.fs ]
+    ```
+    
+    The time of a specific event, usually a computer-timed event, where:
+
+    | Production  | Meaning                                     |
+    | :---------- | :------------------------------------------ |
+    | `hh`        | hours on a 24-hour clock                    |
+    | `mm`        | minutes                                     |
+    | `ss`        | seconds (optional)                          |
+    | `fs`        | decimal fraction of a second (optional)     |
+
+contact: "https://gedcom.io/community/"
+...

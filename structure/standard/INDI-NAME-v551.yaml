@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-NAME
+
+standard tag: 'NAME'
+
+specification:
+  - A word or combination of words used to help identify an individual, title, or other item. More than one NAME line should be used for people who were known by multiple names.
+
+label: 'Name'
+
+payload: https://gedcom.io/terms/v5.5.1/type-NAME_PERSONAL
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/GIVN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-TYPE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NICK": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NSFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SURN": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: https://gedcom.io/community/
