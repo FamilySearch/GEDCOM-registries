@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN
+
+standard tag: 'ROMN'
+
+specification:
+  - A romanized variation of a superior text string.
+  - The romanized variation of the name is written in the same form prescribed for the name used in the superior <NAME_PERSONAL> context. The method used to romanize the name is indicated by the line_value of the subordinate <ROMANIZED_TYPE>, for example if romaji was used to provide a reading of a name written in kanji, then the ROMANIZED_TYPE subordinate to the ROMN tag would indicate romaji. See page 61.
+
+label: 'Romanized'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/GIVN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NICK": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NSFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SURN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/TYPE-ROMANIZED_TYPE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:M}"
+
+contact: https://gedcom.io/community/

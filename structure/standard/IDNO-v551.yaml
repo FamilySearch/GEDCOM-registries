@@ -1,0 +1,47 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/IDNO
+
+standard tag: 'IDNO'
+
+specification:
+  - A number assigned to identify a person within some significant external system.
+  - |
+    A nationally-controlled number assigned to an individual. Commonly known national numbers should be assigned their own tag, such as SSN for U.S. Social Security Number. The use of the IDNO tag requires a subordinate TYPE tag to identify what kind of number is being stored.
+    "For example:"
+    n IDNO 43-456-1899
+    +1 TYPE Canadian Health Registration
+
+label: 'Ident Number'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/ADDR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGNC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CAUS": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/EMAIL": "{0:3}"
+  "https://gedcom.io/terms/v5.5.1/FAX": "{0:3}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/PHON": "{0:3}"
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/RELI-RELIGIOUS_AFFILIATION": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/RESN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/WWW": "{0:3}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: https://gedcom.io/community/

@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC-ADOP
+
+standard tag: 'ADOP'
+
+specification:
+  - Pertaining to creation of a legally approved child-parent relationship that does not exist biologically.
+
+label: 'Adoption'
+
+payload: https://gedcom.io/terms/v5.5.1/type-ADOPTED_BY_WHICH_PARENT
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC": "{0:1}"
+
+contact: https://gedcom.io/community/

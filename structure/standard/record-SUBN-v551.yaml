@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/record-SUBN
+
+standard tag: 'SUBN'
+
+specification:
+  - Pertains to a collection of data issued for processing.
+
+label: 'Submission'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/ANCE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DESC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAMF": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/ORDI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/RIN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SUBM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/TEMP": "{0:1}"
+
+superstructures: {}
+
+contact: https://gedcom.io/community/

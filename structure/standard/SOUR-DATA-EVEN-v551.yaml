@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN
+
+standard tag: 'EVEN'
+
+specification:
+  - Pertaining to a noteworthy happening related to an individual, a group, or an organization. An EVENt structure is usually qualified or classified by a subordinate use of the TYPE tag.
+
+label: 'Event'
+
+payload: https://gedcom.io/terms/v5.5.1/type-EVENTS_RECORDED
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-DATE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-PLAC": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA": "{0:M}"
+
+contact: https://gedcom.io/community/

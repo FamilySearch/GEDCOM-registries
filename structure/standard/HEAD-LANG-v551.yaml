@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-LANG
+
+standard tag: 'LANG'
+
+specification:
+  - The name of the language used in a communication or transmission of information.
+
+label: 'Language'
+
+payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_OF_TEXT
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD": "{0:1}"
+
+contact: https://gedcom.io/community/

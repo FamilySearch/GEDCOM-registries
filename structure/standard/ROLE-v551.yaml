@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/ROLE
+
+standard tag: 'ROLE'
+
+specification:
+  - A name given to a role played by an individual in connection with an event.
+
+label: 'Role'
+
+payload: https://gedcom.io/terms/v5.5.1/type-ROLE_IN_EVENT
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-EVEN": "{0:1}"
+
+contact: https://gedcom.io/community/

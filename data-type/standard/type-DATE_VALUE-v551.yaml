@@ -1,0 +1,80 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-DATE_VALUE
+
+specification:
+  - |
+    ```
+    DATE_VALUE:=
+      [
+       <DATE> |
+       <DATE_PERIOD> |
+       <DATE_RANGE>|
+       <DATE_APPROXIMATED> |
+       INT <DATE> (<DATE_PHRASE>) |
+       (<DATE_PHRASE>)
+      ]
+
+    DATE:=
+      [ <DATE_CALENDAR_ESCAPE> | <NULL>] <DATE_CALENDAR>
+
+    DATE_APPROXIMATED:=
+      [ ABT <DATE> | CAL <DATE> | EST <DATE> ]
+
+    DATE_PERIOD:=
+      [ FROM <DATE> | TO <DATE> | FROM <DATE> TO <DATE> ]
+
+    DATE_PHRASE:= <TEXT>
+
+    DATE_RANGE:=
+      [ BEF <DATE> | AFT <DATE> | BET <DATE> AND <DATE> ]
+
+    DATE_CALENDAR_ESCAPE:=
+      [ @#DHEBREW@ | @#DROMAN@ | @#DFRENCH R@ | @#DGREGORIAN@ |
+        @#DJULIAN@ | @#DUNKNOWN@ ]
+
+    DATE_CALENDAR:=
+      [ <DATE_GREG> | <DATE_JULN> | <DATE_HEBR> | <DATE_FREN> |
+        <DATE_FUTURE> ]
+
+    DATE_FREN:=
+      [ <YEAR>[B.C.] | <MONTH_FREN> <YEAR> |
+        <DAY> <MONTH_FREN> <YEAR> ]
+
+    DATE_GREG:=
+      [ <YEAR_GREG>[B.C.] | <MONTH> <YEAR_GREG> |
+        <DAY> <MONTH> <YEAR_GREG> ]
+
+    DATE_JULN:=
+      [ <YEAR>[B.C.] | <MONTH> <YEAR> | <DAY> <MONTH> <YEAR> ]
+
+    DATE_HEBR:=
+      [ <YEAR>[B.C.] | <MONTH_HEBR> <YEAR> |
+        <DAY> <MONTH_HEBR> <YEAR> ]
+
+    MONTH:=
+      [ JAN | FEB | MAR | APR | MAY | JUN |
+        JUL | AUG | SEP | OCT | NOV | DEC ]
+
+    MONTH_FREN:=
+      [ VEND | BRUM | FRIM | NIVO | PLUV | VENT | GERM |
+        FLOR | PRAI | MESS | THER | FRUC | COMP ]
+
+    MONTH_HEBR:=
+      [ TSH | CSH | KSL | TVT | SHV | ADR | ADS |
+        NSN | IYR | SVN | TMZ | AAV | ELL ]
+
+    YEAR_GREG:=
+      [ <NUMBER> | <NUMBER>/<DIGIT><DIGIT> ]
+
+    YEAR:= [ <DIGIT><DIGIT><DIGIT> | <DIGIT><DIGIT><DIGIT><DIGIT> ]
+
+    DAY:= [ <DIGIT> | <DIGIT><DIGIT> ]
+    ```
+
+contact: "https://gedcom.io/community/"
+...

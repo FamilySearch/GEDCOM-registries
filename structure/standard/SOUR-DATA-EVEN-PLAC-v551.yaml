@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-PLAC
+
+standard tag: 'PLAC'
+
+specification:
+  - A jurisdictional name to identify the place or location of an event.
+
+label: 'Place'
+
+payload: https://gedcom.io/terms/v5.5.1/type-SOURCE_JURISDICTION_PLACE
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN": "{0:1}"
+
+contact: https://gedcom.io/community/

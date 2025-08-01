@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SLGS-STAT
+
+standard tag: 'STAT'
+
+specification:
+  - An assessment of the state or condition of something.
+
+label: 'Status'
+
+payload: https://gedcom.io/terms/v5.5.1/type-LDS_SPOUSE_SEALING_DATE_STATUS
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/DATE-CHANGE_DATE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SLGS": "{0:1}"
+
+contact: https://gedcom.io/community/

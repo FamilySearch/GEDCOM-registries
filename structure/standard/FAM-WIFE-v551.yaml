@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/FAM-WIFE
+
+standard tag: 'WIFE'
+
+specification:
+  - An individual in the role as a mother and/or married woman.
+
+label: 'Wife'
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-FAM": "{0:1}"
+
+contact: https://gedcom.io/community/

@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/FAMS
+
+standard tag: 'FAMS'
+
+specification:
+  - Identifies the family in which an individual appears as a spouse.
+
+label: 'Family Spouse'
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-FAM>@"
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: https://gedcom.io/community/

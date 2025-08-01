@@ -1,0 +1,50 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/record-FAM
+
+standard tag: 'FAM'
+
+specification:
+  - Identifies a legal, common law, or other customary relationship of man and woman and their children, if any, or a family created by virtue of the birth of a child to its biological father and mother.
+
+label: 'Family'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/ANUL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CHIL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/DIV": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/DIVF": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/ENGA": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/FAM-CENS": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/FAM-EVEN": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/FAM-HUSB": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-NCHI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-RESI": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/FAM-WIFE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARB": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/MARC": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/MARL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/MARR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/MARS": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/REFN": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/RESN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/RIN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SLGS": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SUBM": "{0:M}"
+
+superstructures: {}
+
+contact: https://gedcom.io/community/

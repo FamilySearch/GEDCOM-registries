@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/ASSO
+
+standard tag: 'ASSO'
+
+specification:
+  - An indicator to link friends, neighbors, relatives, or associates of an individual.
+
+label: 'Associates'
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/RELA": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: https://gedcom.io/community/

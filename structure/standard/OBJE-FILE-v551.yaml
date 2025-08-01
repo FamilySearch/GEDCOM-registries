@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/OBJE-FILE
+
+standard tag: 'FILE'
+
+specification:
+  - An information storage place that is ordered and arranged for preservation and reference.
+  - A complete local or remote file reference to the auxiliary data to be linked to the GEDCOM context. Remote reference would include a network address where the multimedia data may be obtained.
+
+label: 'File'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/TITL-DESCRIPTIVE_TITLE": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-OBJE": "{1:M}"
+
+contact: https://gedcom.io/community/
