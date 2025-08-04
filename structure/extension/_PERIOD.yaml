@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/_PERIOD
+
+extension tags: [ _PERIOD ]
+
+specification:
+  - Association Time Period
+  - |
+    Container structure for defining the time boundaries of an association.
+    Allows specification of when an association began and/or ended.
+    
+    Either START or END may be omitted if unknown. If both are omitted,
+    the PERIOD structure should not be used.
+    
+    Examples:
+    - Godparent relationship: START at baptism, END at ward's majority
+    - Employment: START date of hire, END date of termination
+    - Military service: START at enlistment, END at discharge
+    - Friendship: May have only START if still ongoing
+
+label: 'Association Time Period'
+
+payload: null
+
+substructures:
+  "https://github.com/glamberson/gedcom-extended-ASSO/_START": "{0:1}"
+  "https://github.com/glamberson/gedcom-extended-ASSO/_END": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/ASSO": "{0:1}"
+
+contact: lamberson@yahoo.com
+...
