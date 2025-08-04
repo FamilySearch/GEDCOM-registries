@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_EVEN_EVID
+
+extension tags: [ _EVEN_EVID ]
+
+specification:
+  - Evidence Event
+  - |
+    An event representing the discovery or analysis of evidence directly
+    related to this individual. Unlike floating evidence records, evidence
+    events are intrinsically tied to the person and represent findings
+    that are definitively about this individual. Use this for evidence
+    that doesn't need to "float" between potential matches.
+
+label: 'Evidence Discovery Event'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v7/TYPE": "{1:1}"
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+  "https://gedcom.io/terms/v7/SOUR": "{1:M}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_FIND": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_CONF": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/record-INDI": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

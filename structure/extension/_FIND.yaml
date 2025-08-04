@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_FIND
+
+extension tags: [ _FIND ]
+
+specification:
+  - Evidence Finding
+  - |
+    A specific fact or piece of information extracted from evidence.
+    Findings preserve exact information as it appears in sources,
+    including original spelling, formatting, and context. Each finding
+    can be typed (name, age, occupation, etc.) and can include the
+    specific text or value found.
+
+label: 'Evidence Finding'
+
+payload: https://gedcom.io/terms/v7/type-Text
+
+substructures:
+  "https://gedcom.io/terms/v7/TYPE": "{1:1}"
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+  "https://gedcom.io/terms/v7/PLAC": "{0:1}"
+  "https://gedcom.io/terms/v7/AGE": "{0:1}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_EVEN_EVID": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

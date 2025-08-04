@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_INDI
+
+extension tags: [ _SUBJ_INDI ]
+
+specification:
+  - Individual Subject Reference
+  - |
+    References an individual mentioned in the evidence. This structure
+    documents that the evidence contains information about a specific
+    individual, without asserting that individual's identity. Multiple
+    individuals can reference the same evidence if their identity is
+    uncertain.
+
+label: 'Individual Subject'
+
+payload: "@<https://gedcom.io/terms/v7/record-INDI>@"
+
+substructures:
+  "https://gedcom.io/terms/v7/ROLE": "{0:1}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_USED
+
+extension tags: [ _USED ]
+
+specification:
+  - Evidence Usage
+  - |
+    Describes how this evidence was used to support conclusions about
+    the individual or family. This helps document the reasoning process
+    and supports the Genealogical Proof Standard.
+
+label: 'How Evidence Used'
+
+payload: https://gedcom.io/terms/v7/type-Text
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVREF": "{0:1}"
+
+contact: lamberson@yahoo.com
+...

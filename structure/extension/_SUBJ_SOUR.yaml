@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_SOUR
+
+extension tags: [ _SUBJ_SOUR ]
+
+specification:
+  - Source Subject Reference
+  - |
+    References a source mentioned in the evidence. This structure
+    documents that the evidence references or cites another source,
+    enabling tracking of source relationships and citations within
+    evidence.
+
+label: 'Source Subject'
+
+payload: "@<https://gedcom.io/terms/v7/record-SOUR>@"
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+
+contact: lamberson@yahoo.com
+...
