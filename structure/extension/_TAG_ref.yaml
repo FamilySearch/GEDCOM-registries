@@ -4,9 +4,7 @@ lang: en-US
 
 type: structure
 
-uri: https://github.com/glamberson/gedcom-tags/_TAG
-
-standard tag: _TAG
+uri: https://github.com/glamberson/gedcom-tags/_TAG_ref
 
 extension tags: _TAG
 
@@ -20,7 +18,7 @@ specification:
 
 label: 'Tag Reference'
 
-payload: https://gedcom.io/terms/v7/type-Pointer
+payload: "@<https://github.com/glamberson/gedcom-tags/_TAG>@"
 
 substructures:
   "https://gedcom.io/terms/v7/DATE": "{0:1}"

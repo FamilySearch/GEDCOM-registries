@@ -6,8 +6,6 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-tags/_ATTR
 
-standard tag: _ATTR
-
 extension tags: _ATTR
 
 specification:

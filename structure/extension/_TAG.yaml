@@ -6,8 +6,6 @@ type: record
 
 uri: https://github.com/glamberson/gedcom-tags/_TAG
 
-standard tag: _TAG
-
 extension tags: _TAG
 
 specification:

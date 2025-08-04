@@ -6,8 +6,6 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-tags/_VALUE
 
-standard tag: _VALUE
-
 extension tags: _VALUE
 
 specification:
