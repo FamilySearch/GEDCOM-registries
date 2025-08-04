@@ -29,7 +29,8 @@ superstructures:
 
 change controller: Armidale Software
 
-used by: [MagiKey]
+used by:
+  - MagiKey
 
 contact: dthaler@armidalesoftware.com
 ...

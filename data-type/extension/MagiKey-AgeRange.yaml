@@ -19,7 +19,8 @@ specification:
 
 change controller: Armidale Software
 
-used by: [MagiKey]
+used by:
+  - MagiKey
 
 contact: dthaler1968@gmail.com
 ...
