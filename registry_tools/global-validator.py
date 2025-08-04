@@ -5,7 +5,7 @@ It also validates each file individually using the schema checking code in valid
 A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# Note:"
 """
 
-from validator import check as check_one_file
+from validatorlib import check as check_one_file
 import yaml
 had_error = False
 
