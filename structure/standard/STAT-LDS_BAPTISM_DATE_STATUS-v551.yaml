@@ -13,7 +13,9 @@ specification:
 
 label: 'Status'
 
-payload: https://gedcom.io/terms/v5.5.1/type-LDS_BAPTISM_DATE_STATUS
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-LDS_BAPTISM_DATE_STATUS'
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/DATE-CHANGE_DATE": "{1:1}"

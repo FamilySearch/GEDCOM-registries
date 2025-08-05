@@ -13,7 +13,9 @@ specification:
 
 label: 'Format'
 
-payload: https://gedcom.io/terms/v5.5.1/type-MULTIMEDIA_FORMAT
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-MULTIMEDIA_FORMAT'
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM-TYPE": "{0:1}"
