@@ -13,7 +13,9 @@ specification:
 
 label: 'Pedigree'
 
-payload: https://gedcom.io/terms/v5.5.1/type-PEDIGREE_LINKAGE_TYPE
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-PEDIGREE_LINKAGE_TYPE'
 
 substructures: {}
 

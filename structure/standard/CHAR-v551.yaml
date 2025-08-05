@@ -13,7 +13,9 @@ specification:
 
 label: 'Character'
 
-payload: https://gedcom.io/terms/v5.5.1/type-CHARACTER_SET
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-CHARACTER_SET'
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/VERS": "{0:1}"

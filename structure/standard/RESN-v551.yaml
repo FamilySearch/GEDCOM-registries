@@ -13,7 +13,9 @@ specification:
 
 label: 'Restriction'
 
-payload: https://gedcom.io/terms/v5.5.1/type-RESTRICTION_NOTICE
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-RESTRICTION_NOTICE'
 
 substructures: {}
 
