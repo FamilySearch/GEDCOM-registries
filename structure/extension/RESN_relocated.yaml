@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure relocation
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/RESN
+
+# This relocates the standard RESN structure to ASSO context
+# No custom extension tag needed - uses standard RESN
+
+specification:
+  - Association Privacy Restriction
+  - |
+    Uses the standard GEDCOM 7 RESN (restriction) structure relocated
+    to the ASSO context. This indicates privacy or access restrictions
+    for this specific association.
+    
+    Standard RESN values apply:
+    - CONFIDENTIAL: This association is confidential
+    - LOCKED: This association should not be changed
+    - PRIVACY: This association should be treated as private
+    
+    Applications should respect these restrictions by:
+    - Excluding restricted associations from public reports
+    - Requiring additional authentication to view
+    - Preventing changes to LOCKED associations
+    
+    This approach reuses the standard RESN structure and enumeration,
+    providing consistency with existing GEDCOM 7 privacy mechanisms.
+
+relocated from: https://gedcom.io/terms/v7/RESN
+
+superstructures:
+  "https://gedcom.io/terms/v7/ASSO": "{0:1}"
+
+contact: lamberson@yahoo.com
+...
