@@ -9,8 +9,15 @@ uri: https://gedcom.io/terms/v5.5.1/AGNC
 standard tag: 'AGNC'
 
 specification:
-  - The institution or individual having authority and/or responsibility to manage or govern.
-  - The organization, institution, corporation, person, or other entity that has responsibility for the associated context. For example, an employer of a person of an associated occupation, or a church that administered rites or events, or an organization responsible for creating and/or archiving records.
+  - |
+    The institution or individual having authority and/or responsibility to
+    manage or govern.
+  - |
+    The organization, institution, corporation, person, or other entity that
+    has responsibility for the associated context. For example, an employer of
+    a person of an associated occupation, or a church that administered rites
+    or events, or an organization responsible for creating and/or archiving
+    records.
 
 label: 'Agency'
 

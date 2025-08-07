@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/PROP
 standard tag: 'PROP'
 
 specification:
-  - Pertaining to possessions such as real estate or other property of interest.
-  - A list of possessions (real estate or other property) belonging to this individual.
+  - |
+    Pertaining to possessions such as real estate or other property of
+    interest.
+  - |
+    A list of possessions (real estate or other property) belonging to this
+    individual.
 
 label: 'Property'
 

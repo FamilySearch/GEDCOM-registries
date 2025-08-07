@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/CALN
 standard tag: 'CALN'
 
 specification:
-  - The number used by a repository to identify the specific items in its collections.
-  - An identification or reference description used to file and retrieve items from the holdings of a repository.
+  - |
+    The number used by a repository to identify the specific items in its
+    collections.
+  - |
+    An identification or reference description used to file and retrieve items
+    from the holdings of a repository.
 
 label: 'Call Number'
 

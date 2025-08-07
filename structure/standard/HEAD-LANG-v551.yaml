@@ -9,11 +9,17 @@ uri: https://gedcom.io/terms/v5.5.1/HEAD-LANG
 standard tag: 'LANG'
 
 specification:
-  - The name of the language used in a communication or transmission of information.
+  - |
+    The name of the language used in a communication or transmission of
+    information.
+  - |
+    The human language in which the data in the transmission is normally read
+    or written. It is used primarily by programs to select language-specific
+    sorting sequences and phonetic name matching algorithms.
 
 label: 'Language'
 
-payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_OF_TEXT
+payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
 
 substructures: {}
 

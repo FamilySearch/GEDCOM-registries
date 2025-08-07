@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/PROB
 standard tag: 'PROB'
 
 specification:
-  - An event of judicial determination of the validity of a will. May indicate several related court activities over several dates.
+  - |
+    An event of judicial determination of the validity of a will. May indicate
+    several related court activities over several dates.
 
 label: 'Probate'
 

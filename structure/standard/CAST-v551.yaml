@@ -9,8 +9,14 @@ uri: https://gedcom.io/terms/v5.5.1/CAST
 standard tag: 'CAST'
 
 specification:
-  - The name of an individual's rank or status in society which is sometimes based on racial or religious differences, or differences in wealth, inherited rank, profession, occupation, etc.
-  - A name assigned to a particular group that this person was associated with, such as a particular racial group, religious group, or a group with an inherited status.
+  - |
+    The name of an individual's rank or status in society which is sometimes
+    based on racial or religious differences, or differences in wealth,
+    inherited rank, profession, occupation, etc.
+  - |
+    A name assigned to a particular group that this person was associated
+    with, such as a particular racial group, religious group, or a group with
+    an inherited status.
 
 label: 'Caste'
 

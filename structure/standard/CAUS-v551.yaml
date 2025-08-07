@@ -9,8 +9,13 @@ uri: https://gedcom.io/terms/v5.5.1/CAUS
 standard tag: 'CAUS'
 
 specification:
-  - A description of the cause of the associated event or fact, such as the cause of death.
-  - Used in special cases to record the reasons which precipitated an event. Normally this will be used subordinate to a death event to show cause of death, such as might be listed on a death certificate.
+  - |
+    A description of the cause of the associated event or fact, such as the
+    cause of death.
+  - |
+    Used in special cases to record the reasons which precipitated an event.
+    Normally this will be used subordinate to a death event to show cause of
+    death, such as might be listed on a death certificate.
 
 label: 'Cause'
 

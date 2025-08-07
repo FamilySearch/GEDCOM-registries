@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/ASSO
 standard tag: 'ASSO'
 
 specification:
-  - An indicator to link friends, neighbors, relatives, or associates of an individual.
+  - |
+    An indicator to link friends, neighbors, relatives, or associates of an
+    individual.
 
 label: 'Associates'
 

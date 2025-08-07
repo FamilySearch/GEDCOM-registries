@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/HEAD-COPR
 standard tag: 'COPR'
 
 specification:
-  - A statement that accompanies data to protect it from unlawful duplication and distribution.
-  - A copyright statement needed to protect the copyrights of the submitter of this GEDCOM file.
+  - |
+    A statement that accompanies data to protect it from unlawful duplication
+    and distribution.
+  - |
+    A copyright statement needed to protect the copyrights of the submitter of
+    this GEDCOM file.
 
 label: 'Copyright'
 

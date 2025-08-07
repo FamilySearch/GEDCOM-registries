@@ -9,7 +9,10 @@ uri: https://gedcom.io/terms/v5.5.1/record-FAM
 standard tag: 'FAM'
 
 specification:
-  - Identifies a legal, common law, or other customary relationship of man and woman and their children, if any, or a family created by virtue of the birth of a child to its biological father and mother.
+  - |
+    Identifies a legal, common law, or other customary relationship of man and
+    woman and their children, if any, or a family created by virtue of the
+    birth of a child to its biological father and mother.
 
 label: 'Family'
 

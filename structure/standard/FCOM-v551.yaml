@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/FCOM
 standard tag: 'FCOM'
 
 specification:
-  - A religious rite, the first act of sharing in the Lord's supper as part of church worship.
+  - |
+    A religious rite, the first act of sharing in the Lord's supper as part of
+    church worship.
 
 label: 'First Communion'
 

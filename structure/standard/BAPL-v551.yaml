@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/BAPL
 standard tag: 'BAPL'
 
 specification:
-  - The event of baptism performed at age eight or later by priesthood authority of the LDS Church. (See also BAPM, next)
+  - |
+    The event of baptism performed at age eight or later by priesthood
+    authority of the LDS Church. (See also BAPM, next)
 
 label: 'Baptism-LDS'
 

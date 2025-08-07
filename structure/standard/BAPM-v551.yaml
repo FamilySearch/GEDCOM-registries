@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/BAPM
 standard tag: 'BAPM'
 
 specification:
-  - The event of baptism (not LDS), performed in infancy or later. (See also BAPL, above, and CHR, page 85.)
+  - |
+    The event of baptism (not LDS), performed in infancy or later. (See also
+    BAPL, above, and CHR, page 85.)
 
 label: 'Baptism'
 

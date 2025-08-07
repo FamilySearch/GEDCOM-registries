@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/INDI-RELI
 standard tag: 'RELI'
 
 specification:
-  - A religious denomination to which a person is affiliated or for which a record applies.
-  - A name of the religion with which this person, event, or record was affiliated.
+  - |
+    A religious denomination to which a person is affiliated or for which a
+    record applies.
+  - |
+    A name of the religion with which this person, event, or record was
+    affiliated.
 
 label: 'Religion'
 

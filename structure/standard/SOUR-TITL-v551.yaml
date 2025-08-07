@@ -9,7 +9,11 @@ uri: https://gedcom.io/terms/v5.5.1/SOUR-TITL
 standard tag: 'TITL'
 
 specification:
-  - A description of a specific writing or other work, such as the title of a book when used in a source context, or a formal designation used by an individual in connection with positions of royalty or other social status, such as Grand Duke.
+  - |
+    A description of a specific writing or other work, such as the title of a
+    book when used in a source context, or a formal designation used by an
+    individual in connection with positions of royalty or other social status,
+    such as Grand Duke.
   - The title of the work, record, or item and, when appropriate, the title of the larger work or series of which it is a part.
   - For a published work, a book for example, might have a title plus the title of the series of which the book is a part. A magazine article would have a title plus the title of the magazine that published the article.
   - |

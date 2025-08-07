@@ -10,10 +10,16 @@ standard tag: 'PLAC'
 
 specification:
   - A jurisdictional name to identify the place or location of an event.
+  - |
+    The name of the lowest jurisdiction that encompasses all lower-level
+    "places named in this source. For example, \"Oneida, Idaho\" would be used as"
+    a source jurisdiction place for events occurring in the various towns
+    "within Oneida County. \"Idaho\" would be the source jurisdiction place if"
+    the events recorded took place in other counties as well as Oneida County.
 
 label: 'Place'
 
-payload: https://gedcom.io/terms/v5.5.1/type-SOURCE_JURISDICTION_PLACE
+payload: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
 
 substructures: {}
 

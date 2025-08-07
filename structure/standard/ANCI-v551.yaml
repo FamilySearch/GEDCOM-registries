@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/ANCI
 standard tag: 'ANCI'
 
 specification:
-  - Indicates an interest in additional research for ancestors of this individual. (See also DESI, page 86.)
+  - |
+    Indicates an interest in additional research for ancestors of this
+    individual. (See also DESI, page 86.)
 
 label: 'Ances Interest'
 

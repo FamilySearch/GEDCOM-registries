@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/IDNO
 standard tag: 'IDNO'
 
 specification:
-  - A number assigned to identify a person within some significant external system.
+  - |
+    A number assigned to identify a person within some significant external
+    system.
   - |
     A nationally-controlled number assigned to an individual. Commonly known national numbers should be assigned their own tag, such as SSN for U.S. Social Security Number. The use of the IDNO tag requires a subordinate TYPE tag to identify what kind of number is being stored.
     "For example:"

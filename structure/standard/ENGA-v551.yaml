@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/ENGA
 standard tag: 'ENGA'
 
 specification:
-  - An event of recording or announcing an agreement between two people to become married.
+  - |
+    An event of recording or announcing an agreement between two people to
+    become married.
 
 label: 'Engagement'
 

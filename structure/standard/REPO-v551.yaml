@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/REPO
 standard tag: 'REPO'
 
 specification:
-  - An institution or person that has the specified item as part of their collection(s).
+  - |
+    An institution or person that has the specified item as part of their
+    collection(s).
 
 label: 'Repository'
 

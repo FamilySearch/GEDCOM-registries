@@ -9,7 +9,10 @@ uri: https://gedcom.io/terms/v5.5.1/SUBM-NAME
 standard tag: 'NAME'
 
 specification:
-  - A word or combination of words used to help identify an individual, title, or other item. More than one NAME line should be used for people who were known by multiple names.
+  - |
+    A word or combination of words used to help identify an individual, title,
+    or other item. More than one NAME line should be used for people who were
+    known by multiple names.
   - The name of the submitter formatted for display and address generation.
 
 label: 'Name'

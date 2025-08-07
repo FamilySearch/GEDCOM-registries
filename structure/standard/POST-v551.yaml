@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/POST
 standard tag: 'POST'
 
 specification:
-  - A code used by a postal service to identify an area to facilitate mail handling.
+  - |
+    A code used by a postal service to identify an area to facilitate mail
+    handling.
   - The ZIP or postal code used by the various localities in handling of mail. Isolated for sorting or
   - indexing.
 

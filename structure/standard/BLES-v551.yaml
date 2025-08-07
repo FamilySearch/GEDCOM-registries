@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/BLES
 standard tag: 'BLES'
 
 specification:
-  - A religious event of bestowing divine care or intercession. Sometimes given in connection with a naming ceremony.
+  - |
+    A religious event of bestowing divine care or intercession. Sometimes
+    given in connection with a naming ceremony.
 
 label: 'Blessing'
 

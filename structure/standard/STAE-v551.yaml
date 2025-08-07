@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/STAE
 standard tag: 'STAE'
 
 specification:
-  - A geographical division of a larger jurisdictional area, such as a State within the United States of America.
-  - The name of the state used in the address. Isolated for sorting or indexing.
+  - |
+    A geographical division of a larger jurisdictional area, such as a State
+    within the United States of America.
+  - |
+    The name of the state used in the address. Isolated for sorting or
+    indexing.
 
 label: 'State'
 

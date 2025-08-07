@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/VERS
 standard tag: 'VERS'
 
 specification:
-  - Indicates which version of a product, item, or publication is being used or referenced.
-  - An identifier that represents the version level assigned to the associated product. It is defined and changed by the creators of the product.
+  - |
+    Indicates which version of a product, item, or publication is being used
+    or referenced.
+  - |
+    An identifier that represents the version level assigned to the associated
+    product. It is defined and changed by the creators of the product.
 
 label: 'Version'
 

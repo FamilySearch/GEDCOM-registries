@@ -9,7 +9,11 @@ uri: https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION
 standard tag: 'TYPE'
 
 specification:
-  - A further qualification to the meaning of the associated superior tag. The value does not have any computer processing reliability. It is more in the form of a short one or two word note that should be displayed any time the associated data is displayed.
+  - |
+    A further qualification to the meaning of the associated superior tag. The
+    value does not have any computer processing reliability. It is more in the
+    form of a short one or two word note that should be displayed any time the
+    associated data is displayed.
 
 label: 'Type'
 

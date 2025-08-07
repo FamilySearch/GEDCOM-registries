@@ -10,7 +10,9 @@ standard tag: 'TEMP'
 
 specification:
   - The name or code that represents the name of an LDS Church Temple.
-  - An abbreviation of the temple in which LDS temple ordinances were performed. (See Appendix B, page 96.)
+  - |
+    An abbreviation of the temple in which LDS temple ordinances were
+    performed. (See Appendix B, page 96.)
 
 label: 'Temple'
 
