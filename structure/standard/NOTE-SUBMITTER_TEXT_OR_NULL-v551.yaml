@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL
 standard tag: 'NOTE'
 
 specification:
-  - Additional information provided by the submitter for understanding the enclosing data.
+  - |
+    Additional information provided by the submitter for understanding the
+    enclosing data.
   - Comments or opinions from the submitter.
 
 label: 'Note'
