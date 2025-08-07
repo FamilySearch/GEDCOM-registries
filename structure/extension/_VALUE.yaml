@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-tags/_VALUE
 
-extension tags: _VALUE
+extension tags:
+  - _VALUE
 
 specification:
   - Attribute Value
@@ -25,4 +26,5 @@ superstructures:
   "https://github.com/glamberson/gedcom-tags/_ATTR": "{1:1}"
 
 contact: "lamberson@yahoo.com"
+
 ...

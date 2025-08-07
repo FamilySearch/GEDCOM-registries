@@ -6,7 +6,8 @@ type: record
 
 uri: https://github.com/glamberson/gedcom-tags/_TAG
 
-extension tags: _TAG
+extension tags:
+  - _TAG
 
 specification:
   - Tag Record
@@ -34,4 +35,5 @@ substructures:
 superstructures: {}
 
 contact: "lamberson@yahoo.com"
+
 ...

@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-tags/_COLOR
 
-extension tags: _COLOR
+extension tags:
+  - _COLOR
 
 specification:
   - Color
@@ -28,4 +29,5 @@ superstructures:
   "https://github.com/glamberson/gedcom-tags/_TAG": "{0:1}"
 
 contact: "lamberson@yahoo.com"
+
 ...

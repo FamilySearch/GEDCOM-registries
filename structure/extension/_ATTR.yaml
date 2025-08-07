@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-tags/_ATTR
 
-extension tags: _ATTR
+extension tags:
+  - _ATTR
 
 specification:
   - Generic Attribute
@@ -29,4 +30,5 @@ superstructures:
   "https://github.com/glamberson/gedcom-tags/_TAG": "{0:M}"
 
 contact: "lamberson@yahoo.com"
+
 ...
