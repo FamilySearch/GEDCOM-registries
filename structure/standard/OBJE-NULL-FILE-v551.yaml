@@ -9,8 +9,13 @@ uri: https://gedcom.io/terms/v5.5.1/OBJE-NULL-FILE
 standard tag: 'FILE'
 
 specification:
-  - An information storage place that is ordered and arranged for preservation and reference.
-  - A complete local or remote file reference to the auxiliary data to be linked to the GEDCOM context. Remote reference would include a network address where the multimedia data may be obtained.
+  - |
+    An information storage place that is ordered and arranged for preservation
+    and reference.
+  - |
+    A complete local or remote file reference to the auxiliary data to be
+    linked to the GEDCOM context. Remote reference would include a network
+    address where the multimedia data may be obtained.
 
 label: 'File'
 

@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/ENDL
 standard tag: 'ENDL'
 
 specification:
-  - A religious event where an endowment ordinance for an individual was performed by priesthood authority in an LDS temple.
+  - |
+    A religious event where an endowment ordinance for an individual was
+    performed by priesthood authority in an LDS temple.
 
 label: 'Endowment'
 

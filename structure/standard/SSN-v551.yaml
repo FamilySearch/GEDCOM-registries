@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/SSN
 standard tag: 'SSN'
 
 specification:
-  - A number assigned by the United States Social Security Administration. Used for tax identification purposes.
-  - A number assigned to a person in the United States for identification purposes.
+  - |
+    A number assigned by the United States Social Security Administration.
+    Used for tax identification purposes.
+  - |
+    A number assigned to a person in the United States for identification
+    purposes.
 
 label: 'Soc Sec Number'
 

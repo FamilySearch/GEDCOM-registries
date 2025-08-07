@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/INDI-CENS
 standard tag: 'CENS'
 
 specification:
-  - The event of the periodic count of the population for a designated locality, such as a national or state Census.
+  - |
+    The event of the periodic count of the population for a designated
+    locality, such as a national or state Census.
 
 label: 'Census'
 

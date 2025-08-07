@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/FAMF
 standard tag: 'FAMF'
 
 specification:
-  - Pertaining to, or the name of, a family file. Names stored in a file that are assigned to a family for doing temple ordinance work.
-  - Name under which family names for ordinances are stored in the temple's family file.
+  - |
+    Pertaining to, or the name of, a family file. Names stored in a file that
+    are assigned to a family for doing temple ordinance work.
+  - |
+    Name under which family names for ordinances are stored in the temple's
+    family file.
 
 label: 'Family File'
 

@@ -10,7 +10,13 @@ standard tag: 'FONE'
 
 specification:
   - A phonetic variation of a superior text string
-  - The phonetic variation of the name is written in the same form as the was the name used in the superior <NAME_PERSONAL> primitive, but phonetically written using the method indicated by the subordinate <PHONETIC_TYPE> value, for example if hiragana was used to provide a reading of a name written in kanji, then the <PHONETIC_TYPE> value would indicate 'kana'. See page 57.
+  - |
+    The phonetic variation of the name is written in the same form as the was
+    the name used in the superior <NAME_PERSONAL> primitive, but phonetically
+    written using the method indicated by the subordinate <PHONETIC_TYPE>
+    value, for example if hiragana was used to provide a reading of a name
+    written in kanji, then the <PHONETIC_TYPE> value would indicate 'kana'.
+    See page 57.
 
 label: 'Phonetic'
 

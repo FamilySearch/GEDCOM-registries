@@ -10,7 +10,9 @@ standard tag: 'EMAIL'
 
 specification:
   - An electronic mail address.
-  - An electronic address that can be used for contact such as an email address.
+  - |
+    An electronic address that can be used for contact such as an email
+    address.
 
 label: 'Email'
 

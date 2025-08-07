@@ -9,8 +9,12 @@ uri: https://gedcom.io/terms/v5.5.1/AFN
 standard tag: 'AFN'
 
 specification:
-  - A unique permanent record file number of an individual record stored in Ancestral File.
-  - A unique permanent record number of an individual record contained in the Family History Department's Ancestral File.
+  - |
+    A unique permanent record file number of an individual record stored in
+    Ancestral File.
+  - |
+    A unique permanent record number of an individual record contained in the
+    Family History Department's Ancestral File.
 
 label: 'AFN'
 

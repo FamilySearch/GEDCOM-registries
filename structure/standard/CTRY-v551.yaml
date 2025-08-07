@@ -10,7 +10,10 @@ standard tag: 'CTRY'
 
 specification:
   - The name or code of the country.
-  - The name of the country that pertains to the associated address. Isolated by some systems for sorting or indexing. Used in most cases to facilitate automatic sorting of mail.
+  - |
+    The name of the country that pertains to the associated address. Isolated
+    by some systems for sorting or indexing. Used in most cases to facilitate
+    automatic sorting of mail.
 
 label: 'Country'
 

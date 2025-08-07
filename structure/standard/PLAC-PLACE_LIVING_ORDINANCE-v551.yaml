@@ -10,10 +10,13 @@ standard tag: 'PLAC'
 
 specification:
   - A jurisdictional name to identify the place or location of an event.
+  - |
+    The locality of the place where a living LDS ordinance took place.
+    Typically, a living LDS baptism place would be recorded in this field.
 
 label: 'Place'
 
-payload: https://gedcom.io/terms/v5.5.1/type-PLACE_LIVING_ORDINANCE
+payload: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
 
 substructures: {}
 

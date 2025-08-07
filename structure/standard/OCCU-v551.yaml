@@ -10,7 +10,9 @@ standard tag: 'OCCU'
 
 specification:
   - The type of work or profession of an individual.
-  - The kind of activity that an individual does for a job, profession, or principal activity.
+  - |
+    The kind of activity that an individual does for a job, profession, or
+    principal activity.
 
 label: 'Occupation'
 

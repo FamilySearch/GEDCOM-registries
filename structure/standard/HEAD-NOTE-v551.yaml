@@ -9,8 +9,14 @@ uri: https://gedcom.io/terms/v5.5.1/HEAD-NOTE
 standard tag: 'NOTE'
 
 specification:
-  - Additional information provided by the submitter for understanding the enclosing data.
-  - "A note that a user enters to describe the contents of the lineage-linked file in terms of \"ancestors or descendants of\" so that the person receiving the data knows what genealogical information the transmission contains."
+  - |
+    Additional information provided by the submitter for understanding the
+    enclosing data.
+  - |
+    A note that a user enters to describe the contents of the lineage-linked
+    "file in terms of \"ancestors or descendants of\" so that the person"
+    receiving the data knows what genealogical information the transmission
+    contains.
 
 label: 'Note'
 

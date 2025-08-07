@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/MARB
 standard tag: 'MARB'
 
 specification:
-  - An event of an official public notice given that two people intend to marry.
+  - |
+    An event of an official public notice given that two people intend to
+    marry.
 
 label: 'Marriage Bann'
 

@@ -10,7 +10,9 @@ standard tag: 'ABBR'
 
 specification:
   - A short name of a title, description, or name.
-  - This entry is to provide a short title used for sorting, filing, and retrieving source records.
+  - |
+    This entry is to provide a short title used for sorting, filing, and
+    retrieving source records.
 
 label: 'Abbreviation'
 

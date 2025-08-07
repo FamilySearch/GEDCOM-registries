@@ -9,7 +9,10 @@ uri: https://gedcom.io/terms/v5.5.1/MARC
 standard tag: 'MARC'
 
 specification:
-  - An event of recording a formal agreement of marriage, including the prenuptial agreement in which marriage partners reach agreement about the property rights of one or both, securing property to their children.
+  - |
+    An event of recording a formal agreement of marriage, including the
+    prenuptial agreement in which marriage partners reach agreement about the
+    property rights of one or both, securing property to their children.
 
 label: 'Marr Contract'
 

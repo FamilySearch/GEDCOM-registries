@@ -9,11 +9,16 @@ uri: https://gedcom.io/terms/v5.5.1/SUBM-LANG
 standard tag: 'LANG'
 
 specification:
-  - The name of the language used in a communication or transmission of information.
+  - |
+    The name of the language used in a communication or transmission of
+    information.
+  - |
+    The language in which a person prefers to communicate. Multiple language
+    preference is shown by using multiple occurrences in order of priority.
 
 label: 'Language'
 
-payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_PREFERENCE
+payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
 
 substructures: {}
 

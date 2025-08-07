@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/RESN
 standard tag: 'RESN'
 
 specification:
-  - A processing indicator signifying access to information has been denied or otherwise restricted.
+  - |
+    A processing indicator signifying access to information has been denied or
+    otherwise restricted.
 
 label: 'Restriction'
 

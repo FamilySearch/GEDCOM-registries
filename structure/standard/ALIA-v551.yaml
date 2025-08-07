@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/ALIA
 standard tag: 'ALIA'
 
 specification:
-  - An indicator to link different record descriptions of a person who may be the same person.
+  - |
+    An indicator to link different record descriptions of a person who may be
+    the same person.
 
 label: 'Alias'
 

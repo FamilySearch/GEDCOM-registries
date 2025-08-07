@@ -10,7 +10,9 @@ standard tag: 'ADR1'
 
 specification:
   - The first line of an address.
-  - The first line of the address used for indexing. This is the value of the line corresponding to the ADDR tag line in the address structure.
+  - |
+    The first line of the address used for indexing. This is the value of the
+    line corresponding to the ADDR tag line in the address structure.
 
 label: 'Address1'
 

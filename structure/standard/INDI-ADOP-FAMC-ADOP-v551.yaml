@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC-ADOP
 standard tag: 'ADOP'
 
 specification:
-  - Pertaining to creation of a legally approved child-parent relationship that does not exist biologically.
+  - |
+    Pertaining to creation of a legally approved child-parent relationship
+    that does not exist biologically.
 
 label: 'Adoption'
 

@@ -9,8 +9,16 @@ uri: https://gedcom.io/terms/v5.5.1/FAM-NCHI
 standard tag: 'NCHI'
 
 specification:
-  - The number of children that this person is known to be the parent of (all marriages) when subordinate to an individual, or that belong to this family when subordinate to a FAM_RECORD.
-  - The known number of children of this individual from all marriages or, if subordinate to a family record, the reported number of children known to belong to this family, regardless of whether the associated children are represented in the corresponding structure. This is not necessarily the count of children listed in a family structure.
+  - |
+    The number of children that this person is known to be the parent of (all
+    marriages) when subordinate to an individual, or that belong to this
+    family when subordinate to a FAM_RECORD.
+  - |
+    The known number of children of this individual from all marriages or, if
+    subordinate to a family record, the reported number of children known to
+    belong to this family, regardless of whether the associated children are
+    represented in the corresponding structure. This is not necessarily the
+    count of children listed in a family structure.
 
 label: 'Children Count'
 

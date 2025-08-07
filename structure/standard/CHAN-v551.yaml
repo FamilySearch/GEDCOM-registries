@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/CHAN
 standard tag: 'CHAN'
 
 specification:
-  - Indicates a change, correction, or modification. Typically used in connection with a DATE to specify when a change in information occurred.
+  - |
+    Indicates a change, correction, or modification. Typically used in
+    connection with a DATE to specify when a change in information occurred.
 
 label: 'Change'
 

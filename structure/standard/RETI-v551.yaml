@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/RETI
 standard tag: 'RETI'
 
 specification:
-  - An event of exiting an occupational relationship with an employer after a qualifying time period.
+  - |
+    An event of exiting an occupational relationship with an employer after a
+    qualifying time period.
 
 label: 'Retirement'
 

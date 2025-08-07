@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/CONL
 standard tag: 'CONL'
 
 specification:
-  - The religious event by which a person receives membership in the LDS Church.
+  - |
+    The religious event by which a person receives membership in the LDS
+    Church.
 
 label: 'Confirmation LDS'
 

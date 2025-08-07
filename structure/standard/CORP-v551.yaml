@@ -10,7 +10,9 @@ standard tag: 'CORP'
 
 specification:
   - A name of an institution, agency, corporation, or company.
-  - Name of the business, corporation, or person that produced or commissioned the product.
+  - |
+    Name of the business, corporation, or person that produced or commissioned
+    the product.
 
 label: 'Corporate'
 

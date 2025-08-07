@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/BURI
 standard tag: 'BURI'
 
 specification:
-  - The event of the proper disposing of the mortal remains of a deceased person.
+  - |
+    The event of the proper disposing of the mortal remains of a deceased
+    person.
 
 label: 'Burial'
 

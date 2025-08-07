@@ -9,7 +9,11 @@ uri: https://gedcom.io/terms/v5.5.1/TITL-DESCRIPTIVE_TITLE
 standard tag: 'TITL'
 
 specification:
-  - A description of a specific writing or other work, such as the title of a book when used in a source context, or a formal designation used by an individual in connection with positions of royalty or other social status, such as Grand Duke.
+  - |
+    A description of a specific writing or other work, such as the title of a
+    book when used in a source context, or a formal designation used by an
+    individual in connection with positions of royalty or other social status,
+    such as Grand Duke.
   - The title of a work, record, item, or object.
 
 label: 'Title'

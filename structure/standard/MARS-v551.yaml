@@ -9,7 +9,10 @@ uri: https://gedcom.io/terms/v5.5.1/MARS
 standard tag: 'MARS'
 
 specification:
-  - An event of creating an agreement between two people contemplating marriage, at which time they agree to release or modify property rights that would otherwise arise from the marriage.
+  - |
+    An event of creating an agreement between two people contemplating
+    marriage, at which time they agree to release or modify property rights
+    that would otherwise arise from the marriage.
 
 label: 'Marr Settlement'
 

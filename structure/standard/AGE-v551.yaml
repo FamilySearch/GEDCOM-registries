@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/AGE
 standard tag: 'AGE'
 
 specification:
-  - The age of the individual at the time an event occurred, or the age listed in the document.
+  - |
+    The age of the individual at the time an event occurred, or the age listed
+    in the document.
 
 label: 'Age'
 

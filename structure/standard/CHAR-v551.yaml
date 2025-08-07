@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/CHAR
 standard tag: 'CHAR'
 
 specification:
-  - An indicator of the character set used in writing this automated information.
+  - |
+    An indicator of the character set used in writing this automated
+    information.
 
 label: 'Character'
 

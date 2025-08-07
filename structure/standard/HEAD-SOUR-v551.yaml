@@ -10,7 +10,11 @@ standard tag: 'SOUR'
 
 specification:
   - The initial or original material from which information was obtained.
-  - A system identification name which was obtained through the GEDCOM registration process. This name must be unique from any other product. Spaces within the name must be substituted with a 0x5F (underscore _) so as to create one word.
+  - |
+    A system identification name which was obtained through the GEDCOM
+    registration process. This name must be unique from any other product.
+    Spaces within the name must be substituted with a 0x5F (underscore _) so
+    as to create one word.
 
 label: 'Source'
 

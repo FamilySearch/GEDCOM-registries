@@ -9,8 +9,13 @@ uri: https://gedcom.io/terms/v5.5.1/REPO-NAME
 standard tag: 'NAME'
 
 specification:
-  - A word or combination of words used to help identify an individual, title, or other item. More than one NAME line should be used for people who were known by multiple names.
-  - The official name of the archive in which the stated source material is stored.
+  - |
+    A word or combination of words used to help identify an individual, title,
+    or other item. More than one NAME line should be used for people who were
+    known by multiple names.
+  - |
+    The official name of the archive in which the stated source material is
+    stored.
 
 label: 'Name'
 

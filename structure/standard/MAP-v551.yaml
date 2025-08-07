@@ -9,7 +9,9 @@ uri: https://gedcom.io/terms/v5.5.1/MAP
 standard tag: 'MAP'
 
 specification:
-  - Pertains to a representation of measurements usually presented in a graphical form.
+  - |
+    Pertains to a representation of measurements usually presented in a
+    graphical form.
 
 label: 'Map'
 
