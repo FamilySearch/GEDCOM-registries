@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_EVREF
 
-extension tags: [ _EVREF ]
+extension tags:
+  - _EVREF
 
 specification:
   - Evidence Reference

@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_EVEN_EVID
 
-extension tags: [ _EVEN_EVID ]
+extension tags:
+  - _EVEN_EVID
 
 specification:
   - Evidence Event

@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_CONF
 
-extension tags: [ _CONF ]
+extension tags:
+  - _CONF
 
 specification:
   - Confidence Assessment

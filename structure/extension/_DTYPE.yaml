@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_DTYPE
 
-extension tags: [ _DTYPE ]
+extension tags:
+  - _DTYPE
 
 specification:
   - Document Type

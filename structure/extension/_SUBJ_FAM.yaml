@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_FAM
 
-extension tags: [ _SUBJ_FAM ]
+extension tags:
+  - _SUBJ_FAM
 
 specification:
   - Family Subject Reference

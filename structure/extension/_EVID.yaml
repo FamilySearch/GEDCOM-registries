@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_EVID
 
-extension tags: [ _EVID ]
+extension tags:
+  - _EVID
 
 specification:
   - Evidence Container Record

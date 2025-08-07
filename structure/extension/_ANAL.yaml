@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_ANAL
 
-extension tags: [ _ANAL ]
+extension tags:
+  - _ANAL
 
 specification:
   - Evidence Analysis

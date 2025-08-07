@@ -6,7 +6,8 @@ type: enumeration
 
 uri: https://github.com/glamberson/gedcom-evidence/enum-Low
 
-extension tags: [ _LOW ]
+extension tags:
+  - _LOW
 
 specification:
   - Low Confidence

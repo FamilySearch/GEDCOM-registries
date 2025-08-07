@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_FIND
 
-extension tags: [ _FIND ]
+extension tags:
+  - _FIND
 
 specification:
   - Evidence Finding

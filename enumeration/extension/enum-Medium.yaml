@@ -6,7 +6,8 @@ type: enumeration
 
 uri: https://github.com/glamberson/gedcom-evidence/enum-Medium
 
-extension tags: [ _MEDIUM ]
+extension tags:
+  - _MEDIUM
 
 specification:
   - Medium Confidence

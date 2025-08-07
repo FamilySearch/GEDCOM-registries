@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_USED
 
-extension tags: [ _USED ]
+extension tags:
+  - _USED
 
 specification:
   - Evidence Usage

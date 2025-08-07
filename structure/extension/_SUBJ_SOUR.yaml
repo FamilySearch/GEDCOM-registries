@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_SOUR
 
-extension tags: [ _SUBJ_SOUR ]
+extension tags:
+  - _SUBJ_SOUR
 
 specification:
   - Source Subject Reference

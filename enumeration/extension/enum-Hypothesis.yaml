@@ -6,7 +6,8 @@ type: enumeration
 
 uri: https://github.com/glamberson/gedcom-evidence/enum-Hypothesis
 
-extension tags: [ _HYPOTHESIS ]
+extension tags:
+  - _HYPOTHESIS
 
 specification:
   - Working Hypothesis

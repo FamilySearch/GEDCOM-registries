@@ -6,7 +6,8 @@ type: structure
 
 uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_INDI
 
-extension tags: [ _SUBJ_INDI ]
+extension tags:
+  - _SUBJ_INDI
 
 specification:
   - Individual Subject Reference
