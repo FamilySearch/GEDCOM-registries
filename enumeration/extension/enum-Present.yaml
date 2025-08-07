@@ -6,7 +6,7 @@ type: enumeration
 
 uri: https://github.com/glamberson/gedcom-occurrences/enum-Present
 
-extension tags: [ _PRESENT ]
+extension tags: [_PRESENT]
 
 specification:
   - Present

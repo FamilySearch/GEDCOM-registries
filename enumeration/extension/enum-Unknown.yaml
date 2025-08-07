@@ -6,7 +6,7 @@ type: enumeration
 
 uri: https://github.com/glamberson/gedcom-occurrences/enum-Unknown
 
-extension tags: [ _UNKNOWN ]
+extension tags: [_UNKNOWN]
 
 specification:
   - Unknown
