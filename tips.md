@@ -39,51 +39,50 @@ To share the various cases, we used the following metasyntactic variables:
 
 The following are cases to handle:
 
-- `_NEW`.`_SUB`
+####`_NEW`.`_SUB`
 
-    The YAML file for `ext:SUB`'s `superstructures` field should include `ext:NEW`,
-    and the YAML file for `ext:NEW`'s `substructures` field should include `ext:SUB`,
-    both with the same cardinality.
-    
-    If one of these YAML files has a different change controller, including the connection in only the other YAML file is appropriate.
-  
-- `OLD`.`_SUB`
+The YAML file for `ext:SUB`'s `superstructures` field should include `ext:NEW`,
+and the YAML file for `ext:NEW`'s `substructures` field should include `ext:SUB`,
+both with the same cardinality.
 
-    The YAML file for `ext:SUB`'s `superstructures` field should include `std:OLD`
-    
-    If an extension allows this only in some contexts,
-    such as `_SUB` being allowed under `CREA`.`DATE` but not under `CHAN`.`DATE`,
-    then they are actually creating a [subtype of a standard type](#subtype-of-a-standard-type) instead.
-  
-- `_NEW`.`OLD`
-    
-    The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
-    
-    
+If one of these YAML files has a different change controller, including the connection in only the other YAML file is appropriate.
+
+#### `OLD`.`_SUB`
+
+The YAML file for `ext:SUB`'s `superstructures` field should include `std:OLD`
+
+If an extension allows this only in some contexts,
+such as `_SUB` being allowed under `CREA`.`DATE` but not under `CHAN`.`DATE`,
+then they are actually creating a [subtype of a standard type](#subtype-of-a-standard-type) instead.
+
+#### `_NEW`.`OLD`
+
+The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
+
 > [!WARNING]
 > The YAML file should also express what tag is used for this extension-defined substructure, but there is no YAML support for that yet.
 >
 > See [GEDCOM.io#298](https://github.com/FamilySearch/GEDCOM.io/issues/298) for more details.
 
-- `_NEW`.`SUB`
-    
+#### `_NEW`.`SUB`
+
 > [!WARNING]
 > This is allowed (though deprecated) by [1.5. Extensions](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html#extensions) but not yet supported in any way by the registry.
 >
 > See [GEDCOM.io#298](https://github.com/FamilySearch/GEDCOM.io/issues/298) for more details.
-    
-- `_NEW`.`_OLD`
 
-    The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
-    
-    The `HEAD`.`SCHMA` of the file should include `2 TAG _OLD std:OLD` (where `std:` is expanded from prefix notation).
-    
+#### `_NEW`.`_OLD`
+
+The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
+
+The `HEAD`.`SCHMA` of the file should include `2 TAG _OLD std:OLD` (where `std:` is expanded from prefix notation).
+
 > [!WARNING]
 > There is currently no way of indicating in the YAML that this tag is used for this structure; it requires a `HEAD`.`SCHMA` instead.
 
-- `OLD`.`_OSB`
-    
-    The `HEAD`.`SCHMA` of the file should include `2 TAG _OSB std:OSB` (where `std:` is expanded from prefix notation).
+#### `OLD`.`_OSB`
+
+The `HEAD`.`SCHMA` of the file should include `2 TAG _OSB std:OSB` (where `std:` is expanded from prefix notation).
 
 > [!WARNING]
 > There is currently no way of indicating in the YAML that this tag is used for this structure; it requires a `HEAD`.`SCHMA` instead.
