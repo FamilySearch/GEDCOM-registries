@@ -46,4 +46,7 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
 
+value of:
+  - "https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE"
+
 contact: https://gedcom.io/community/
