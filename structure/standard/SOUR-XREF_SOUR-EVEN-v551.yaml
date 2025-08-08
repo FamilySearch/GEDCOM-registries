@@ -13,10 +13,18 @@ specification:
     Pertaining to a noteworthy happening related to an individual, a group, or
     an organization. An EVENt structure is usually qualified or classified by
     a subordinate use of the TYPE tag.
+  - |
+    A code that indicates the type of event which was responsible for the
+    source entry being recorded. For example, if the entry was created to
+    record a birth of a child, then the type would be BIRT regardless of the
+    assertions made from that record, such as the mother's name or mother's
+    birth date. This will allow a prioritized best view choice and a
+    determination of the certainty associated with the source used in
+    asserting the cited fact.
 
 label: 'Event'
 
-payload: https://gedcom.io/terms/v5.5.1/type-EVENT_TYPE_CITED_FROM
+payload: https://gedcom.io/terms/v5.5.1/type-EVENT_ATTRIBUTE_TYPE
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
