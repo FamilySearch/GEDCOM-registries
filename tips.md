@@ -39,7 +39,7 @@ To share the various cases, we used the following metasyntactic variables:
 
 The following are cases to handle:
 
-####`_NEW`.`_SUB`
+#### `_NEW`.`_SUB`
 
 The YAML file for `ext:SUB`'s `superstructures` field should include `ext:NEW`,
 and the YAML file for `ext:NEW`'s `substructures` field should include `ext:SUB`,
