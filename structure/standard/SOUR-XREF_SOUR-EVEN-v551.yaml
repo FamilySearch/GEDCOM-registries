@@ -24,7 +24,9 @@ specification:
 
 label: 'Event'
 
-payload: https://gedcom.io/terms/v5.5.1/type-EVENT_ATTRIBUTE_TYPE
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE'
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
