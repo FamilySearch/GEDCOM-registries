@@ -13,9 +13,7 @@ specification:
 
 label: 'Ordinance'
 
-payload: https://gedcom.io/terms/v7/type-Enum
-
-enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-ORDINANCE_PROCESS_FLAG'
+payload: https://gedcom.io/terms/v5.5.1/type-ORDINANCE_PROCESS_FLAG
 
 substructures: {}
 
