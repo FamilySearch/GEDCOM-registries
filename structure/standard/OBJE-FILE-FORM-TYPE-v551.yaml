@@ -17,9 +17,7 @@ specification:
 
 label: 'Type'
 
-payload: https://gedcom.io/terms/v7/type-Enum
-
-enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-SOURCE_MEDIA_TYPE'
+payload: https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE
 
 substructures: {}
 

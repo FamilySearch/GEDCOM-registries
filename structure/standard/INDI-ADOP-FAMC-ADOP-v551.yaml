@@ -15,9 +15,7 @@ specification:
 
 label: 'Adoption'
 
-payload: https://gedcom.io/terms/v7/type-Enum
-
-enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-ADOPTED_BY_WHICH_PARENT'
+payload: https://gedcom.io/terms/v5.5.1/type-ADOPTED_BY_WHICH_PARENT
 
 substructures: {}
 
