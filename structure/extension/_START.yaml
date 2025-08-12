@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/_START
+
+extension tags: [ _START ]
+
+specification:
+  - Association Start Date
+  - |
+    The date when an association began. Uses standard GEDCOM 7 date format,
+    allowing for exact dates, date ranges, and approximate dates.
+    
+    Examples:
+    - "15 MAY 1850" - Exact date of baptism for godparent relationship
+    - "1845" - Year-only for business partnership
+    - "ABT 1920" - Approximate date for friendship
+    - "BEF 1863" - Known to have started before a certain date
+
+label: 'Start Date'
+
+payload: https://gedcom.io/terms/v7/type-Date
+
+substructures:
+  "https://gedcom.io/terms/v7/PHRASE": "{0:1}"
+  "https://gedcom.io/terms/v7/TIME": "{0:1}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-extended-ASSO/_PERIOD": "{0:1}"
+
+contact: lamberson@yahoo.com
+...

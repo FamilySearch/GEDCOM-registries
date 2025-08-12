@@ -1,0 +1,45 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/_CONF
+
+extension tags:
+  - _CONF
+
+specification:
+  - Association Confidence
+  - |
+    Indicates the confidence level in the association assertion.
+    Uses the standard GEDCOM 7 QUAY (quality) enumeration:
+    
+    0 = Unreliable evidence or estimated data
+    1 = Questionable reliability of evidence  
+    2 = Secondary evidence, data probably reliable
+    3 = Direct source, primary evidence, data considered reliable
+    4 = Well-supported conclusion from primary evidence
+    
+    This reuses the standard QUAY enumeration for consistency with
+    GEDCOM 7 and to benefit from existing language translations.
+    
+    Examples:
+    - 4: Business partnership documented in legal records
+    - 3: Godparent relationship from church baptism record
+    - 1: Possible sibling based on census proximity and ages
+    - 0: Family legend of relationship, no documentation
+
+label: 'Confidence Level'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: "https://gedcom.io/terms/v7/enumset-QUAY"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v7/ASSO": "{0:1}"
+
+contact: lamberson@yahoo.com
+...

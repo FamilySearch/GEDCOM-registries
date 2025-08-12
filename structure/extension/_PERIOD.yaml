@@ -1,0 +1,53 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/_PERIOD
+
+extension tags:
+  - _PERIOD
+
+specification:
+  - Date Period Container
+  - |
+    Container structure for defining the time boundaries of any dateable item.
+    Allows specification of when something began and/or ended using full
+    GEDCOM 7 Date syntax (including ranges and approximations).
+    
+    Either START or END may be omitted if unknown. If both are omitted,
+    the PERIOD structure should not be used.
+    
+    This structure can be used with any context that needs to express
+    a time period with explicit start and/or end dates, not limited to
+    associations.
+    
+    Examples in ASSO context:
+    - Godparent relationship: START at baptism, END at ward's majority
+    - Employment: START date of hire, END date of termination
+    - Military service: START at enlistment, END at discharge
+    - Friendship: May have only START if still ongoing
+    
+    Could also be used with other contexts like:
+    - Residence periods
+    - Educational enrollments
+    - Memberships
+    - Any time-bounded relationship or status
+
+label: 'Date Period Container'
+
+payload: null
+
+substructures:
+  "https://github.com/glamberson/gedcom-extended-ASSO/_START": "{0:1}"
+  "https://github.com/glamberson/gedcom-extended-ASSO/_END": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/ASSO": "{0:1}"
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+
+prerelease: true
+
+contact: lamberson@yahoo.com
+...

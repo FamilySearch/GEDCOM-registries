@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure relocation
+
+uri: https://github.com/glamberson/gedcom-extended-ASSO/TYPE
+
+# This relocates the standard TYPE structure to ASSO context
+# No custom extension tag needed - uses standard TYPE
+
+specification:
+  - Association Type
+  - |
+    Uses the standard GEDCOM 7 TYPE structure relocated to the ASSO context.
+    This provides a user-defined classification or type of the association
+    to supplement the ROLE value.
+    
+    TYPE provides free-text description to accommodate various relationship
+    types across cultures and time periods, while ROLE provides the
+    standardized relationship term.
+    
+    Examples:
+    - TYPE "Godparent" with ROLE "GODP"
+    - TYPE "Business Partnership" with ROLE "OTHER"
+    - TYPE "Military Service" with ROLE "OTHER"
+    - TYPE "Childhood Friend" with ROLE "FRIEND"
+    - TYPE "Next-door Neighbor" with ROLE "NGHBR"
+    
+    This approach reuses the standard TYPE structure, maintaining
+    consistency with how TYPE is used elsewhere in GEDCOM 7.
+
+relocated from: https://gedcom.io/terms/v7/TYPE
+
+superstructures:
+  "https://gedcom.io/terms/v7/ASSO": "{0:1}"
+
+contact: lamberson@yahoo.com
+...
