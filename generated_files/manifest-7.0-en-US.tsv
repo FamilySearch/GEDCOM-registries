@@ -4,9 +4,13 @@ calendar/standard/cal-GREGORIAN.yaml
 calendar/standard/cal-HEBREW.yaml
 calendar/standard/cal-JULIAN.yaml
 data-type/standard/type-Age.yaml
+data-type/standard/type-Date-exact.yaml
+data-type/standard/type-Date-period.yaml
 data-type/standard/type-Date.yaml
 data-type/standard/type-Enum.yaml
 data-type/standard/type-FilePath.yaml
+data-type/standard/type-List-Enum.yaml
+data-type/standard/type-List-Text.yaml
 data-type/standard/type-List.yaml
 data-type/standard/type-Name.yaml
 data-type/standard/type-Time.yaml
