@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+
+enumeration values:
+  - "https://github.com/glamberson/gedcom-occurrences/enum-Present"
+  - "https://github.com/glamberson/gedcom-occurrences/enum-Absent"
+  - "https://github.com/glamberson/gedcom-occurrences/enum-Unknown"
+
+contact: "https://github.com/glamberson/gedcom-occurrences"
+
+documentation: [https://github.com/glamberson/gedcom-occurrences]
+...

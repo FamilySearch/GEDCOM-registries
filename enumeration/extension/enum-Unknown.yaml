@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: https://github.com/glamberson/gedcom-occurrences/enum-Unknown
+
+extension tags: [_UNKNOWN]
+
+specification:
+  - Unknown
+  - Presence status cannot be determined from the source
+
+value of:
+  - https://github.com/glamberson/gedcom-occurrences/enumset-Presence
+
+contact: https://github.com/glamberson/gedcom-occurrences
+...
