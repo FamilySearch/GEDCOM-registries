@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: record
+
+uri: https://github.com/glamberson/gedcom-tags/_TAG
+
+extension tags:
+  - _TAG
+
+specification:
+  - Tag Record
+  - |
+    A _TAG record represents an organizational tag that can be applied to
+    any record type for categorization purposes. Tags support optional
+    visual color coding and vendor-specific attributes through the 
+    generic _ATTR mechanism.
+    
+    Tags are first-class records that exist at the top level and are
+    referenced by other records using the _TAG substructure.
+
+label: 'Tag'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v7/NAME": "{1:1}"
+  "https://github.com/glamberson/gedcom-tags/_COLOR": "{0:1}"
+  "https://github.com/glamberson/gedcom-tags/_ATTR": "{0:M}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/SNOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/CHAN": "{0:1}"
+
+superstructures: {}
+
+contact: "lamberson@yahoo.com"
+
+...

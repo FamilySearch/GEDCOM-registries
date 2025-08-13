@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-tags/_ATTR
+
+extension tags:
+  - _ATTR
+
+specification:
+  - Generic Attribute
+  - |
+    The _ATTR structure provides a generic mechanism for vendors to add
+    custom attributes to tags. The payload contains the attribute name,
+    and the required _VALUE substructure contains the attribute value.
+    
+    This allows software to extend tags with specific functionality
+    without requiring changes to the base specification.
+
+label: 'Attribute'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://github.com/glamberson/gedcom-tags/_VALUE": "{1:1}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-tags/_TAG": "{0:M}"
+
+contact: "lamberson@yahoo.com"
+
+...
