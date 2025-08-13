@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: https://github.com/glamberson/gedcom-evidence/enum-Hypothesis
+
+extension tags:
+  - _HYPOTHESIS
+
+specification:
+  - Working Hypothesis
+  - |
+    Evidence connection is speculative or theoretical. Represents
+    a research hypothesis that needs verification. Should not be
+    presented as fact without additional supporting evidence.
+
+label: 'Hypothesis'
+
+value of:
+  - "https://github.com/glamberson/gedcom-evidence/enumset-Confidence"
+
+contact: lamberson@yahoo.com
+...

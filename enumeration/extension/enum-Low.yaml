@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: https://github.com/glamberson/gedcom-evidence/enum-Low
+
+extension tags:
+  - _LOW
+
+specification:
+  - Low Confidence
+  - |
+    Evidence provides weak support for the conclusion. May rely
+    on circumstantial evidence, have significant conflicts, or
+    depend on questionable sources. Further research recommended.
+
+label: 'Low'
+
+value of:
+  - "https://github.com/glamberson/gedcom-evidence/enumset-Confidence"
+
+contact: lamberson@yahoo.com
+...

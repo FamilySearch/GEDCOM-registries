@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_CONF
+
+extension tags:
+  - _CONF
+
+specification:
+  - Confidence Assessment
+  - |
+    Researcher's confidence in the evidence relevance and interpretation.
+    This differs from QUAY (data quality) by assessing confidence in
+    the connection between evidence and conclusion.
+
+label: 'Confidence Level'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVREF": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_EVEN_EVID": "{0:1}"
+
+contact: lamberson@yahoo.com
+...

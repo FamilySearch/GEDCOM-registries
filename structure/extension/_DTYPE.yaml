@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_DTYPE
+
+extension tags:
+  - _DTYPE
+
+specification:
+  - Document Type
+  - |
+    Specifies the type of document or record that contains the evidence.
+    This helps researchers understand the nature and potential reliability
+    of the evidence. Common types include Census, Birth Certificate,
+    Marriage License, Death Certificate, Will, Land Record, etc.
+
+label: 'Document Type'
+
+payload: https://gedcom.io/terms/v7/type-Text
+
+substructures:
+  "https://gedcom.io/terms/v7/PHRASE": "{0:1}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

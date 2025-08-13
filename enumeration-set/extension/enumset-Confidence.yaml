@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://github.com/glamberson/gedcom-evidence/enumset-Confidence
+
+specification:
+  - Confidence levels
+  - Set of confidence levels for evidence assessment
+
+label: 'Confidence'
+
+enumeration values:
+  - "https://github.com/glamberson/gedcom-evidence/enum-High"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Medium"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Low"
+  - "https://github.com/glamberson/gedcom-evidence/enum-Hypothesis"
+
+contact: lamberson@yahoo.com
+...

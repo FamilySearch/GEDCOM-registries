@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: https://github.com/glamberson/gedcom-evidence/enum-Medium
+
+extension tags:
+  - _MEDIUM
+
+specification:
+  - Medium Confidence
+  - |
+    Evidence reasonably supports the conclusion but with some
+    uncertainty. May have minor conflicts or rely on secondary
+    sources, but preponderance of evidence supports conclusion.
+
+label: 'Medium'
+
+value of:
+  - "https://github.com/glamberson/gedcom-evidence/enumset-Confidence"
+
+contact: lamberson@yahoo.com
+...

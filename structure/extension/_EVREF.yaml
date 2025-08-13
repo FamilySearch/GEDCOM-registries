@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_EVREF
+
+extension tags:
+  - _EVREF
+
+specification:
+  - Evidence Reference
+  - |
+    A reference from an individual or family to an evidence container record.
+    This structure enables individuals and families to document which evidence
+    supports their existence and characteristics. The reference includes
+    confidence assessment and optional analysis notes.
+
+label: 'Evidence Reference'
+
+payload: "@<https://github.com/glamberson/gedcom-evidence/_EVID>@"
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/QUAY": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_CONF": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_USED": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/record-INDI": "{0:M}"
+  "https://gedcom.io/terms/v7/record-FAM": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

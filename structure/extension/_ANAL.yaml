@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_ANAL
+
+extension tags:
+  - _ANAL
+
+specification:
+  - Evidence Analysis
+  - |
+    Researcher's analysis and interpretation of the evidence.
+    This structure documents the reasoning process, conclusions drawn,
+    and any conflicts or issues identified in the evidence. Analysis
+    helps maintain the distinction between what the evidence says
+    and what the researcher concludes from it.
+
+label: 'Analysis'
+
+payload: https://gedcom.io/terms/v7/type-Text
+
+substructures:
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_EVREF": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

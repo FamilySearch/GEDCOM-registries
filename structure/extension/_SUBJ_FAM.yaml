@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_SUBJ_FAM
+
+extension tags:
+  - _SUBJ_FAM
+
+specification:
+  - Family Subject Reference
+  - |
+    References a family mentioned in the evidence. This structure
+    documents that the evidence contains information about a specific
+    family unit, such as a marriage record or family group in a census.
+
+label: 'Family Subject'
+
+payload: "@<https://gedcom.io/terms/v7/record-FAM>@"
+
+substructures:
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+
+superstructures:
+  "https://github.com/glamberson/gedcom-evidence/_EVID": "{0:M}"
+
+contact: lamberson@yahoo.com
+...

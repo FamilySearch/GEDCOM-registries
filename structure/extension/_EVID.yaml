@@ -1,0 +1,44 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/glamberson/gedcom-evidence/_EVID
+
+extension tags:
+  - _EVID
+
+specification:
+  - Evidence Container Record
+  - |
+    A record representing a piece of evidence as an independent object.
+    Evidence records preserve source information exactly as found, including
+    names, dates, places, and relationships, without forcing premature 
+    identity conclusions. This enables "floating evidence" that can be
+    associated with multiple potential individuals or left unassociated
+    until identity can be determined through research.
+
+label: 'Evidence Container'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v7/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v7/CREA": "{0:1}"
+  "https://gedcom.io/terms/v7/DATE": "{0:1}"
+  "https://gedcom.io/terms/v7/NOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/SNOTE": "{0:M}"
+  "https://gedcom.io/terms/v7/SOUR": "{1:M}"
+  "https://gedcom.io/terms/v7/UID": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_DTYPE": "{0:1}"
+  "https://github.com/glamberson/gedcom-evidence/_FIND": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_ANAL": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_SUBJ_INDI": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_SUBJ_FAM": "{0:M}"
+  "https://github.com/glamberson/gedcom-evidence/_SUBJ_SOUR": "{0:M}"
+
+superstructures: {}
+
+contact: lamberson@yahoo.com
+...
