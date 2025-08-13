@@ -10,10 +10,13 @@ standard tag: 'DESI'
 
 specification:
   - |
-    Indicates an interest in research to identify additional descendants of this individual. (See also ANCI,
-    page 84.)
+    Indicates an interest in research to identify additional descendants of
+    this individual. (See also ANCI, page 84.)
 
 label: 'Descendant Int'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: "@<https://gedcom.io/terms/v5.5.1/record-SUBM>@"
 
@@ -22,4 +25,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

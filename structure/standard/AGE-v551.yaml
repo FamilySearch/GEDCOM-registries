@@ -15,6 +15,9 @@ specification:
 
 label: 'Age'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT
 
 substructures: {}
@@ -60,4 +63,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/WIFE-NULL": "{1:1}"
   "https://gedcom.io/terms/v5.5.1/WILL": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

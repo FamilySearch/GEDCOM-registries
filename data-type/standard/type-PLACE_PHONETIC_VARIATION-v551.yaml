@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-PLACE_PHONETIC_VARIATION
+
+specification:
+  - |
+    The phonetic variation of the place name is written in the same form as
+    was the place name used in the superior <PLACE_NAME> primitive, but
+    phonetically written using the method indicated by the subordinate
+    <PHONETIC_TYPE> value, for example if hiragana was used to provide a
+    reading of a a name written in kanji, then the <PHONETIC_TYPE> value would
+    indicate kana. (See <PHONETIC_TYPE> page 57.)
+
+contact: "https://gedcom.io/community/"
+...

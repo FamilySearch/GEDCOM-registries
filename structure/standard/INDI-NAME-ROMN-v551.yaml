@@ -20,6 +20,9 @@ specification:
 
 label: 'Romanized'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: http://www.w3.org/2001/XMLSchema#string
 
 substructures:
@@ -38,4 +41,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

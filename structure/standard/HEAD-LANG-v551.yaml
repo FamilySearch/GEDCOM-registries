@@ -19,6 +19,9 @@ specification:
 
 label: 'Language'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
 
 substructures: {}
@@ -26,4 +29,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/HEAD": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

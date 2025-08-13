@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SURNAME
+
+specification:
+  - |
+    ```
+    NAME_PIECE_SURNAME:=
+    [ <NAME_PIECE> | <NAME_PIECE_SURNAME>, <NAME_PIECE> ]
+    ```
+    Surname or family name. Different surnames are separated by a comma.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

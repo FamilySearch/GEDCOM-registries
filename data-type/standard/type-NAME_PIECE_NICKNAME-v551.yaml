@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_NICKNAME
+
+specification:
+  - |
+    ```
+    NAME_PIECE_NICKNAME:=
+    [ <NAME_PIECE> | <NAME_PIECE_NICKNAME>, <NAME_PIECE> ]
+    ```
+    A descriptive or familiar name used in connection with one's proper name.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

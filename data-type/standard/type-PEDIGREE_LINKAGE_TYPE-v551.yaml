@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-PEDIGREE_LINKAGE_TYPE
+
+specification:
+  - |
+    ```
+    PEDIGREE_LINKAGE_TYPE:=
+    [ adopted | birth | foster | sealing ]
+    ```
+    A code used to indicate the child to family relationship for pedigree
+    navigation purposes.
+  - "Where:"
+  - adopted = indicates adoptive parents.
+  - birth = indicates birth parents.
+  - foster = indicates child was included in a foster or guardian family.
+  - sealing = indicates child was sealed to parents other than birth parents.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

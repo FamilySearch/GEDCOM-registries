@@ -15,6 +15,9 @@ specification:
 
 label: 'Map'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: null
 
 substructures:
@@ -24,4 +27,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

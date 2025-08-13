@@ -16,6 +16,9 @@ specification:
 
 label: 'Note'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: http://www.w3.org/2001/XMLSchema#string
 
 substructures: {}
@@ -95,4 +98,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/SSN": "{0:M}"
   "https://gedcom.io/terms/v5.5.1/WILL": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...
