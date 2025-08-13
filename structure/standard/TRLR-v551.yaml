@@ -13,10 +13,14 @@ specification:
 
 label: 'Trailer'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: null
 
 substructures: {}
 
 superstructures: {}
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

@@ -15,6 +15,9 @@ specification:
 
 label: 'Nickname'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_NICKNAME
 
 substructures: {}
@@ -24,4 +27,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:1}"
   "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

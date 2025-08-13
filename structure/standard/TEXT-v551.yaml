@@ -20,6 +20,9 @@ specification:
 
 label: 'Text'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: http://www.w3.org/2001/XMLSchema#string
 
 substructures: {}
@@ -29,4 +32,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
   "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-DATA": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

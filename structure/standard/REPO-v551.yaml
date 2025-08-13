@@ -15,6 +15,9 @@ specification:
 
 label: 'Repository'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: "@<https://gedcom.io/terms/v5.5.1/record-REPO>@|<NULL>"
 
 substructures:
@@ -25,4 +28,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-SOUR": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

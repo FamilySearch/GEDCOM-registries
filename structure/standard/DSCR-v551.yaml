@@ -11,12 +11,17 @@ standard tag: 'DSCR'
 specification:
   - The physical characteristics of a person, place, or thing.
   - |
-    An unstructured list of the attributes that describe the physical characteristics of a person, place, or object. Commas separate each attribute.
-    "Example:"
-    1 DSCR Hair Brown, Eyes Brown, Height 5 ft 8 in
-    2 DATE 23 JUL 1935
+    An unstructured list of the attributes that describe the physical
+    characteristics of a person, place, or object. Commas separate each
+    attribute.
+  - "Example:"
+  - 1 DSCR Hair Brown, Eyes Brown, Height 5 ft 8 in
+  - 2 DATE 23 JUL 1935
 
 label: 'Phy Description'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -44,4 +49,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

@@ -13,6 +13,9 @@ specification:
 
 label: 'Place'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
 
 substructures:
@@ -74,4 +77,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/SSN": "{0:1}"
   "https://gedcom.io/terms/v5.5.1/WILL": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

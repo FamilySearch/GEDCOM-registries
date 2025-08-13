@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-GEDCOM_FORM
+
+specification:
+  - |
+    ```
+    GEDCOM_FORM:=
+    [ LINEAGE-LINKED ]
+    ```
+    The GEDCOM form used to construct this transmission. There maybe other
+    "forms used such as CommSoft's \"EVENT_LINEAGE_LINKED\" but these"
+    specifications define only the LINEAGE- LINKED Form. Systems will use this
+    value to specify GEDCOM compatible with these specifications.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

@@ -10,10 +10,20 @@ standard tag: 'SOUR'
 
 specification:
   - The initial or original material from which information was obtained.
-  - A free form text block used to describe the source from which information was obtained. This text block is used by those systems which cannot use a pointer to a source record. It must contain a descriptive title, who created the work, where and when it was created, and where the source data stored. The developer should encourage users to use an appropriate style for forming this free form bibliographic reference. Developers are encouraged to support the SOURCE_RECORD method of
+  - |
+    A free form text block used to describe the source from which information
+    was obtained. This text block is used by those systems which cannot use a
+    pointer to a source record. It must contain a descriptive title, who
+    created the work, where and when it was created, and where the source data
+    stored. The developer should encourage users to use an appropriate style
+    for forming this free form bibliographic reference. Developers are
+    encouraged to support the SOURCE_RECORD method of
   - reporting bibliographic reference descriptions.
 
 label: 'Source'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -89,4 +99,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/SSN": "{0:M}"
   "https://gedcom.io/terms/v5.5.1/WILL": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

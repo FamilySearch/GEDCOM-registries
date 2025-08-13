@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-ORDINANCE_PROCESS_FLAG
+
+specification:
+  - |
+    ```
+    ORDINANCE_PROCESS_FLAG:=
+    [ yes | no ]
+    ```
+    A flag that indicates whether submission should be processed for clearing
+    temple ordinances.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

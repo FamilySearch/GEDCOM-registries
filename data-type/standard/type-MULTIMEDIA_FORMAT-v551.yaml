@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-MULTIMEDIA_FORMAT
+
+specification:
+  - |
+    ```
+    MULTIMEDIA_FORMAT:=
+    [ bmp | gif | jpg | ole | pcx | tif | wav ]
+    ```
+    Indicates the format of the multimedia data associated with the specific
+    GEDCOM context. This allows processors to determine whether they can
+    process the data object. Any linked files should contain the data
+    required, in the indicated format, to process the file data.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

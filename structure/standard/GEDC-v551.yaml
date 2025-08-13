@@ -13,6 +13,9 @@ specification:
 
 label: 'GEDCOM'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: null
 
 substructures:
@@ -22,4 +25,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/HEAD": "{1:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

@@ -22,6 +22,9 @@ specification:
 
 label: 'Children Count'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: http://www.w3.org/2001/XMLSchema#nonNegativeInteger
 
 substructures: {}
@@ -29,4 +32,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-FAM": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

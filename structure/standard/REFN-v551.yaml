@@ -12,10 +12,16 @@ specification:
   - |
     A description or number used to identify an item for filing, storage, or
     other reference purposes.
-  - A user-defined number or text that the submitter uses to identify this record. For instance, it may be a record number within the submitter's automated or manual system, or it may be a page and position
+  - |
+    A user-defined number or text that the submitter uses to identify this
+    record. For instance, it may be a record number within the submitter's
+    automated or manual system, or it may be a page and position
   - number on a pedigree chart.
 
 label: 'Reference'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -30,4 +36,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/record-REPO": "{0:M}"
   "https://gedcom.io/terms/v5.5.1/record-SOUR": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

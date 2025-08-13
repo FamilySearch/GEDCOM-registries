@@ -20,6 +20,9 @@ specification:
 
 label: 'Caste'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: http://www.w3.org/2001/XMLSchema#string
 
 substructures:
@@ -49,4 +52,5 @@ superstructures:
 value of:
   - "https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

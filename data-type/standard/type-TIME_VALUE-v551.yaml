@@ -9,17 +9,17 @@ uri: https://gedcom.io/terms/v5.5.1/type-TIME_VALUE
 specification:
   - |
     ```
+    TIME_VALUE:=
     [ hh:mm:ss.fs ]
     ```
-    
-    The time of a specific event, usually a computer-timed event, where:
+    "The time of a specific event, usually a computer-timed event, where:"
+  - hh = hours on a 24-hour clock
+  - mm = minutes
+  - ss = seconds (optional)
+  - fs = decimal fraction of a second (optional)
 
-    | Production  | Meaning                                     |
-    | :---------- | :------------------------------------------ |
-    | `hh`        | hours on a 24-hour clock                    |
-    | `mm`        | minutes                                     |
-    | `ss`        | seconds (optional)                          |
-    | `fs`        | decimal fraction of a second (optional)     |
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 contact: "https://gedcom.io/community/"
 ...

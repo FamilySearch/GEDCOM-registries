@@ -12,10 +12,14 @@ specification:
   - |
     A code used by a postal service to identify an area to facilitate mail
     handling.
-  - The ZIP or postal code used by the various localities in handling of mail. Isolated for sorting or
-  - indexing.
+  - |
+    The ZIP or postal code used by the various localities in handling of mail.
+    Isolated for sorting or indexing.
 
 label: 'Postal Code'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -24,4 +28,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/ADDR": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

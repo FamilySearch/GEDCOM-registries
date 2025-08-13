@@ -15,6 +15,9 @@ specification:
 
 label: 'Confirmation'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: null
 
 substructures:
@@ -44,4 +47,5 @@ superstructures:
 value of:
   - "https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

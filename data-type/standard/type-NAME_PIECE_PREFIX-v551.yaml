@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_PREFIX
+
+specification:
+  - |
+    ```
+    NAME_PIECE_PREFIX:=
+    [ <NAME_PIECE> | <NAME_PIECE_PREFIX>, <NAME_PIECE> ]
+    ```
+    Non indexing name piece that appears preceding the given name and surname
+    parts. Different name prefix parts are separated by a comma.
+  - "For example:"
+  - Lt. Cmndr. Joseph /Allen/ jr.
+  - In this example Lt. Cmndr. is considered as the name prefix portion.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

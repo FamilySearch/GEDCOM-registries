@@ -24,6 +24,9 @@ specification:
 
 label: 'Event'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v7/type-Enum
 
 enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE'
@@ -34,4 +37,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

@@ -13,12 +13,18 @@ specification:
     A number assigned to identify a person within some significant external
     system.
   - |
-    A nationally-controlled number assigned to an individual. Commonly known national numbers should be assigned their own tag, such as SSN for U.S. Social Security Number. The use of the IDNO tag requires a subordinate TYPE tag to identify what kind of number is being stored.
-    "For example:"
-    n IDNO 43-456-1899
-    +1 TYPE Canadian Health Registration
+    A nationally-controlled number assigned to an individual. Commonly known
+    national numbers should be assigned their own tag, such as SSN for U.S.
+    Social Security Number. The use of the IDNO tag requires a subordinate
+    TYPE tag to identify what kind of number is being stored.
+  - "For example:"
+  - n IDNO 43-456-1899
+  - +1 TYPE Canadian Health Registration
 
 label: 'Ident Number'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -46,4 +52,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

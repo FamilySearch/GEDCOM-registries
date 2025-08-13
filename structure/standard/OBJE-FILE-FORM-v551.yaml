@@ -15,6 +15,9 @@ specification:
 
 label: 'Format'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-MULTIMEDIA_FORMAT
 
 substructures:
@@ -23,4 +26,5 @@ substructures:
 superstructures:
   "https://gedcom.io/terms/v5.5.1/OBJE-FILE": "{1:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

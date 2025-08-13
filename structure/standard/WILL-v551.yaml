@@ -10,10 +10,14 @@ standard tag: 'WILL'
 
 specification:
   - |
-    A legal document treated as an event, by which a person disposes of his or her estate, to take effect after death. The event date is the date the will was signed while the person was alive. (See also
-    PROBate, page 91.)
+    A legal document treated as an event, by which a person disposes of his or
+    her estate, to take effect after death. The event date is the date the
+    will was signed while the person was alive. (See also PROBate, page 91.)
 
 label: 'Will'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: null
 
@@ -44,4 +48,5 @@ superstructures:
 value of:
   - "https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

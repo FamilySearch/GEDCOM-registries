@@ -15,6 +15,9 @@ specification:
 
 label: 'Rec File Number'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-PERMANENT_RECORD_FILE_NUMBER
 
 substructures: {}
@@ -22,4 +25,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

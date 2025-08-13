@@ -10,11 +10,15 @@ standard tag: 'NSFX'
 
 specification:
   - |
-    Text which appears on a name line after or behind the given and surname parts of a name.
-    i.e. Lt. Cmndr. Joseph /Allen/ (jr.)
-    In this example jr. is considered as the name suffix portion.
+    Text which appears on a name line after or behind the given and surname
+    parts of a name.
+  - i.e. Lt. Cmndr. Joseph /Allen/ (jr.)
+  - In this example jr. is considered as the name suffix portion.
 
 label: 'Name Suffix'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SUFFIX
 
@@ -25,4 +29,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:1}"
   "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

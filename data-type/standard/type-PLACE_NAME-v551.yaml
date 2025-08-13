@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+
+specification:
+  - |
+    ```
+    PLACE_NAME:=
+    [ <PLACE_TEXT> | <PLACE_TEXT>, <PLACE_NAME> ]
+    ```
+    The jurisdictional name of the place where the event took place.
+    "Jurisdictions are separated by commas, for example, \"Cove, Cache, Utah,"
+    "USA.\" If the actual jurisdictional names of these places have been"
+    identified, they can be shown using a PLAC.FORM structure either in the
+    HEADER or in the event structure. (See <PLACE_HIERARCHY>, page 58.)
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

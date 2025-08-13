@@ -17,6 +17,9 @@ specification:
 
 label: 'Object'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: null
 
 substructures:
@@ -31,4 +34,5 @@ substructures:
 
 superstructures: {}
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

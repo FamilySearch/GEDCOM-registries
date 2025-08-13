@@ -13,6 +13,9 @@ specification:
 
 label: 'Pedigree'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: https://gedcom.io/terms/v5.5.1/type-PEDIGREE_LINKAGE_TYPE
 
 substructures: {}
@@ -20,4 +23,5 @@ substructures: {}
 superstructures:
   "https://gedcom.io/terms/v5.5.1/INDI-FAMC": "{0:1}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

@@ -17,6 +17,9 @@ specification:
 
 label: 'Object'
 
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
 payload: "@<https://gedcom.io/terms/v5.5.1/record-OBJE>@"
 
 substructures: {}
@@ -78,4 +81,5 @@ superstructures:
   "https://gedcom.io/terms/v5.5.1/SSN": "{0:M}"
   "https://gedcom.io/terms/v5.5.1/WILL": "{0:M}"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...

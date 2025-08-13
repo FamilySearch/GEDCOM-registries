@@ -14,11 +14,19 @@ specification:
     group, or an organization. A FACT structure is usually qualified or
     classified by a subordinate use of the TYPE tag.
   - |
-    Text describing a particular characteristic or attribute assigned to an individual. This attribute value is assigned to the FACT tag. The classification of this specific attribute or fact is specified by the value of the subordinate TYPE tag selected from the EVENT_DETAIL structure. For example if you were classifying the skills a person had obtained;
-    1 FACT Woodworking
-    2 TYPE Skills
+    Text describing a particular characteristic or attribute assigned to an
+    individual. This attribute value is assigned to the FACT tag. The
+    classification of this specific attribute or fact is specified by the
+    value of the subordinate TYPE tag selected from the EVENT_DETAIL
+    structure. For example if you were classifying the skills a person had
+    obtained;
+  - 1 FACT Woodworking
+  - 2 TYPE Skills
 
 label: 'Fact'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 payload: http://www.w3.org/2001/XMLSchema#string
 
@@ -49,4 +57,5 @@ superstructures:
 value of:
   - "https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE"
 
-contact: https://gedcom.io/community/
+contact: "https://gedcom.io/community/"
+...
