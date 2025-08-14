@@ -1,10 +1,19 @@
 # Tips for Registering Older Extensions
 
-The GEDCOM 7 registered extension mechanism was designed to be compatible with any standards-compliant extension to any GEDCOM standard version 5.3 or later. 5.3 was when the requirement that extensions use underscores to start their tags was added. However, not all extensions that were circulated followed that rule, and changes to some other aspects of the standard (such as payload length limitations, allowing `{0:3}` cardinality, and use of lower-case enumerated values) may require some small adjustments when registering some extant extensions. This document is intended as a guide to assist that registration process.
+The FamilySearch GEDCOM 7 registered extension mechanism was designed to be compatible
+with any standards-compliant extension to any GEDCOM standard version 5.3 or later.
+5.3 was when the requirement that extensions use underscores to start their tags was added.
+However, not all extensions that were circulated followed that rule,
+and changes to some other aspects of the standard
+(such as payload length limitations, allowing `{0:3}` cardinality, and use of non-alphanums in enumerated values)
+may require some small adjustments when registering some extant extensions.
+This document is intended as a guide to assist that registration process.
 
 ## 7.0 compliant
 
-This section covers parts of extensions that are fully 7.0 compliant, meaning they can be parsed and serialized in the exact same format (modulo adding appropriate URI references to the HEAD.SCHMA).
+This section covers parts of extensions that are fully 7.0 compliant,
+meaning they can be parsed and serialized in the exact same format
+(modulo adding appropriate URI references to the HEAD.SCHMA).
 
 ### One URI/YAML per purpose
 
@@ -28,6 +37,8 @@ To share the various cases, we used the following metasyntactic variables:
 
 - `_SUB` is a tag used for of a new (non-standard) extension structure type with URI `ext:SUB`.
 
+- `SUB` is a tag used for of a new (non-standard) extension structure type with URI `ext:SUB`.
+
 - `OLD` is the tag of a standard structure type with URI `std:OLD`.
 
 - `_OLD` is an extension tag used for a standard structure type with URI `std:OLD`.
@@ -49,7 +60,7 @@ If one of these YAML files has a different change controller, including the conn
 
 #### `OLD`.`_SUB`
 
-The YAML file for `ext:SUB`'s `superstructures` field should include `std:OLD`
+The YAML file for `ext:SUB`'s `superstructures` field should include `std:OLD`.
 
 If an extension allows this only in some contexts,
 such as `_SUB` being allowed under `CREA`.`DATE` but not under `CHAN`.`DATE`,
@@ -60,14 +71,16 @@ then they are actually creating a [subtype of a standard type](#subtype-of-a-sta
 The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
 
 > [!WARNING]
-> The YAML file should also express what tag is used for this extension-defined substructure, but there is no YAML support for that yet.
+> The YAML file should also express what tag is used for this extension-defined substructure,
+> but there is no YAML support for that yet.
 >
 > See [GEDCOM.io#298](https://github.com/FamilySearch/GEDCOM.io/issues/298) for more details.
 
 #### `_NEW`.`SUB`
 
 > [!WARNING]
-> This is allowed (though deprecated) by [1.5. Extensions](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html#extensions) but not yet supported in any way by the registry.
+> This is allowed (though deprecated) by [1.5. Extensions](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html#extensions)
+> but not yet supported in any way by the registry.
 >
 > See [GEDCOM.io#298](https://github.com/FamilySearch/GEDCOM.io/issues/298) for more details.
 
@@ -78,14 +91,16 @@ The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
 The `HEAD`.`SCHMA` of the file should include `2 TAG _OLD std:OLD` (where `std:` is expanded from prefix notation).
 
 > [!WARNING]
-> There is currently no way of indicating in the YAML that this tag is used for this structure; it requires a `HEAD`.`SCHMA` instead.
+> There is currently no way of indicating in the YAML that this tag is used for this structure;
+> it requires a `HEAD`.`SCHMA` instead.
 
 #### `OLD`.`_OSB`
 
 The `HEAD`.`SCHMA` of the file should include `2 TAG _OSB std:OSB` (where `std:` is expanded from prefix notation).
 
 > [!WARNING]
-> There is currently no way of indicating in the YAML that this tag is used for this structure; it requires a `HEAD`.`SCHMA` instead.
+> There is currently no way of indicating in the YAML that this tag is used for this structure;
+> it requires a `HEAD`.`SCHMA` instead.
 >
 > [GEDCOM-registries#179](https://github.com/FamilySearch/GEDCOM-registries/issues/179) includes a recommendation that this be capable of being registered in the future.
 
@@ -168,7 +183,7 @@ and some extensions were even less constrained.
 When converting an extension that expects one of a fixed set of values as a payload,
 there are two choices.
 Either, those values can be converted to the enumeration datatype, registering one YAML file for each along with a `type: enumeration set` YAML file for the full set of values;
-or the original values can be kept as-is with the `xsd:string` datatype, meaning there is nothing to prevent users from editing the strings arbitrarily.
+or the original values can be kept as-is with the `xsd:string` datatype, requiring applications or users to track the allowed values in some other way.
 
 
 ### Cardinality violations
