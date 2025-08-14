@@ -35,9 +35,9 @@ To share the various cases, we used the following metasyntactic variables:
 
 - `_NEW` is a tag used for a new (non-standard) extension structure type with URI `ext:NEW`.
 
-- `_SUB` is a tag used for of a new (non-standard) extension structure type with URI `ext:SUB`.
+- `_SUB` is a tag used for a new (non-standard) extension structure type with URI `ext:SUB`.
 
-- `SUB` is a tag used for of a new (non-standard) extension structure type with URI `ext:SUB`.
+- `SUB` is a tag used for a new (non-standard) extension structure type with URI `ext:SUB`.
 
 - `OLD` is the tag of a standard structure type with URI `std:OLD`.
 
