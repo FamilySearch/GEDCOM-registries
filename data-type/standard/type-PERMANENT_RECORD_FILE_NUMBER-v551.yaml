@@ -8,7 +8,10 @@ uri: https://gedcom.io/terms/v5.5.1/type-PERMANENT_RECORD_FILE_NUMBER
 
 specification:
   - |
+    ```
+    PERMANENT_RECORD_FILE_NUMBER:=
     <REGISTERED_RESOURCE_IDENTIFIER>:<RECORD_IDENTIFIER>
+    ```
     The record number that uniquely identifies this record within a registered
     network resource. The number will be usable as a cross-reference pointer.
     The use of the colon (:) is reserved to indicate the separation of the
@@ -18,6 +21,9 @@ specification:
     find a matching cross-reference identifier in the transmission but would
     find it in the indicated database within a network. Making resource files
     available to a public network is a future implementation.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 contact: "https://gedcom.io/community/"
 ...

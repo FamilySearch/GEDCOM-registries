@@ -14,6 +14,12 @@ specification:
     value does not have any computer processing reliability. It is more in the
     form of a short one or two word note that should be displayed any time the
     associated data is displayed.
+  - |
+    ```
+    [<user defined> | pinyin | romaji | wadegiles]
+    ```
+    Indicates the method used in transforming the text to a romanized
+    variation.
 
 label: 'Type'
 

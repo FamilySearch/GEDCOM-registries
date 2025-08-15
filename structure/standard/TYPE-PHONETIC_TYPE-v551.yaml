@@ -14,6 +14,16 @@ specification:
     value does not have any computer processing reliability. It is more in the
     form of a short one or two word note that should be displayed any time the
     associated data is displayed.
+  - |
+    ```
+    [<user defined> | hangul | kana]
+    ```
+  - |
+    Indicates the method used in transforming the text to the phonetic
+    variation. <user define> record method used to arrive at the phonetic
+    variation of the name. hangul Phonetic method for sounding Korean glifs.
+    kana Hiragana and/or Katakana characters were used in sounding the Kanji
+    character used by japanese
 
 label: 'Type'
 

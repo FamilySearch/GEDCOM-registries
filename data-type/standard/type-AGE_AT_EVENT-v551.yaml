@@ -16,7 +16,7 @@ specification:
     ```
 
   - "Where:"
-  - >  =  greater than indicated age
+  - ">  =  greater than indicated age"
   - <  =  less than indicated age
   - y  =  a label indicating years
   - m  =  a label indicating months

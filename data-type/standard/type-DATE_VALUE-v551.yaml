@@ -10,71 +10,29 @@ specification:
   - |
     ```
     DATE_VALUE:=
-      [
-       <DATE> |
-       <DATE_PERIOD> |
-       <DATE_RANGE>|
-       <DATE_APPROXIMATED> |
-       INT <DATE> (<DATE_PHRASE>) |
-       (<DATE_PHRASE>)
-      ]
-
-    DATE:=
-      [ <DATE_CALENDAR_ESCAPE> | <NULL>] <DATE_CALENDAR>
-
-    DATE_APPROXIMATED:=
-      [ ABT <DATE> | CAL <DATE> | EST <DATE> ]
-
-    DATE_PERIOD:=
-      [ FROM <DATE> | TO <DATE> | FROM <DATE> TO <DATE> ]
-
-    DATE_PHRASE:= <TEXT>
-
-    DATE_RANGE:=
-      [ BEF <DATE> | AFT <DATE> | BET <DATE> AND <DATE> ]
-
-    DATE_CALENDAR_ESCAPE:=
-      [ @#DHEBREW@ | @#DROMAN@ | @#DFRENCH R@ | @#DGREGORIAN@ |
-        @#DJULIAN@ | @#DUNKNOWN@ ]
-
-    DATE_CALENDAR:=
-      [ <DATE_GREG> | <DATE_JULN> | <DATE_HEBR> | <DATE_FREN> |
-        <DATE_FUTURE> ]
-
-    DATE_FREN:=
-      [ <YEAR>[B.C.] | <MONTH_FREN> <YEAR> |
-        <DAY> <MONTH_FREN> <YEAR> ]
-
-    DATE_GREG:=
-      [ <YEAR_GREG>[B.C.] | <MONTH> <YEAR_GREG> |
-        <DAY> <MONTH> <YEAR_GREG> ]
-
-    DATE_JULN:=
-      [ <YEAR>[B.C.] | <MONTH> <YEAR> | <DAY> <MONTH> <YEAR> ]
-
-    DATE_HEBR:=
-      [ <YEAR>[B.C.] | <MONTH_HEBR> <YEAR> |
-        <DAY> <MONTH_HEBR> <YEAR> ]
-
-    MONTH:=
-      [ JAN | FEB | MAR | APR | MAY | JUN |
-        JUL | AUG | SEP | OCT | NOV | DEC ]
-
-    MONTH_FREN:=
-      [ VEND | BRUM | FRIM | NIVO | PLUV | VENT | GERM |
-        FLOR | PRAI | MESS | THER | FRUC | COMP ]
-
-    MONTH_HEBR:=
-      [ TSH | CSH | KSL | TVT | SHV | ADR | ADS |
-        NSN | IYR | SVN | TMZ | AAV | ELL ]
-
-    YEAR_GREG:=
-      [ <NUMBER> | <NUMBER>/<DIGIT><DIGIT> ]
-
-    YEAR:= [ <DIGIT><DIGIT><DIGIT> | <DIGIT><DIGIT><DIGIT><DIGIT> ]
-
-    DAY:= [ <DIGIT> | <DIGIT><DIGIT> ]
+    [ <DATE> | <DATE_PERIOD> | <DATE_RANGE>| <DATE_APPROXIMATED>  | INT <DATE>
+    (<DATE_PHRASE>) | (<DATE_PHRASE>) ]
     ```
+  - |
+    The DATE_VALUE represents the date of an activity, attribute, or event
+    "where:"
+  - |
+    INT = Interpreted from knowledge about the associated date phrase included
+    in parentheses.
+  - |
+    An acceptable alternative to the date phrase choice is to use one of the
+    other choices such as <DATE_APPROXIMATED> choice as the DATE line value
+    and then include the date phrase value as a NOTE value subordinate to the
+    DATE line tag.
+  - |
+    The date value can take on the date form of just a date, an approximated
+    date, between a date and another date, and from one date to another date.
+    The preferred form of showing date imprecision, is to show, for example,
+    MAY 1890 rather than ABT 12 MAY 1890. This is because limits have not been
+    assigned to the precision of the prefixes such as ABT or EST.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
 
 contact: "https://gedcom.io/community/"
 ...
