@@ -21,15 +21,21 @@ specification:
     birth date. This will allow a prioritized best view choice and a
     determination of the certainty associated with the source used in
     asserting the cited fact.
+  - |
+    ```
+    [ <EVENT_TYPE_INDIVIDUAL> | <EVENT_TYPE_FAMILY>  | <ATTRIBUTE_TYPE> ]
+    ```
+    A code that classifies the principal event or happening that caused the
+    source record entry to be created. If the event or attribute doesn't
+    translate to one of these tag codes, then a user supplied value is
+    expected and will be generally classified in the category of other.
 
 label: 'Event'
 
 documentation:
   - https://gedcom.io/specifications/ged551.pdf
 
-payload: https://gedcom.io/terms/v7/type-Enum
-
-enumeration set: 'https://gedcom.io/terms/v5.5.1/enumset-EVENT_ATTRIBUTE_TYPE'
+payload: http://www.w3.org/2001/XMLSchema#string
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
