@@ -1,0 +1,40 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/record-SOUR
+
+standard tag: 'SOUR'
+
+specification:
+  - The initial or original material from which information was obtained.
+
+label: 'Source'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/ABBR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AUTH": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CHAN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/PUBL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/REFN": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/REPO": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/RIN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-TITL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/TEXT": "{0:1}"
+
+superstructures: {}
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/CALN
+
+standard tag: 'CALN'
+
+specification:
+  - |
+    The number used by a repository to identify the specific items in its
+    collections.
+  - |
+    An identification or reference description used to file and retrieve items
+    from the holdings of a repository.
+
+label: 'Call Number'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/MEDI": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/REPO": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

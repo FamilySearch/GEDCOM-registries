@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_GIVEN
+
+specification:
+  - |
+    ```
+    NAME_PIECE_GIVEN:=
+    [ <NAME_PIECE> | <NAME_PIECE_GIVEN>, <NAME_PIECE> ]
+    ```
+    Given name or earned name. Different given names are separated by a comma.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM-TYPE
+
+standard tag: 'TYPE'
+
+specification:
+  - |
+    A further qualification to the meaning of the associated superior tag. The
+    value does not have any computer processing reliability. It is more in the
+    form of a short one or two word note that should be displayed any time the
+    associated data is displayed.
+
+label: 'Type'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

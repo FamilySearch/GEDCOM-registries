@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SLGC
+
+standard tag: 'SLGC'
+
+specification:
+  - |
+    A religious event pertaining to the sealing of a child to his or her
+    parents in an LDS temple ceremony.
+
+label: 'Sealing Child'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAMC-XREF_FAM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SLGC-STAT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/TEMP": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

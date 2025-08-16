@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-CHILD_LINKAGE_STATUS
+
+specification:
+  - |
+    ```
+    CHILD_LINKAGE_STATUS:=
+    [challenged | disproven | proven]
+    ```
+    A status code that allows passing on the users opinion of the status of a
+    child to family link.
+  - |
+    challenged = Linking this child to this family is suspect, but the linkage
+    has been neither proven nor disproven.
+  - |
+    disproven = There has been a claim by some that this child belongs to this
+    family, but the linkage has been disproven.
+  - |
+    proven = There has been a claim by some that this child does not belongs
+    to this family, but the linkage has been proven.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

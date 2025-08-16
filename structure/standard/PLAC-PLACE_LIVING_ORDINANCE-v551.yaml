@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE
+
+standard tag: 'PLAC'
+
+specification:
+  - A jurisdictional name to identify the place or location of an event.
+  - |
+    The locality of the place where a living LDS ordinance took place.
+    Typically, a living LDS baptism place would be recorded in this field.
+
+label: 'Place'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/BAPL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CONL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/ENDL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SLGC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SLGS": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

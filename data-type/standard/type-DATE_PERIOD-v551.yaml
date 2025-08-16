@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-DATE_PERIOD
+
+specification:
+  - |
+    ```
+    DATE_PERIOD:=
+    [ FROM <DATE> | TO <DATE> | FROM <DATE> TO <DATE> ]
+    ```
+  - "Where:"
+  - |
+    FROM = Indicates the beginning of a happening or state. TO = Indicates the
+    ending of a happening or state.
+
+  - "Examples:"
+  - |
+    FROM 1904 to 1915 = The state of some attribute existed from 1904 to 1915
+    inclusive.
+  - |
+    FROM 1904 = The state of the attribute began in 1904 but the end date is
+    unknown.
+  - TO 1915 = The state ended in 1915 but the begin date is unknown.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

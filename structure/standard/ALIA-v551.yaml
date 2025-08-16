@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/ALIA
+
+standard tag: 'ALIA'
+
+specification:
+  - |
+    An indicator to link different record descriptions of a person who may be
+    the same person.
+
+label: 'Alias'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

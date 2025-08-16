@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/DESC
+
+standard tag: 'DESC'
+
+specification:
+  - Pertaining to offspring of an individual.
+  - |
+    The number of generations of descendants included in this transmission.
+    This value is usually provided when FamilySearch programs build a GEDCOM
+    file for a patron requesting a download of descendants.
+
+label: 'Descendants'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBN": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

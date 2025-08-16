@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-EVENTS_RECORDED
+
+specification:
+  - |
+    ```
+    EVENTS_RECORDED:=
+    [<EVENT_ATTRIBUTE_TYPE>  | <EVENTS_RECORDED>, <EVENT_ATTRIBUTE_TYPE>]
+    ```
+    An enumeration of the different kinds of events that were recorded in a
+    particular source. Each enumeration is separated by a comma. Such as a
+    parish register of births, deaths, and marriages would be BIRT, DEAT, MARR.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

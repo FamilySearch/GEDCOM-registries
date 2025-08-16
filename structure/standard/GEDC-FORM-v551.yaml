@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/GEDC-FORM
+
+standard tag: 'FORM'
+
+specification:
+  - |
+    An assigned name given to a consistent format in which information can be
+    conveyed.
+
+label: 'Format'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-GEDCOM_FORM
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/GEDC": "{1:1}"
+
+contact: "https://gedcom.io/community/"
+...

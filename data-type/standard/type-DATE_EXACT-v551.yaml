@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+
+specification:
+  - |
+    ```
+    DATE_EXACT:=
+      <DAY> <MONTH> <YEAR_GREG>
+
+    MONTH:=
+      [ JAN | FEB | MAR | APR | MAY | JUN |
+        JUL | AUG | SEP | OCT | NOV | DEC ]
+
+    YEAR_GREG:=
+      [ <NUMBER> | <NUMBER>/<DIGIT><DIGIT> ]
+
+    DAY:= [ <DIGIT> | <DIGIT><DIGIT> ]
+    ```
+
+contact: "https://gedcom.io/community/"
+...

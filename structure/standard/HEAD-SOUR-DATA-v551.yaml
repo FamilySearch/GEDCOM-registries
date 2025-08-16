@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA
+
+standard tag: 'DATA'
+
+specification:
+  - Pertaining to stored automated information.
+  - |
+    The name of the electronic data source that was used to obtain the data in
+    this transmission. For example, the data may have been obtained from a
+    "CD-ROM disc that was named \"U.S. 1880 CENSUS CD-ROM vol. 13.\""
+
+label: 'Data'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA-COPR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA-DATE": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE
+
+specification:
+  - |
+    ```
+    SOURCE_MEDIA_TYPE:=
+    [ audio | book | card | electronic | fiche | film | magazine | manuscript
+    | map | newspaper | photo | tombstone | video ]
+    ```
+    A code, selected from one of the media classifications choices above, that
+    indicates the type of material in which the referenced source is stored.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

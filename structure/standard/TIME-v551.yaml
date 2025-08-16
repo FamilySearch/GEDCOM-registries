@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/TIME
+
+standard tag: 'TIME'
+
+specification:
+  - |
+    A time value in a 24-hour clock format, including hours, minutes, and
+    optional seconds, separated by a colon (:). Fractions of seconds are shown
+    in decimal notation.
+
+label: 'Time'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-TIME_VALUE
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/CHAN-DATE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-DATE": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

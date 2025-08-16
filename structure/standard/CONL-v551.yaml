@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/CONL
+
+standard tag: 'CONL'
+
+specification:
+  - |
+    The religious event by which a person receives membership in the LDS
+    Church.
+
+label: 'Confirmation LDS'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/STAT-LDS_BAPTISM_DATE_STATUS": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/TEMP": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

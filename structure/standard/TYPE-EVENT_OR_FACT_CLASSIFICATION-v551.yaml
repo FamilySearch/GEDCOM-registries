@@ -1,0 +1,105 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION
+
+standard tag: 'TYPE'
+
+specification:
+  - |
+    A further qualification to the meaning of the associated superior tag. The
+    value does not have any computer processing reliability. It is more in the
+    form of a short one or two word note that should be displayed any time the
+    associated data is displayed.
+  - |
+    A descriptive word or phrase used to further classify the parent event or
+    attribute tag. This should be used whenever either of the generic EVEN or
+    FACT tags are used. The value of this primative is responsible for
+    classifying the generic event or fact being cited. For example, if the
+    attribute being defined was one of the persons skills, such as
+    woodworking, the FACT tag would have the value of `Woodworking', followed
+    by a subordinate TYPE tag with the value `Skills.'
+  - 1 FACT Woodworking
+  - 2 TYPE Skills
+  - |
+    This groups the fact into a generic skills attribute, and in particular
+    this entry records the fact that this individual possessed the skill of
+    woodworking. Using the subordinate TYPE tag classification method with any
+    of the other defined event tags provides a further classification of the
+    parent tag but does not change the basic meaning of the parent tag. For
+    example, a MARR tag could be subordinated with a TYPE tag with an
+    EVENT_DESCRIPTOR value of `Common Law.'
+
+  - 1 MARR
+  - 2 TYPE Common Law
+  - |
+    This classifies the entry as a common law marriage but the event is still
+    a marriage event. Other descriptor values might include, for
+    example,`stillborn' as a qualifier to BIRTh or `Tribal Custom' as a
+    qualifier to MARRiage.
+
+label: 'Type'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/ANUL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BAPM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BARM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BASM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BLES": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BURI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CAST": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CHR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CHRA": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CONF": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CREM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DEAT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DIV": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DIVF": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/DSCR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/EDUC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/EMIG": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/ENGA": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FACT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-CENS": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-EVEN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-RESI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FCOM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/GRAD": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/IDNO": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/IMMI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-ADOP": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-CENS": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-EVEN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NCHI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-RELI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-RESI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-TITL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARB": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARC": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARS": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NATI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NATU": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NMR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/ORDN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/PROB": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/PROP": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/RETI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SSN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/WILL": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

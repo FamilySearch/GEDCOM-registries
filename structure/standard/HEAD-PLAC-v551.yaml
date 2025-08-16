@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-PLAC
+
+standard tag: 'PLAC'
+
+specification:
+  - A jurisdictional name to identify the place or location of an event.
+
+label: 'Place'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/FORM-PLACE_HIERARCHY": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

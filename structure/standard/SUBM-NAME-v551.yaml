@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SUBM-NAME
+
+standard tag: 'NAME'
+
+specification:
+  - |
+    A word or combination of words used to help identify an individual, title,
+    or other item. More than one NAME line should be used for people who were
+    known by multiple names.
+  - The name of the submitter formatted for display and address generation.
+
+label: 'Name'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBM": "{1:1}"
+
+contact: "https://gedcom.io/community/"
+...

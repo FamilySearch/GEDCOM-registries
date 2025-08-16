@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/FAMF
+
+standard tag: 'FAMF'
+
+specification:
+  - |
+    Pertaining to, or the name of, a family file. Names stored in a file that
+    are assigned to a family for doing temple ordinance work.
+  - |
+    Name under which family names for ordinances are stored in the temple's
+    family file.
+
+label: 'Family File'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBN": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

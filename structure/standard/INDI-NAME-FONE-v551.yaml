@@ -1,0 +1,45 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE
+
+standard tag: 'FONE'
+
+specification:
+  - A phonetic variation of a superior text string
+  - |
+    The phonetic variation of the name is written in the same form as the was
+    the name used in the superior <NAME_PERSONAL> primitive, but phonetically
+    written using the method indicated by the subordinate <PHONETIC_TYPE>
+    value, for example if hiragana was used to provide a reading of a name
+    written in kanji, then the <PHONETIC_TYPE> value would indicate 'kana'.
+    See page 57.
+
+label: 'Phonetic'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/GIVN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NICK": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/NSFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/SPFX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SURN": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/TYPE-PHONETIC_TYPE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

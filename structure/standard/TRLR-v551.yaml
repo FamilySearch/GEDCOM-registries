@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/TRLR
+
+standard tag: 'TRLR'
+
+specification:
+  - At level 0, specifies the end of a GEDCOM transmission.
+
+label: 'Trailer'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures: {}
+
+superstructures: {}
+
+contact: "https://gedcom.io/community/"
+...

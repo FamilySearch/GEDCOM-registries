@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/GIVN
+
+standard tag: 'GIVN'
+
+specification:
+  - A given or earned name used for official identification of a person.
+
+label: 'Given Name'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_GIVEN
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

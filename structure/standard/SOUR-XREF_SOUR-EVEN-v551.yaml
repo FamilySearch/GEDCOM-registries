@@ -1,0 +1,47 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-EVEN
+
+standard tag: 'EVEN'
+
+specification:
+  - |
+    Pertaining to a noteworthy happening related to an individual, a group, or
+    an organization. An EVENt structure is usually qualified or classified by
+    a subordinate use of the TYPE tag.
+  - |
+    A code that indicates the type of event which was responsible for the
+    source entry being recorded. For example, if the entry was created to
+    record a birth of a child, then the type would be BIRT regardless of the
+    assertions made from that record, such as the mother's name or mother's
+    birth date. This will allow a prioritized best view choice and a
+    determination of the certainty associated with the source used in
+    asserting the cited fact.
+  - |
+    ```
+    [ <EVENT_TYPE_INDIVIDUAL> | <EVENT_TYPE_FAMILY>  | <ATTRIBUTE_TYPE> ]
+    ```
+    A code that classifies the principal event or happening that caused the
+    source record entry to be created. If the event or attribute doesn't
+    translate to one of these tag codes, then a user supplied value is
+    expected and will be generally classified in the category of other.
+
+label: 'Event'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

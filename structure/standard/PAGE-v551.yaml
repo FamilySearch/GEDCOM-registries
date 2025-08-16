@@ -1,0 +1,41 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/PAGE
+
+standard tag: 'PAGE'
+
+specification:
+  - |
+    A number or description to identify where information can be found in a
+    referenced work.
+  - |
+    Specific location with in the information referenced. For a published
+    work, this could include the volume of a multi-volume work and the page
+    number(s). For a periodical, it could include volume, issue, and page
+    numbers. For a newspaper, it could include a column number and page
+    number. For an unpublished source or microfilmed works, this could be a
+    film or sheet number, page number, frame number, etc. A census record
+    might have an enumerating district, page number, line number, dwelling
+    number, and family number. The data in this field should be in the form of
+    "a label and value pair, such as Label1: value, Label2: value, with each"
+    "pair being separated by a comma. For example, Film: 1234567, Frame: 344,"
+    "Line: 28."
+
+label: 'Page'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

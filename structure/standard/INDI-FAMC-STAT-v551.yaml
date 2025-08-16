@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/INDI-FAMC-STAT
+
+standard tag: 'STAT'
+
+specification:
+  - An assessment of the state or condition of something.
+
+label: 'Status'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-CHILD_LINKAGE_STATUS
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-FAMC": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...
