@@ -1,4 +1,198 @@
 structure	payload
+https://gedcom.io/terms/v5.5.1/ABBR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ADDR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ADR1	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ADR2	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ADR3	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/AFN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/AGE	https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT
+https://gedcom.io/terms/v5.5.1/AGNC	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ALIA	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://gedcom.io/terms/v5.5.1/ANCE	http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://gedcom.io/terms/v5.5.1/ANCI	@<https://gedcom.io/terms/v5.5.1/record-SUBM>@
+https://gedcom.io/terms/v5.5.1/ANUL	
+https://gedcom.io/terms/v5.5.1/ASSO	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://gedcom.io/terms/v5.5.1/AUTH	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/BAPL	
+https://gedcom.io/terms/v5.5.1/BAPM	
+https://gedcom.io/terms/v5.5.1/BARM	
+https://gedcom.io/terms/v5.5.1/BASM	
+https://gedcom.io/terms/v5.5.1/BIRT	Y|<NULL>
+https://gedcom.io/terms/v5.5.1/BLES	
+https://gedcom.io/terms/v5.5.1/BURI	
+https://gedcom.io/terms/v5.5.1/CALN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/CAST	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/CAUS	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/CHAN	
+https://gedcom.io/terms/v5.5.1/CHAN-DATE	https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+https://gedcom.io/terms/v5.5.1/CHAR	https://gedcom.io/terms/v5.5.1/type-CHARACTER_SET
+https://gedcom.io/terms/v5.5.1/CHIL	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://gedcom.io/terms/v5.5.1/CHR	Y|<NULL>
+https://gedcom.io/terms/v5.5.1/CHRA	
+https://gedcom.io/terms/v5.5.1/CITY	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/CONF	
+https://gedcom.io/terms/v5.5.1/CONL	
+https://gedcom.io/terms/v5.5.1/CORP	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/CREM	
+https://gedcom.io/terms/v5.5.1/CTRY	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/DATE-CHANGE_DATE	https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD	https://gedcom.io/terms/v5.5.1/type-DATE_VALUE
+https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE	https://gedcom.io/terms/v5.5.1/type-DATE_VALUE
+https://gedcom.io/terms/v5.5.1/DEAT	Y|<NULL>
+https://gedcom.io/terms/v5.5.1/DESC	http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://gedcom.io/terms/v5.5.1/DESI	@<https://gedcom.io/terms/v5.5.1/record-SUBM>@
+https://gedcom.io/terms/v5.5.1/DEST	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/DIV	
+https://gedcom.io/terms/v5.5.1/DIVF	
+https://gedcom.io/terms/v5.5.1/DSCR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/EDUC	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/EMAIL	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/EMIG	
+https://gedcom.io/terms/v5.5.1/ENDL	
+https://gedcom.io/terms/v5.5.1/ENDL-STAT	https://gedcom.io/terms/v5.5.1/type-LDS_ENDOWMENT_DATE_STATUS
+https://gedcom.io/terms/v5.5.1/ENGA	
+https://gedcom.io/terms/v5.5.1/FACT	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/FAM-CENS	
+https://gedcom.io/terms/v5.5.1/FAM-EVEN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/FAM-HUSB	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://gedcom.io/terms/v5.5.1/FAM-NCHI	http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://gedcom.io/terms/v5.5.1/FAM-RESI	
+https://gedcom.io/terms/v5.5.1/FAM-WIFE	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://gedcom.io/terms/v5.5.1/FAMC-XREF_FAM	@<https://gedcom.io/terms/v5.5.1/record-FAM>@
+https://gedcom.io/terms/v5.5.1/FAMF	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/FAMS	@<https://gedcom.io/terms/v5.5.1/record-FAM>@
+https://gedcom.io/terms/v5.5.1/FAX	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/FCOM	
+https://gedcom.io/terms/v5.5.1/FORM-PLACE_HIERARCHY	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/GEDC	
+https://gedcom.io/terms/v5.5.1/GEDC-FORM	https://gedcom.io/terms/v5.5.1/type-GEDCOM_FORM
+https://gedcom.io/terms/v5.5.1/GIVN	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_GIVEN
+https://gedcom.io/terms/v5.5.1/GRAD	
+https://gedcom.io/terms/v5.5.1/HEAD	
+https://gedcom.io/terms/v5.5.1/HEAD-COPR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-DATE	https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+https://gedcom.io/terms/v5.5.1/HEAD-FILE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-LANG	https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
+https://gedcom.io/terms/v5.5.1/HEAD-NOTE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-PLAC	
+https://gedcom.io/terms/v5.5.1/HEAD-SOUR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA-COPR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HEAD-SOUR-DATA-DATE	https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+https://gedcom.io/terms/v5.5.1/HEAD-SOUR-NAME	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/HUSB-NULL	
+https://gedcom.io/terms/v5.5.1/IDNO	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/IMMI	
+https://gedcom.io/terms/v5.5.1/INDI-ADOP	
+https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC	@<https://gedcom.io/terms/v5.5.1/record-FAM>@
+https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC-ADOP	https://gedcom.io/terms/v5.5.1/type-ADOPTED_BY_WHICH_PARENT
+https://gedcom.io/terms/v5.5.1/INDI-CENS	
+https://gedcom.io/terms/v5.5.1/INDI-EVEN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/INDI-FAMC	@<https://gedcom.io/terms/v5.5.1/record-FAM>@
+https://gedcom.io/terms/v5.5.1/INDI-FAMC-STAT	https://gedcom.io/terms/v5.5.1/type-CHILD_LINKAGE_STATUS
+https://gedcom.io/terms/v5.5.1/INDI-NAME	https://gedcom.io/terms/v5.5.1/type-NAME_PERSONAL
+https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/INDI-NAME-TYPE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/INDI-NCHI	http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://gedcom.io/terms/v5.5.1/INDI-RELI	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/INDI-RESI	
+https://gedcom.io/terms/v5.5.1/INDI-RFN	https://gedcom.io/terms/v5.5.1/type-PERMANENT_RECORD_FILE_NUMBER
+https://gedcom.io/terms/v5.5.1/INDI-TITL	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/LATI	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/LONG	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/MAP	
+https://gedcom.io/terms/v5.5.1/MARB	
+https://gedcom.io/terms/v5.5.1/MARC	
+https://gedcom.io/terms/v5.5.1/MARL	
+https://gedcom.io/terms/v5.5.1/MARR	Y|<NULL>
+https://gedcom.io/terms/v5.5.1/MARS	
+https://gedcom.io/terms/v5.5.1/MEDI	https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE
+https://gedcom.io/terms/v5.5.1/NATI	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/NATU	
+https://gedcom.io/terms/v5.5.1/NICK	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_NICKNAME
+https://gedcom.io/terms/v5.5.1/NMR	http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE	@<https://gedcom.io/terms/v5.5.1/record-NOTE>@
+https://gedcom.io/terms/v5.5.1/NPFX	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_PREFIX
+https://gedcom.io/terms/v5.5.1/NSFX	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SUFFIX
+https://gedcom.io/terms/v5.5.1/OBJE-FILE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM	https://gedcom.io/terms/v5.5.1/type-MULTIMEDIA_FORMAT
+https://gedcom.io/terms/v5.5.1/OBJE-FILE-FORM-TYPE	https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE
+https://gedcom.io/terms/v5.5.1/OBJE-NULL	
+https://gedcom.io/terms/v5.5.1/OBJE-NULL-FILE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/OBJE-NULL-FILE-FORM	https://gedcom.io/terms/v5.5.1/type-MULTIMEDIA_FORMAT
+https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE	@<https://gedcom.io/terms/v5.5.1/record-OBJE>@
+https://gedcom.io/terms/v5.5.1/OCCU	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ORDI	https://gedcom.io/terms/v5.5.1/type-ORDINANCE_PROCESS_FLAG
+https://gedcom.io/terms/v5.5.1/ORDN	
+https://gedcom.io/terms/v5.5.1/PAGE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/PEDI	https://gedcom.io/terms/v5.5.1/type-PEDIGREE_LINKAGE_TYPE
+https://gedcom.io/terms/v5.5.1/PHON	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE	https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME	https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-FONE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-ROMN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/POST	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/PROB	
+https://gedcom.io/terms/v5.5.1/PROP	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/PUBL	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/QUAY	https://gedcom.io/terms/v5.5.1/type-CERTAINTY_ASSESSMENT
+https://gedcom.io/terms/v5.5.1/REFN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/REFN-TYPE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/RELA	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/RELI-RELIGIOUS_AFFILIATION	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/REPO	@<https://gedcom.io/terms/v5.5.1/record-REPO>@|<NULL>
+https://gedcom.io/terms/v5.5.1/REPO-NAME	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/RESN	https://gedcom.io/terms/v5.5.1/type-RESTRICTION_NOTICE
+https://gedcom.io/terms/v5.5.1/RETI	
+https://gedcom.io/terms/v5.5.1/RIN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/ROLE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SEX	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SLGC	
+https://gedcom.io/terms/v5.5.1/SLGC-STAT	https://gedcom.io/terms/v5.5.1/type-LDS_CHILD_SEALING_DATE_STATUS
+https://gedcom.io/terms/v5.5.1/SLGS	
+https://gedcom.io/terms/v5.5.1/SLGS-STAT	https://gedcom.io/terms/v5.5.1/type-LDS_SPOUSE_SEALING_DATE_STATUS
+https://gedcom.io/terms/v5.5.1/SOUR-DATA	
+https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN	https://gedcom.io/terms/v5.5.1/type-EVENTS_RECORDED
+https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-DATE	https://gedcom.io/terms/v5.5.1/type-DATE_PERIOD
+https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-PLAC	https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SOUR-TITL	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR	@<https://gedcom.io/terms/v5.5.1/record-SOUR>@
+https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-DATA	
+https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-DATA-DATE	https://gedcom.io/terms/v5.5.1/type-DATE_VALUE
+https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-EVEN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SPFX	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SURNAME_PREFIX
+https://gedcom.io/terms/v5.5.1/SSN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/STAE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/STAT-LDS_BAPTISM_DATE_STATUS	https://gedcom.io/terms/v5.5.1/type-LDS_BAPTISM_DATE_STATUS
+https://gedcom.io/terms/v5.5.1/SUBM	@<https://gedcom.io/terms/v5.5.1/record-SUBM>@
+https://gedcom.io/terms/v5.5.1/SUBM-LANG	https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
+https://gedcom.io/terms/v5.5.1/SUBM-NAME	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SUBM-RFN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/SUBN	@<https://gedcom.io/terms/v5.5.1/record-SUBN>@
+https://gedcom.io/terms/v5.5.1/SURN	https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SURNAME
+https://gedcom.io/terms/v5.5.1/TEMP	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/TEXT	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/TIME	https://gedcom.io/terms/v5.5.1/type-TIME_VALUE
+https://gedcom.io/terms/v5.5.1/TITL-DESCRIPTIVE_TITLE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/TRLR	
+https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/TYPE-PHONETIC_TYPE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/TYPE-ROMANIZED_TYPE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/VERS	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/WIFE-NULL	
+https://gedcom.io/terms/v5.5.1/WILL	
+https://gedcom.io/terms/v5.5.1/WWW	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/record-FAM	
+https://gedcom.io/terms/v5.5.1/record-INDI	
+https://gedcom.io/terms/v5.5.1/record-NOTE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/record-OBJE	
+https://gedcom.io/terms/v5.5.1/record-REPO	
+https://gedcom.io/terms/v5.5.1/record-SOUR	
+https://gedcom.io/terms/v5.5.1/record-SUBM	
+https://gedcom.io/terms/v5.5.1/record-SUBN	
 https://gedcom.io/terms/v7/ABBR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/ADDR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/ADOP	Y|<NULL>

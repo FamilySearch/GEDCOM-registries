@@ -10,6 +10,7 @@ enumerationsets, enumerationsets_header = set(), 'set value'.split()
 payloads, payloads_header = [], 'structure payload'.split()
 substructures, substructures_header = set(), 'superstructure tag structure'.split()
 registry_path, registry_path_header = [], 'uri yaml_path language'.split()
+manifest551, manifest551_header = [], 'yaml_path'.split()
 manifest70, manifest70_header = [], 'yaml_path'.split()
 extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
 
@@ -39,7 +40,10 @@ for kind in os.scandir(root):
                                 for p in doc['used by']:
                                     extensions.append([e, p, lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
                     if 'standard tag' in doc or 'extension tags' not in doc:
-                        manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                        if 'v5.5.1' in doc['uri']:
+                            manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                        else:
+                            manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
                     print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
 
@@ -77,6 +81,11 @@ for name in ('substructures','payloads','cardinalities','enumerations','enumerat
         w = csv.writer(dst, dialect=csv.excel_tab)
         w.writerow(locals()[name+'_header'])
         w.writerows(sorted(locals()[name]))
+
+with open(os.path.join(root,'generated_files','manifest-5.5.1-en-US.tsv'), 'w') as dst:
+    w = csv.writer(dst, dialect=csv.excel_tab)
+    w.writerow(locals()['manifest551_header'])
+    w.writerows(sorted(locals()['manifest551']))
 
 with open(os.path.join(root,'generated_files','manifest-7.0-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
