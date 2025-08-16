@@ -7,6 +7,7 @@ if '--help' in sys.argv or '-h' in sys.argv or '?' in sys.argv:
   print('If given no arguments, reads YAML from stdin')
   quit()
 
+import os.path
 base_dir = os.path.join(os.path.dirname(__file__), 'GEDCOM.io')
 try:
   schema_v7 = yaml.safe_load(open(os.path.join(base_dir, 'yaml-schema.yaml')))
