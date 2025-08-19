@@ -109,9 +109,10 @@ The `HEAD`.`SCHMA` of the file should include `2 TAG _OSB std:OSB` (where `std:`
 
 ## Requires conversion
 
-### Standard tag as an extension subtype of a standard structure
+### Standard tag as an extension record or extension subtype of a standard structure
 
-If a file contains `ABC`.`DEF` where `ABC` parses as a standard structure type
+If a file contains a record with tag `DEF`,
+or `ABC`.`DEF` where `ABC` parses as a standard structure type
 and `DEF` is not the tag of one of that types' standard substructures,
 then this is an extension that violates every version of GEDCOM since 5.3
 and must be converted to a different format to be compliant with the 7.0 standard.
@@ -119,7 +120,16 @@ and must be converted to a different format to be compliant with the 7.0 standar
 The conversion requires replacing `DEF` with an extension tag,
 at which point it falls under one of the cases described in [Mixed new and standard structure types](#mixed-new-and-standard-structure-types).
 
-See [GEDCOM.io#290](https://github.com/FamilySearch/GEDCOM.io/issues/290) for progress on registry support for making such a conversion easier.
+The fact that nonconformant extensions using this `DEF` tag exist
+can be registered by using the following in the YAML:
+
+```yaml
+nonconformant tags:
+  - DEF
+```
+
+See also [the YAML description format documentation](https://gedcom.io/terms/format)'s entry for "nonconformant tags."
+
 
 ### Subtype of a standard type
 
