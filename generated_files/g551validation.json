@@ -1290,7 +1290,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1332,7 +1332,7 @@
     "https://gedcom.io/terms/v5.5.1/ASSO": {
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "RELA": {
         "cardinality": "{1:1}",
@@ -1350,7 +1350,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PLAC": {
         "cardinality": "{0:1}",
@@ -1400,7 +1400,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1466,7 +1466,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1532,7 +1532,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1602,7 +1602,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1668,7 +1668,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1734,7 +1734,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1806,7 +1806,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1848,7 +1848,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       }
     },
     "https://gedcom.io/terms/v5.5.1/CHAN-DATE": {
@@ -1898,7 +1898,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -1964,7 +1964,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2030,7 +2030,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2072,7 +2072,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PLAC": {
         "cardinality": "{0:1}",
@@ -2144,7 +2144,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2210,7 +2210,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2276,7 +2276,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2346,7 +2346,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2416,7 +2416,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2482,7 +2482,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2548,7 +2548,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2590,7 +2590,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PLAC": {
         "cardinality": "{0:1}",
@@ -2646,7 +2646,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2716,7 +2716,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2782,7 +2782,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2852,7 +2852,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2922,7 +2922,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -2964,7 +2964,7 @@
     "https://gedcom.io/terms/v5.5.1/FAMS": {
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       }
     },
     "https://gedcom.io/terms/v5.5.1/FCOM": {
@@ -2998,7 +2998,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3074,7 +3074,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3302,7 +3302,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3372,7 +3372,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3444,7 +3444,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3510,7 +3510,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3548,7 +3548,7 @@
     "https://gedcom.io/terms/v5.5.1/INDI-FAMC": {
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PEDI": {
         "cardinality": "{0:1}",
@@ -3574,7 +3574,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "NPFX": {
         "cardinality": "{0:1}",
@@ -3616,7 +3616,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "NPFX": {
         "cardinality": "{0:1}",
@@ -3654,7 +3654,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "NPFX": {
         "cardinality": "{0:1}",
@@ -3712,7 +3712,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3778,7 +3778,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3844,7 +3844,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3910,7 +3910,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -3986,7 +3986,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4056,7 +4056,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4126,7 +4126,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4196,7 +4196,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4266,7 +4266,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4336,7 +4336,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4402,7 +4402,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4468,7 +4468,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4638,7 +4638,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4688,7 +4688,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "ROMN": {
         "cardinality": "{0:M}",
@@ -4738,7 +4738,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4804,7 +4804,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4852,7 +4852,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       }
     },
     "https://gedcom.io/terms/v5.5.1/RETI": {
@@ -4886,7 +4886,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -4932,7 +4932,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PLAC": {
         "cardinality": "{0:1}",
@@ -4964,7 +4964,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PLAC": {
         "cardinality": "{0:1}",
@@ -5000,7 +5000,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       }
     },
     "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN": {
@@ -5016,7 +5016,7 @@
     "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": {
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5042,7 +5042,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5104,7 +5104,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5182,7 +5182,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5280,7 +5280,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5478,7 +5478,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5586,7 +5586,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "REFN": {
         "cardinality": "{0:M}",
@@ -5624,7 +5624,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "PHON": {
         "cardinality": "{0:3}",
@@ -5662,7 +5662,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5720,7 +5720,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "OBJE": {
         "cardinality": "{0:M}",
@@ -5762,7 +5762,7 @@
       },
       "NOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE"
+        "type": "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL"
       },
       "ORDI": {
         "cardinality": "{0:1}",
@@ -6012,7 +6012,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6024,13 +6024,13 @@
         "https://gedcom.io/terms/v5.5.1/WWW": "WWW"
       },
       "https://gedcom.io/terms/v5.5.1/ASSO": {
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/RELA": "RELA",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR"
       },
       "https://gedcom.io/terms/v5.5.1/BAPL": {
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "DATE",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "PLAC",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
         "https://gedcom.io/terms/v5.5.1/STAT-LDS_BAPTISM_DATE_STATUS": "STAT",
@@ -6044,7 +6044,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6062,7 +6062,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6080,7 +6080,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6099,7 +6099,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAMC-XREF_FAM": "FAMC",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6117,7 +6117,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6135,7 +6135,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6156,7 +6156,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6168,7 +6168,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/CHAN": {
         "https://gedcom.io/terms/v5.5.1/CHAN-DATE": "DATE",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE"
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE"
       },
       "https://gedcom.io/terms/v5.5.1/CHAN-DATE": {
         "https://gedcom.io/terms/v5.5.1/TIME": "TIME"
@@ -6185,7 +6185,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAMC-XREF_FAM": "FAMC",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6203,7 +6203,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6221,7 +6221,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6233,7 +6233,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/CONL": {
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "DATE",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "PLAC",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
         "https://gedcom.io/terms/v5.5.1/STAT-LDS_BAPTISM_DATE_STATUS": "STAT",
@@ -6254,7 +6254,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6272,7 +6272,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6290,7 +6290,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6309,7 +6309,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6328,7 +6328,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6346,7 +6346,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6364,7 +6364,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6377,7 +6377,7 @@
       "https://gedcom.io/terms/v5.5.1/ENDL": {
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "DATE",
         "https://gedcom.io/terms/v5.5.1/ENDL-STAT": "STAT",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "PLAC",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
         "https://gedcom.io/terms/v5.5.1/TEMP": "TEMP"
@@ -6393,7 +6393,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6412,7 +6412,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6430,7 +6430,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6449,7 +6449,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6468,7 +6468,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6480,7 +6480,7 @@
         "https://gedcom.io/terms/v5.5.1/WWW": "WWW"
       },
       "https://gedcom.io/terms/v5.5.1/FAMS": {
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE"
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE"
       },
       "https://gedcom.io/terms/v5.5.1/FCOM": {
         "https://gedcom.io/terms/v5.5.1/ADDR": "ADDR",
@@ -6490,7 +6490,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6512,7 +6512,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6581,7 +6581,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6600,7 +6600,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/INDI-ADOP-FAMC": "FAMC",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6621,7 +6621,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6639,7 +6639,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6651,7 +6651,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/INDI-FAMC": {
         "https://gedcom.io/terms/v5.5.1/INDI-FAMC-STAT": "STAT",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PEDI": "PEDI"
       },
       "https://gedcom.io/terms/v5.5.1/INDI-NAME": {
@@ -6660,7 +6660,7 @@
         "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": "ROMN",
         "https://gedcom.io/terms/v5.5.1/INDI-NAME-TYPE": "TYPE",
         "https://gedcom.io/terms/v5.5.1/NICK": "NICK",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/NPFX": "NPFX",
         "https://gedcom.io/terms/v5.5.1/NSFX": "NSFX",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
@@ -6670,7 +6670,7 @@
       "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": {
         "https://gedcom.io/terms/v5.5.1/GIVN": "GIVN",
         "https://gedcom.io/terms/v5.5.1/NICK": "NICK",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/NPFX": "NPFX",
         "https://gedcom.io/terms/v5.5.1/NSFX": "NSFX",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
@@ -6681,7 +6681,7 @@
       "https://gedcom.io/terms/v5.5.1/INDI-NAME-ROMN": {
         "https://gedcom.io/terms/v5.5.1/GIVN": "GIVN",
         "https://gedcom.io/terms/v5.5.1/NICK": "NICK",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/NPFX": "NPFX",
         "https://gedcom.io/terms/v5.5.1/NSFX": "NSFX",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
@@ -6697,7 +6697,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6715,7 +6715,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6733,7 +6733,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6751,7 +6751,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6773,7 +6773,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6792,7 +6792,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6811,7 +6811,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6830,7 +6830,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6849,7 +6849,7 @@
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
         "https://gedcom.io/terms/v5.5.1/HUSB-NULL": "HUSB",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6868,7 +6868,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6886,7 +6886,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6904,7 +6904,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6957,7 +6957,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -6970,7 +6970,7 @@
       "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": {
         "https://gedcom.io/terms/v5.5.1/FORM-PLACE_HIERARCHY": "FORM",
         "https://gedcom.io/terms/v5.5.1/MAP": "MAP",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-FONE": "FONE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-ROMN": "ROMN"
       },
@@ -6988,7 +6988,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -7006,7 +7006,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -7021,7 +7021,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/REPO": {
         "https://gedcom.io/terms/v5.5.1/CALN": "CALN",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE"
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE"
       },
       "https://gedcom.io/terms/v5.5.1/RETI": {
         "https://gedcom.io/terms/v5.5.1/ADDR": "ADDR",
@@ -7031,7 +7031,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -7044,7 +7044,7 @@
       "https://gedcom.io/terms/v5.5.1/SLGC": {
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "DATE",
         "https://gedcom.io/terms/v5.5.1/FAMC-XREF_FAM": "FAMC",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "PLAC",
         "https://gedcom.io/terms/v5.5.1/SLGC-STAT": "STAT",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
@@ -7055,7 +7055,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/SLGS": {
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_LDS_ORD": "DATE",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_LIVING_ORDINANCE": "PLAC",
         "https://gedcom.io/terms/v5.5.1/SLGS-STAT": "STAT",
         "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR",
@@ -7066,7 +7066,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/SOUR-DATA": {
         "https://gedcom.io/terms/v5.5.1/AGNC": "AGNC",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN": "EVEN"
       },
       "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN": {
@@ -7074,13 +7074,13 @@
         "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-PLAC": "PLAC"
       },
       "https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_DESCRIPTION": {
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/QUAY": "QUAY",
         "https://gedcom.io/terms/v5.5.1/TEXT": "TEXT"
       },
       "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": {
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PAGE": "PAGE",
         "https://gedcom.io/terms/v5.5.1/QUAY": "QUAY",
@@ -7102,7 +7102,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -7126,7 +7126,7 @@
         "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
@@ -7154,7 +7154,7 @@
         "https://gedcom.io/terms/v5.5.1/MARL": "MARL",
         "https://gedcom.io/terms/v5.5.1/MARR": "MARR",
         "https://gedcom.io/terms/v5.5.1/MARS": "MARS",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/REFN": "REFN",
         "https://gedcom.io/terms/v5.5.1/RESN": "RESN",
@@ -7207,7 +7207,7 @@
         "https://gedcom.io/terms/v5.5.1/NATI": "NATI",
         "https://gedcom.io/terms/v5.5.1/NATU": "NATU",
         "https://gedcom.io/terms/v5.5.1/NMR": "NMR",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/OCCU": "OCCU",
         "https://gedcom.io/terms/v5.5.1/ORDN": "ORDN",
@@ -7232,7 +7232,7 @@
       },
       "https://gedcom.io/terms/v5.5.1/record-OBJE": {
         "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-FILE": "FILE",
         "https://gedcom.io/terms/v5.5.1/REFN": "REFN",
         "https://gedcom.io/terms/v5.5.1/RIN": "RIN",
@@ -7243,7 +7243,7 @@
         "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/REFN": "REFN",
         "https://gedcom.io/terms/v5.5.1/REPO-NAME": "NAME",
@@ -7254,7 +7254,7 @@
         "https://gedcom.io/terms/v5.5.1/ABBR": "ABBR",
         "https://gedcom.io/terms/v5.5.1/AUTH": "AUTH",
         "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PUBL": "PUBL",
         "https://gedcom.io/terms/v5.5.1/REFN": "REFN",
@@ -7269,7 +7269,7 @@
         "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
         "https://gedcom.io/terms/v5.5.1/EMAIL": "EMAIL",
         "https://gedcom.io/terms/v5.5.1/FAX": "FAX",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE": "OBJE",
         "https://gedcom.io/terms/v5.5.1/PHON": "PHON",
         "https://gedcom.io/terms/v5.5.1/RIN": "RIN",
@@ -7283,7 +7283,7 @@
         "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
         "https://gedcom.io/terms/v5.5.1/DESC": "DESC",
         "https://gedcom.io/terms/v5.5.1/FAMF": "FAMF",
-        "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "NOTE",
+        "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "NOTE",
         "https://gedcom.io/terms/v5.5.1/ORDI": "ORDI",
         "https://gedcom.io/terms/v5.5.1/RIN": "RIN",
         "https://gedcom.io/terms/v5.5.1/SUBM": "SUBM",
