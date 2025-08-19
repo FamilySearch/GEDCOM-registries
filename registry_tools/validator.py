@@ -1,29 +1,11 @@
-from jsonschema import validate
+from validatorlib import check
 import yaml
-import os.path
 import sys
 
 if '--help' in sys.argv or '-h' in sys.argv or '?' in sys.argv:
   print("USAGE:", sys.argv[0], 'file_to_validate.yaml', '[another_file.yaml ...]')
   print('If given no arguments, reads YAML from stdin')
   quit()
-
-try:
-  schema = yaml.safe_load(open(os.path.join(os.path.dirname(__file__), 'GEDCOM.io', 'yaml-schema.yaml')))
-except:
-  print("Fatal Error! GEDCOM.io/yaml-schema.yaml not found.", file=sys.stderr)
-  exit(1)
-
-def check(data, name):
-  global schema
-  try:
-    validate(data, schema)
-    return True
-  except BaseException as ex:
-    print("="*30, file=sys.stderr)
-    print("Validation error with", name, file=sys.stderr)
-    print(ex)
-    return False
 
 count = 0
 ok = 0
