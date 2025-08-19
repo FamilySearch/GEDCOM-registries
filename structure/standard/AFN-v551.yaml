@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/AFN
+
+standard tag: 'AFN'
+
+specification:
+  - |
+    A unique permanent record file number of an individual record stored in
+    Ancestral File.
+  - |
+    A unique permanent record number of an individual record contained in the
+    Family History Department's Ancestral File.
+
+label: 'AFN'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

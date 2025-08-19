@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SUBM-LANG
+
+standard tag: 'LANG'
+
+specification:
+  - |
+    The name of the language used in a communication or transmission of
+    information.
+  - |
+    The language in which a person prefers to communicate. Multiple language
+    preference is shown by using multiple occurrences in order of priority.
+
+label: 'Language'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-LANGUAGE_ID
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBM": "{0:3}"
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/REPO
+
+standard tag: 'REPO'
+
+specification:
+  - |
+    An institution or person that has the specified item as part of their
+    collection(s).
+
+label: 'Repository'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-REPO>@|<NULL>"
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/CALN": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SOUR": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

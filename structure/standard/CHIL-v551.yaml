@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/CHIL
+
+standard tag: 'CHIL'
+
+specification:
+  - The natural, adopted, or sealed (LDS) child of a father and a mother.
+
+label: 'Child'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-FAM": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

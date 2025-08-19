@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-ROMN
+
+standard tag: 'ROMN'
+
+specification:
+  - A romanized variation of a superior text string.
+  - |
+    The romanized variation of the place name is written in the same form
+    prescribed for the place name used in the superior <PLACE_NAME> context.
+    The method used to romanize the name is indicated by the line_value of the
+    subordinate <ROMANIZED_TYPE>, for example if romaji was used to provide a
+    reading of a place name written in kanji, then the <ROMANIZED_TYPE>
+    subordinate to the ROMN tag would indicate 'romaji'. (See <ROMANIZED_TYPE>
+    page 61.)
+
+label: 'Romanized'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/TYPE-ROMANIZED_TYPE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "{0:M}"
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/ADR2
+
+standard tag: 'ADR2'
+
+specification:
+  - The second line of an address.
+  - |
+    The second line of the address used for indexing. This is the value of the
+    first CONT line subordinate to the ADDR tag in the address structure.
+
+label: 'Address2'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/ADDR": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

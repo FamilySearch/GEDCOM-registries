@@ -1,0 +1,42 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/FORM-PLACE_HIERARCHY
+
+standard tag: 'FORM'
+
+specification:
+  - |
+    An assigned name given to a consistent format in which information can be
+    conveyed.
+  - |
+    This shows the jurisdictional entities that are named in a sequence from
+    the lowest to the highest jurisdiction. The jurisdictions are separated by
+    commas, and any jurisdiction's name that is missing is still accounted for
+    by a comma. When a PLAC.FORM structure is included in the HEADER of a
+    GEDCOM transmission, it implies that all place names follow this
+    jurisdictional format and each jurisdiction is accounted for by a comma,
+    whether the name is known or not. When the PLAC.FORM is subordinate to an
+    event, it temporarily overrides the implications made by the PLAC.FORM
+    structure stated in the HEADER. This usage is not common and, therefore,
+    not encouraged. It should only be used when a system has over-structured
+    its place-names.
+
+label: 'Format'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD-PLAC": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

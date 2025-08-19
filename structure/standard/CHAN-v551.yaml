@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/CHAN
+
+standard tag: 'CHAN'
+
+specification:
+  - |
+    Indicates a change, correction, or modification. Typically used in
+    connection with a DATE to specify when a change in information occurred.
+
+label: 'Change'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/CHAN-DATE": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE": "{0:M}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-FAM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-INDI": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-NOTE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-OBJE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-REPO": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-SOUR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-SUBM": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/record-SUBN": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

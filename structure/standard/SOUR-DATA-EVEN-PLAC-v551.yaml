@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN-PLAC
+
+standard tag: 'PLAC'
+
+specification:
+  - A jurisdictional name to identify the place or location of an event.
+  - |
+    The name of the lowest jurisdiction that encompasses all lower-level
+    "places named in this source. For example, \"Oneida, Idaho\" would be used as"
+    a source jurisdiction place for events occurring in the various towns
+    "within Oneida County. \"Idaho\" would be the source jurisdiction place if"
+    the events recorded took place in other counties as well as Oneida County.
+
+label: 'Place'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-PLACE_NAME
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-DATA-EVEN": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/RELA
+
+standard tag: 'RELA'
+
+specification:
+  - A relationship value between the indicated contexts.
+  - |
+    A word or phrase that states object 1's relation is object 2. For example
+    "you would read the following as \"Joe Jacob's great grandson is the"
+    "submitter pointed to by the @XREF:SUBM@\":"
+    0 INDI
+  - 1 NAME Joe /Jacob/
+  - 1 ASSO @<XREF:SUBM>@
+  - 2 RELA great grandson
+
+label: 'Relationship'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/ASSO": "{1:1}"
+
+contact: "https://gedcom.io/community/"
+...

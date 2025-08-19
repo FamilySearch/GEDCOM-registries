@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/STAT-LDS_BAPTISM_DATE_STATUS
+
+standard tag: 'STAT'
+
+specification:
+  - An assessment of the state or condition of something.
+
+label: 'Status'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-LDS_BAPTISM_DATE_STATUS
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/DATE-CHANGE_DATE": "{1:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/BAPL": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/CONL": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

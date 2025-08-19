@@ -1,0 +1,42 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/TYPE-PHONETIC_TYPE
+
+standard tag: 'TYPE'
+
+specification:
+  - |
+    A further qualification to the meaning of the associated superior tag. The
+    value does not have any computer processing reliability. It is more in the
+    form of a short one or two word note that should be displayed any time the
+    associated data is displayed.
+  - |
+    ```
+    [<user defined> | hangul | kana]
+    ```
+  - |
+    Indicates the method used in transforming the text to the phonetic
+    variation. <user define> record method used to arrive at the phonetic
+    variation of the name. hangul Phonetic method for sounding Korean glifs.
+    kana Hiragana and/or Katakana characters were used in sounding the Kanji
+    character used by japanese
+
+label: 'Type'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME-FONE": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME-FONE": "{1:1}"
+
+contact: "https://gedcom.io/community/"
+...

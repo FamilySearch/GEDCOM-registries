@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SUBN
+
+standard tag: 'SUBN'
+
+specification:
+  - Pertains to a collection of data issued for processing.
+
+label: 'Submission'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-SUBN>@"
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

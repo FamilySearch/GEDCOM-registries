@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-DATA-DATE
+
+standard tag: 'DATE'
+
+specification:
+  - The time of an event in a calendar format.
+  - |
+    The date that this event data was entered into the original source
+    document.
+
+label: 'Date'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: https://gedcom.io/terms/v5.5.1/type-DATE_VALUE
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR-DATA": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

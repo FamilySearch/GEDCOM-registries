@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/HEAD-FILE
+
+standard tag: 'FILE'
+
+specification:
+  - |
+    An information storage place that is ordered and arranged for preservation
+    and reference.
+  - |
+    The name of the GEDCOM transmission file. If the file name includes a file
+    extension it must be shown in the form (filename.ext).
+
+label: 'File'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/HEAD": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

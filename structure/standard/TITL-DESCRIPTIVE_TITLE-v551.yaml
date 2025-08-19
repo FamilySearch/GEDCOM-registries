@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/TITL-DESCRIPTIVE_TITLE
+
+standard tag: 'TITL'
+
+specification:
+  - |
+    A description of a specific writing or other work, such as the title of a
+    book when used in a source context, or a formal designation used by an
+    individual in connection with positions of royalty or other social status,
+    such as Grand Duke.
+  - The title of a work, record, item, or object.
+
+label: 'Title'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/OBJE-FILE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OBJE-NULL": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

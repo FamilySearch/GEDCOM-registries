@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/VERS
+
+standard tag: 'VERS'
+
+specification:
+  - |
+    Indicates which version of a product, item, or publication is being used
+    or referenced.
+  - |
+    An identifier that represents the version level assigned to the associated
+    product. It is defined and changed by the creators of the product.
+
+label: 'Version'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/CHAR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/GEDC": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/HEAD-SOUR": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

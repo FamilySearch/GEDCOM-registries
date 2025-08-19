@@ -1,4 +1,4 @@
-from validatorlib import check
+from validatorlib import check, detect_versions
 import yaml
 import sys
 
@@ -9,25 +9,30 @@ if '--help' in sys.argv or '-h' in sys.argv or '?' in sys.argv:
 
 count = 0
 ok = 0
+
+def process_yaml(source, name):
+  global ok, count
+  count += 1
+  try:
+    raw_text = source.read()
+    data = yaml.safe_load(raw_text)
+    schemas = detect_versions(raw_text)
+    if check(data, name, schemas): ok += 1
+  except BaseException as ex:
+    print("="*30, file=sys.stderr)
+    print("Failed to load", name, file=sys.stderr)
+    print(ex, file=sys.stderr)
+
 if len(sys.argv) > 1:
   for arg in sys.argv[1:]:
-    count += 1
-    try:
-      data = yaml.safe_load(open(arg))
-    except BaseException as ex:
-      print("="*30, file=sys.stderr)
-      print("Failed to load", arg, file=sys.stderr)
-      print(ex, file=sys.stderr)
-      continue
-    if check(data, arg): ok += 1
+    with open(arg, 'r') as f:
+      process_yaml(f, arg)
 else:
-  for data in yaml.safe_load_all(sys.stdin):
-    count += 1
-    if check(data, 'YAML sent to stdin'): ok += 1
+  process_yaml(sys.stdin, 'YAML sent to stdin')
 
 if ok != count:
   print("="*30+'\n')
-print("YAML files checked:",count)
-print("YAML files passed:",ok)
+print("YAML files checked:", count)
+print("YAML files passed:", ok)
 if ok != count:
   sys.exit(1)

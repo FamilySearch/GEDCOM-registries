@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://gedcom.io/terms/v5.5.1/SUBM-RFN
+
+standard tag: 'RFN'
+
+specification:
+  - |
+    A permanent number assigned to a record that uniquely identifies it within
+    a known file.
+  - |
+    A registered number of a submitter of Ancestral File data. This number is
+    used in subsequent submissions or inquiries by the submitter for
+    identification purposes.
+
+label: 'Rec File Number'
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/record-SUBM": "{0:1}"
+
+contact: "https://gedcom.io/community/"
+...

@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-ADOPTED_BY_WHICH_PARENT
+
+specification:
+  - |
+    ```
+    ADOPTED_BY_WHICH_PARENT:=
+    [ HUSB | WIFE | BOTH ]
+    ```
+    A code which shows which parent in the associated family record adopted
+    this person.
+  - "Where:"
+  - HUSB  = The HUSBand in the associated family adopted this person.
+  - WIFE = The WIFE in the associated family adopted this person.
+  - BOTH = Both HUSBand and WIFE adopted this person.
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...

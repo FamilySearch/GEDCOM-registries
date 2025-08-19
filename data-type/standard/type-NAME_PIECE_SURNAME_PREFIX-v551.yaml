@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: data type
+
+uri: https://gedcom.io/terms/v5.5.1/type-NAME_PIECE_SURNAME_PREFIX
+
+specification:
+  - |
+    ```
+    NAME_PIECE_SURNAME_PREFIX:=
+    [ <NAME_PIECE> | <NAME_PIECE_SURNAME_PREFIX>, <NAME_PIECE> ]
+    ```
+    Surname prefix or article used in a family name. Different surname
+    "articles are separated by a comma, for example in the name \"de la Cruz\","
+    "this value would be \"de, la\"."
+
+documentation:
+  - https://gedcom.io/specifications/ged551.pdf
+
+contact: "https://gedcom.io/community/"
+...
