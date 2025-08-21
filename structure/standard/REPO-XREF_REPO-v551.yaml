@@ -4,7 +4,7 @@ lang: en-US
 
 type: structure
 
-uri: https://gedcom.io/terms/v5.5.1/REPO
+uri: https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO
 
 standard tag: 'REPO'
 
@@ -18,7 +18,7 @@ label: 'Repository'
 documentation:
   - https://gedcom.io/specifications/ged551.pdf
 
-payload: "@<https://gedcom.io/terms/v5.5.1/record-REPO>@|<NULL>"
+payload: "@<https://gedcom.io/terms/v5.5.1/record-REPO>@"
 
 substructures:
   "https://gedcom.io/terms/v5.5.1/CALN": "{0:M}"

@@ -142,8 +142,9 @@ https://gedcom.io/terms/v5.5.1/REFN	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v5.5.1/REFN-TYPE	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v5.5.1/RELA	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v5.5.1/RELI-RELIGIOUS_AFFILIATION	http://www.w3.org/2001/XMLSchema#string
-https://gedcom.io/terms/v5.5.1/REPO	@<https://gedcom.io/terms/v5.5.1/record-REPO>@|<NULL>
 https://gedcom.io/terms/v5.5.1/REPO-NAME	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v5.5.1/REPO-NULL	
+https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	@<https://gedcom.io/terms/v5.5.1/record-REPO>@
 https://gedcom.io/terms/v5.5.1/RESN	https://gedcom.io/terms/v5.5.1/type-RESTRICTION_NOTICE
 https://gedcom.io/terms/v5.5.1/RETI	
 https://gedcom.io/terms/v5.5.1/RIN	http://www.w3.org/2001/XMLSchema#string

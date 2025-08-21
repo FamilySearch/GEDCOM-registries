@@ -41,3 +41,6 @@ jobs:
               fi
             fi
           done
+
+      - name: Globally validate YAML files against each other
+        run: python3 ./registry_tools/global-validator.py

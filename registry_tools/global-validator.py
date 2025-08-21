@@ -5,7 +5,7 @@ It also validates each file individually using the schema checking code in valid
 A few places where the code may be overly constrained and need to be loosened in the future are commented with comments beginning "# Note:"
 """
 
-from validatorlib import check as check_one_file
+from validatorlib import check as check_one_file, detect_versions
 import yaml
 had_error = False
 
@@ -50,8 +50,11 @@ def check_paths(files=None):
     if r.parts[0] != 'uri' and r.parts[1] not in ['standard','extension']:
       err("Path",r,"wrong; expected 'standard' or 'extension', not",repr(r.parts[1]))
       continue
-    data = yaml.safe_load(open(a))
-    if not check_one_file(data, r):
+    with open(a, 'r') as f:
+      raw_text = f.read()
+    data = yaml.safe_load(raw_text)
+    schemas = detect_versions(raw_text)
+    if not check_one_file(data, r, schemas):
       had_error = True
       continue
     if data['type'].replace(' ','-') != r.parts[0]:
