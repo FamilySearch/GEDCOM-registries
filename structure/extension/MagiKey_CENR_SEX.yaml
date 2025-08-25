@@ -15,6 +15,9 @@ specification:
   - M = Male
   - F = Female
   - U = Undetermined from available records and quite sure that it can't be.
+  - |
+    The payload is identical to the standard SEX structure, but the set
+    of substructures is extension-defined.
 
 label: 'Sex'
 

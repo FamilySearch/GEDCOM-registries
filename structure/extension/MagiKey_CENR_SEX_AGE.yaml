@@ -16,6 +16,9 @@ specification:
     an `_AGER` substructure is used to refine the range.
     An `NCHI` substructure is used to hold the count of relevant
     individuals in the indicated age range.
+  - |
+    The payload is identical to the standard AGE structure, but the set
+    of substructures is extension-defined.
 
 label: 'Age'
 
