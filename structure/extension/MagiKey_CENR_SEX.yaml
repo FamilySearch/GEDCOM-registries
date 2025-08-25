@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/SEX.htm
+
+standard tag: 'SEX'
+
+specification:
+  - Sex
+  - The sex of a set of individuals in a head-of-household census.
+  - "A code that indicates the sex of the individual:"
+  - M = Male
+  - F = Female
+  - U = Undetermined from available records and quite sure that it can't be.
+  - |
+    The payload is identical to the standard SEX structure, but the set
+    of substructures is extension-defined.
+
+label: 'Sex'
+
+payload: http://www.w3.org/2001/XMLSchema#string
+
+substructures:
+  "https://armidalesoftware.com/issue/tags/AGE.htm": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION": "{0:1}"
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{0:M}"
+
+change controller: Armidale Software
+
+used by:
+  - MagiKey
+
+contact: dthaler@armidalesoftware.com
+...
