@@ -19,11 +19,11 @@ specification:
 
 label: 'Age'
 
-payload: https://gedcom.io/terms/v7/type-Age
+payload: https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT
 
 substructures:
   "https://armidalesoftware.com/issue/tags/AGER.htm": "{0:1}"
-  "https://gedcom.io/terms/v7/FAM-NCHI": "{1:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-NCHI": "{1:1}"
 
 superstructures:
   "https://armidalesoftware.com/issue/tags/SEX.htm": "{1:1}"

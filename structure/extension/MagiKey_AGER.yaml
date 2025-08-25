@@ -31,7 +31,7 @@ payload: https://armidalesoftware.com/issue/types/AgeRange.htm
 substructures: {}
 
 superstructures:
-  "https://gedcom.io/terms/v7/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
 
 change controller: Armidale Software
 

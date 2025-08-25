@@ -14,19 +14,19 @@ specification:
 
 label: 'Individual'
 
-payload: "@<https://gedcom.io/terms/v7/record-INDI>@"
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
 
 substructures:
   "https://armidalesoftware.com/issue/tags/FATH.htm": "{0:1}"
   "https://armidalesoftware.com/issue/tags/MOTH.htm": "{0:1}"
   "https://armidalesoftware.com/issue/tags/MSTAT.htm": "{0:1}"
-  "https://gedcom.io/terms/v7/AGE": "{0:1}"
-  "https://gedcom.io/terms/v7/BIRT": "{0:1}"
-  "https://gedcom.io/terms/v7/INDI-FACT": "{0:M}"
-  "https://gedcom.io/terms/v7/NAME": "{0:1}"
-  "https://gedcom.io/terms/v7/OCCU": "{0:1}"
-  "https://gedcom.io/terms/v7/ROLE": "{0:1}"
-  "https://gedcom.io/terms/v7/SEX": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FACT": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SEX": "{0:1}"
 
 superstructures:
   "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{1:M}"

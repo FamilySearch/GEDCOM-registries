@@ -18,11 +18,11 @@ label: 'Father'
 payload: null
 
 substructures:
-  "https://gedcom.io/terms/v7/AGE": "{0:1}"
-  "https://gedcom.io/terms/v7/BIRT": "{0:1}"
-  "https://gedcom.io/terms/v7/INDI-FACT": "{0:1}"
-  "https://gedcom.io/terms/v7/MARR": "{0:1}"
-  "https://gedcom.io/terms/v7/OCCU": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FACT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:1}"
 
 superstructures:
   "https://armidalesoftware.com/issue/tags/INDI.htm": "{0:1}"

@@ -24,10 +24,10 @@ payload: "@<https://armidalesoftware.com/issue/tags/record-CENR.htm>@"
 substructures: {}
 
 superstructures:
-  "https://gedcom.io/terms/v7/BIRT": "{0:M}"
-  "https://gedcom.io/terms/v7/INDI-CENS": "{0:M}"
-  "https://gedcom.io/terms/v7/INDI-NAME": "{0:M}"
-  "https://gedcom.io/terms/v7/OCCU": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-CENS": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:M}"
 
 change controller: Armidale Software
 
