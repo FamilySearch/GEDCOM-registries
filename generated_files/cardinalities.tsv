@@ -1019,9 +1019,12 @@ https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOU
 https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION	{0:1}
 https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/WWW	{0:3}
 https://gedcom.io/terms/v5.5.1/REFN	https://gedcom.io/terms/v5.5.1/REFN-TYPE	{0:1}
-https://gedcom.io/terms/v5.5.1/REPO	https://gedcom.io/terms/v5.5.1/CALN	{0:M}
-https://gedcom.io/terms/v5.5.1/REPO	https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL	{0:M}
-https://gedcom.io/terms/v5.5.1/REPO	https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-NULL	https://gedcom.io/terms/v5.5.1/CALN	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-NULL	https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-NULL	https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	https://gedcom.io/terms/v5.5.1/CALN	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL	{0:M}
+https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	https://gedcom.io/terms/v5.5.1/NOTE-XREF_NOTE	{0:M}
 https://gedcom.io/terms/v5.5.1/RETI	https://gedcom.io/terms/v5.5.1/ADDR	{0:1}
 https://gedcom.io/terms/v5.5.1/RETI	https://gedcom.io/terms/v5.5.1/AGE	{0:1}
 https://gedcom.io/terms/v5.5.1/RETI	https://gedcom.io/terms/v5.5.1/AGNC	{0:1}
@@ -1246,7 +1249,8 @@ https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/OBJE-N
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/OBJE-XREF_OBJE	{0:M}
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/PUBL	{0:1}
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/REFN	{0:M}
-https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/REPO	{0:M}
+https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/REPO-NULL	{0:M}
+https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	{0:M}
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/RIN	{0:1}
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/SOUR-DATA	{0:1}
 https://gedcom.io/terms/v5.5.1/record-SOUR	https://gedcom.io/terms/v5.5.1/SOUR-TITL	{0:1}

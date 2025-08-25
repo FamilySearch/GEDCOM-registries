@@ -173,7 +173,8 @@ structure/standard/REFN-v551.yaml
 structure/standard/RELA-v551.yaml
 structure/standard/RELI-RELIGIOUS_AFFILIATION-v551.yaml
 structure/standard/REPO-NAME-v551.yaml
-structure/standard/REPO-v551.yaml
+structure/standard/REPO-NULL-v551.yaml
+structure/standard/REPO-XREF_REPO-v551.yaml
 structure/standard/RESN-v551.yaml
 structure/standard/RETI-v551.yaml
 structure/standard/RIN-v551.yaml
