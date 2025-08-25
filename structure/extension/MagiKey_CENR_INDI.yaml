@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/INDI.htm
 
-standard tag: 'INDI'
+nonconformant tags:
+  - INDI
 
 specification:
   - Individual

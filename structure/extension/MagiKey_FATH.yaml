@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/FATH.htm
 
-standard tag: 'FATH'
+nonconformant tags:
+  - FATH
 
 specification:
   - Father
