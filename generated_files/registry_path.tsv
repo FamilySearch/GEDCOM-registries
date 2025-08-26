@@ -147,8 +147,9 @@ https://gedcom.io/terms/v5.5.1/REFN	structure/standard/REFN-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/REFN-TYPE	structure/standard/REFN-TYPE-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/RELA	structure/standard/RELA-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/RELI-RELIGIOUS_AFFILIATION	structure/standard/RELI-RELIGIOUS_AFFILIATION-v551.yaml	en-US
-https://gedcom.io/terms/v5.5.1/REPO	structure/standard/REPO-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/REPO-NAME	structure/standard/REPO-NAME-v551.yaml	en-US
+https://gedcom.io/terms/v5.5.1/REPO-NULL	structure/standard/REPO-NULL-v551.yaml	en-US
+https://gedcom.io/terms/v5.5.1/REPO-XREF_REPO	structure/standard/REPO-XREF_REPO-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/RESN	structure/standard/RESN-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/RETI	structure/standard/RETI-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/RIN	structure/standard/RIN-v551.yaml	en-US
