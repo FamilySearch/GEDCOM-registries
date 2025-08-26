@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/AGER.htm
 
-extension tags: ['_AGER']
+extension tags:
+  - _AGER
 
 specification:
   - Age at event

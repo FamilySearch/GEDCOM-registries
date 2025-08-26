@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/SCHD.htm
 
-extension tags: ['_SCHD']
+extension tags:
+  - _SCHD
 
 specification:
   - Census schedule

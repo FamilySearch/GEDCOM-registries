@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/MSTAT.htm
 
-extension tags: ['_MSTAT']
+extension tags:
+  - _MSTAT
 
 specification:
   - Marital status
