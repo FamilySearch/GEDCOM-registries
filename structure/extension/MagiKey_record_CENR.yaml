@@ -6,7 +6,8 @@ type: structure
 
 uri: https://armidalesoftware.com/issue/tags/record-CENR.htm
 
-extension tags: ['_CENR']
+extension tags:
+  - _CENR
 
 specification:
   - Census record
