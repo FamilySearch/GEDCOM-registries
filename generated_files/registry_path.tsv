@@ -543,10 +543,13 @@ https://gedcom.io/terms/v7/type-Date#exact	data-type/standard/type-Date-exact.ya
 https://gedcom.io/terms/v7/type-Date#period	data-type/standard/type-Date-period.yaml	en-US
 https://gedcom.io/terms/v7/type-Enum	data-type/standard/type-Enum.yaml	en-US
 https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml	en-US
+https://gedcom.io/terms/v7/type-Latitude	data-type/standard/type-Latitude.yaml	en-US
 https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml	en-US
 https://gedcom.io/terms/v7/type-List#Enum	data-type/standard/type-List-Enum.yaml	en-US
 https://gedcom.io/terms/v7/type-List#Text	data-type/standard/type-List-Text.yaml	en-US
+https://gedcom.io/terms/v7/type-Longitude	data-type/standard/type-Longitude.yaml	en-US
 https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml	en-US
+https://gedcom.io/terms/v7/type-TagDef	data-type/standard/type-TagDef.yaml	en-US
 https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml	en-US
 https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml	en-US
 https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml	en-US
