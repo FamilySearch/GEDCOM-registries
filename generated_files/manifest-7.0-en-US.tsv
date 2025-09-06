@@ -9,10 +9,13 @@ data-type/standard/type-Date-period.yaml
 data-type/standard/type-Date.yaml
 data-type/standard/type-Enum.yaml
 data-type/standard/type-FilePath.yaml
+data-type/standard/type-Latitude.yaml
 data-type/standard/type-List-Enum.yaml
 data-type/standard/type-List-Text.yaml
 data-type/standard/type-List.yaml
+data-type/standard/type-Longitude.yaml
 data-type/standard/type-Name.yaml
+data-type/standard/type-TagDef.yaml
 data-type/standard/type-Time.yaml
 enumeration-set/standard/enumset-ADOP.yaml
 enumeration-set/standard/enumset-EVEN.yaml

@@ -966,7 +966,7 @@
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "https://gedcom.io/terms/v7/EXID-TYPE": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     "https://gedcom.io/terms/v7/FAM-CENS": {
       "type": "Y|<NULL>"
@@ -1102,13 +1102,13 @@
       "type": "http://www.w3.org/2001/XMLSchema#Language"
     },
     "https://gedcom.io/terms/v7/LATI": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "https://gedcom.io/terms/v7/type-Latitude"
     },
     "https://gedcom.io/terms/v7/LEFT": {
       "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
     },
     "https://gedcom.io/terms/v7/LONG": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "https://gedcom.io/terms/v7/type-Longitude"
     },
     "https://gedcom.io/terms/v7/MAP": {
       "type": null
@@ -1296,7 +1296,7 @@
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "https://gedcom.io/terms/v7/TAG": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
+      "type": "https://gedcom.io/terms/v7/type-TagDef"
     },
     "https://gedcom.io/terms/v7/TEMP": {
       "type": "http://www.w3.org/2001/XMLSchema#string"
