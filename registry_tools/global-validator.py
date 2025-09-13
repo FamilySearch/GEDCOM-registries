@@ -33,6 +33,59 @@ def find_all_yaml():
         yield join(dirpath,fn), Path(relpath(join(dirpath,fn), start=repo))
 
 
+def extension_matches_standard(extension_data, standard_structures):
+  """
+  Check if an extension-defined substructure matches a standard structure with the same tag.
+  According to the specification, extension-defined substructures should match the structure type,
+  payload, and substructure collection of at least one standard type with the same tag.
+  They can add more substructures to the substructure collection.
+  """
+  if 'standard tag' not in extension_data:
+    return False
+    
+  tag = extension_data['standard tag']
+  
+  # Find all standard structures with the same tag
+  matching_standards = []
+  for data in standard_structures:
+    if data.get('standard tag') == tag:
+      matching_standards.append(data)
+  
+  if not matching_standards:
+    return False
+  
+  # Check if extension matches at least one standard structure
+  for standard_data in matching_standards:
+    # Check structure type
+    if extension_data.get('type') != standard_data.get('type'):
+      continue
+      
+    # Check payload
+    if extension_data.get('payload') != standard_data.get('payload'):
+      continue
+      
+    # Check substructure collection - extension must include all standard substructures
+    # but can add more
+    standard_substructures = standard_data.get('substructures', {})
+    extension_substructures = extension_data.get('substructures', {})
+    
+    # All standard substructures must be present in extension
+    match = True
+    for uri, cardinality in standard_substructures.items():
+      if uri not in extension_substructures:
+        match = False
+        break
+      # The cardinality should also match (this could be relaxed in future if needed)
+      if extension_substructures[uri] != cardinality:
+        match = False
+        break
+    
+    if match:
+      return True
+  
+  return False
+
+
 def check_paths(files=None):
   """
   Checks the paths of each YAML file.
@@ -40,6 +93,10 @@ def check_paths(files=None):
   """
   if files is None: files = find_all_yaml()
   ans = {}
+  standard_structures = []  # Collect standard structures for extension validation
+  
+  # First pass: collect all files and identify standard structures
+  all_files = []
   for a,r in files:
     if not r.suffix == '.yaml':
       err("YAML files should use extension .yaml, not",r.suffix)
@@ -60,10 +117,21 @@ def check_paths(files=None):
     if data['type'].replace(' ','-') != r.parts[0]:
       err("Path",r,"wrong; expected", repr(data['type'].replace(' ','-')), 'not', repr(r.parts[0]))
       continue
-    if 'standard tag' in data and r.parts[1] != 'standard':
-      err(r,"has 'standard tag' but is not in a path for standard files")
-
+    
     data[None] = r # store path in collision-free location for later use
+    all_files.append((data, r))
+    
+    # Collect standard structures for later validation
+    if r.parts[1] == 'standard':
+      standard_structures.append(data)
+  
+  # Second pass: validate 'standard tag' usage
+  for data, r in all_files:
+    if 'standard tag' in data and r.parts[1] != 'standard':
+      # Check if this extension matches a standard structure
+      if not extension_matches_standard(data, standard_structures):
+        err(r,"has 'standard tag' but is not in a path for standard files and does not match any standard structure with the same tag")
+    
     ans[r] = data
   return ans
 
