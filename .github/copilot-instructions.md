@@ -105,17 +105,17 @@ Follow these steps in exact order for any fresh clone:
 
 ### YAML File Structure
 
-All YAML files follow this basic structure:
-```yaml
-%YAML 1.2
----
-lang: en-US
-type: [enumeration|structure|enumeration-set|data-type|uri]
-uri: https://gedcom.io/terms/v7/[identifier]
-specification:
-  - Brief description
-  - Detailed specification
-```
+All YAML files must follow the basic structure defined in the official documentation:
+
+- **YAML File Format**: https://github.com/FamilySearch/GEDCOM.io/blob/main/_pages/yaml-file-format.md
+- **Schema for v7 files**: https://github.com/FamilySearch/GEDCOM.io/blob/main/yaml-schema.yaml  
+- **Schema for v5.5.1 files**: https://github.com/FamilySearch/GEDCOM.io/blob/main/yaml-schema-v5.5.1.yaml
+
+Key required fields for all YAML files:
+- `lang`: Language tag (e.g., "en-US")
+- `type`: One of "structure", "enumeration", "enumeration set", "calendar", "month", "data type", "uri"
+- `uri`: The URI that identifies the concept
+- `specification`: List of descriptions (required for most types except "enumeration set")
 
 ### File Naming Convention
 
