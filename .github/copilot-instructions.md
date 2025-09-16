@@ -138,7 +138,7 @@ git submodule update --init --recursive
 cd registry_tools && python3 validator.py ../structure/standard/record-INDI.yaml
 
 # Run complete validation (like CI)
-yamllint . && cd registry_tools && find .. -type f -name "*.yaml" -not -path "../registry_tools/*" -exec dirname {} \; | sort -u | while read -r dir; do yaml_files=("$dir"/*.yaml); if [ "${#yaml_files[@]}" -gt 0 ]; then echo "Checking directory $dir"; python3 validator.py "${yaml_files[@]}"; if [ $? -ne 0 ]; then exit 1; fi; fi; done && cd .. && python3 ./registry_tools/global-validator.py
+yamllint . && python3 ./registry_tools/global-validator.py
 
 # Generate all summary files
 python3 registry_tools/syncstandard.py && python3 registry_tools/makeTSV.py && python3 registry_tools/makeJSON.py
