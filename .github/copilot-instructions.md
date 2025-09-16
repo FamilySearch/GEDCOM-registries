@@ -61,8 +61,8 @@ Follow these steps in exact order for any fresh clone:
 
 ### Key Validation Commands
 
-- **Single file validation**: `cd registry_tools && python3 validator.py ../path/to/file.yaml`
 - **YAML syntax check**: `yamllint path/to/file.yaml`
+- **Single file validation**: `cd registry_tools && python3 validator.py ../path/to/file.yaml`
 - **Global validation**: `python3 ./registry_tools/global-validator.py`
 
 ## Validation
