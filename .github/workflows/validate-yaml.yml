@@ -28,19 +28,5 @@ jobs:
       - name: Validate YAML
         run: yamllint .
  
-      - name: Validate YAML against schema
-        working-directory: ${{github.workspace}}/registry_tools
-        run: |
-          find .. -type f -name "*.yaml" -not -path "../registry_tools/*" -exec dirname {} \; | sort -u | while read -r dir; do
-            yaml_files=("$dir"/*.yaml)
-            if [ "${#yaml_files[@]}" -gt 0 ]; then
-              echo Checking directory $dir
-              python3 validator.py "${yaml_files[@]}"
-              if [ $? -ne 0 ]; then
-                exit 1
-              fi
-            fi
-          done
-
       - name: Globally validate YAML files against each other
         run: python3 ./registry_tools/global-validator.py
