@@ -1,0 +1,40 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/AGE.htm
+
+standard tag: 'AGE'
+
+specification:
+  - Age
+  - |
+    The age of a set of individuals in a head-of-household census.
+    If the age range cannot be expressed by an `AGE` structure,
+    an `_AGER` substructure is used to refine the range.
+    An `NCHI` substructure is used to hold the count of relevant
+    individuals in the indicated age range.
+  - |
+    The payload is identical to the standard AGE structure, but the set
+    of substructures is extension-defined.
+
+label: 'Age'
+
+payload: https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT
+
+substructures:
+  "https://armidalesoftware.com/issue/tags/AGER.htm": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FAM-NCHI": "{1:1}"
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/SEX.htm": "{1:1}"
+
+change controller: Armidale Software
+
+used by:
+  - MagiKey
+
+contact: dthaler@armidalesoftware.com
+...
