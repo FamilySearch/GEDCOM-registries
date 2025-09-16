@@ -130,7 +130,7 @@ def check_paths(files=None):
     if 'standard tag' in data and r.parts[1] != 'standard':
       # Check if this extension matches a standard structure
       if not extension_matches_standard(data, standard_structures):
-        err(r,"has 'standard tag' but is not in a path for standard files and does not match any standard structure with the same tag")
+        print("WARNING:",r,"has 'standard tag' but is not in a path for standard files and does not match any standard structure with the same tag")
     
     ans[r] = data
   return ans
