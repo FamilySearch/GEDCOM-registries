@@ -28,7 +28,7 @@ Follow these steps in exact order for any fresh clone:
    yamllint .
    
    
-   # Global validation (1 second)
+   # Global validation (10 seconds)
    python3 ./registry_tools/global-validator.py
    ```
    Total validation time: ~18 seconds. NEVER CANCEL. Set timeout to 60+ seconds.
