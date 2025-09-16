@@ -27,19 +27,6 @@ Follow these steps in exact order for any fresh clone:
    # YAML syntax validation (2 seconds)
    yamllint .
    
-   # Schema validation (9 seconds) - NEVER CANCEL
-   cd registry_tools
-   find .. -type f -name "*.yaml" -not -path "../registry_tools/*" -exec dirname {} \; | sort -u | while read -r dir; do
-     yaml_files=("$dir"/*.yaml)
-     if [ "${#yaml_files[@]}" -gt 0 ]; then
-       echo "Checking directory $dir"
-       python3 validator.py "${yaml_files[@]}"
-       if [ $? -ne 0 ]; then
-         exit 1
-       fi
-     fi
-   done
-   cd ..
    
    # Global validation (1 second)
    python3 ./registry_tools/global-validator.py
