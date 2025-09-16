@@ -66,6 +66,12 @@ If an extension allows this only in some contexts,
 such as `_SUB` being allowed under `CREA`.`DATE` but not under `CHAN`.`DATE`,
 then they are actually creating a [subtype of a standard type](#subtype-of-a-standard-type) instead.
 
+If multiple GEDCOM versions are supported, such that there exist multiple `std:OLD`
+URIs, with later ones subsuming earlier ones, it is recommended that the earliest
+such URI be referenced in the YAML file for `ext:SUB`.  If the extension has been
+tested with multiple versions, then it is encouraged to explicitly reference URIs
+from each version.
+
 #### `_NEW`.`OLD`
 
 The YAML file for `ext:NEW`'s `substructures` field should include `std:OLD`.
