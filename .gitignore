@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -54,3 +54,13 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
