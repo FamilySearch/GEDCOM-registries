@@ -142,7 +142,7 @@ uri_lang = {}
 for (r, d) in tocheck.items():
   u_l = d['uri'], d['lang']
   if u_l in uri_lang:
-    err('both',uri_lang[u_l],'and',r,'have URI',u_l[0][None],'and language',u_l[1])
+    err('both',uri_lang[u_l],'and',r,'have URI',d['uri'],'and language',u_l[1])
   else:
     uri_lang[u_l] = d
 
@@ -177,7 +177,7 @@ for (r,d) in tocheck.items():
     for key in set(d.keys()) | set(byuri[d['uri']].keys()):
       if key is None or key in translatable_keys: continue
       if d.get(key) != byuri[d['uri']].get(key):
-        err(d[None],'and',byuri[d['uri']]['None'],'share URI', d['uri'], 'but differ in their',key,'entry')
+        err(d[None],'and',byuri[d['uri']][None],'share URI', d['uri'], 'but differ in their',key,'entry')
 
 
 def check_references(d):
