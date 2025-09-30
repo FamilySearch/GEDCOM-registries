@@ -28,7 +28,9 @@ os.chdir('..')
 
 
 for src in glob(os.path.join('GEDCOM','extracted-files','tags','*')):
-    data = yaml.safe_load(open(src))
+    print('loading',src,'...')
+    with open(src) as f:
+        data = yaml.safe_load(f)
     if data['type'] == 'uri':
         continue
     tag = os.path.basename(src).replace(' ','-')
@@ -39,3 +41,50 @@ for src in glob(os.path.join('GEDCOM','extracted-files','tags','*')):
     shutil.copyfile(src,dst)
     
         
+os.chdir('GEDCOM-v7.1')
+run(['git','checkout','v7.1'])
+run(['git','pull','origin','v7.1'])
+os.chdir('..')
+
+
+for src in glob(os.path.join('GEDCOM-v7.1','extracted-files','tags','*')):
+    print('loading',src,'...')
+    with open(src) as f:
+        data = yaml.safe_load(f)
+    if data['type'] == 'uri':
+        continue
+    tag = os.path.basename(src).replace(' ','-')
+    dst = os.path.join('..', data['type'].replace(' ', '-'), 'standard', tag + '.yaml')
+
+    if '/v7.1/' in data.get('uri', ''):
+        base_tag = tag
+        base_dst = dst
+
+        tag += '-v71'
+        dst = os.path.join('..', data['type'].replace(' ', '-'), 'standard', tag + '.yaml')
+
+        # If base file exists, merge superstructures
+        if os.path.exists(base_dst):
+            with open(base_dst) as f:
+                base_data = yaml.safe_load(f)
+            merged = data.copy()
+            merged_superstructures = {}
+            merged_superstructures.update(merged.get('superstructures', {}))
+            merged_superstructures.update(base_data.get('superstructures', {}))
+            merged['superstructures'] = merged_superstructures
+
+            print('merging',dst,'from',base_dst)
+            with open(dst, 'w') as f:
+                yaml.dump(merged, f)
+            continue
+
+    # Handle relocations
+    if '/v7/' in data.get('uri', '') and data.get('prerelease') is True:
+        tag += '-v71'
+        dst = os.path.join('..', data['type'].replace(' ', '-'), 'standard', tag + '.yaml')
+        print('creating a prerelease version of',dst)
+
+    if os.path.exists(dst):
+        continue
+    print('update',dst,'with',src)
+    shutil.copyfile(src,dst)
