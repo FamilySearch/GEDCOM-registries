@@ -78,12 +78,6 @@ for src in glob(os.path.join('GEDCOM-v7.1','extracted-files','tags','*')):
                 yaml.dump(merged, f)
             continue
 
-    # Handle relocations
-    if '/v7/' in data.get('uri', '') and data.get('prerelease') is True:
-        tag += '-v71'
-        dst = os.path.join('..', data['type'].replace(' ', '-'), 'standard', tag + '.yaml')
-        print('creating a prerelease version of',dst)
-
     if os.path.exists(dst):
         continue
     print('update',dst,'with',src)
