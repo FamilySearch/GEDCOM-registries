@@ -65,6 +65,20 @@ def is_v71(uri):
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(sys.argv[0])))
 
+# Build a set of URIs from GEDCOM-v7.1/extracted-files/tags to identify v7.1-derived files
+v71_derived_uris = set()
+v71_tags_dir = os.path.join(root, 'registry_tools', 'GEDCOM-v7.1', 'extracted-files', 'tags')
+if os.path.exists(v71_tags_dir):
+    for filename in os.listdir(v71_tags_dir):
+        filepath = os.path.join(v71_tags_dir, filename)
+        if os.path.isfile(filepath):
+            try:
+                doc = yaml.safe_load(open(filepath))
+                if isinstance(doc, dict) and 'uri' in doc:
+                    v71_derived_uris.add(doc['uri'])
+            except:
+                pass  # Skip files that can't be parsed
+
 stdtagof = {}
 exttagof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -102,8 +116,8 @@ for p,t,fs in os.walk(os.path.join(root, 'structure')):
         if is_v551(doc['uri']):
             continue
         
-        # Determine which answer dict to use
-        ans = ans71 if is_v71(doc['uri']) else ans7
+        # Determine which answer dict to use based on whether it's from GEDCOM-v7.1
+        ans = ans71 if doc['uri'] in v71_derived_uris else ans7
         
         if doc['superstructures'] == {}:
             if doc['uri'] == 'https://gedcom.io/terms/v7/CONT': continue
@@ -139,8 +153,8 @@ for p,t,fs in os.walk(os.path.join(root, 'enumeration')):
         doc = yaml.safe_load(open(os.path.join(p,f)))
         for uri in doc['value of']:
             tag = stdtagof.get(doc['uri'], doc['uri'])
-            # Add to both v7 and v7.1 if not version-specific
-            if is_v71(doc['uri']):
+            # Add based on whether it's from GEDCOM-v7.1
+            if doc['uri'] in v71_derived_uris:
                 ans71['set'].setdefault(uri, {})[tag] = doc['uri']
             elif not is_v551(doc['uri']):
                 ans7['set'].setdefault(uri, {})[tag] = doc['uri']
@@ -150,8 +164,8 @@ for p,t,fs in os.walk(os.path.join(root, 'enumeration-set')):
         doc = yaml.safe_load(open(os.path.join(p,f)))
         for uri in doc['enumeration values']:
             tag = stdtagof.get(uri, uri)
-            # Add to both v7 and v7.1 if not version-specific
-            if is_v71(doc['uri']):
+            # Add based on whether it's from GEDCOM-v7.1
+            if doc['uri'] in v71_derived_uris:
                 ans71['set'].setdefault(doc['uri'], {})[tag] = uri
             elif not is_v551(doc['uri']):
                 ans7['set'].setdefault(doc['uri'], {})[tag] = uri
@@ -165,8 +179,8 @@ for p,t,fs in os.walk(os.path.join(root, 'calendar')):
             'months': {stdtagof.get(_,_):_ for _ in doc['months']},
             'epochs': doc['epochs']
         }
-        # Add to both v7 and v7.1 if not version-specific
-        if is_v71(doc['uri']):
+        # Add based on whether it's from GEDCOM-v7.1
+        if doc['uri'] in v71_derived_uris:
             ans71['calendar'][tag] = cal_data
         elif not is_v551(doc['uri']):
             ans7['calendar'][tag] = cal_data
@@ -178,8 +192,8 @@ for p,t,fs in os.walk(root):
             doc = yaml.safe_load(open(os.path.join(p,f)))
             if 'uri' in doc and is_v551(doc['uri']):
                 continue
-            # Determine which answer dict to use
-            ans = ans71 if 'uri' in doc and is_v71(doc['uri']) else ans7
+            # Determine which answer dict to use based on whether it's from GEDCOM-v7.1
+            ans = ans71 if 'uri' in doc and doc['uri'] in v71_derived_uris else ans7
             if 'standard tag' in doc:
                 ans['tag'][doc['uri']] = doc['standard tag']
             elif 'extension tags' in doc and len(doc['extension tags']) > 0 and doc['uri'] not in ans['tag']:

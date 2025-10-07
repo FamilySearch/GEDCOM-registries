@@ -15,6 +15,20 @@ manifest70, manifest70_header = [], 'yaml_path'.split()
 manifest71, manifest71_header = [], 'yaml_path'.split()
 extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
 
+# Build a set of URIs from GEDCOM-v7.1/extracted-files/tags to identify v7.1-derived files
+v71_derived_uris = set()
+v71_tags_dir = os.path.join(root, 'registry_tools', 'GEDCOM-v7.1', 'extracted-files', 'tags')
+if os.path.exists(v71_tags_dir):
+    for filename in os.listdir(v71_tags_dir):
+        filepath = os.path.join(v71_tags_dir, filename)
+        if os.path.isfile(filepath):
+            try:
+                doc = yaml.safe_load(open(filepath))
+                if isinstance(doc, dict) and 'uri' in doc:
+                    v71_derived_uris.add(doc['uri'])
+            except:
+                pass  # Skip files that can't be parsed
+
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
     for p,t,fs in os.walk(os.path.join(root, kind)):
@@ -43,7 +57,8 @@ for kind in os.scandir(root):
                     if 'standard tag' in doc or 'extension tags' not in doc:
                         if 'v5.5.1' in doc['uri']:
                             manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
-                        elif 'v7.1' in doc['uri']:
+                        elif doc['uri'] in v71_derived_uris:
+                            # Files derived from GEDCOM-v7.1, regardless of v7 or v7.1 URI
                             manifest71.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                         else:
                             manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
