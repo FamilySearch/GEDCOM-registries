@@ -57,11 +57,14 @@ for kind in os.scandir(root):
                     if 'standard tag' in doc or 'extension tags' not in doc:
                         if 'v5.5.1' in doc['uri']:
                             manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
-                        elif doc['uri'] in v71_derived_uris:
-                            # Files derived from GEDCOM-v7.1, regardless of v7 or v7.1 URI
-                            manifest71.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                         else:
-                            manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            # Files can be in both v7.0 and v7.1 manifests
+                            if doc['uri'] in v71_derived_uris:
+                                # Files derived from GEDCOM-v7.1
+                                manifest71.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            if 'v7.1' not in doc['uri']:
+                                # All v7 files (not v7.1) go to manifest 7.0
+                                manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
                     print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
 
