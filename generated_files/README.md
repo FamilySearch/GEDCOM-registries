@@ -40,32 +40,6 @@ This table has the following key columns:
 
 (description to be added)
 
-## manifest-7.0-en-US.tsv
-
-This table can be used to look up the location of all standard YAML files for
-the FamilySearch GEDCOM 7.0 standard.
-
-The table has the following key columns:
-
-* yaml_path: The path, relative to the root of this repository, of the YAML file.
-
-## manifest-extensions-en-US.tsv
-
-This table can be used to look up the location of the YAML file for a given
-undocumented extension in a given language.
-
-The table has the following key columns:
-
-* used_by: The `HEAD`.`SOUR` value of the product using the extension.
-    
-    The special value "`-`" means there are no currently registered `HEAD`.`SOUR` values for this extension.
-* tag: The extension tag.
-* language: The language tag for the YAML file.
-
-The table has the following non-key columns:
-
-* yaml_path: The path, relative to the root of this repository, of the YAML file.
-
 ## payloads.tsv
 
 This table can be used to look up the payload syntax for a given structure.

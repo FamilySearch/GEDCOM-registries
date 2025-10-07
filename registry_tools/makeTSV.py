@@ -28,6 +28,8 @@ for kind in os.scandir(root):
     if kind.is_dir() and '_' not in kind.name and kind.name[0] != '.':
         for p,t,fs in os.walk(os.path.join(root, kind.name)):
             for f in fs:
+                if not f.endswith('.yaml'):
+                    continue
                 doc = yaml.safe_load(open(os.path.join(p, f)))
                 if isinstance(doc, dict) and 'uri' in doc:
                     lang = doc['lang']
@@ -82,17 +84,18 @@ for name in ('substructures','payloads','cardinalities','enumerations','enumerat
         w.writerow(locals()[name+'_header'])
         w.writerows(sorted(locals()[name]))
 
-with open(os.path.join(root,'generated_files','manifest-5.5.1-en-US.tsv'), 'w') as dst:
+os.makedirs(os.path.join(root,'manifest','standard'), exist_ok=True)
+with open(os.path.join(root,'manifest','standard','manifest-5.5.1-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest551_header'])
     w.writerows(sorted(locals()['manifest551']))
 
-with open(os.path.join(root,'generated_files','manifest-7.0-en-US.tsv'), 'w') as dst:
+with open(os.path.join(root,'manifest','standard','manifest-7.0-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest70_header'])
     w.writerows(sorted(locals()['manifest70']))
 
-with open(os.path.join(root,'generated_files','manifest-extensions-en-US.tsv'), 'w') as dst:
+with open(os.path.join(root,'manifest','standard','manifest-extensions-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['extensions_header'])
     w.writerows(sorted(locals()['extensions']))
