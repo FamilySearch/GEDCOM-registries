@@ -230,13 +230,9 @@ https://gedcom.io/terms/v5.5.1/type-RESTRICTION_NOTICE	data-type/standard/type-R
 https://gedcom.io/terms/v5.5.1/type-SOURCE_MEDIA_TYPE	data-type/standard/type-SOURCE_MEDIA_TYPE-v551.yaml	en-US
 https://gedcom.io/terms/v5.5.1/type-TIME_VALUE	data-type/standard/type-TIME_VALUE-v551.yaml	en-US
 https://gedcom.io/terms/v7.1/record-REPO	structure/standard/record-REPO-v71.yaml	en-US
-https://gedcom.io/terms/v7.1/record-REPO	structure/standard/record-REPO.yaml	en-US
 https://gedcom.io/terms/v7.1/record-SNOTE	structure/standard/record-SNOTE-v71.yaml	en-US
-https://gedcom.io/terms/v7.1/record-SNOTE	structure/standard/record-SNOTE.yaml	en-US
 https://gedcom.io/terms/v7.1/record-SOUR	structure/standard/record-SOUR-v71.yaml	en-US
-https://gedcom.io/terms/v7.1/record-SOUR	structure/standard/record-SOUR.yaml	en-US
 https://gedcom.io/terms/v7.1/record-SUBM	structure/standard/record-SUBM-v71.yaml	en-US
-https://gedcom.io/terms/v7.1/record-SUBM	structure/standard/record-SUBM.yaml	en-US
 https://gedcom.io/terms/v7/ABBR	structure/standard/ABBR.yaml	en-US
 https://gedcom.io/terms/v7/ADDR	structure/standard/ADDR.yaml	en-US
 https://gedcom.io/terms/v7/ADOP	structure/standard/ADOP.yaml	en-US
@@ -541,6 +537,10 @@ https://gedcom.io/terms/v7/ord-STAT	structure/standard/ord-STAT.yaml	en-US
 https://gedcom.io/terms/v7/record-FAM	structure/standard/record-FAM.yaml	en-US
 https://gedcom.io/terms/v7/record-INDI	structure/standard/record-INDI.yaml	en-US
 https://gedcom.io/terms/v7/record-OBJE	structure/standard/record-OBJE.yaml	en-US
+https://gedcom.io/terms/v7/record-REPO	structure/standard/record-REPO.yaml	en-US
+https://gedcom.io/terms/v7/record-SNOTE	structure/standard/record-SNOTE.yaml	en-US
+https://gedcom.io/terms/v7/record-SOUR	structure/standard/record-SOUR.yaml	en-US
+https://gedcom.io/terms/v7/record-SUBM	structure/standard/record-SUBM.yaml	en-US
 https://gedcom.io/terms/v7/type-Age	data-type/standard/type-Age.yaml	en-US
 https://gedcom.io/terms/v7/type-Date	data-type/standard/type-Date.yaml	en-US
 https://gedcom.io/terms/v7/type-Date#exact	data-type/standard/type-Date#exact.yaml	en-US

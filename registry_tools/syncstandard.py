@@ -24,6 +24,7 @@ run(['git','submodule','init'])
 run(['git','submodule','update'])
 
 os.chdir('GEDCOM')
+run(['git','checkout','main'])
 run(['git','pull','origin','main'])
 os.chdir('..')
 
