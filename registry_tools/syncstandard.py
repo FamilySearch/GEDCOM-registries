@@ -42,9 +42,10 @@ for src in glob(os.path.join('GEDCOM','extracted-files','tags','*')):
 
 
 # Process v7.1 files
-if not os.path.exists('GEDCOM-v7.1'):
-    # Clone the GEDCOM repo for v7.1
-    run(['git','clone','https://github.com/FamilySearch/GEDCOM','GEDCOM-v7.1'])
+# Update the GEDCOM-v7.1 submodule
+os.chdir('..')
+run(['git','submodule','update','--init','--recursive','registry_tools/GEDCOM-v7.1'])
+os.chdir('registry_tools')
 
 os.chdir('GEDCOM-v7.1')
 run(['git','fetch','origin','v7.1'])

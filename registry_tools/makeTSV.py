@@ -12,6 +12,7 @@ substructures, substructures_header = set(), 'superstructure tag structure'.spli
 registry_path, registry_path_header = [], 'uri yaml_path language'.split()
 manifest551, manifest551_header = [], 'yaml_path'.split()
 manifest70, manifest70_header = [], 'yaml_path'.split()
+manifest71, manifest71_header = [], 'yaml_path'.split()
 extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
 
 tagsof = {}
@@ -42,6 +43,8 @@ for kind in os.scandir(root):
                     if 'standard tag' in doc or 'extension tags' not in doc:
                         if 'v5.5.1' in doc['uri']:
                             manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                        elif 'v7.1' in doc['uri']:
+                            manifest71.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                         else:
                             manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
@@ -91,6 +94,11 @@ with open(os.path.join(root,'generated_files','manifest-7.0-en-US.tsv'), 'w') as
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest70_header'])
     w.writerows(sorted(locals()['manifest70']))
+
+with open(os.path.join(root,'generated_files','manifest-7.1-en-US.tsv'), 'w') as dst:
+    w = csv.writer(dst, dialect=csv.excel_tab)
+    w.writerow(locals()['manifest71_header'])
+    w.writerows(sorted(locals()['manifest71']))
 
 with open(os.path.join(root,'generated_files','manifest-extensions-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)

@@ -4,3 +4,7 @@
 [submodule "registry_tools/GEDCOM.io"]
 	path = registry_tools/GEDCOM.io
 	url = https://github.com/FamilySearch/GEDCOM.io
+[submodule "registry_tools/GEDCOM-v7.1"]
+	path = registry_tools/GEDCOM-v7.1
+	url = https://github.com/FamilySearch/GEDCOM
+	branch = v7.1

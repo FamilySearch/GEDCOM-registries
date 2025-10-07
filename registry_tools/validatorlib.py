@@ -6,6 +6,7 @@ import sys
 base_dir = os.path.join(os.path.dirname(__file__), 'GEDCOM.io')
 try:
   schema_v7 = yaml.safe_load(open(os.path.join(base_dir, 'yaml-schema.yaml')))
+  schema_v71 = yaml.safe_load(open(os.path.join(base_dir, 'yaml-schema.yaml')))
   schema_v551 = yaml.safe_load(open(os.path.join(base_dir, 'yaml-schema-v5.5.1.yaml')))
 except Exception as ex:
   print("Fatal error loading schema(s):", ex, file=sys.stderr)
@@ -29,7 +30,9 @@ def check(data, name, schemas):
 
 def detect_versions(text):
   versions = {}
-  if '/v7/' in text or '/v7.1/' in text:
+  if '/v7.1/' in text:
+    versions['v7.1'] = schema_v71
+  elif '/v7/' in text:
     versions['v7'] = schema_v7
   if '/v5.5.1/' in text:
     versions['v5.5.1'] = schema_v551
