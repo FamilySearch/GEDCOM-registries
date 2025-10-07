@@ -95,6 +95,18 @@
     "https://gedcom.io/exid-type/FamilySearch-UserId": {
       "en-US": "FamilySearch User ID"
     },
+    "https://gedcom.io/terms/v7.1/record-REPO": {
+      "en-US": "Repository"
+    },
+    "https://gedcom.io/terms/v7.1/record-SNOTE": {
+      "en-US": "Shared note"
+    },
+    "https://gedcom.io/terms/v7.1/record-SOUR": {
+      "en-US": "Source"
+    },
+    "https://gedcom.io/terms/v7.1/record-SUBM": {
+      "en-US": "Submitter"
+    },
     "https://gedcom.io/terms/v7/ABBR": {
       "en-US": "Abbreviation"
     },
@@ -758,18 +770,6 @@
     "https://gedcom.io/terms/v7/record-OBJE": {
       "en-US": "Object"
     },
-    "https://gedcom.io/terms/v7/record-REPO": {
-      "en-US": "Repository"
-    },
-    "https://gedcom.io/terms/v7/record-SNOTE": {
-      "en-US": "Shared note"
-    },
-    "https://gedcom.io/terms/v7/record-SOUR": {
-      "en-US": "Source"
-    },
-    "https://gedcom.io/terms/v7/record-SUBM": {
-      "en-US": "Submitter"
-    },
     "https://github.com/dthaler/gedcom-citations/_DATE": {
       "en-US": "Date"
     },
@@ -796,6 +796,18 @@
     }
   },
   "payload": {
+    "https://gedcom.io/terms/v7.1/record-REPO": {
+      "type": null
+    },
+    "https://gedcom.io/terms/v7.1/record-SNOTE": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://gedcom.io/terms/v7.1/record-SOUR": {
+      "type": null
+    },
+    "https://gedcom.io/terms/v7.1/record-SUBM": {
+      "type": null
+    },
     "https://gedcom.io/terms/v7/ABBR": {
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
@@ -1350,18 +1362,6 @@
     "https://gedcom.io/terms/v7/record-OBJE": {
       "type": null
     },
-    "https://gedcom.io/terms/v7/record-REPO": {
-      "type": null
-    },
-    "https://gedcom.io/terms/v7/record-SNOTE": {
-      "type": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "https://gedcom.io/terms/v7/record-SOUR": {
-      "type": null
-    },
-    "https://gedcom.io/terms/v7/record-SUBM": {
-      "type": null
-    },
     "https://github.com/dthaler/gedcom-citations/_DATE": {
       "type": "https://gedcom.io/terms/v7/type-Date"
     },
@@ -1563,23 +1563,255 @@
       },
       "REPO": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/record-REPO"
+        "type": "https://gedcom.io/terms/v7.1/record-REPO"
       },
       "SNOTE": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/record-SNOTE"
+        "type": "https://gedcom.io/terms/v7.1/record-SNOTE"
       },
       "SOUR": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/record-SOUR"
+        "type": "https://gedcom.io/terms/v7.1/record-SOUR"
       },
       "SUBM": {
         "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/record-SUBM"
+        "type": "https://gedcom.io/terms/v7.1/record-SUBM"
       },
       "TRLR": {
         "cardinality": "{1:1}",
         "type": "https://gedcom.io/terms/v7/TRLR"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/record-REPO": {
+      "ADDR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/ADDR"
+      },
+      "CHAN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CHAN"
+      },
+      "CREA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CREA"
+      },
+      "EMAIL": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EMAIL"
+      },
+      "EXID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EXID"
+      },
+      "FAX": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/FAX"
+      },
+      "NAME": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v7/NAME"
+      },
+      "NOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/NOTE"
+      },
+      "PHON": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/PHON"
+      },
+      "REFN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/REFN"
+      },
+      "RESN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/RESN"
+      },
+      "SNOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SNOTE"
+      },
+      "UID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/UID"
+      },
+      "WWW": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/WWW"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/record-SNOTE": {
+      "CHAN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CHAN"
+      },
+      "CREA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CREA"
+      },
+      "EXID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EXID"
+      },
+      "LANG": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/LANG"
+      },
+      "MIME": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/MIME"
+      },
+      "REFN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/REFN"
+      },
+      "RESN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/RESN"
+      },
+      "SOUR": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SOUR"
+      },
+      "TRAN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/NOTE-TRAN"
+      },
+      "UID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/UID"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/record-SOUR": {
+      "ABBR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/ABBR"
+      },
+      "AUTH": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/AUTH"
+      },
+      "CHAN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CHAN"
+      },
+      "CREA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CREA"
+      },
+      "DATA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/DATA"
+      },
+      "EXID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EXID"
+      },
+      "NOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/NOTE"
+      },
+      "OBJE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/OBJE"
+      },
+      "PUBL": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/PUBL"
+      },
+      "REFN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/REFN"
+      },
+      "REPO": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/REPO"
+      },
+      "RESN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/RESN"
+      },
+      "SNOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SNOTE"
+      },
+      "TEXT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/TEXT"
+      },
+      "TITL": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/TITL"
+      },
+      "UID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/UID"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/record-SUBM": {
+      "ADDR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/ADDR"
+      },
+      "CHAN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CHAN"
+      },
+      "CREA": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/CREA"
+      },
+      "EMAIL": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EMAIL"
+      },
+      "EXID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/EXID"
+      },
+      "FAX": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/FAX"
+      },
+      "LANG": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SUBM-LANG"
+      },
+      "NAME": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v7/NAME"
+      },
+      "NOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/NOTE"
+      },
+      "OBJE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/OBJE"
+      },
+      "PHON": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/PHON"
+      },
+      "REFN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/REFN"
+      },
+      "RESN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/RESN"
+      },
+      "SNOTE": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/SNOTE"
+      },
+      "UID": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/UID"
+      },
+      "WWW": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7/WWW"
       }
     },
     "https://gedcom.io/terms/v7/ADDR": {
@@ -7134,224 +7366,10 @@
         "type": "https://gedcom.io/terms/v7/UID"
       }
     },
-    "https://gedcom.io/terms/v7/record-REPO": {
-      "ADDR": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/ADDR"
-      },
-      "CHAN": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CHAN"
-      },
-      "CREA": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CREA"
-      },
-      "EMAIL": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EMAIL"
-      },
-      "EXID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EXID"
-      },
-      "FAX": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/FAX"
-      },
-      "NAME": {
-        "cardinality": "{1:1}",
-        "type": "https://gedcom.io/terms/v7/NAME"
-      },
-      "NOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/NOTE"
-      },
-      "PHON": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/PHON"
-      },
-      "REFN": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/REFN"
-      },
-      "SNOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/SNOTE"
-      },
-      "UID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/UID"
-      },
-      "WWW": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/WWW"
-      }
-    },
-    "https://gedcom.io/terms/v7/record-SNOTE": {
-      "CHAN": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CHAN"
-      },
-      "CREA": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CREA"
-      },
-      "EXID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EXID"
-      },
-      "LANG": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/LANG"
-      },
-      "MIME": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/MIME"
-      },
-      "REFN": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/REFN"
-      },
-      "SOUR": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/SOUR"
-      },
-      "TRAN": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/NOTE-TRAN"
-      },
-      "UID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/UID"
-      }
-    },
     "https://gedcom.io/terms/v7/record-SOUR": {
-      "ABBR": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/ABBR"
-      },
-      "AUTH": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/AUTH"
-      },
-      "CHAN": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CHAN"
-      },
-      "CREA": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CREA"
-      },
-      "DATA": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/DATA"
-      },
-      "EXID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EXID"
-      },
-      "NOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/NOTE"
-      },
-      "OBJE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/OBJE"
-      },
-      "PUBL": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/PUBL"
-      },
-      "REFN": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/REFN"
-      },
-      "REPO": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/REPO"
-      },
-      "SNOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/SNOTE"
-      },
-      "TEXT": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/TEXT"
-      },
-      "TITL": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/TITL"
-      },
-      "UID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/UID"
-      },
       "https://github.com/dthaler/gedcom-citations/_SOUR": {
         "cardinality": "{0:M}",
         "type": "https://github.com/dthaler/gedcom-citations/_SOUR"
-      }
-    },
-    "https://gedcom.io/terms/v7/record-SUBM": {
-      "ADDR": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/ADDR"
-      },
-      "CHAN": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CHAN"
-      },
-      "CREA": {
-        "cardinality": "{0:1}",
-        "type": "https://gedcom.io/terms/v7/CREA"
-      },
-      "EMAIL": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EMAIL"
-      },
-      "EXID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/EXID"
-      },
-      "FAX": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/FAX"
-      },
-      "LANG": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/SUBM-LANG"
-      },
-      "NAME": {
-        "cardinality": "{1:1}",
-        "type": "https://gedcom.io/terms/v7/NAME"
-      },
-      "NOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/NOTE"
-      },
-      "OBJE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/OBJE"
-      },
-      "PHON": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/PHON"
-      },
-      "REFN": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/REFN"
-      },
-      "SNOTE": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/SNOTE"
-      },
-      "UID": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/UID"
-      },
-      "WWW": {
-        "cardinality": "{0:M}",
-        "type": "https://gedcom.io/terms/v7/WWW"
       }
     },
     "https://github.com/dthaler/gedcom-citations/_DATE": {
@@ -7396,6 +7414,10 @@
     }
   },
   "tag": {
+    "https://gedcom.io/terms/v7.1/record-REPO": "REPO",
+    "https://gedcom.io/terms/v7.1/record-SNOTE": "SNOTE",
+    "https://gedcom.io/terms/v7.1/record-SOUR": "SOUR",
+    "https://gedcom.io/terms/v7.1/record-SUBM": "SUBM",
     "https://gedcom.io/terms/v7/ABBR": "ABBR",
     "https://gedcom.io/terms/v7/ADDR": "ADDR",
     "https://gedcom.io/terms/v7/ADOP": "ADOP",
@@ -7685,10 +7707,6 @@
     "https://gedcom.io/terms/v7/record-FAM": "FAM",
     "https://gedcom.io/terms/v7/record-INDI": "INDI",
     "https://gedcom.io/terms/v7/record-OBJE": "OBJE",
-    "https://gedcom.io/terms/v7/record-REPO": "REPO",
-    "https://gedcom.io/terms/v7/record-SNOTE": "SNOTE",
-    "https://gedcom.io/terms/v7/record-SOUR": "SOUR",
-    "https://gedcom.io/terms/v7/record-SUBM": "SUBM",
     "https://github.com/dthaler/gedcom-citations/_DATE": "_DATE",
     "https://github.com/dthaler/gedcom-citations/_SOUR": "_SOUR"
   },
@@ -7982,15 +8000,79 @@
     },
     "struct": {
       "": {
+        "https://gedcom.io/terms/v7.1/record-REPO": "REPO",
+        "https://gedcom.io/terms/v7.1/record-SNOTE": "SNOTE",
+        "https://gedcom.io/terms/v7.1/record-SOUR": "SOUR",
+        "https://gedcom.io/terms/v7.1/record-SUBM": "SUBM",
         "https://gedcom.io/terms/v7/HEAD": "HEAD",
         "https://gedcom.io/terms/v7/TRLR": "TRLR",
         "https://gedcom.io/terms/v7/record-FAM": "FAM",
         "https://gedcom.io/terms/v7/record-INDI": "INDI",
-        "https://gedcom.io/terms/v7/record-OBJE": "OBJE",
-        "https://gedcom.io/terms/v7/record-REPO": "REPO",
-        "https://gedcom.io/terms/v7/record-SNOTE": "SNOTE",
-        "https://gedcom.io/terms/v7/record-SOUR": "SOUR",
-        "https://gedcom.io/terms/v7/record-SUBM": "SUBM"
+        "https://gedcom.io/terms/v7/record-OBJE": "OBJE"
+      },
+      "https://gedcom.io/terms/v7.1/record-REPO": {
+        "https://gedcom.io/terms/v7/ADDR": "ADDR",
+        "https://gedcom.io/terms/v7/CHAN": "CHAN",
+        "https://gedcom.io/terms/v7/CREA": "CREA",
+        "https://gedcom.io/terms/v7/EMAIL": "EMAIL",
+        "https://gedcom.io/terms/v7/EXID": "EXID",
+        "https://gedcom.io/terms/v7/FAX": "FAX",
+        "https://gedcom.io/terms/v7/NAME": "NAME",
+        "https://gedcom.io/terms/v7/NOTE": "NOTE",
+        "https://gedcom.io/terms/v7/PHON": "PHON",
+        "https://gedcom.io/terms/v7/REFN": "REFN",
+        "https://gedcom.io/terms/v7/RESN": "RESN",
+        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
+        "https://gedcom.io/terms/v7/UID": "UID",
+        "https://gedcom.io/terms/v7/WWW": "WWW"
+      },
+      "https://gedcom.io/terms/v7.1/record-SNOTE": {
+        "https://gedcom.io/terms/v7/CHAN": "CHAN",
+        "https://gedcom.io/terms/v7/CREA": "CREA",
+        "https://gedcom.io/terms/v7/EXID": "EXID",
+        "https://gedcom.io/terms/v7/LANG": "LANG",
+        "https://gedcom.io/terms/v7/MIME": "MIME",
+        "https://gedcom.io/terms/v7/NOTE-TRAN": "TRAN",
+        "https://gedcom.io/terms/v7/REFN": "REFN",
+        "https://gedcom.io/terms/v7/RESN": "RESN",
+        "https://gedcom.io/terms/v7/SOUR": "SOUR",
+        "https://gedcom.io/terms/v7/UID": "UID"
+      },
+      "https://gedcom.io/terms/v7.1/record-SOUR": {
+        "https://gedcom.io/terms/v7/ABBR": "ABBR",
+        "https://gedcom.io/terms/v7/AUTH": "AUTH",
+        "https://gedcom.io/terms/v7/CHAN": "CHAN",
+        "https://gedcom.io/terms/v7/CREA": "CREA",
+        "https://gedcom.io/terms/v7/DATA": "DATA",
+        "https://gedcom.io/terms/v7/EXID": "EXID",
+        "https://gedcom.io/terms/v7/NOTE": "NOTE",
+        "https://gedcom.io/terms/v7/OBJE": "OBJE",
+        "https://gedcom.io/terms/v7/PUBL": "PUBL",
+        "https://gedcom.io/terms/v7/REFN": "REFN",
+        "https://gedcom.io/terms/v7/REPO": "REPO",
+        "https://gedcom.io/terms/v7/RESN": "RESN",
+        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
+        "https://gedcom.io/terms/v7/TEXT": "TEXT",
+        "https://gedcom.io/terms/v7/TITL": "TITL",
+        "https://gedcom.io/terms/v7/UID": "UID"
+      },
+      "https://gedcom.io/terms/v7.1/record-SUBM": {
+        "https://gedcom.io/terms/v7/ADDR": "ADDR",
+        "https://gedcom.io/terms/v7/CHAN": "CHAN",
+        "https://gedcom.io/terms/v7/CREA": "CREA",
+        "https://gedcom.io/terms/v7/EMAIL": "EMAIL",
+        "https://gedcom.io/terms/v7/EXID": "EXID",
+        "https://gedcom.io/terms/v7/FAX": "FAX",
+        "https://gedcom.io/terms/v7/NAME": "NAME",
+        "https://gedcom.io/terms/v7/NOTE": "NOTE",
+        "https://gedcom.io/terms/v7/OBJE": "OBJE",
+        "https://gedcom.io/terms/v7/PHON": "PHON",
+        "https://gedcom.io/terms/v7/REFN": "REFN",
+        "https://gedcom.io/terms/v7/RESN": "RESN",
+        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
+        "https://gedcom.io/terms/v7/SUBM-LANG": "LANG",
+        "https://gedcom.io/terms/v7/UID": "UID",
+        "https://gedcom.io/terms/v7/WWW": "WWW"
       },
       "https://gedcom.io/terms/v7/ADDR": {
         "https://gedcom.io/terms/v7/ADR1": "ADR1",
@@ -9557,66 +9639,8 @@
         "https://gedcom.io/terms/v7/SOUR": "SOUR",
         "https://gedcom.io/terms/v7/UID": "UID"
       },
-      "https://gedcom.io/terms/v7/record-REPO": {
-        "https://gedcom.io/terms/v7/ADDR": "ADDR",
-        "https://gedcom.io/terms/v7/CHAN": "CHAN",
-        "https://gedcom.io/terms/v7/CREA": "CREA",
-        "https://gedcom.io/terms/v7/EMAIL": "EMAIL",
-        "https://gedcom.io/terms/v7/EXID": "EXID",
-        "https://gedcom.io/terms/v7/FAX": "FAX",
-        "https://gedcom.io/terms/v7/NAME": "NAME",
-        "https://gedcom.io/terms/v7/NOTE": "NOTE",
-        "https://gedcom.io/terms/v7/PHON": "PHON",
-        "https://gedcom.io/terms/v7/REFN": "REFN",
-        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
-        "https://gedcom.io/terms/v7/UID": "UID",
-        "https://gedcom.io/terms/v7/WWW": "WWW"
-      },
-      "https://gedcom.io/terms/v7/record-SNOTE": {
-        "https://gedcom.io/terms/v7/CHAN": "CHAN",
-        "https://gedcom.io/terms/v7/CREA": "CREA",
-        "https://gedcom.io/terms/v7/EXID": "EXID",
-        "https://gedcom.io/terms/v7/LANG": "LANG",
-        "https://gedcom.io/terms/v7/MIME": "MIME",
-        "https://gedcom.io/terms/v7/NOTE-TRAN": "TRAN",
-        "https://gedcom.io/terms/v7/REFN": "REFN",
-        "https://gedcom.io/terms/v7/SOUR": "SOUR",
-        "https://gedcom.io/terms/v7/UID": "UID"
-      },
       "https://gedcom.io/terms/v7/record-SOUR": {
-        "https://gedcom.io/terms/v7/ABBR": "ABBR",
-        "https://gedcom.io/terms/v7/AUTH": "AUTH",
-        "https://gedcom.io/terms/v7/CHAN": "CHAN",
-        "https://gedcom.io/terms/v7/CREA": "CREA",
-        "https://gedcom.io/terms/v7/DATA": "DATA",
-        "https://gedcom.io/terms/v7/EXID": "EXID",
-        "https://gedcom.io/terms/v7/NOTE": "NOTE",
-        "https://gedcom.io/terms/v7/OBJE": "OBJE",
-        "https://gedcom.io/terms/v7/PUBL": "PUBL",
-        "https://gedcom.io/terms/v7/REFN": "REFN",
-        "https://gedcom.io/terms/v7/REPO": "REPO",
-        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
-        "https://gedcom.io/terms/v7/TEXT": "TEXT",
-        "https://gedcom.io/terms/v7/TITL": "TITL",
-        "https://gedcom.io/terms/v7/UID": "UID",
         "https://github.com/dthaler/gedcom-citations/_SOUR": "_SOUR"
-      },
-      "https://gedcom.io/terms/v7/record-SUBM": {
-        "https://gedcom.io/terms/v7/ADDR": "ADDR",
-        "https://gedcom.io/terms/v7/CHAN": "CHAN",
-        "https://gedcom.io/terms/v7/CREA": "CREA",
-        "https://gedcom.io/terms/v7/EMAIL": "EMAIL",
-        "https://gedcom.io/terms/v7/EXID": "EXID",
-        "https://gedcom.io/terms/v7/FAX": "FAX",
-        "https://gedcom.io/terms/v7/NAME": "NAME",
-        "https://gedcom.io/terms/v7/NOTE": "NOTE",
-        "https://gedcom.io/terms/v7/OBJE": "OBJE",
-        "https://gedcom.io/terms/v7/PHON": "PHON",
-        "https://gedcom.io/terms/v7/REFN": "REFN",
-        "https://gedcom.io/terms/v7/SNOTE": "SNOTE",
-        "https://gedcom.io/terms/v7/SUBM-LANG": "LANG",
-        "https://gedcom.io/terms/v7/UID": "UID",
-        "https://gedcom.io/terms/v7/WWW": "WWW"
       },
       "https://github.com/dthaler/gedcom-citations/_DATE": {
         "https://gedcom.io/terms/v7/PHRASE": "PHRASE",

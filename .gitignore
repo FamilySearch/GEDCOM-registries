@@ -64,3 +64,6 @@ dmypy.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Registry tools
+registry_tools/GEDCOM-v7.1/

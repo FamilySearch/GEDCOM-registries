@@ -194,6 +194,14 @@ https://gedcom.io/terms/v5.5.1/record-REPO
 https://gedcom.io/terms/v5.5.1/record-SOUR	
 https://gedcom.io/terms/v5.5.1/record-SUBM	
 https://gedcom.io/terms/v5.5.1/record-SUBN	
+https://gedcom.io/terms/v7.1/record-REPO	
+https://gedcom.io/terms/v7.1/record-REPO	
+https://gedcom.io/terms/v7.1/record-SNOTE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7.1/record-SNOTE	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7.1/record-SOUR	
+https://gedcom.io/terms/v7.1/record-SOUR	
+https://gedcom.io/terms/v7.1/record-SUBM	
+https://gedcom.io/terms/v7.1/record-SUBM	
 https://gedcom.io/terms/v7/ABBR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/ADDR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7/ADOP	Y|<NULL>
@@ -370,9 +378,5 @@ https://gedcom.io/terms/v7/ord-STAT	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7/record-FAM	
 https://gedcom.io/terms/v7/record-INDI	
 https://gedcom.io/terms/v7/record-OBJE	
-https://gedcom.io/terms/v7/record-REPO	
-https://gedcom.io/terms/v7/record-SNOTE	http://www.w3.org/2001/XMLSchema#string
-https://gedcom.io/terms/v7/record-SOUR	
-https://gedcom.io/terms/v7/record-SUBM	
 https://github.com/dthaler/gedcom-citations/_DATE	https://gedcom.io/terms/v7/type-Date
 https://github.com/dthaler/gedcom-citations/_SOUR	@<https://gedcom.io/terms/v7/record-SOUR>@

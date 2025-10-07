@@ -54,7 +54,5 @@ enumeration values:
   - "https://gedcom.io/terms/v7/SSN"
   - "https://gedcom.io/terms/v7/INDI-TITL"
 
-standard: true
-
 contact: "https://gedcom.io/community/"
 ...

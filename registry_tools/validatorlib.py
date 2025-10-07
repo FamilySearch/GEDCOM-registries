@@ -29,7 +29,7 @@ def check(data, name, schemas):
 
 def detect_versions(text):
   versions = {}
-  if '/v7/' in text:
+  if '/v7/' in text or '/v7.1/' in text:
     versions['v7'] = schema_v7
   if '/v5.5.1/' in text:
     versions['v5.5.1'] = schema_v551
