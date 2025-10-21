@@ -1,0 +1,43 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/AGER.htm
+
+extension tags:
+  - _AGER
+
+specification:
+  - Age at event
+  - |
+    The age range of the individual at the time an event occurred
+    in the form Integer-Integer.  Example: the value 16-26 means
+    that the person was at least 16 years old and less than 26 years
+    old at the time of the event.  This differs from the `AGE`
+    structure which can only express an upper or lower bound, but not
+    both.  Typically the `AGE` structure can only appear once per
+    superstructure and so two bounds cannot be used under the same
+    superstructure using any standard mechanism.
+  - |
+    An `_AGER` is only permitted as a substructure of an `AGE`
+    structure with a bound in years that matches one end of the
+    `_AGER` payload.
+
+label: 'Age range'
+
+payload: https://armidalesoftware.com/issue/types/AgeRange.htm
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+
+change controller: Armidale Software
+
+used by:
+  - MagiKey
+
+contact: dthaler@armidalesoftware.com
+...

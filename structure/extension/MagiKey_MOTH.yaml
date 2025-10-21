@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/MOTH.htm
+
+nonconformant tags:
+  - MOTH
+
+specification:
+  - Mother
+  - |
+    Information about the mother of an individual in a census.
+
+label: 'Mother'
+
+payload: null
+
+substructures:
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FACT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/MARR": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:1}"
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/INDI.htm": "{0:1}"
+
+change controller: Armidale Software
+
+used by:
+  - MagiKey
+
+contact: dthaler@armidalesoftware.com
+...
