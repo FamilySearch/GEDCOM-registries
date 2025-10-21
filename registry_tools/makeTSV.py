@@ -10,9 +10,9 @@ enumerationsets, enumerationsets_header = set(), 'set value'.split()
 payloads, payloads_header = [], 'structure payload'.split()
 substructures, substructures_header = set(), 'superstructure tag structure'.split()
 registry_path, registry_path_header = [], 'uri yaml_path language'.split()
-manifest551, manifest551_header = [], 'yaml_path'.split()
-manifest70, manifest70_header = [], 'yaml_path'.split()
-manifest71, manifest71_header = [], 'yaml_path'.split()
+manifest551, manifest551_header = [], ['yaml_path']
+manifest70, manifest70_header = [], ['yaml_path']
+manifest71, manifest71_header = [], ['yaml_path']
 extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
 
 # Build a set of URIs from GEDCOM-v7.1/extracted-files/tags to identify v7.1-derived files
