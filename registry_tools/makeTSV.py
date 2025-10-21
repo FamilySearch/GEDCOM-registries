@@ -95,7 +95,7 @@ with open(os.path.join(root,'manifest','standard','manifest-7.0-en-US.tsv'), 'w'
     w.writerow(locals()['manifest70_header'])
     w.writerows(sorted(locals()['manifest70']))
 
-with open(os.path.join(root,'manifest','standard','manifest-extensions-en-US.tsv'), 'w') as dst:
+with open(os.path.join(root,'manifest','extension','manifest-extensions-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['extensions_header'])
     w.writerows(sorted(locals()['extensions']))
