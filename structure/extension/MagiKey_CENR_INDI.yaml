@@ -1,0 +1,41 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://armidalesoftware.com/issue/tags/INDI.htm
+
+nonconformant tags:
+  - INDI
+
+specification:
+  - Individual
+  - The individual recorded in a census record.
+
+label: 'Individual'
+
+payload: "@<https://gedcom.io/terms/v5.5.1/record-INDI>@"
+
+substructures:
+  "https://armidalesoftware.com/issue/tags/FATH.htm": "{0:1}"
+  "https://armidalesoftware.com/issue/tags/MOTH.htm": "{0:1}"
+  "https://armidalesoftware.com/issue/tags/MSTAT.htm": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/AGE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/BIRT": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/FACT": "{0:M}"
+  "https://gedcom.io/terms/v5.5.1/INDI-NAME": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/OCCU": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/ROLE": "{0:1}"
+  "https://gedcom.io/terms/v5.5.1/SEX": "{0:1}"
+
+superstructures:
+  "https://armidalesoftware.com/issue/tags/record-CENR.htm": "{1:M}"
+
+change controller: Armidale Software
+
+used by:
+  - MagiKey
+
+contact: dthaler@armidalesoftware.com
+...

@@ -43,6 +43,8 @@ for kind in os.scandir(root):
     if kind.is_dir() and '_' not in kind.name and kind.name[0] != '.':
         for p,t,fs in os.walk(os.path.join(root, kind.name)):
             for f in fs:
+                if not f.endswith('.yaml'):
+                    continue
                 doc = yaml.safe_load(open(os.path.join(p, f)))
                 if isinstance(doc, dict) and 'uri' in doc:
                     lang = doc['lang']
