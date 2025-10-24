@@ -103,22 +103,24 @@ for name in ('substructures','payloads','cardinalities','enumerations','enumerat
         w.writerow(locals()[name+'_header'])
         w.writerows(sorted(locals()[name]))
 
-with open(os.path.join(root,'generated_files','manifest-5.5.1-en-US.tsv'), 'w') as dst:
+os.makedirs(os.path.join(root,'manifest','standard'), exist_ok=True)
+with open(os.path.join(root,'manifest','standard','manifest-5.5.1-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest551_header'])
     w.writerows(sorted(locals()['manifest551']))
 
-with open(os.path.join(root,'generated_files','manifest-7.0-en-US.tsv'), 'w') as dst:
+with open(os.path.join(root,'manifest','standard','manifest-7.0-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest70_header'])
     w.writerows(sorted(locals()['manifest70']))
 
-with open(os.path.join(root,'generated_files','manifest-7.1-en-US.tsv'), 'w') as dst:
+with open(os.path.join(root,'manifest','standard','manifest-7.1-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['manifest71_header'])
     w.writerows(sorted(locals()['manifest71']))
 
-with open(os.path.join(root,'generated_files','manifest-extensions-en-US.tsv'), 'w') as dst:
+os.makedirs(os.path.join(root,'manifest','extension'), exist_ok=True)
+with open(os.path.join(root,'manifest','extension','manifest-extensions-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['extensions_header'])
     w.writerows(sorted(locals()['extensions']))
