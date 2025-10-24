@@ -18,6 +18,29 @@ YAML files are placed in this repository in subdirectories *type*`/`*subtype*`/`
 
 The [registry_tools/](registry_tools/) directory contains various files and stripts for assisting in maintaining this repository. Notably, that includes a YAML schema validator that should be used by any new or edited YAML before it is pushed to the repository.
 
+The [manifest/](manifest/) directory contains manifest files in subdirectories *subtype*, where *subtype* is `standard` or `extension` as described above.
+
+## Standard manifest files
+
+Standard manifest files are named `manifest-`*version*`-`*language*`.tsv`, where
+
+- *version* is the version number of the standard
+- *language* is the `lang` value used in the referenced YAML files
+
+The contents are a list of paths to all YAML files for that GEDCOM version.
+
+## Extension manifest files
+
+`manifest-extensions-en-US.tsv` contains all extension YAML files. There can also be
+other `.tsv` manifest files for various extensions that use multiple related YAML files.
+
+Extension manifest files have the following tab-separated columns:
+
+- *tag* contains a tag used by a YAML file, whether as an standard tag, extension tag, or nonconformant tag. If the YAML file uses multiple tags, there can be multiple rows.  If the YAML file does not define a tag, use `-`.
+- *used_by* contains a `used by` value from the YAML file.  if the YAML file uses multiple tags, there can be multiple rows.  If the YAML file does not define any `used by` values, use `-`.
+- *language* contains the `lang` value from the YAML file.
+- *yaml_path* contains the path to the YAML file.
+
 # Proposing changes or new files
 
 To propose a new entry or change to an existing entry,
