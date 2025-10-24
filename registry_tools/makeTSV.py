@@ -9,10 +9,25 @@ enumerations, enumerations_header = [], 'structure set'.split()
 enumerationsets, enumerationsets_header = set(), 'set value'.split()
 payloads, payloads_header = [], 'structure payload'.split()
 substructures, substructures_header = set(), 'superstructure tag structure'.split()
-registry_path, registry_path_header = [], 'uri yaml_path language'.split()
-manifest551, manifest551_header = [], 'yaml_path'.split()
-manifest70, manifest70_header = [], 'yaml_path'.split()
+registry_path, registry_path_header = [], ['uri', 'yaml_path', 'language']
+manifest551, manifest551_header = [], ['yaml_path']
+manifest70, manifest70_header = [], ['yaml_path']
+manifest71, manifest71_header = [], ['yaml_path']
 extensions, extensions_header = [], 'tag used_by language yaml_path'.split()
+
+# Build a set of URIs from GEDCOM-v7.1/extracted-files/tags to identify v7.1-derived files
+v71_derived_uris = set()
+v71_tags_dir = os.path.join(root, 'registry_tools', 'GEDCOM-v7.1', 'extracted-files', 'tags')
+if os.path.exists(v71_tags_dir):
+    for filename in os.listdir(v71_tags_dir):
+        filepath = os.path.join(v71_tags_dir, filename)
+        if os.path.isfile(filepath):
+            try:
+                doc = yaml.safe_load(open(filepath))
+                if isinstance(doc, dict) and 'uri' in doc:
+                    v71_derived_uris.add(doc['uri'])
+            except:
+                pass  # Skip files that can't be parsed
 
 tagsof = {}
 for kind in ('structure', 'month', 'enumeration', 'calendar'):
@@ -45,7 +60,13 @@ for kind in os.scandir(root):
                         if 'v5.5.1' in doc['uri']:
                             manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                         else:
-                            manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            # Files can be in both v7.0 and v7.1 manifests
+                            if doc['uri'] in v71_derived_uris:
+                                # Files derived from GEDCOM-v7.1
+                                manifest71.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            if 'v7.1' not in doc['uri']:
+                                # All v7 files (not v7.1) go to manifest 7.0
+                                manifest70.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                 else:
                     print(f"Warning: No URI found in {os.path.join(kind.name, os.path.split(p)[-1], f)}")
 
@@ -95,6 +116,12 @@ with open(os.path.join(root,'manifest','standard','manifest-7.0-en-US.tsv'), 'w'
     w.writerow(locals()['manifest70_header'])
     w.writerows(sorted(locals()['manifest70']))
 
+with open(os.path.join(root,'manifest','standard','manifest-7.1-en-US.tsv'), 'w') as dst:
+    w = csv.writer(dst, dialect=csv.excel_tab)
+    w.writerow(locals()['manifest71_header'])
+    w.writerows(sorted(locals()['manifest71']))
+
+os.makedirs(os.path.join(root,'manifest','extension'), exist_ok=True)
 with open(os.path.join(root,'manifest','extension','manifest-extensions-en-US.tsv'), 'w') as dst:
     w = csv.writer(dst, dialect=csv.excel_tab)
     w.writerow(locals()['extensions_header'])
