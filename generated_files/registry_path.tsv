@@ -554,17 +554,13 @@ https://gedcom.io/terms/v7/record-SOUR	structure/standard/record-SOUR.yaml	en-US
 https://gedcom.io/terms/v7/record-SUBM	structure/standard/record-SUBM.yaml	en-US
 https://gedcom.io/terms/v7/type-Age	data-type/standard/type-Age.yaml	en-US
 https://gedcom.io/terms/v7/type-Date	data-type/standard/type-Date.yaml	en-US
-https://gedcom.io/terms/v7/type-Date#exact	data-type/standard/type-Date#exact.yaml	en-US
 https://gedcom.io/terms/v7/type-Date#exact	data-type/standard/type-Date-exact.yaml	en-US
-https://gedcom.io/terms/v7/type-Date#period	data-type/standard/type-Date#period.yaml	en-US
 https://gedcom.io/terms/v7/type-Date#period	data-type/standard/type-Date-period.yaml	en-US
 https://gedcom.io/terms/v7/type-Enum	data-type/standard/type-Enum.yaml	en-US
 https://gedcom.io/terms/v7/type-FilePath	data-type/standard/type-FilePath.yaml	en-US
 https://gedcom.io/terms/v7/type-Latitude	data-type/standard/type-Latitude.yaml	en-US
 https://gedcom.io/terms/v7/type-List	data-type/standard/type-List.yaml	en-US
-https://gedcom.io/terms/v7/type-List#Enum	data-type/standard/type-List#Enum.yaml	en-US
 https://gedcom.io/terms/v7/type-List#Enum	data-type/standard/type-List-Enum.yaml	en-US
-https://gedcom.io/terms/v7/type-List#Text	data-type/standard/type-List#Text.yaml	en-US
 https://gedcom.io/terms/v7/type-List#Text	data-type/standard/type-List-Text.yaml	en-US
 https://gedcom.io/terms/v7/type-Longitude	data-type/standard/type-Longitude.yaml	en-US
 https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml	en-US
