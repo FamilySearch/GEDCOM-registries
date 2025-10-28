@@ -38,6 +38,8 @@ for kind in ('structure', 'month', 'enumeration', 'calendar'):
                 tagsof.setdefault(doc['uri'],set()).add(doc['standard tag'])
             if 'extension tags' in doc:
                 tagsof.setdefault(doc['uri'],set()).update(doc['extension tags'])
+            if 'nonconformant tags' in doc:
+                tagsof.setdefault(doc['uri'],set()).update(doc['nonconformant tags'])
 
 for kind in os.scandir(root):
     if kind.is_dir() and '_' not in kind.name and kind.name[0] != '.':
@@ -54,9 +56,17 @@ for kind in os.scandir(root):
                             if 'used by' not in doc:
                                 extensions.append([e, '-', lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
                             else:
-                                for p in doc['used by']:
-                                    extensions.append([e, p, lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
-                    if 'standard tag' in doc or 'extension tags' not in doc:
+                                for used_by in doc['used by']:
+                                    extensions.append([e, used_by, lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
+
+                    if 'nonconformant tags' in doc:
+                        for e in doc['nonconformant tags']:
+                            if 'used by' not in doc:
+                                extensions.append([e, '-', lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
+                            else:
+                                for used_by in doc['used by']:
+                                    extensions.append([e, used_by, lang, os.path.join(kind.name, os.path.split(p)[-1], f)])
+                    if '/extension' not in p and ('standard tag' in doc or ('extension tags' not in doc and 'nonconformant tags' not in doc)):
                         if 'v5.5.1' in doc['uri']:
                             manifest551.append([os.path.join(kind.name, os.path.split(p)[-1], f)])
                         else:

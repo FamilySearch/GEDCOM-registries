@@ -1,4 +1,14 @@
 structure	payload
+https://armidalesoftware.com/issue/tags/AGE.htm	https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT
+https://armidalesoftware.com/issue/tags/AGER.htm	https://armidalesoftware.com/issue/types/AgeRange.htm
+https://armidalesoftware.com/issue/tags/CENR.htm	@<https://armidalesoftware.com/issue/tags/record-CENR.htm>@
+https://armidalesoftware.com/issue/tags/FATH.htm	
+https://armidalesoftware.com/issue/tags/INDI.htm	@<https://gedcom.io/terms/v5.5.1/record-INDI>@
+https://armidalesoftware.com/issue/tags/MOTH.htm	
+https://armidalesoftware.com/issue/tags/MSTAT.htm	http://www.w3.org/2001/XMLSchema#string
+https://armidalesoftware.com/issue/tags/SCHD.htm	http://www.w3.org/2001/XMLSchema#string
+https://armidalesoftware.com/issue/tags/SEX.htm	http://www.w3.org/2001/XMLSchema#string
+https://armidalesoftware.com/issue/tags/record-CENR.htm	
 https://gedcom.io/terms/v5.5.1/ABBR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v5.5.1/ADDR	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v5.5.1/ADR1	http://www.w3.org/2001/XMLSchema#string

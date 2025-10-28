@@ -1,4 +1,15 @@
 uri	yaml_path	language
+https://armidalesoftware.com/issue/tags/AGE.htm	structure/extension/MagiKey_CENR_SEX_AGE.yaml	en-US
+https://armidalesoftware.com/issue/tags/AGER.htm	structure/extension/MagiKey_AGER.yaml	en-US
+https://armidalesoftware.com/issue/tags/CENR.htm	structure/extension/MagiKey_CENR.yaml	en-US
+https://armidalesoftware.com/issue/tags/FATH.htm	structure/extension/MagiKey_FATH.yaml	en-US
+https://armidalesoftware.com/issue/tags/INDI.htm	structure/extension/MagiKey_CENR_INDI.yaml	en-US
+https://armidalesoftware.com/issue/tags/MOTH.htm	structure/extension/MagiKey_MOTH.yaml	en-US
+https://armidalesoftware.com/issue/tags/MSTAT.htm	structure/extension/MagiKey_MSTAT.yaml	en-US
+https://armidalesoftware.com/issue/tags/SCHD.htm	structure/extension/MagiKey_SCHD.yaml	en-US
+https://armidalesoftware.com/issue/tags/SEX.htm	structure/extension/MagiKey_CENR_SEX.yaml	en-US
+https://armidalesoftware.com/issue/tags/record-CENR.htm	structure/extension/MagiKey_record_CENR.yaml	en-US
+https://armidalesoftware.com/issue/types/AgeRange.htm	data-type/extension/MagiKey-AgeRange.yaml	en-US
 https://gedcom.io/exid-type/FamilySearch-MemoryId	uri/exid-types/FamilySearch-MemoryId.yaml	en-US
 https://gedcom.io/exid-type/FamilySearch-PersonId	uri/exid-types/FamilySearch-PersonId.yaml	en-US
 https://gedcom.io/exid-type/FamilySearch-PlaceId	uri/exid-types/FamilySearch-PlaceId.yaml	en-US
