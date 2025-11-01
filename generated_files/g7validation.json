@@ -80,6 +80,36 @@
     }
   },
   "label": {
+    "https://armidalesoftware.com/issue/tags/AGE.htm": {
+      "en-US": "Age"
+    },
+    "https://armidalesoftware.com/issue/tags/AGER.htm": {
+      "en-US": "Age range"
+    },
+    "https://armidalesoftware.com/issue/tags/CENR.htm": {
+      "en-US": "Census record"
+    },
+    "https://armidalesoftware.com/issue/tags/FATH.htm": {
+      "en-US": "Father"
+    },
+    "https://armidalesoftware.com/issue/tags/INDI.htm": {
+      "en-US": "Individual"
+    },
+    "https://armidalesoftware.com/issue/tags/MOTH.htm": {
+      "en-US": "Mother"
+    },
+    "https://armidalesoftware.com/issue/tags/MSTAT.htm": {
+      "en-US": "Marital status"
+    },
+    "https://armidalesoftware.com/issue/tags/SCHD.htm": {
+      "en-US": "Schedule"
+    },
+    "https://armidalesoftware.com/issue/tags/SEX.htm": {
+      "en-US": "Sex"
+    },
+    "https://armidalesoftware.com/issue/tags/record-CENR.htm": {
+      "en-US": "Census record"
+    },
     "https://gedcom.io/exid-type/FamilySearch-MemoryId": {
       "en-US": "FamilySearch Memory ID"
     },
@@ -796,6 +826,38 @@
     }
   },
   "payload": {
+    "https://armidalesoftware.com/issue/tags/AGE.htm": {
+      "type": "https://gedcom.io/terms/v5.5.1/type-AGE_AT_EVENT"
+    },
+    "https://armidalesoftware.com/issue/tags/AGER.htm": {
+      "type": "https://armidalesoftware.com/issue/types/AgeRange.htm"
+    },
+    "https://armidalesoftware.com/issue/tags/CENR.htm": {
+      "to": "https://armidalesoftware.com/issue/tags/record-CENR.htm",
+      "type": "pointer"
+    },
+    "https://armidalesoftware.com/issue/tags/FATH.htm": {
+      "type": null
+    },
+    "https://armidalesoftware.com/issue/tags/INDI.htm": {
+      "to": "https://gedcom.io/terms/v5.5.1/record-INDI",
+      "type": "pointer"
+    },
+    "https://armidalesoftware.com/issue/tags/MOTH.htm": {
+      "type": null
+    },
+    "https://armidalesoftware.com/issue/tags/MSTAT.htm": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://armidalesoftware.com/issue/tags/SCHD.htm": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://armidalesoftware.com/issue/tags/SEX.htm": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://armidalesoftware.com/issue/tags/record-CENR.htm": {
+      "type": null
+    },
     "https://gedcom.io/terms/v7/ABBR": {
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
@@ -1580,6 +1642,176 @@
       "TRLR": {
         "cardinality": "{1:1}",
         "type": "https://gedcom.io/terms/v7/TRLR"
+      },
+      "https://armidalesoftware.com/issue/tags/record-CENR.htm": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/record-CENR.htm"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/AGE.htm": {
+      "NCHI": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/FAM-NCHI"
+      },
+      "https://armidalesoftware.com/issue/tags/AGER.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/AGER.htm"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/FATH.htm": {
+      "AGE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/AGE"
+      },
+      "BIRT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/BIRT"
+      },
+      "FACT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/FACT"
+      },
+      "MARR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/MARR"
+      },
+      "OCCU": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/OCCU"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/INDI.htm": {
+      "AGE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/AGE"
+      },
+      "BIRT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/BIRT"
+      },
+      "FACT": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v5.5.1/FACT"
+      },
+      "NAME": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/INDI-NAME"
+      },
+      "OCCU": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/OCCU"
+      },
+      "ROLE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/ROLE"
+      },
+      "SEX": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/SEX"
+      },
+      "https://armidalesoftware.com/issue/tags/FATH.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/FATH.htm"
+      },
+      "https://armidalesoftware.com/issue/tags/MOTH.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/MOTH.htm"
+      },
+      "https://armidalesoftware.com/issue/tags/MSTAT.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/MSTAT.htm"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/MOTH.htm": {
+      "AGE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/AGE"
+      },
+      "BIRT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/BIRT"
+      },
+      "FACT": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/FACT"
+      },
+      "MARR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/MARR"
+      },
+      "OCCU": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/OCCU"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/SEX.htm": {
+      "AGE": {
+        "cardinality": "{1:1}",
+        "type": "https://armidalesoftware.com/issue/tags/AGE.htm"
+      },
+      "TYPE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION"
+      }
+    },
+    "https://armidalesoftware.com/issue/tags/record-CENR.htm": {
+      "CHAN": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/CHAN"
+      },
+      "DATE": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE"
+      },
+      "PLAC": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME"
+      },
+      "SEX": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/SEX.htm"
+      },
+      "SOUR": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR"
+      },
+      "https://armidalesoftware.com/issue/tags/INDI.htm": {
+        "cardinality": "{1:M}",
+        "type": "https://armidalesoftware.com/issue/tags/INDI.htm"
+      },
+      "https://armidalesoftware.com/issue/tags/SCHD.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/SCHD.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/AGE": {
+      "https://armidalesoftware.com/issue/tags/AGER.htm": {
+        "cardinality": "{0:1}",
+        "type": "https://armidalesoftware.com/issue/tags/AGER.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/BIRT": {
+      "https://armidalesoftware.com/issue/tags/CENR.htm": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/CENR.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/INDI-CENS": {
+      "https://armidalesoftware.com/issue/tags/CENR.htm": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/CENR.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/INDI-NAME": {
+      "https://armidalesoftware.com/issue/tags/CENR.htm": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/CENR.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/OCCU": {
+      "https://armidalesoftware.com/issue/tags/CENR.htm": {
+        "cardinality": "{0:M}",
+        "type": "https://armidalesoftware.com/issue/tags/CENR.htm"
       }
     },
     "https://gedcom.io/terms/v7/ADDR": {
@@ -7396,6 +7628,13 @@
     }
   },
   "tag": {
+    "https://armidalesoftware.com/issue/tags/AGE.htm": "AGE",
+    "https://armidalesoftware.com/issue/tags/AGER.htm": "_AGER",
+    "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR",
+    "https://armidalesoftware.com/issue/tags/MSTAT.htm": "_MSTAT",
+    "https://armidalesoftware.com/issue/tags/SCHD.htm": "_SCHD",
+    "https://armidalesoftware.com/issue/tags/SEX.htm": "SEX",
+    "https://armidalesoftware.com/issue/tags/record-CENR.htm": "_CENR",
     "https://gedcom.io/terms/v7/ABBR": "ABBR",
     "https://gedcom.io/terms/v7/ADDR": "ADDR",
     "https://gedcom.io/terms/v7/ADOP": "ADOP",
@@ -7982,6 +8221,7 @@
     },
     "struct": {
       "": {
+        "https://armidalesoftware.com/issue/tags/record-CENR.htm": "_CENR",
         "https://gedcom.io/terms/v7/HEAD": "HEAD",
         "https://gedcom.io/terms/v7/TRLR": "TRLR",
         "https://gedcom.io/terms/v7/record-FAM": "FAM",
@@ -7991,6 +8231,64 @@
         "https://gedcom.io/terms/v7/record-SNOTE": "SNOTE",
         "https://gedcom.io/terms/v7/record-SOUR": "SOUR",
         "https://gedcom.io/terms/v7/record-SUBM": "SUBM"
+      },
+      "https://armidalesoftware.com/issue/tags/AGE.htm": {
+        "https://armidalesoftware.com/issue/tags/AGER.htm": "_AGER",
+        "https://gedcom.io/terms/v5.5.1/FAM-NCHI": "NCHI"
+      },
+      "https://armidalesoftware.com/issue/tags/FATH.htm": {
+        "https://gedcom.io/terms/v5.5.1/AGE": "AGE",
+        "https://gedcom.io/terms/v5.5.1/BIRT": "BIRT",
+        "https://gedcom.io/terms/v5.5.1/FACT": "FACT",
+        "https://gedcom.io/terms/v5.5.1/MARR": "MARR",
+        "https://gedcom.io/terms/v5.5.1/OCCU": "OCCU"
+      },
+      "https://armidalesoftware.com/issue/tags/INDI.htm": {
+        "https://armidalesoftware.com/issue/tags/FATH.htm": "_",
+        "https://armidalesoftware.com/issue/tags/MOTH.htm": "_",
+        "https://armidalesoftware.com/issue/tags/MSTAT.htm": "_MSTAT",
+        "https://gedcom.io/terms/v5.5.1/AGE": "AGE",
+        "https://gedcom.io/terms/v5.5.1/BIRT": "BIRT",
+        "https://gedcom.io/terms/v5.5.1/FACT": "FACT",
+        "https://gedcom.io/terms/v5.5.1/INDI-NAME": "NAME",
+        "https://gedcom.io/terms/v5.5.1/OCCU": "OCCU",
+        "https://gedcom.io/terms/v5.5.1/ROLE": "ROLE",
+        "https://gedcom.io/terms/v5.5.1/SEX": "SEX"
+      },
+      "https://armidalesoftware.com/issue/tags/MOTH.htm": {
+        "https://gedcom.io/terms/v5.5.1/AGE": "AGE",
+        "https://gedcom.io/terms/v5.5.1/BIRT": "BIRT",
+        "https://gedcom.io/terms/v5.5.1/FACT": "FACT",
+        "https://gedcom.io/terms/v5.5.1/MARR": "MARR",
+        "https://gedcom.io/terms/v5.5.1/OCCU": "OCCU"
+      },
+      "https://armidalesoftware.com/issue/tags/SEX.htm": {
+        "https://armidalesoftware.com/issue/tags/AGE.htm": "AGE",
+        "https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION": "TYPE"
+      },
+      "https://armidalesoftware.com/issue/tags/record-CENR.htm": {
+        "https://armidalesoftware.com/issue/tags/INDI.htm": "_",
+        "https://armidalesoftware.com/issue/tags/SCHD.htm": "_SCHD",
+        "https://armidalesoftware.com/issue/tags/SEX.htm": "SEX",
+        "https://gedcom.io/terms/v5.5.1/CHAN": "CHAN",
+        "https://gedcom.io/terms/v5.5.1/DATE-DATE_VALUE": "DATE",
+        "https://gedcom.io/terms/v5.5.1/PLAC-PLACE_NAME": "PLAC",
+        "https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR": "SOUR"
+      },
+      "https://gedcom.io/terms/v5.5.1/AGE": {
+        "https://armidalesoftware.com/issue/tags/AGER.htm": "_AGER"
+      },
+      "https://gedcom.io/terms/v5.5.1/BIRT": {
+        "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR"
+      },
+      "https://gedcom.io/terms/v5.5.1/INDI-CENS": {
+        "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR"
+      },
+      "https://gedcom.io/terms/v5.5.1/INDI-NAME": {
+        "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR"
+      },
+      "https://gedcom.io/terms/v5.5.1/OCCU": {
+        "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR"
       },
       "https://gedcom.io/terms/v7/ADDR": {
         "https://gedcom.io/terms/v7/ADR1": "ADR1",
