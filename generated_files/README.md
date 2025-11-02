@@ -38,7 +38,15 @@ This table has the following key columns:
 
 ## g7validation.json
 
-(description to be added)
+This generated JSON provides a FamilySearch GEDCOM v7 validation model
+(labels, tag mappings, data types and record structures) that can be
+used by an automated validator to validate the syntax of a GEDCOM file.
+
+## g71validation.json
+
+This generated JSON provides a FamilySearch GEDCOM v7.1 validation model
+(labels, tag mappings, data types and record structures) that can be
+used by an automated validator to validate the syntax of a GEDCOM file.
 
 ## payloads.tsv
 
