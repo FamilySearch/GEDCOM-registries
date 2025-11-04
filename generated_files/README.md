@@ -47,6 +47,7 @@ used by an automated validator to validate the syntax of a GEDCOM file.
 This generated JSON provides a FamilySearch GEDCOM v7.1 validation model
 (labels, tag mappings, data types and record structures) that can be
 used by an automated validator to validate the syntax of a GEDCOM file.
+Note that v7.1 is not yet released and this file might experience breaking changes.
 
 ## payloads.tsv
 
