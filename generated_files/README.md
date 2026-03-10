@@ -79,7 +79,7 @@ The table has the following non-key columns:
 
 This table has the following key columns:
 
-* superstructure: The URI of a structure.
+* superstructure: The URI of a structure, or the empty string for rows representing records.
 * tag: The tag of a substructure.
 
 This table has the following non-key columns:
