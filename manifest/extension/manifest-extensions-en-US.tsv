@@ -1,7 +1,9 @@
 tag	used_by	language	yaml_path
+DATE	Ancestry.com Family Trees	en-US	structure/extension/Ancestry_PUBL_DATE.yaml
 FATH	MagiKey	en-US	structure/extension/MagiKey_FATH.yaml
 INDI	MagiKey	en-US	structure/extension/MagiKey_CENR_INDI.yaml
 MOTH	MagiKey	en-US	structure/extension/MagiKey_MOTH.yaml
+PLAC	Ancestry.com Family Trees	en-US	structure/extension/Ancestry_PUBL_PLAC.yaml
 _AGER	MagiKey	en-US	structure/extension/MagiKey_AGER.yaml
 _CENR	MagiKey	en-US	structure/extension/MagiKey_CENR.yaml
 _CENR	MagiKey	en-US	structure/extension/MagiKey_record_CENR.yaml

@@ -1055,6 +1055,8 @@ https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/SOUR-SOURCE_D
 https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/SOUR-XREF_SOUR	{0:M}
 https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/TYPE-EVENT_OR_FACT_CLASSIFICATION	{0:1}
 https://gedcom.io/terms/v5.5.1/PROP	https://gedcom.io/terms/v5.5.1/WWW	{0:3}
+https://gedcom.io/terms/v5.5.1/PUBL	https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml	{0:1}
+https://gedcom.io/terms/v5.5.1/PUBL	https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml	{0:1}
 https://gedcom.io/terms/v5.5.1/REFN	https://gedcom.io/terms/v5.5.1/REFN-TYPE	{0:1}
 https://gedcom.io/terms/v5.5.1/REPO-NULL	https://gedcom.io/terms/v5.5.1/CALN	{0:M}
 https://gedcom.io/terms/v5.5.1/REPO-NULL	https://gedcom.io/terms/v5.5.1/NOTE-SUBMITTER_TEXT_OR_NULL	{0:M}
