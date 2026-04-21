@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml
+
+nonconformant tags:
+  - DATE
+
+specification:
+  - The publication date.
+
+label: 'Publication Date'
+
+payload: https://gedcom.io/terms/v5.5.1/type-DATE_EXACT
+
+substructures: {}
+
+superstructures:
+  "https://gedcom.io/terms/v5.5.1/PUBL": "{0:1}"
+
+change controller: Ancestry.com
+
+used by:
+  - Ancestry.com Family Trees
+
+contact: "https://gedcom.io/community/"
+...
