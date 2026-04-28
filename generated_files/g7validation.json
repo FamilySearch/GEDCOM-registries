@@ -800,6 +800,12 @@
     "https://gedcom.io/terms/v7/record-SUBM": {
       "en-US": "Submitter"
     },
+    "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml": {
+      "en-US": "Publication Date"
+    },
+    "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml": {
+      "en-US": "Publication Place"
+    },
     "https://github.com/dthaler/gedcom-citations/_DATE": {
       "en-US": "Date"
     },
@@ -1424,6 +1430,12 @@
     "https://gedcom.io/terms/v7/record-SUBM": {
       "type": null
     },
+    "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml": {
+      "type": "https://gedcom.io/terms/v5.5.1/type-DATE_EXACT"
+    },
+    "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml": {
+      "type": "https://gedcom.io/terms/v5.5.1/type-PLACE_NAME"
+    },
     "https://github.com/dthaler/gedcom-citations/_DATE": {
       "type": "https://gedcom.io/terms/v7/type-Date"
     },
@@ -1812,6 +1824,16 @@
       "https://armidalesoftware.com/issue/tags/CENR.htm": {
         "cardinality": "{0:M}",
         "type": "https://armidalesoftware.com/issue/tags/CENR.htm"
+      }
+    },
+    "https://gedcom.io/terms/v5.5.1/PUBL": {
+      "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml": {
+        "cardinality": "{0:1}",
+        "type": "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml"
+      },
+      "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml": {
+        "cardinality": "{0:1}",
+        "type": "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml"
       }
     },
     "https://gedcom.io/terms/v7/ADDR": {
@@ -8289,6 +8311,10 @@
       },
       "https://gedcom.io/terms/v5.5.1/OCCU": {
         "https://armidalesoftware.com/issue/tags/CENR.htm": "_CENR"
+      },
+      "https://gedcom.io/terms/v5.5.1/PUBL": {
+        "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml": "_",
+        "https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml": "_"
       },
       "https://gedcom.io/terms/v7/ADDR": {
         "https://gedcom.io/terms/v7/ADR1": "ADR1",
