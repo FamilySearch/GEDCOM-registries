@@ -662,6 +662,8 @@ https://gedcom.io/terms/v7/type-Longitude	data-type/standard/type-Longitude.yaml
 https://gedcom.io/terms/v7/type-Name	data-type/standard/type-Name.yaml	en-US
 https://gedcom.io/terms/v7/type-TagDef	data-type/standard/type-TagDef.yaml	en-US
 https://gedcom.io/terms/v7/type-Time	data-type/standard/type-Time.yaml	en-US
+https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_DATE.yaml	structure/extension/Ancestry_PUBL_DATE.yaml	en-US
+https://github.com/FamilySearch/GEDCOM-registries/blob/main/structure/extension/Ancestry_PUBL_PLAC.yaml	structure/extension/Ancestry_PUBL_PLAC.yaml	en-US
 https://github.com/dthaler/gedcom-citations/_DATE	structure/extension/_DATE.yaml	en-US
 https://github.com/dthaler/gedcom-citations/_SOUR	structure/extension/_SOUR.yaml	en-US
 https://gov.genealogy.net/	uri/exid-types/GOV-ID.yaml	en-US
