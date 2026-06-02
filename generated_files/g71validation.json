@@ -357,13 +357,13 @@
       "en-US": "Address"
     },
     "https://gedcom.io/terms/v7/ADR1": {
-      "en-US": "Address Line 1"
+      "en-US": "(deprecated) Address Line 1"
     },
     "https://gedcom.io/terms/v7/ADR2": {
-      "en-US": "Address Line 2"
+      "en-US": "(deprecated) Address Line 2"
     },
     "https://gedcom.io/terms/v7/ADR3": {
-      "en-US": "Address Line 3"
+      "en-US": "(deprecated) Address Line 3"
     },
     "https://gedcom.io/terms/v7/AFN": {
       "en-US": "Ancestral File Number"
@@ -757,6 +757,45 @@
     },
     "https://gedcom.io/terms/v7/ord-STAT": {
       "en-US": "Status"
+    },
+    "https://gedcom.io/terms/v7/type-Age": {
+      "en-US": "Age"
+    },
+    "https://gedcom.io/terms/v7/type-Date": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/type-Date#exact": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/type-Date#period": {
+      "en-US": "Date"
+    },
+    "https://gedcom.io/terms/v7/type-Enum": {
+      "en-US": "Enumeration"
+    },
+    "https://gedcom.io/terms/v7/type-FilePath": {
+      "en-US": "File Path"
+    },
+    "https://gedcom.io/terms/v7/type-Latitude": {
+      "en-US": "Latitude"
+    },
+    "https://gedcom.io/terms/v7/type-List#Enum": {
+      "en-US": "List"
+    },
+    "https://gedcom.io/terms/v7/type-List#Text": {
+      "en-US": "List"
+    },
+    "https://gedcom.io/terms/v7/type-Longitude": {
+      "en-US": "Longitude"
+    },
+    "https://gedcom.io/terms/v7/type-Name": {
+      "en-US": "Personal Name"
+    },
+    "https://gedcom.io/terms/v7/type-TagDef": {
+      "en-US": "Tag Definition"
+    },
+    "https://gedcom.io/terms/v7/type-Time": {
+      "en-US": "Time"
     }
   },
   "payload": {
