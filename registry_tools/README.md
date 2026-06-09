@@ -17,8 +17,15 @@ It is expected that this script will only be needed or used by individuals taske
 
 # Making summary files
 
-The script `makeTSV.py` reads the YAML files in the repository
-and generates several summary TSV files in the `../generated_files` directory.
-
 The script `makeJSON.py` reads the YAML files in the repository
 and generates a JSON file suitable for driving validation of GEDCOM 7 datasets in the `../generated_files` directory.
+
+
+The command
+
+```sh
+python3 registry_tools/GEDCOM/build/yaml-to-tsv.py --dest generated_files/ */standard */extension
+```
+
+generates several summary TSV files in the `../generated_files` directory.
+
