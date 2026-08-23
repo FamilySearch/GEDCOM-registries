@@ -215,6 +215,12 @@
     "https://gedcom.io/terms/v7.1/HEAD": {
       "en-US": "Header"
     },
+    "https://gedcom.io/terms/v7.1/HEAD-DESC": {
+      "en-US": "Description"
+    },
+    "https://gedcom.io/terms/v7.1/HEAD-TITL": {
+      "en-US": "Title"
+    },
     "https://gedcom.io/terms/v7.1/IDNO": {
       "en-US": "Identification number"
     },
@@ -281,6 +287,9 @@
     "https://gedcom.io/terms/v7.1/NOTE": {
       "en-US": "Note"
     },
+    "https://gedcom.io/terms/v7.1/NOTE-KIND": {
+      "en-US": "Type"
+    },
     "https://gedcom.io/terms/v7.1/OBJE": {
       "en-US": "Object"
     },
@@ -325,6 +334,9 @@
     },
     "https://gedcom.io/terms/v7.1/SUBM": {
       "en-US": "Submitter"
+    },
+    "https://gedcom.io/terms/v7.1/TEXT-TRAN": {
+      "en-US": "Translation"
     },
     "https://gedcom.io/terms/v7.1/WILL": {
       "en-US": "Will"
@@ -946,6 +958,12 @@
     "https://gedcom.io/terms/v7.1/HEAD": {
       "type": null
     },
+    "https://gedcom.io/terms/v7.1/HEAD-DESC": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "https://gedcom.io/terms/v7.1/HEAD-TITL": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "https://gedcom.io/terms/v7.1/IDNO": {
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
@@ -1014,6 +1032,10 @@
     "https://gedcom.io/terms/v7.1/NOTE": {
       "type": "http://www.w3.org/2001/XMLSchema#string"
     },
+    "https://gedcom.io/terms/v7.1/NOTE-KIND": {
+      "set": "https://gedcom.io/terms/v7.1/enumset-NOTE-KIND",
+      "type": "https://gedcom.io/terms/v7/type-Enum"
+    },
     "https://gedcom.io/terms/v7.1/OBJE": {
       "to": "https://gedcom.io/terms/v7.1/record-OBJE",
       "type": "pointer"
@@ -1064,6 +1086,9 @@
     "https://gedcom.io/terms/v7.1/SUBM": {
       "to": "https://gedcom.io/terms/v7.1/record-SUBM",
       "type": "pointer"
+    },
+    "https://gedcom.io/terms/v7.1/TEXT-TRAN": {
+      "type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "https://gedcom.io/terms/v7.1/WILL": {
       "type": "Y|<NULL>"
@@ -1455,6 +1480,15 @@
       "SSN": "https://gedcom.io/terms/v7.1/SSN",
       "TITL": "https://gedcom.io/terms/v7.1/INDI-TITL",
       "WILL": "https://gedcom.io/terms/v7.1/WILL"
+    },
+    "https://gedcom.io/terms/v7.1/enumset-NOTE-KIND": {
+      "DATA": "https://gedcom.io/terms/v7.1/enum-DATA",
+      "OTHER": "https://gedcom.io/terms/v7/enum-OTHER",
+      "REASONING": "https://gedcom.io/terms/v7.1/enum-REASONING",
+      "RESEARCH": "https://gedcom.io/terms/v7.1/enum-RESEARCH",
+      "SCOPE": "https://gedcom.io/terms/v7.1/enum-SCOPE",
+      "STORY": "https://gedcom.io/terms/v7.1/enum-STORY",
+      "TODO": "https://gedcom.io/terms/v7.1/enum-TODO"
     },
     "https://gedcom.io/terms/v7/enumset-ADOP": {
       "BOTH": "https://gedcom.io/terms/v7/enum-BOTH",
@@ -4055,6 +4089,10 @@
         "cardinality": "{0:1}",
         "type": "https://gedcom.io/terms/v7/HEAD-DATE"
       },
+      "DESC": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7.1/HEAD-DESC"
+      },
       "DEST": {
         "cardinality": "{0:1}",
         "type": "https://gedcom.io/terms/v7/DEST"
@@ -4068,7 +4106,7 @@
         "type": "https://gedcom.io/terms/v7/HEAD-LANG"
       },
       "NOTE": {
-        "cardinality": "{0:1}",
+        "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7.1/NOTE"
       },
       "PLAC": {
@@ -4080,7 +4118,7 @@
         "type": "https://gedcom.io/terms/v7/SCHMA"
       },
       "SNOTE": {
-        "cardinality": "{0:1}",
+        "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7.1/SNOTE"
       },
       "SOUR": {
@@ -4090,6 +4128,30 @@
       "SUBM": {
         "cardinality": "{0:1}",
         "type": "https://gedcom.io/terms/v7.1/SUBM"
+      },
+      "TITL": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7.1/HEAD-TITL"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/HEAD-DESC": {
+      "LANG": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/LANG"
+      },
+      "TRAN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7.1/TEXT-TRAN"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/HEAD-TITL": {
+      "LANG": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/LANG"
+      },
+      "TRAN": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7.1/TEXT-TRAN"
       }
     },
     "https://gedcom.io/terms/v7.1/IDNO": {
@@ -5619,6 +5681,10 @@
       }
     },
     "https://gedcom.io/terms/v7.1/NOTE": {
+      "KIND": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7.1/NOTE-KIND"
+      },
       "LANG": {
         "cardinality": "{0:1}",
         "type": "https://gedcom.io/terms/v7/LANG"
@@ -5634,6 +5700,12 @@
       "TRAN": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/NOTE-TRAN"
+      }
+    },
+    "https://gedcom.io/terms/v7.1/NOTE-KIND": {
+      "PHRASE": {
+        "cardinality": "{0:1}",
+        "type": "https://gedcom.io/terms/v7/PHRASE"
       }
     },
     "https://gedcom.io/terms/v7.1/OBJE": {
@@ -6286,6 +6358,12 @@
         "type": "https://gedcom.io/terms/v7/WWW"
       }
     },
+    "https://gedcom.io/terms/v7.1/TEXT-TRAN": {
+      "LANG": {
+        "cardinality": "{1:1}",
+        "type": "https://gedcom.io/terms/v7/LANG"
+      }
+    },
     "https://gedcom.io/terms/v7.1/WILL": {
       "ADDR": {
         "cardinality": "{0:1}",
@@ -6856,6 +6934,10 @@
       "EXID": {
         "cardinality": "{0:M}",
         "type": "https://gedcom.io/terms/v7/EXID"
+      },
+      "KIND": {
+        "cardinality": "{0:M}",
+        "type": "https://gedcom.io/terms/v7.1/NOTE-KIND"
       },
       "LANG": {
         "cardinality": "{0:1}",
@@ -10957,6 +11039,8 @@
     "https://gedcom.io/terms/v7.1/FCOM": "FCOM",
     "https://gedcom.io/terms/v7.1/GRAD": "GRAD",
     "https://gedcom.io/terms/v7.1/HEAD": "HEAD",
+    "https://gedcom.io/terms/v7.1/HEAD-DESC": "DESC",
+    "https://gedcom.io/terms/v7.1/HEAD-TITL": "TITL",
     "https://gedcom.io/terms/v7.1/IDNO": "IDNO",
     "https://gedcom.io/terms/v7.1/IMMI": "IMMI",
     "https://gedcom.io/terms/v7.1/INDI-CENS": "CENS",
@@ -10979,6 +11063,7 @@
     "https://gedcom.io/terms/v7.1/NMR": "NMR",
     "https://gedcom.io/terms/v7.1/NO": "NO",
     "https://gedcom.io/terms/v7.1/NOTE": "NOTE",
+    "https://gedcom.io/terms/v7.1/NOTE-KIND": "KIND",
     "https://gedcom.io/terms/v7.1/OBJE": "OBJE",
     "https://gedcom.io/terms/v7.1/OCCU": "OCCU",
     "https://gedcom.io/terms/v7.1/ORDN": "ORDN",
@@ -10994,12 +11079,19 @@
     "https://gedcom.io/terms/v7.1/SOUR-EVEN": "EVEN",
     "https://gedcom.io/terms/v7.1/SSN": "SSN",
     "https://gedcom.io/terms/v7.1/SUBM": "SUBM",
+    "https://gedcom.io/terms/v7.1/TEXT-TRAN": "TRAN",
     "https://gedcom.io/terms/v7.1/WILL": "WILL",
     "https://gedcom.io/terms/v7.1/enum-CENS": "CENS",
+    "https://gedcom.io/terms/v7.1/enum-DATA": "DATA",
     "https://gedcom.io/terms/v7.1/enum-EVEN": "EVEN",
     "https://gedcom.io/terms/v7.1/enum-FACT": "FACT",
     "https://gedcom.io/terms/v7.1/enum-NCHI": "NCHI",
+    "https://gedcom.io/terms/v7.1/enum-REASONING": "REASONING",
+    "https://gedcom.io/terms/v7.1/enum-RESEARCH": "RESEARCH",
     "https://gedcom.io/terms/v7.1/enum-RESI": "RESI",
+    "https://gedcom.io/terms/v7.1/enum-SCOPE": "SCOPE",
+    "https://gedcom.io/terms/v7.1/enum-STORY": "STORY",
+    "https://gedcom.io/terms/v7.1/enum-TODO": "TODO",
     "https://gedcom.io/terms/v7.1/enumset-BORN_DEAD": "BORN_DEAD",
     "https://gedcom.io/terms/v7.1/enumset-BORN_LIVE": "BORN_LIVE",
     "https://gedcom.io/terms/v7.1/record-FAM": "FAM",
@@ -11301,6 +11393,15 @@
         "https://gedcom.io/terms/v7.1/RETI": "RETI",
         "https://gedcom.io/terms/v7.1/WILL": "WILL",
         "https://gedcom.io/terms/v7.1/enum-CENS": "CENS"
+      },
+      "https://gedcom.io/terms/v7.1/NOTE-KIND": {
+        "https://gedcom.io/terms/v7.1/enum-DATA": "DATA",
+        "https://gedcom.io/terms/v7.1/enum-REASONING": "REASONING",
+        "https://gedcom.io/terms/v7.1/enum-RESEARCH": "RESEARCH",
+        "https://gedcom.io/terms/v7.1/enum-SCOPE": "SCOPE",
+        "https://gedcom.io/terms/v7.1/enum-STORY": "STORY",
+        "https://gedcom.io/terms/v7.1/enum-TODO": "TODO",
+        "https://gedcom.io/terms/v7/enum-OTHER": "OTHER"
       },
       "https://gedcom.io/terms/v7.1/SOUR-EVEN": {
         "https://gedcom.io/terms/v7.1/ADOP": "ADOP",
@@ -12189,6 +12290,8 @@
         "https://gedcom.io/terms/v7/WWW": "WWW"
       },
       "https://gedcom.io/terms/v7.1/HEAD": {
+        "https://gedcom.io/terms/v7.1/HEAD-DESC": "DESC",
+        "https://gedcom.io/terms/v7.1/HEAD-TITL": "TITL",
         "https://gedcom.io/terms/v7.1/NOTE": "NOTE",
         "https://gedcom.io/terms/v7.1/SNOTE": "SNOTE",
         "https://gedcom.io/terms/v7.1/SUBM": "SUBM",
@@ -12200,6 +12303,14 @@
         "https://gedcom.io/terms/v7/HEAD-PLAC": "PLAC",
         "https://gedcom.io/terms/v7/HEAD-SOUR": "SOUR",
         "https://gedcom.io/terms/v7/SCHMA": "SCHMA"
+      },
+      "https://gedcom.io/terms/v7.1/HEAD-DESC": {
+        "https://gedcom.io/terms/v7.1/TEXT-TRAN": "TRAN",
+        "https://gedcom.io/terms/v7/LANG": "LANG"
+      },
+      "https://gedcom.io/terms/v7.1/HEAD-TITL": {
+        "https://gedcom.io/terms/v7.1/TEXT-TRAN": "TRAN",
+        "https://gedcom.io/terms/v7/LANG": "LANG"
       },
       "https://gedcom.io/terms/v7.1/IDNO": {
         "https://gedcom.io/terms/v7.1/ASSO": "ASSO",
@@ -12615,10 +12726,14 @@
         "https://gedcom.io/terms/v7/NO-DATE": "DATE"
       },
       "https://gedcom.io/terms/v7.1/NOTE": {
+        "https://gedcom.io/terms/v7.1/NOTE-KIND": "KIND",
         "https://gedcom.io/terms/v7.1/SOUR": "SOUR",
         "https://gedcom.io/terms/v7/LANG": "LANG",
         "https://gedcom.io/terms/v7/MIME": "MIME",
         "https://gedcom.io/terms/v7/NOTE-TRAN": "TRAN"
+      },
+      "https://gedcom.io/terms/v7.1/NOTE-KIND": {
+        "https://gedcom.io/terms/v7/PHRASE": "PHRASE"
       },
       "https://gedcom.io/terms/v7.1/OBJE": {
         "https://gedcom.io/terms/v7/CROP": "CROP",
@@ -12802,6 +12917,9 @@
         "https://gedcom.io/terms/v7/UID": "UID",
         "https://gedcom.io/terms/v7/WWW": "WWW"
       },
+      "https://gedcom.io/terms/v7.1/TEXT-TRAN": {
+        "https://gedcom.io/terms/v7/LANG": "LANG"
+      },
       "https://gedcom.io/terms/v7.1/WILL": {
         "https://gedcom.io/terms/v7.1/ASSO": "ASSO",
         "https://gedcom.io/terms/v7.1/NOTE": "NOTE",
@@ -12951,6 +13069,7 @@
       },
       "https://gedcom.io/terms/v7.1/record-SNOTE": {
         "https://gedcom.io/terms/v7.1/CHAN": "CHAN",
+        "https://gedcom.io/terms/v7.1/NOTE-KIND": "KIND",
         "https://gedcom.io/terms/v7.1/SOUR": "SOUR",
         "https://gedcom.io/terms/v7/CREA": "CREA",
         "https://gedcom.io/terms/v7/EXID": "EXID",
