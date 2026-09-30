@@ -10,6 +10,11 @@ uri: https://gedcom.io/exid-type/FamilySearch-PersonId
 
 specification:
   - FamilySearch Person ID
+  - |
+    As of October 2026, a person ID can be resolved to a URL of the Family Tree view for the person
+    by prepending `https://www.familysearch.org/en/search/tree/results?q.personId=`
+    to the ID. However, that URL is not guaranteed to be stable and may change
+    at any time as FamilySearch updates and maintains their web services.
 
 contact: GEDCOM@familysearch.org
 
