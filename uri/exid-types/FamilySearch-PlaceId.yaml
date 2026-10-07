@@ -10,6 +10,11 @@ uri: https://gedcom.io/exid-type/FamilySearch-PlaceId
 
 specification:
   - FamilySearch Place ID
+  - |
+    As of October 2026, a place ID can be resolved to a URL of a page describing the place
+    by prepending `https://www.familysearch.org/en/research/places/?focusedId=`
+    to the ID. However, that URL is not guaranteed to be stable and may change
+    at any time as FamilySearch updates and maintains their web services.
 
 contact: GEDCOM@familysearch.org
 

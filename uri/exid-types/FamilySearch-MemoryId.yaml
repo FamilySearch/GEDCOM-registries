@@ -10,6 +10,11 @@ uri: https://gedcom.io/exid-type/FamilySearch-MemoryId
 
 specification:
   - FamilySearch Memory ID
+  - |
+    As of October 2026, a memory ID can be resolved to a URL of the web view for the memory
+    by prepending `https://www.familysearch.org/en/memories/memory/`
+    to the ID. However, that URL is not guaranteed to be stable and may change
+    at any time as FamilySearch updates and maintains their web services.
 
 contact: GEDCOM@familysearch.org
 
