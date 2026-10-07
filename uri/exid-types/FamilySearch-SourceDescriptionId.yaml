@@ -11,7 +11,7 @@ uri: https://gedcom.io/exid-type/FamilySearch-SourceDescriptionId
 specification:
   - FamilySearch Source Description ID
   - |
-    As of October 2026, a place ID can be resolved to a URL of a page describing the place
+    As of October 2026, a source ID can be resolved to a URL of a page describing the source
     by prepending `https://www.familysearch.org/en/tree/sources/viewedit/`
     to the ID. However, that URL is not guaranteed to be stable and may change
     at any time as FamilySearch updates and maintains their web services.
