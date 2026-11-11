@@ -23,6 +23,7 @@ enumeration-set/standard/enumset-EVENATTR-v71.yaml
 enumeration-set/standard/enumset-FAMC-STAT.yaml
 enumeration-set/standard/enumset-MEDI.yaml
 enumeration-set/standard/enumset-NAME-TYPE.yaml
+enumeration-set/standard/enumset-NOTE-KIND-v71.yaml
 enumeration-set/standard/enumset-PEDI.yaml
 enumeration-set/standard/enumset-QUAY.yaml
 enumeration-set/standard/enumset-RESN.yaml
@@ -41,6 +42,8 @@ enumeration/standard/enum-AUDIO.yaml
 enumeration/standard/enum-BIC.yaml
 enumeration/standard/enum-BIRTH.yaml
 enumeration/standard/enum-BOOK.yaml
+enumeration/standard/enum-BORN_DEAD-v71.yaml
+enumeration/standard/enum-BORN_LIVE-v71.yaml
 enumeration/standard/enum-BOTH.yaml
 enumeration/standard/enum-CANCELED.yaml
 enumeration/standard/enum-CARD.yaml
@@ -51,6 +54,7 @@ enumeration/standard/enum-CHILD.yaml
 enumeration/standard/enum-CLERGY.yaml
 enumeration/standard/enum-COMPLETED.yaml
 enumeration/standard/enum-CONFIDENTIAL.yaml
+enumeration/standard/enum-DATA-v71.yaml
 enumeration/standard/enum-DISPROVEN.yaml
 enumeration/standard/enum-DNS.yaml
 enumeration/standard/enum-DNS_CAN.yaml
@@ -88,11 +92,16 @@ enumeration/standard/enum-PRE_1970.yaml
 enumeration/standard/enum-PRIVACY.yaml
 enumeration/standard/enum-PROFESSIONAL.yaml
 enumeration/standard/enum-PROVEN.yaml
+enumeration/standard/enum-REASONING-v71.yaml
+enumeration/standard/enum-RESEARCH-v71.yaml
 enumeration/standard/enum-RESI-v71.yaml
+enumeration/standard/enum-SCOPE-v71.yaml
 enumeration/standard/enum-SEALING.yaml
 enumeration/standard/enum-SPOU.yaml
 enumeration/standard/enum-STILLBORN.yaml
+enumeration/standard/enum-STORY-v71.yaml
 enumeration/standard/enum-SUBMITTED.yaml
+enumeration/standard/enum-TODO-v71.yaml
 enumeration/standard/enum-TOMBSTONE.yaml
 enumeration/standard/enum-U.yaml
 enumeration/standard/enum-UNCLEARED.yaml
@@ -100,8 +109,6 @@ enumeration/standard/enum-VIDEO.yaml
 enumeration/standard/enum-WIFE.yaml
 enumeration/standard/enum-WITN.yaml
 enumeration/standard/enum-X.yaml
-enumeration/standard/enumset-BORN_DEAD-v71.yaml
-enumeration/standard/enumset-BORN_LIVE-v71.yaml
 month/standard/month-AAV.yaml
 month/standard/month-ADR.yaml
 month/standard/month-ADS.yaml
@@ -218,11 +225,13 @@ structure/standard/GEDC.yaml
 structure/standard/GIVN.yaml
 structure/standard/GRAD-v71.yaml
 structure/standard/HEAD-DATE.yaml
+structure/standard/HEAD-DESC-v71.yaml
 structure/standard/HEAD-LANG.yaml
 structure/standard/HEAD-PLAC-FORM.yaml
 structure/standard/HEAD-PLAC.yaml
 structure/standard/HEAD-SOUR-DATA.yaml
 structure/standard/HEAD-SOUR.yaml
+structure/standard/HEAD-TITL-v71.yaml
 structure/standard/HEAD-v71.yaml
 structure/standard/HEIGHT.yaml
 structure/standard/HUSB.yaml
@@ -260,6 +269,7 @@ structure/standard/NMR-v71.yaml
 structure/standard/NO-DATE.yaml
 structure/standard/NO-v71.yaml
 structure/standard/NOTE-TRAN.yaml
+structure/standard/NOTE-KIND-v71.yaml
 structure/standard/NOTE-v71.yaml
 structure/standard/NPFX.yaml
 structure/standard/NSFX.yaml
@@ -302,6 +312,7 @@ structure/standard/SURN.yaml
 structure/standard/TAG.yaml
 structure/standard/TEMP.yaml
 structure/standard/TEXT.yaml
+structure/standard/TEXT-TRAN-v71.yaml
 structure/standard/TIME.yaml
 structure/standard/TITL.yaml
 structure/standard/TOP.yaml
