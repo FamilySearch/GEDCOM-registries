@@ -375,7 +375,7 @@
       "en-US": "Source"
     },
     "https://gedcom.io/terms/v7/HEAD-SOUR-DATA": {
-      "en-US": "Data"
+      "en-US": "(deprecated) Data"
     },
     "https://gedcom.io/terms/v7/HEIGHT": {
       "en-US": "Height in pixels"
