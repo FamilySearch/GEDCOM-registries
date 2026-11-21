@@ -225,9 +225,12 @@ https://gedcom.io/terms/v7.1/CHR	Y|<NULL>
 https://gedcom.io/terms/v7.1/CHRA	Y|<NULL>
 https://gedcom.io/terms/v7.1/CONF	Y|<NULL>
 https://gedcom.io/terms/v7.1/CONL	
+https://gedcom.io/terms/v7.1/CREA	
 https://gedcom.io/terms/v7.1/CREM	Y|<NULL>
 https://gedcom.io/terms/v7.1/DATA	
 https://gedcom.io/terms/v7.1/DATA-EVEN	https://gedcom.io/terms/v7/type-List#Enum
+https://gedcom.io/terms/v7.1/DATE	https://gedcom.io/terms/v7/type-Date
+https://gedcom.io/terms/v7.1/DATE-exact	https://gedcom.io/terms/v7/type-Date#exact
 https://gedcom.io/terms/v7.1/DEAT	Y|<NULL>
 https://gedcom.io/terms/v7.1/DESI	@<https://gedcom.io/terms/v7.1/record-SUBM>@
 https://gedcom.io/terms/v7.1/DIV	Y|<NULL>
@@ -250,7 +253,10 @@ https://gedcom.io/terms/v7.1/FAMS	@<https://gedcom.io/terms/v7.1/record-FAM>@
 https://gedcom.io/terms/v7.1/FCOM	Y|<NULL>
 https://gedcom.io/terms/v7.1/GRAD	Y|<NULL>
 https://gedcom.io/terms/v7.1/HEAD	
+https://gedcom.io/terms/v7.1/HEAD-DATE	https://gedcom.io/terms/v7/type-Date#exact
 https://gedcom.io/terms/v7.1/HEAD-DESC	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7.1/HEAD-SOUR	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7.1/HEAD-SOUR-DATA	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/HEAD-TITL	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/IDNO	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/IMMI	Y|<NULL>
@@ -278,20 +284,26 @@ https://gedcom.io/terms/v7.1/NOTE-KIND	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7.1/OBJE	@<https://gedcom.io/terms/v7.1/record-OBJE>@
 https://gedcom.io/terms/v7.1/OCCU	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/ORDN	Y|<NULL>
+https://gedcom.io/terms/v7.1/PEDI	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7.1/PLAC	https://gedcom.io/terms/v7/type-List#Text
 https://gedcom.io/terms/v7.1/PROB	Y|<NULL>
 https://gedcom.io/terms/v7.1/PROP	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/REPO	@<https://gedcom.io/terms/v7.1/record-REPO>@
 https://gedcom.io/terms/v7.1/RETI	Y|<NULL>
+https://gedcom.io/terms/v7.1/SDATE	https://gedcom.io/terms/v7/type-Date
 https://gedcom.io/terms/v7.1/SLGC	
 https://gedcom.io/terms/v7.1/SLGS	
 https://gedcom.io/terms/v7.1/SNOTE	@<https://gedcom.io/terms/v7.1/record-SNOTE>@
 https://gedcom.io/terms/v7.1/SOUR	@<https://gedcom.io/terms/v7.1/record-SOUR>@
+https://gedcom.io/terms/v7.1/SOUR-DATA	
 https://gedcom.io/terms/v7.1/SOUR-EVEN	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7.1/SSN	http://www.w3.org/2001/XMLSchema#string
 https://gedcom.io/terms/v7.1/SUBM	@<https://gedcom.io/terms/v7.1/record-SUBM>@
 https://gedcom.io/terms/v7.1/TEXT-TRAN	http://www.w3.org/2001/XMLSchema#string
+https://gedcom.io/terms/v7.1/TIME	https://gedcom.io/terms/v7.1/type-Time#value
+https://gedcom.io/terms/v7.1/TIME-exact	https://gedcom.io/terms/v7/type-Time
 https://gedcom.io/terms/v7.1/WILL	Y|<NULL>
+https://gedcom.io/terms/v7.1/ord-STAT	https://gedcom.io/terms/v7/type-Enum
 https://gedcom.io/terms/v7.1/record-FAM	
 https://gedcom.io/terms/v7.1/record-INDI	
 https://gedcom.io/terms/v7.1/record-OBJE	
